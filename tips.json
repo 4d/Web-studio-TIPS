@@ -1,4 +1,5 @@
-[
+{
+  "tips": [
     {
       "key": "editors:webform:explorer",
       "type": "text",
@@ -172,8 +173,17 @@
     },
     {
       "key": "editors:webform:toolbox:components:datatable",
-      "type": "video",
+      "type": "text",
       "body": "**Datatable - Iterate on data**\n\nThe datatable is a component to iterate on an [ORDA entity selection](https://developer.4d.com/docs/fr/API/EntitySelectionClass.html) to display it as a row - column list",
+      "video": {
+        "provider": "",
+        "link": ""
+      }
+    },
+    {
+      "key": "editors:webform:toolbox:components:datatable",
+      "type": "video",
+      "body": "**Datatable - Iterate on data**\n\nWatch this video to learn more",
       "video": {
         "provider": "youtube",
         "link": "https://youtu.be/DdAioJm4MyQ"
@@ -342,3 +352,4 @@
       }
     }
   ]
+}
