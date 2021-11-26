@@ -225,6 +225,15 @@
       }
     },
     {
+      "key": "editors:webform:datatablesetup",
+      "type": "text",
+      "body": "**The datatable - A component to iterate on an entity selection** \n\nWatch this TIP to learn how to bind quickly a datatable with an entity selection.\nThen, you'll be able to display data in a one-row-selectable list.",
+      "video": {
+        "provider": "",
+        "link": ""
+      }
+    },
+    {
       "key": "editors:webform:toolbox:components:matrix",
       "type": "text",
       "body": "**Matrix - Iterate on data with a smart design**\n\nThe matrix is a component to iterate on an [ORDA entity selection](https://developer.4d.com/docs/fr/API/EntitySelectionClass.html), offering a smart design fully customized",
@@ -351,15 +360,6 @@
       }
     },
     {
-      "key": "editors:webform:datatablesetup",
-      "type": "text",
-      "body": "**The datatable - A component to iterate on an entity selection** \n\nWatch this TIP to learn how to bind quickly a datatable with an entity selection.\nThen, you'll be able to display data in a one-row-selectable list.",
-      "video": {
-        "provider": "",
-        "link": ""
-      }
-    },
-    {
       "key": "editors:webform:breadcrumbs",
       "type": "text",
       "body": "**Bread crumbs - You can always watch where the selected component is placed in the components hierarchy** \n\nBread crumbs always show the place of the selected component in the WebForm components hierarchy.\nYou can navigate on the successive parents of a component.\nNote the navigation is also done in the canvas and in the outline.",
@@ -426,6 +426,15 @@
       "key": "editors:webform:contextualconfiguration",
       "type": "text",
       "body": "**Contextual configuration panel - Configure CSS code and events** \n\nAs you've seen in the style library TIP, you can edit here some CSS code.\nYou can also **configure events on components**.\nMost used events (such as onclick, onmouseover, ...) can be triggered by a component.\n\nThis panel allows you to:\n\n - select an event\n - associate an [ORDA Data Model function](https://doc4d.github.io/docs/alpha/en/ORDA/dsmapping.html)   to be executed\n - select parameters to pass to the function\n - select the datasource receiving the result",
+      "video": {
+        "provider": "",
+        "link": ""
+      }
+    },
+    {
+      "key": "editors:webform:contextualconfiguration:event:parameter:toggle",
+      "type": "text",
+      "body": "**Datasource or hard coded value?**\n\nChoose if you want to pass a datasource or an hard coded value to the called function.\nIf you pass an hard coded value, don't forget to select its type",
       "video": {
         "provider": "",
         "link": ""
