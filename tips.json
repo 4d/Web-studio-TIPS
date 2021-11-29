@@ -288,6 +288,15 @@
       }
     },
     {
+      "key": "editors:webform:toolbox:datasources:remote",
+      "type": "text",
+      "body": "**Remote datasources - Handle data on the server**\n\nRemote datasources are [entities](https://developer.4d.com/docs/en/ORDA/dsmapping.html#entity) and e[ntity selections](https://developer.4d.com/docs/en/ORDA/dsmapping.html#entity-selection).\n\nThey are handled on the server and can be assigned to components. They offer functions defined on the ORDA classes that they instantiate ([Entity class](https://developer.4d.com/docs/en/ORDA/ordaClasses.html#entity-class), [Entity Selection class](https://developer.4d.com/docs/en/ORDA/ordaClasses.html#entityselection-class)).\n\n[Visit the documentation to learn more](https://developer.4d.com/4d-web-studio/docs/datasources/) and watch the tips.",
+      "video": {
+        "provider": "youtube",
+        "link": "https://www.youtube.com/embed/fCS0RYyx0p8"
+      }
+    },
+    {
       "key": "editors:webform:toolbox:datasources:catalog",
       "type": "text",
       "body": "**Catalog - The representation of the [datastore](https://developer.4d.com/docs/en/ORDA/dsmapping.html#datastore) in the web studio IDE**\n\nThe datastore object is your whole datatabase provided as a single object.\nYou'll also find here the datastore object and its [dataclasses](https://developer.4d.com/docs/en/ORDA/dsmapping.html#dataclass) with their attributes and functions defined in [ORDA Data Model Classes](https://developer.4d.com/docs/en/ORDA/ordaClasses.html).\nUse the catalog to create your remote datasources (entity selections / entity) from a dataclass.",
