@@ -2,7 +2,7 @@
     {
       "key": "editors:webform:explorer",
       "type": "text",
-      "body": "**Explorer, what is it?**\n\nIn the Explorer, you can handle all your project items.\n\nUse the Explorer to create, update, delete your WebForms, but also your project methods and [ORDA data model classes](https://developer.4d.com/docs/en/ORDA/ordaClasses.html)",
+      "body": "**Explorer, what is it?**\n\nIn the Explorer, you can handle all your project items.\n\nUse the Explorer to create, update, delete your webforms, but also your project methods and [ORDA data model classes](https://developer.4d.com/docs/en/ORDA/ordaClasses.html)",
       "video": {
         "provider": "",
         "link": ""
@@ -11,7 +11,7 @@
     {
       "key": "editors:webform:explorer:webforms:folder",
       "type": "text",
-      "body": "**Design your UI with WebForms **\n\nWeb forms are the pivot artefacts of the web studio to design your UI. You can create, update, delete them here.",
+      "body": "**Design your UI with webforms**\n\nWebforms are core components of the web studio, you use them to design your UI. You can create, update, and delete them here.",
       "video": {
         "provider": "",
         "link": ""
@@ -20,7 +20,7 @@
     {
       "key": "rendering:button",
       "type": "text",
-      "body": "**Rendering - Run and test your WebForms**\n\nBefore rendering a WebForm, be sure:\n\n - the web server of your database is started on a available [HTTP / HTTPS port](https://developer.4d.com/docs/en/WebServer/webServerConfig.html#enable-http)\n -  your database is exposed as a [REST Server](https://developer.4d.com/docs/en/REST/configuration.html)",
+      "body": "**Rendering - Run and test your webforms**\n\nBefore rendering a webform, be sure:\n\n - the web server of your database is started on an available [HTTP / HTTPS port](https://developer.4d.com/docs/en/WebServer/webServerConfig.html#enable-http)\n -  your database is exposed as a [REST Server](https://developer.4d.com/docs/en/REST/configuration.html)",
       "video": {
         "provider": "",
         "link": ""
@@ -29,7 +29,7 @@
     {
       "key": "editors:webform:toolbox:components",
       "type": "text",
-      "body": "**Build a smart UI with powerfull components**\n\nYou'll find here some components to drag and drop on the canvas.\n\nSome of them are *containers*, meaning that you can drop other components or containers inside them. They are very useful to visually design and organize your web forms.",
+      "body": "**Build a smart UI with powerful components**\n\nHere, you'll find components to drag to the canvas.\n\nSome of them are *containers*, meaning that you can drop other components or containers inside them. They are very useful to visually design and organize your webforms.",
       "video": {
         "provider": "",
         "link": ""
@@ -38,7 +38,7 @@
     {
       "key": "editors:webform:toolbox:components:stylebox",
       "type": "text",
-      "body": "**The style box - A key component to get pretty alignments**\n\nThe style box is a **container** to place some components with specific position rules, especially [flex box settings](https://css-tricks.com/snippets/css/a-guide-to-flexbox/).",
+      "body": "**Stylebox - A key component for keeping content well-aligned**\n\nThe Stylebox is a container that keeps the content neatly organized thanks to specific position rules, especially [flexbox layout](https://css-tricks.com/snippets/css/a-guide-to-flexbox/).",
       "video": {
         "provider": "",
         "link": ""
@@ -65,7 +65,7 @@
     {
       "key": "editors:webform:toolbox:components:grid",
       "type": "text",
-      "body": "**The grid - A row / column system to organize you UI** \n\nThe grid is a container to organize some components in a row / column system.\nUse it to get easily pretty alignements with your components.",
+      "body": "**Grid - A row / column system to organize you UI** \n\nThe Grid is a container that organizes components using a row / column system.",
       "video": {
         "provider": "",
         "link": ""
@@ -74,7 +74,7 @@
     {
       "key": "editors:webform:toolbox:components:columns",
       "type": "text",
-      "body": "**The columns - Design you UI with a columns canvas**\n\nThe colmuns component is a container to organize some components in a column system.\nUse it to get easily pretty alignements with your components.",
+      "body": "**Columns**\n\nThe Columns component is a container that organizes components inside columns, making it easier to align them.",
       "video": {
         "provider": "",
         "link": ""
@@ -83,7 +83,7 @@
     {
       "key": "editors:webform:toolbox:components:tabs",
       "type": "text",
-      "body": "**Tabs - Organize you UI with clickable tabs**\n\nTabs is a container to organize components in a tabs system.\nUse it to present data accross several clickable tabs pages.",
+      "body": "**Tabs - Organize you UI with clickable tabs**\n\nThe Tabs component is a container that organizes components using a tabs system.\n\nUse it to present data accross several clickable tabs pages.",
       "video": {
         "provider": "",
         "link": ""
@@ -92,7 +92,7 @@
     {
       "key": "editors:webform:toolbox:components:textinput",
       "type": "text",
-      "body": "**Text input - The most common way for a user to enter data**\n\nThe text input is a component to allow the user to enter alphanumeric data.",
+      "body": "**Text input - The most common way for users to enter data**\n\nText inputs allow users to enter alphanumeric data.",
       "video": {
         "provider": "",
         "link": ""
@@ -128,7 +128,7 @@
     {
       "key": "editors:webform:toolbox:components:button",
       "type": "text",
-      "body": "**Button - The most common way to trigger a user action** \n\nThis is a component to trigger a user action.",
+      "body": "**Button - The most common way to trigger user actions** \n\nButtons are useful for triggering user actions.",
       "video": {
         "provider": "",
         "link": ""
@@ -137,7 +137,7 @@
     {
       "key": "editors:webform:toolbox:components:radio",
       "type": "text",
-      "body": "**Radio button - Select values among a list**\n\nThe radio button is a component to select one or several values among a given list.",
+      "body": "**Radio button - Select values in a list**\n\nRadio buttons allow users to select one or several values in a given list.",
       "video": {
         "provider": "",
         "link": ""
@@ -155,7 +155,7 @@
     {
       "key": "editors:webform:toolbox:components:rangeinput",
       "type": "text",
-      "body": "**Range input - Select a numeric value**\n\nThe range input is a component to set a numeric value with a dynamic UI.",
+      "body": "**Range input - Select a numeric value**\n\nThe range input allows selecting a numeric value using a slider.",
       "video": {
         "provider": "",
         "link": ""
@@ -164,7 +164,7 @@
     {
       "key": "editors:webform:toolbox:components:selectbox",
       "type": "text",
-      "body": "**Select box - Select a numeric value**\n\nThe select box is a component to select a single value among a list with a drop down design.",
+      "body": "**Select box - Select a numeric value**\n\nThe select box allows selecting a single value in a list with a dropdown design.",
       "video": {
         "provider": "",
         "link": ""
@@ -173,7 +173,7 @@
     {
       "key": "editors:webform:toolbox:components:image",
       "type": "text",
-      "body": "**Image - Enhance your design with images**\n\nThe image is a component to display... an image.",
+      "body": "**Image - Enhance your design with images**",
       "video": {
         "provider": "",
         "link": ""
@@ -182,7 +182,7 @@
     {
       "key": "editors:webform:toolbox:components:icon",
       "type": "text",
-      "body": "**Icon - Insert fowtawesone icons in your design**\n\nThe icon is a component to handle predefined fontawesome icons",
+      "body": "**Icon - Insert fontawesome icons in your design**\n\nThe Icon component allows inserting predefined fontawesome icons.",
       "video": {
         "provider": "",
         "link": ""
@@ -191,7 +191,7 @@
     {
       "key": "editors:webform:toolbox:components:checkbox",
       "type": "text",
-      "body": "**Check box - Set boolean data**\n\nThe check box is a component to set a boolean data with a check box or a toggle rendering.",
+      "body": "**Checkbox - Set boolean data**\n\nThe Checkbox sets boolean data (True/False).",
       "video": {
         "provider": "",
         "link": ""
@@ -200,7 +200,7 @@
     {
       "key": "editors:webform:toolbox:components:text",
       "type": "text",
-      "body": "**Text - Static text** \n\nThis is a component to display static text eventually coming from your data.",
+      "body": "**Text - Static text** \n\nThis component displays static text that can also come from your data.",
       "video": {
         "provider": "",
         "link": ""
@@ -209,7 +209,7 @@
     {
       "key": "editors:webform:toolbox:components:datatable",
       "type": "text",
-      "body": "**Datatable - Iterate on data**\n\nThe datatable is a component to iterate on an [ORDA entity selection](https://developer.4d.com/docs/fr/API/EntitySelectionClass.html) to display it as a row - column list",
+      "body": "**Datatable - Iterate on data**\n\nThe datatable is a component that iterates on an [ORDA entity selection](https://developer.4d.com/docs/fr/API/EntitySelectionClass.html) and displays it as a row/column list.",
       "video": {
         "provider": "",
         "link": ""
@@ -227,7 +227,7 @@
     {
       "key": "editors:webform:datatablesetup",
       "type": "text",
-      "body": "**The datatable - A component to iterate on an entity selection** \n\nWatch this TIP to learn how to bind quickly a datatable with an entity selection.\nThen, you'll be able to display data in a one-row-selectable list.",
+      "body": "**The datatable - Iterate on an entity selection** \n\nWatch this TIP to learn how to quickly bind a datatable with an entity selection.\n\nThen, you'll be able to display data inside a one-row-selectable list.",
       "video": {
         "provider": "",
         "link": ""
@@ -236,7 +236,7 @@
     {
       "key": "editors:webform:toolbox:components:matrix",
       "type": "text",
-      "body": "**Matrix - Iterate on data with a smart design**\n\nThe matrix is a component to iterate on an [ORDA entity selection](https://developer.4d.com/docs/fr/API/EntitySelectionClass.html), offering a smart design fully customized",
+      "body": "**Matrix - Iterate on data to create smart designs**\n\nThe matrix is a component that allows iterating on an [ORDA entity selection](https://developer.4d.com/docs/fr/API/EntitySelectionClass.html) to create smart and fully customized designs.",
       "video": {
         "provider": "",
         "link": ""
@@ -254,7 +254,7 @@
     {
       "key": "editors:webform:toolbox:components:webformloader",
       "type": "text",
-      "body": "**Webform loader- Nest WebForms inside each others**\nUse this component to display and handle another WebForm into your current WebForm.\n\nNote the WebForm loaded name can be driven by a datasource of type String.",
+      "body": "**Webform loader - Nest your webforms**\n\nUse this component to display and handle another webform in your current webform.\n\nNote that the webform loaded name can be driven by a datasource of type String.",
       "video": {
         "provider": "",
         "link": ""
@@ -272,7 +272,7 @@
     {
       "key": "editors:webform:toolbox:outline",
       "type": "text",
-      "body": "**Outline - Navigate among your Web Form components**\n\nNavigate in the components hierarchy of the opened WebForm with the outline.\nYou can move easily components from one container to another.\nYou can hide some components to ease you design phase.",
+      "body": "**Outline - Navigate among your webform components**\n\nThe Outline lets you navigate in the components hierarchy of the current webform.\n\nYou can move components from a container to another, and hide some components to ease you design phase.",
       "video": {
         "provider": "",
         "link": ""
@@ -281,7 +281,7 @@
     {
       "key": "editors:webform:toolbox:datasources",
       "type": "text",
-      "body": "**Datasources - Discover here how to handle data on your WEB Forms**\n\n - Watch the TIPs about the Catalog, the remote datasources, the local\n   datasources\n - Visit https://developer.4d.com/4d-web-studio/docs/datasources",
+      "body": "**Datasources - Discover here how to handle data on your webforms**\n\n - Read the tips about the Catalog, remote datasources, and local\n   datasources\n - Visit https://developer.4d.com/4d-web-studio/docs/datasources",
       "video": {
         "provider": "",
         "link": ""
@@ -290,7 +290,16 @@
     {
       "key": "editors:webform:toolbox:datasources:remote",
       "type": "text",
-      "body": "**Remote datasources - Handle data on the server**\n\nRemote datasources are [entities](https://developer.4d.com/docs/en/ORDA/dsmapping.html#entity) and e[ntity selections](https://developer.4d.com/docs/en/ORDA/dsmapping.html#entity-selection).\n\nThey are handled on the server and can be assigned to components. They offer functions defined on the ORDA classes that they instantiate ([Entity class](https://developer.4d.com/docs/en/ORDA/ordaClasses.html#entity-class), [Entity Selection class](https://developer.4d.com/docs/en/ORDA/ordaClasses.html#entityselection-class)).\n\n[Visit the documentation to learn more](https://developer.4d.com/4d-web-studio/docs/datasources/) and watch the tips.",
+      "body": "**Remote datasources - Handle data on the server**\n\nRemote datasources are\n\n[entities](https://developer.4d.com/docs/en/ORDA/dsmapping.html#entity)\n\nand\n\n[entity selections](https://developer.4d.com/docs/en/ORDA/dsmapping.html#entity-selection)\n\nThey are handled on the server and can be assigned to components.\n\nThey offer functions defined on the ORDA classes that they instantiate:\n\n[Entity class](https://developer.4d.com/docs/en/ORDA/ordaClasses.html#entity-class)\n\n[Entity Selection class](https://developer.4d.com/docs/en/ORDA/ordaClasses.html#entityselection-class)\n\nTo learn more about datasources, visit the [documentation](https://developer.4d.com/4d-web-studio/docs/datasources/) and use the tips.",
+      "video": {
+        "provider": "",
+        "link": ""
+      }
+    },
+    {
+      "key": "editors:webform:toolbox:datasources:remote",
+      "type": "video",
+      "body": "",
       "video": {
         "provider": "youtube",
         "link": "https://www.youtube.com/embed/fCS0RYyx0p8"
@@ -299,7 +308,7 @@
     {
       "key": "editors:webform:toolbox:datasources:catalog",
       "type": "text",
-      "body": "**Catalog - The representation of the [datastore](https://developer.4d.com/docs/en/ORDA/dsmapping.html#datastore) in the web studio IDE**\n\nThe datastore object is your whole datatabase provided as a single object.\nYou'll also find here the datastore object and its [dataclasses](https://developer.4d.com/docs/en/ORDA/dsmapping.html#dataclass) with their attributes and functions defined in [ORDA Data Model Classes](https://developer.4d.com/docs/en/ORDA/ordaClasses.html).\nUse the catalog to create your remote datasources (entity selections / entity) from a dataclass.",
+      "body": "**Catalog - A representation of the [datastore](https://developer.4d.com/docs/en/ORDA/dsmapping.html#datastore) in the web studio IDE**\n\nThe datastore object is your whole datatabase provided as a single object.\n\nThis is also where you'll find the datastore object and its [dataclasses](https://developer.4d.com/docs/en/ORDA/dsmapping.html#dataclass) with their attributes and functions defined in [ORDA Data Model Classes](https://developer.4d.com/docs/en/ORDA/ordaClasses.html).\n\nUse the catalog to create your remote datasources (entity selections / entity) from a dataclass.",
       "video": {
         "provider": "",
         "link": ""
@@ -308,7 +317,7 @@
     {
       "key": "editors:webform:toolbox:datasources:remote",
       "type": "text",
-      "body": "**Remote datasources - The data persisted in your database**\n\nUse Remote datasources to handle persistent data in your database. \nRemote datasources are [entity selections](https://developer.4d.com/docs/en/ORDA/dsmapping.html#entity-selection) or [entities](https://developer.4d.com/docs/en/ORDA/dsmapping.html#entity).\nYou can create them from the Catalog above or from an existing datasource.",
+      "body": "**Remote datasources - The data that persists in your database**\n\nUse Remote datasources to handle persistent data in your database. \nRemote datasources are [entity selections](https://developer.4d.com/docs/en/ORDA/dsmapping.html#entity-selection) or [entities](https://developer.4d.com/docs/en/ORDA/dsmapping.html#entity).\nYou can create them from the Catalog above or from an existing datasource.",
       "video": {
         "provider": "",
         "link": ""
@@ -317,7 +326,7 @@
     {
       "key": "editors:webform:toolbox:datasources:local",
       "type": "text",
-      "body": "**Local datasources - Ephemeral data used in a WebForm** \nUse the local datasources to handle ephemeral data which is not persisted in your database.\nThey are working data lost when you close your WebForm.\n*E.g.* search criteria",
+      "body": "**Local datasources - Ephemeral data used in a webform** \nUse the local datasources to handle ephemeral data that will not persist in your database.\nLocal datasources are working data that is lost when you close your Webform (for example, search criteria).",
       "video": {
         "provider": "",
         "link": ""
@@ -326,7 +335,7 @@
     {
       "key": "editors:webform:toolbox:styleslib",
       "type": "text",
-      "body": "**Style library - Customize your UI design** \n\nUse the style library to handle your own css classes and apply them on components.\nThey can be applied by drag and drop on the component or using the properties panel.",
+      "body": "**Style library - Customize your UI design** \n\nUse the style library to handle your own CSS classes and apply them to components.\n\nTo apply them, drag and drop them on components or use the properties panel.",
       "video": {
         "provider": "",
         "link": ""
@@ -353,7 +362,7 @@
     {
       "key": "editors:webform:canvas",
       "type": "text",
-      "body": "**Canvas - Configure your UI with drag and drop facilities** \n\nDesign your WebForm by dragging and dropping components on the canvas.\nEach component has a tooltip bar to move or remove it, to go to its parent in the hierarchy and many other actions.\nNote that the WebForm is a component itself.",
+      "body": "**Canvas - Configure your UI with drag and drop functionalities** \n\nDesign your webform by dragging and dropping components on the canvas.\n\nEach component has a tooltip bar that allows moving or removing it, going to its parent in the hierarchy, and many other actions.\n\nNote that webforms are components too!",
       "video": {
         "provider": "",
         "link": ""
@@ -371,7 +380,7 @@
     {
       "key": "editors:webform:breadcrumbs",
       "type": "text",
-      "body": "**Bread crumbs - You can always watch where the selected component is placed in the components hierarchy** \n\nBread crumbs always show the place of the selected component in the WebForm components hierarchy.\nYou can navigate on the successive parents of a component.\nNote the navigation is also done in the canvas and in the outline.",
+      "body": "**Breadcrumbs - Keep an eye on where the selected component is located in the component hierarchy** \n\nBreadcrumbs always show the location of the selected component in the webform's component hierarchy.\n\nYou can use it to navigate to the selected component's parent or ancestors .\n\nNote that navigation is also available in the Canvas and in the Outline.",
       "video": {
         "provider": "",
         "link": ""
@@ -380,7 +389,7 @@
     {
       "key": "editors:webform:properties",
       "type": "text",
-      "body": "**Properties panel - Apply properties on a component** \n\nThis panel offers to:\n- apply specific properties depending on the component (*e.g.* the label for a button)\n- bind a datasource\n- apply styles (color, layout, ...)\n\nNote that the WebForm is a component itself which can be applied some styles.",
+      "body": "**Properties panel - Apply properties to a component** \n\nThis panel allows you to:\n- apply specific properties depending on the component (for example, the label of a button)\n- bind a datasource\n- apply styles (color, layout, ...)\n\nNote that the webform is a component itself, so you can apply styles to it.",
       "video": {
         "provider": "",
         "link": ""
@@ -389,7 +398,7 @@
     {
       "key": "editors:webform:properties:style:color",
       "type": "text",
-      "body": "**Properties panel - Color property**\n\nChoose a text color",
+      "body": "**Properties panel - Color property**\n\nChoose a text color.",
       "video": {
         "provider": "",
         "link": ""
@@ -398,7 +407,7 @@
     {
       "key": "editors:webform:properties:style:boxshadow",
       "type": "text",
-      "body": "**Box shadow - Configure shadow effects in some clicks** \n\nUse these settings to apply pretty shadows on a component.\nTry the settings. They are immediately applied on the canvas.\n\nOr use these usefull links:\n\n - [beautiful CSS box-shadow examples](https://getcssscan.com/css-box-shadow-examples)  \n - [box shadow css generator](https://cssgenerator.org/box-shadow-css-generator.html)\n\nto get CSS code directly and put it in a CSS class thanks to the style library.",
+      "body": "**Box shadow - Configure shadow effects in a few clicks** \n\nUse these settings to add shadows to your components.\nTry the settings. They are immediately applied on the canvas.\n\nOr use these useful links to get CSS code directly and put it in a CSS class using the Styles library.\n\n - [beautiful CSS box-shadow examples](https://getcssscan.com/css-box-shadow-examples)  \n - [box shadow css generator](https://cssgenerator.org/box-shadow-css-generator.html)",
       "video": {
         "provider": "",
         "link": ""
@@ -407,7 +416,7 @@
     {
       "key": "editors:webform:properties:style:css",
       "type": "text",
-      "body": "**CSS - Apply your custom CSS classes to a component** \n\nEnter here one or more CSS class names to apply them on a component.\n[Cascade and inheritance CSS rules](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance) are applied.",
+      "body": "**CSS - Apply your custom CSS classes to a component** \n\nEnter here one or more CSS class names to apply them to a component.\n[Cascade and inheritance CSS rules](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance) are applied.",
       "video": {
         "provider": "",
         "link": ""
@@ -416,7 +425,7 @@
     {
       "key": "editors:webform:properties:dataaccess",
       "type": "text",
-      "body": "**Data access - Bind a datasource to a component** \n\nEnter here a datasource name to bind it with your component.",
+      "body": "**Data access - Bind a datasource to a component** \n\nEnter a datasource name to bind it with your component.",
       "video": {
         "provider": "",
         "link": ""
@@ -425,7 +434,7 @@
     {
       "key": "editors:webform:properties:serverside",
       "type": "text",
-      "body": "**Server side - Handle your component behavior dynamically** \n\nThanks to this reference, you can run some [4D code](https://doc4d.github.io/docs/alpha/en/web-studio/web-studio.html#web-form-object) to handle your component appearance:\n\n - hide it\n - show it\n - apply a CSS class\n - remove a CSS class",
+      "body": "**Server side - Handle your component behavior dynamically** \n\nThanks to this reference, you can run some [4D code](https://doc4d.github.io/docs/alpha/en/web-studio/web-studio.html#web-form-object) to handle your component's appearance. For example, you can:\n\n - hide it\n - display it\n - apply a CSS class to it\n - remove one of its CSS classes",
       "video": {
         "provider": "",
         "link": ""
@@ -434,7 +443,7 @@
     {
       "key": "editors:webform:contextualconfiguration",
       "type": "text",
-      "body": "**Contextual configuration panel - Configure CSS code and events** \n\nAs you've seen in the style library TIP, you can edit here some CSS code.\nYou can also **configure events on components**.\nMost used events (such as onclick, onmouseover, ...) can be triggered by a component.\n\nThis panel allows you to:\n\n - select an event\n - associate an [ORDA Data Model function](https://doc4d.github.io/docs/alpha/en/ORDA/dsmapping.html)   to be executed\n - select parameters to pass to the function\n - select the datasource receiving the result",
+      "body": "**Contextual configuration panel - Configure CSS code and events** \n\nAs you've seen in the style library TIP, you can edit some CSS code here.\nYou can also **configure events on components**.\nMost used events (such as onclick, onmouseover, ...) can be triggered by a component.\n\nThis panel allows you to:\n\n - select an event\n - associate an [ORDA Data Model function](https://doc4d.github.io/docs/alpha/en/ORDA/dsmapping.html)   to be executed\n - select parameters to pass to the function\n - select the datasource receiving the result",
       "video": {
         "provider": "",
         "link": ""
@@ -443,7 +452,7 @@
     {
       "key": "editors:webform:contextualconfiguration:event:parameter:toggle",
       "type": "text",
-      "body": "**Datasource or hard coded value?**\n\nChoose if you want to pass a datasource or an hard coded value to the called function.\nIf you pass an hard coded value, don't forget to select its type",
+      "body": "**Datasource or hardcoded value?**\n\nChoose if you want to pass a datasource or a hardcoded value to the called function.\nIf you pass an hardcoded value, don't forget to select its type.",
       "video": {
         "provider": "",
         "link": ""
