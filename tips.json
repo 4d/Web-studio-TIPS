@@ -466,5 +466,32 @@
         "provider": "",
         "link": ""
       }
+    },
+    {
+      "key": "editors:webform:contextualconfiguration:event:navigation",
+      "type": "text",
+      "body": "**Handle navigation between Webforms**\n\nThe navigation is very simple to implement.\n\nOn each component, you can associate to an event (On click, ...) a navigation action.\n\nSelect the component, open the contextual panel and select the Webform you want to navigate on.\n\nSeveral navigation locations are available:\n\n - in a Webform loader\n- in a new browser tab (*)\n- in the current browser tab (*)\n- in the current location which is a Webform loader (self)\n\n(*) Those kind of navigation are available only at [rendering](http://developer.4d.com/4d-web-studio/docs/rendering).\n\nWatch the TIPs to learn more and visite the [documentation](http://developer.4d.com/4d-web-studio/docs/design-webforms/events/events#bind-a-navigation-action-to-an-event).",
+      "video": {
+        "provider": "",
+        "link": ""
+      }
+    },
+    {
+      "key": "editors:webform:contextualconfiguration:event:navigation",
+      "type": "video",
+      "body": "",
+      "video": {
+        "provider": "",
+        "link": ""
+      }
+    },
+    {
+      "key": "editors:webform:contextualconfiguration:event:navigation",
+      "type": "video",
+      "body": "",
+      "video": {
+        "provider": "",
+        "link": ""
+      }
     }
   ]
