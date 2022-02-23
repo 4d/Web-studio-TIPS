@@ -1,4 +1,4 @@
- [
+[
     {
       "key": "editors:webform:explorer",
       "type": "text",
@@ -452,7 +452,7 @@
     {
       "key": "editors:webform:contextualconfiguration",
       "type": "text",
-      "body": "**Contextual configuration panel - Configure CSS code and events**\n\nAs you've seen in the [style library](http://developer.4d.com/4d-web-studio/docs/design-webforms/styling) TIPs, you can edit some CSS code here.\n\nYou can also:\n\n - configure [events on components](http://developer.4d.com/4d-web-studio/docs/design-webforms/events/events#configuring-an-event)\n   \n - configure [events on datasources](http://developer.4d.com/4d-web-studio/docs/design-webforms/events/events#configuring-an-event)\n  \n - configure [navigation actions](http://developer.4d.com/4d-web-studio/docs/design-webforms/events/events#bind-a-navigation-action-to-an-event)\n\nMost used events (such as onclick, onmouseover, ...) can be triggered by a component.",
+      "body": "**Contextual configuration panel - Configure CSS code and events**\n\nAs explained in the [style library](http://developer.4d.com/4d-web-studio/docs/design-webforms/styling) TIPs, you can edit some CSS code here.\n\nYou can also:\n\n - configure [events on components](http://developer.4d.com/4d-web-studio/docs/design-webforms/events/events#configuring-an-event)\n   \n - configure [events on datasources](http://developer.4d.com/4d-web-studio/docs/design-webforms/events/events#configuring-an-event)\n  \n - configure [navigation actions](http://developer.4d.com/4d-web-studio/docs/design-webforms/events/events#bind-a-navigation-action-to-an-event)\n\nMost user events (such as onclick, onmouseover, ...) can be triggered by a component.",
       "video": {
         "provider": "",
         "link": ""
@@ -470,7 +470,7 @@
     {
       "key": "editors:webform:contextualconfiguration:event:navigation",
       "type": "text",
-      "body": "**Handle navigation between Webforms**\n\nThe navigation is very simple to implement.\n\nOn each component, you can associate to an event (On click, ...) a navigation action.\n\nSelect the component, open the contextual panel and select the Webform you want to navigate on.\n\nSeveral navigation locations are available:\n\n - in a Webform loader\n- in a new browser tab (*)\n- in the current browser tab (*)\n- in the current location which is a Webform loader (self)\n\n(*) Those kind of navigation are available only at [rendering](http://developer.4d.com/4d-web-studio/docs/rendering).\n\nWatch the TIPs to learn more and visite the [documentation](http://developer.4d.com/4d-web-studio/docs/design-webforms/events/events#bind-a-navigation-action-to-an-event).",
+      "body": "**Handle navigation between Webforms**\n\nNavigation is simple to implement.\n\nOn each component, you can associate a navigation action to an event (On click, ...).\n\nSelect the component, open the contextual panel and select the Webform you want to navigate to.\n\nSeveral navigation locations are available:\n\n- in a Webform loader\n- in a new browser tab (*)\n- in the current browser tab (*)\n- in the current location which is a Webform loader (self)\n\n(*) Those types of navigation are available only at [rendering](http://developer.4d.com/4d-web-studio/docs/rendering).\n\nWatch the TIPs to learn more and visit the [documentation](http://developer.4d.com/4d-web-studio/docs/design-webforms/events/events#bind-a-navigation-action-to-an-event).",
       "video": {
         "provider": "",
         "link": ""
@@ -481,8 +481,8 @@
       "type": "video",
       "body": "**Handle navigation between Webforms**",
       "video": {
-        "provider": "",
-        "link": ""
+        "provider": "youtube",
+        "link": "https://www.youtube.com/embed/wNQ-7agZRMs"
       }
     },
     {
@@ -490,8 +490,8 @@
       "type": "video",
       "body": "**Handle navigation between Webforms**",
       "video": {
-        "provider": "",
-        "link": ""
+        "provider": "youtube",
+        "link": "https://www.youtube.com/embed/mpmOufNaNdc"
       }
     }
   ]
