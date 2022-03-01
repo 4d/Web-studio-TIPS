@@ -1,4 +1,4 @@
-[
+ [
     {
       "key": "editors:webform:explorer",
       "type": "text",
@@ -20,7 +20,7 @@
     {
       "key": "editors:webform:canvas:toolbar:rendering:button",
       "type": "text",
-      "body": "**Rendering - Run your webforms** \n\nBefore rendering a webform, be sure: \n\n- the [web server](https://developer.4d.com/docs/en/WebServer/webServer.html) of your database is started on an available [HTTP / HTTPS port](https://developer.4d.com/docs/en/WebServer/webServerConfig.html#enable-http) \n\n- your database is exposed as a [REST Server](https://developer.4d.com/docs/en/REST/configuration.html) \n\nFor more information, check the [documentation](https://doc4d.github.io/4d-web-studio/docs/webforms/rendering)",
+      "body": "**Rendering - Run your webforms**\n\nBefore rendering a webform, be sure:\n\n - the [web server](https://developer.4d.com/docs/en/WebServer/webServer.html) of your database is started on an available [HTTP / HTTPS port](https://developer.4d.com/docs/en/WebServer/webServerConfig.html#enable-http)\n\n - your database is exposed as a [REST Server](https://developer.4d.com/docs/en/REST/configuration.html) \n \nFor more information, check the [documentation](https://developer.4d.com/4d-web-studio/docs/rendering) \n\nSee also the [license usage section](https://developer.4d.com/4d-web-studio/docs/configuration/license-usage)",
       "video": {
         "provider": "",
         "link": ""
@@ -474,6 +474,15 @@
       "video": {
         "provider": "",
         "link": ""
+      }
+    },
+    {
+      "key": "editors:webform:contextualconfiguration:event:navigation",
+      "type": "video",
+      "body": "**Handle navigation between Webforms**",
+      "video": {
+        "provider": "youtube",
+        "link": "https://www.youtube.com/embed/dRJzDYUt0TM"
       }
     },
     {
