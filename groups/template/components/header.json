@@ -1,0 +1,203 @@
+{
+  "id": "9wNxt5AVwzpbqEjXk4dmfP",
+  "rootNodeId": "tv5JJgbFxm",
+  "nodes": {
+    "tv5JJgbFxm": {
+      "type": {
+        "resolvedName": "StyleBox"
+      },
+      "isCanvas": true,
+      "props": {
+        "events": [],
+        "style": {
+          "height": "70vh",
+          "display": "block",
+          "justifyContent": "center",
+          "backgroundImage": "url(__BASE__URL__/assets/background.webp)",
+          "backgroundSize": "cover",
+          "backgroundAttachment": "fixed"
+        },
+        "classNames": []
+      },
+      "displayName": "Stylebox",
+      "custom": {},
+      "parent": "ROOT",
+      "hidden": false,
+      "nodes": [
+        "PkIBEekZDN"
+      ],
+      "linkedNodes": {}
+    },
+    "PkIBEekZDN": {
+      "type": {
+        "resolvedName": "StyleBox"
+      },
+      "isCanvas": true,
+      "props": {
+        "events": [],
+        "style": {
+          "maxWidth": "1400px",
+          "marginLeft": "auto",
+          "marginRight": "auto"
+        }
+      },
+      "displayName": "Stylebox",
+      "custom": {},
+      "parent": "tv5JJgbFxm",
+      "hidden": false,
+      "nodes": [
+        "8yGx-SrOto",
+        "CyiIz80qBr",
+        "7oW5utpavo"
+      ],
+      "linkedNodes": {}
+    },
+    "8yGx-SrOto": {
+      "type": {
+        "resolvedName": "Text"
+      },
+      "isCanvas": false,
+      "props": {
+        "deletable": true,
+        "moveable": true,
+        "events": [],
+        "doc": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The Power ",
+                "bold": false,
+                "italic": false,
+                "underlined": false,
+                "strikethrough": false
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "bold": false,
+                "italic": false,
+                "underlined": false,
+                "strikethrough": false,
+                "text": "of Good Advice"
+              }
+            ]
+          }
+        ],
+        "text": "<p>The Power </p> <p>of Good Advice</p>",
+        "style": {
+          "fontWeight": "900",
+          "fontFamily": "sans-serif",
+          "fontSize": "82px",
+          "marginTop": "100px"
+        }
+      },
+      "displayName": "Text",
+      "custom": {},
+      "parent": "PkIBEekZDN",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "CyiIz80qBr": {
+      "type": {
+        "resolvedName": "Text"
+      },
+      "isCanvas": false,
+      "props": {
+        "deletable": true,
+        "moveable": true,
+        "events": [],
+        "doc": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "I'm a paragraph. Click here to add your",
+                "bold": false,
+                "italic": false,
+                "underlined": false,
+                "strikethrough": false
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "bold": false,
+                "italic": false,
+                "underlined": false,
+                "strikethrough": false,
+                "text": "own text and edit me."
+              }
+            ]
+          }
+        ],
+        "text": "<p>I&#39;m a paragraph. Click here to add your</p> <p>own text and edit me.</p>",
+        "style": {
+          "color": "#4e4e4eff",
+          "fontSize": "18px"
+        }
+      },
+      "displayName": "Text",
+      "custom": {},
+      "parent": "PkIBEekZDN",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "7oW5utpavo": {
+      "type": {
+        "resolvedName": "Button"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "Learn More",
+        "classNames": [],
+        "iconPosition": "hidden",
+        "style": {
+          "display": "inline",
+          "backgroundColor": "#9e3ffd",
+          "paddingRight": "32px",
+          "paddingLeft": "32px",
+          "paddingTop": "8px",
+          "paddingBottom": "8px",
+          "borderRadius": "999px",
+          "marginTop": "16px"
+        },
+        "events": []
+      },
+      "displayName": "Button",
+      "custom": {},
+      "parent": "PkIBEekZDN",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {
+        "icon": "QmBvzQ2VQj"
+      }
+    },
+    "QmBvzQ2VQj": {
+      "type": {
+        "resolvedName": "Icon"
+      },
+      "isCanvas": false,
+      "props": {
+        "classNames": [],
+        "Icon": "fa-star",
+        "icon": "fa-star"
+      },
+      "displayName": "Icon",
+      "custom": {},
+      "parent": "7oW5utpavo",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    }
+  },
+  "name": "Content",
+  "icon": "fa-navicon"
+}
