@@ -1,0 +1,353 @@
+{
+  steps: [
+    // welcome step
+    {
+      dialog: {
+        title: 'Welcome to Qodly Studio',
+        content: 'Qodly Studio allows you to quickly build Web applications for your Qodly Platform. \
+        In this quick tour we will be showing some of Qodly Studio’s capabilities',
+      },
+    },
+
+    // Model Editor Opening
+    {
+      highlight: ['fileExplorer'],
+      dialog: {
+        title: 'Model Editor',
+        anchor: 'fileExplorer',
+        position: 'right',
+        content: 'The model editor allows to define the Data Model.<br><br>\
+        To open the model editor, click on <img src="/welcometour/model-editor-icon.png" width="90px" style="display:inline;"> icon',
+      },
+      events: {
+        validate: [
+          {
+            name: 'open model-editor',
+            editor: 'model',
+            meta: {
+              name: 'model',
+              message: {
+                content: 'Click on model icon.',
+                type: 'error',
+              },
+            },
+          },
+        ],
+      },
+    },
+
+    // Create Dataclass
+    {
+      highlight: ['model-sidebar'],
+      dialog: {
+        anchor: 'model-sidebar',
+        position: 'right',
+        title: 'Creating a Dataclass',
+        content: 'In this example. we will create the DataClass **Item**.<br><br>\
+         Click on <img src="/welcometour/add-dataclass-icon.png" style="display:inline;height:24px;width:auto;"> icon,<br><br>\
+         Type **Item** as dataclass name, and press Enter.',
+      },
+      events: {
+        validate: [
+          {
+            name: 'add model-dataclass',
+            editor: 'model',
+            meta: {
+              name: 'Item',
+              message: {
+                content: 'you need to add a Dataclass.',
+                type: 'error',
+              },
+            },
+          },
+        ],
+        post: [
+          {
+            name: 'fit-view dataclass',
+            editor: 'model',
+            meta: {
+              name: 'Item',
+            },
+          },
+        ],
+      },
+    },
+
+    // add attributes on dataclass.
+    {
+      highlight: ['model-dataclass-Item'],
+      dialog: {
+        anchor: 'model-dataclass-Item',
+        position: 'right',
+        title: 'Creating DataClass attributes',
+        content: 'DataClass has a default ID attribute. Click on <img src="/welcometour/add-dataclass-icon.png" style="display:inline;height:24px;width:auto;"> to create an attribute. <br><br> \
+        Type **firstname** for attribute name, and press Enter <br><br> \
+        Select type **string** for attribute type. press Enter to confirm. <br><br> \
+        Repeat previous step to create the attribute **age** with type **number**.',
+      },
+      events: {
+        validate: [
+          {
+            name: 'compare editor',
+            editor: 'model',
+            meta: {
+              expected: {
+                name: 'Item',
+                attributes: [
+                  {
+                    name: 'ID',
+                  },
+                  {
+                    name: 'firstname',
+                  },
+                  {
+                    name: 'age',
+                  },
+                ],
+              },
+              skip: [],
+              strict: false,
+              message: {
+                content: 'add attributes!!',
+                type: 'error',
+              },
+            },
+          },
+        ],
+      },
+    },
+    // Create a method
+    {
+      highlight: ['fileExplorer'],
+      dialog: {
+        title: 'Creating a Method',
+        content: 'Hover on the Methods folder.<br><br> \
+        To create a Method, Click on <img src="/welcometour/add-dataclass-icon.png" style="display:inline;height:24px;width:auto;">. <br><br> \
+        Type **generate** and press Enter.',
+        position: 'left',
+        anchor: 'fileExplorer',
+      },
+      events: {
+        validate: [
+          {
+            name: 'create method',
+            editor: 'code',
+            meta: {
+              name: 'generate',
+              message: {
+                content: 'Make sure to create the Method.',
+                type: 'error',
+              },
+            },
+          },
+        ],
+      },
+    },
+    // Inject script for generation
+    {
+      highlight: ['main-code', 'fileExplorer', 'header-save-all'],
+      dialog: {
+        title: 'Generating Data',
+        content: 'We have added a script to generate random data for the DataClass **Item**.<br><br>\
+        Click on Save All button. <br><br> \
+        Hover on method in the Explorer. <br><br> \
+        Click on <img src="/welcometour/run-method.png" style="display:inline;height:24px;width:auto;"> to run the Method.',
+        position: 'right',
+        anchor: 'fileExplorer',
+      },
+      events: {
+        validate: [
+          {
+            name: 'save all',
+            editor: 'webform',
+            meta: {
+              message: {
+                content: 'click on savel-all button',
+                type: 'error',
+              },
+            },
+          },
+        ],
+        pre: [
+          {
+            name: 'add file-content',
+            editor: 'code',
+            meta: {
+              name: 'generate',
+              type: 'Methods',
+              content: 'For($counter;1;100;1)\n\
+  $entity := ds.Item.new()\n\
+  $entity.firstname:="Item " + String($counter)\n\
+  $entity.age := (Random%(100))+1\n\
+  $entity.save()\n\
+End for',
+            },
+          },
+        ],
+      },
+    },
+    // Create a Webform
+    {
+      highlight: ['fileExplorer'],
+      dialog: {
+        title: 'Creating a WebForm',
+        content: 'To create a new webform, hover on the webform folder. <br><br>\
+        Click on <img src="/welcometour/add-dataclass-icon.png" style="display:inline;height:24px;width:auto;"> icon.<br>\
+        Type the name ***Welcome*** as the name to the webform. <br><br>\
+        The webform will be opened automatically.',
+        position: 'left',
+        anchor: 'fileExplorer',
+      },
+      events: {
+        validate: [
+          {
+            name: 'create webform',
+            editor: 'webform',
+            meta: {
+              name: 'Welcome',
+              message: {
+                content: 'Please make sure that you have created the webform "Welcome"',
+                type: 'error',
+              },
+            },
+          },
+        ],
+      },
+    },
+    // Components list Intro
+    {
+      highlight: ['Main', 'ComponentList'],
+      dialog: {
+        title: 'How to add Components',
+        anchor: 'ComponentList',
+        content: 'This is the list of available components.<br>\
+        We will be using a DataTable to display the data.<br><br>\
+        Drag & Drop a DataTable from the list onto the canvas.',
+        position: 'bottom',
+      },
+      events: {
+        validate: [
+          {
+            name: 'compare editor',
+            editor: 'webform',
+            meta: {
+              name: 'Welcome',
+              expected: {
+                type: {
+                  resolvedName: 'Container',
+                },
+                children: [
+                  {
+                    type: {
+                      resolvedName: 'DataTable',
+                    },
+                  },
+                ],
+              },
+              skip: [],
+              strict: false,
+              message: {
+                content: 'Drag & Drop the DataTable Component.',
+                type: 'error',
+              },
+            },
+          },
+        ],
+      },
+    },
+    // Create & Link Datasource.
+    {
+      highlight: ['Main', 'webform-datasources'],
+      dialog: {
+        title: 'Datasources',
+        anchor: 'webform-datasources',
+        content: 'For the DataTable to work, it needs an Entity Selection DataSource.<br><br>\
+        Hover on "This Webform", & Click "+" button<br>\
+        <img src="/welcometour/add-datasource.png" style="text-align:center;display:block;height:24px;width:auto;"><br>\
+        Create a Datasource with name **items** , type **Entity Selection** & dataclass **Item**.<br><br>\
+        Drag & Drop the datasource **items** along with **firstname** & **age** attributes on the DataTable.',
+        position: 'right',
+      },
+      events: {
+        validate: [
+          {
+            name: 'compare editor',
+            editor: 'webform',
+            meta: {
+              name: 'Welcome',
+              expected: {
+                type: {
+                  resolvedName: 'Container',
+                },
+                children: [
+                  {
+                    type: {
+                      resolvedName: 'DataTable',
+                    },
+                    props: {
+                      datasource: 'items',
+                      columns: [
+                        {
+                          title: 'Firstname',
+                          source: 'firstname',
+                        },
+                        {
+                          title: 'Age',
+                          source: 'age',
+                        },
+                      ],
+                    },
+                  },
+                ],
+              },
+              skip: [],
+              strict: false,
+              message: {
+                content: 'Drag and Drop the DataTable Component.',
+                type: 'error',
+              },
+            },
+          },
+        ],
+      },
+    },
+    {
+      highlight: ['Main', 'webform-preview-btn'],
+      dialog: {
+        title: 'Datasources',
+        anchor: 'webform-preview-btn',
+        content: 'Click preview button to view the result.',
+        position: 'bottom',
+      },
+      events: {
+        validate: [
+          {
+            name: 'preview webform',
+            editor: 'webform',
+            meta: {
+              name: 'Welcome',
+              message: {
+                content: 'click on preview button',
+              },
+            },
+          },
+        ],
+      },
+    },
+    {
+      dialog: {
+        title: 'Welcome tour completed',
+        content: "Congratulations! You have completed the welcome tour. <br><br> \
+        You are now ready to explore all the features and start getting the most of Qodly.<br><br>\
+        If you have any questions or feedback, don't hesitate to reach out to our support team. Happy exploring!",
+        position: 'left',
+      },
+    },
+  ],
+  labels: {
+    previous: 'Previous',
+    next: 'Next',
+    skip: 'Skip',
+    complete: 'Complete',
+  },
+}
