@@ -30,5 +30,5 @@ jobs:
         git config --global user.name "${{ env.CI_COMMIT_AUTHOR }}"
         git config --global user.email "username@users.noreply.github.com"
         git add .
-        git commit -a -m "${{ env.CI_COMMIT_MESSAGE }}"
-        git push origin develop:gh-build
+        git commit -m "${{ env.CI_COMMIT_MESSAGE }}"
+        git push -f origin develop:gh-build
