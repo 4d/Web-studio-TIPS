@@ -43,4 +43,4 @@ const result = templates.map(({ path, ...item }) => {
   };
 });
 
-console.log(result);
+writeFileSync(resolve(BUILD_FOLDER, 'index.json'), JSON.stringify(result, null, 2));
