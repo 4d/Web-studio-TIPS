@@ -39,7 +39,7 @@ const result = templates.map(({ path, ...item }) => {
 
   return {
     ...item,
-    link: `${CI_BASE_URL}/dist/${gName}.json`,
+    link: `${CI_BASE_URL}/${relative(ROOT_FOLDER, BUILD_FOLDER)}/${gName}.json`,
   };
 });
 
