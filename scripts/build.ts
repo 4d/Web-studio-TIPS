@@ -5,6 +5,7 @@ import { parse } from "json5";
 import { readFileSync, writeFileSync } from "fs";
 import { resolve, dirname, relative } from "path";
 import { ITemplatesItem, IGroup } from "./interfaces";
+import { formatName } from "./utils";
 
 config();
 
@@ -37,10 +38,7 @@ const result = templates.map(({ path, ...item }) => {
     };
   });
 
-  const gName = item.group
-    .match(/[A-Z]{2,}(?=[A-Z][a-z]+[0-9]*|\b)|[A-Z]?[a-z]+[0-9]*|[A-Z]|[0-9]+/g)
-    ?.map((x) => x.toLowerCase())
-    .join("-");
+  const gName = formatName(item.group);
 
   writeFileSync(
     resolve(BUILD_FOLDER, `${gName}.json`),

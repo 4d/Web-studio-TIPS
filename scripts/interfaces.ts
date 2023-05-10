@@ -12,6 +12,17 @@ export interface IComponent {
   data: string;
 }
 
+export interface IGroupAnswer {
+  description: string;
+  count: number;
+  name: string;
+}
+
+export interface IComponentAnswer {
+  name: string;
+  description: string;
+}
+
 export interface IGroup {
   components: IComponent[];
 }
