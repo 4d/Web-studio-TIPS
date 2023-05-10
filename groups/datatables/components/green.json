@@ -1,0 +1,71 @@
+{
+  "id": "cCFvLf1x91ckc1yHgehRRx",
+  "nodes": {
+    "wQU37s8wQ-": {
+      "type": {
+        "resolvedName": "DataTable"
+      },
+      "isCanvas": false,
+      "props": {
+        "loopable": true,
+        "classNames": ["alternate-green-headers"],
+        "events": [],
+        "style": {
+          "height": "450px"
+        },
+        "headerHeight": 60,
+        "rowHeight": 30,
+        "datasource": "members",
+        "columns": [
+          {
+            "title": "Firstname",
+            "source": "firstname",
+            "format": "",
+            "width": "200px",
+            "sorting": false,
+            "id": "gVgE1XDLxrhbaqsPYtyNB1"
+          },
+          {
+            "title": "Lastname",
+            "source": "lastname",
+            "format": "",
+            "width": "200px",
+            "sorting": false,
+            "id": "2HWEHDNi31akwxURh7LZPB"
+          },
+          {
+            "title": "Gender",
+            "source": "gender",
+            "format": "",
+            "width": "180px",
+            "sorting": false,
+            "id": "4CCtsTEnSEiQqExAsgi44j"
+          },
+          {
+            "title": "Email",
+            "source": "email",
+            "format": "",
+            "width": "300px",
+            "sorting": false,
+            "id": "aNXFD4aCStd1kNm3ujdfdE"
+          }
+        ]
+      },
+      "displayName": "DataTable",
+      "custom": {},
+      "parent": "ROOT",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    }
+  },
+  "styles": [
+    {
+      "name": "alternate-green-headers",
+      "content": "self .header .header-cell {\n  background-color: #324960;\n  color: #fff;\n  font-weight: bold;\n  font-size: 14px;\n  display: flex;\n  align-items: center;\n  justify-content: flex-start;\n}\n\nself .header .header-even {\n  background-color: #4fc3a1;\n}\n\nself .row {\n  align-items: center;\n}\n\nself .row .cell {\n  font-size: 14px;\n  text-align: left;\n}\n\nself .row.selected {\n  background-color: #caede2;\n}\n\nself .row-even:not(.selected):not(:hover) {\n  background-color: #f8f8f8;\n}\n\nself .header .resizable > :not([hidden]) ~ :not([hidden]),\nself .row > :not([hidden]) ~ :not([hidden]),\nself .Grid .innerScrollContainer,\nself .Grid .innerScrollContainer > :not([hidden]) ~ :not([hidden]) {\n  border-width: 0;\n}",
+      "parentId": null,
+      "scope": "local",
+      "id": "vEspG4XCGYKxPxQ5tNDh4"
+    }
+  ]
+}

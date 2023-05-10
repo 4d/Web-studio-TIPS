@@ -1,0 +1,63 @@
+{
+  "id": "3JhfLWLHqn32xHN2NE266R",
+  "nodes": {
+    "Q-zFagSyqR": {
+      "type": {
+        "resolvedName": "DataTable"
+      },
+      "isCanvas": false,
+      "props": {
+        "loopable": true,
+        "classNames": ["blue-header-alternate-rows"],
+        "events": [],
+        "style": {
+          "height": "650px"
+        },
+        "headerHeight": 50,
+        "rowHeight": 30,
+        "datasource": "members",
+        "columns": [
+          {
+            "title": "Firstname",
+            "source": "firstname",
+            "format": "",
+            "width": "200px",
+            "sorting": false,
+            "id": "mgtYWtdnBhhnvVSMY2ZUmL"
+          },
+          {
+            "title": "Lastname",
+            "source": "lastname",
+            "format": "",
+            "width": "200px",
+            "sorting": false,
+            "id": "ec7TEA85EJqLKQptVanaNV"
+          },
+          {
+            "title": "Email",
+            "source": "email",
+            "format": "",
+            "width": "350px",
+            "sorting": false,
+            "id": "9JZGscxDgFaxNhx8wiDmo5"
+          }
+        ]
+      },
+      "displayName": "DataTable",
+      "custom": {},
+      "parent": "ROOT",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    }
+  },
+  "styles": [
+    {
+      "name": "blue-header-alternate-rows",
+      "content": "self {\n  border-radius: 10px;\n  box-shadow: 0 0 40px 0 rgb(0 0 0 / 15%);\n}\n\nself .header .header-cell {\n  background-color: #6c7ae0;\n  color: #fff;\n  font-weight: bold;\n  padding: 1.25rem 2rem;\n}\n\nself .row {\n  align-items: center;\n}\n\nself .row .cell {\n  padding: 0.5rem 2rem;\n}\n\nself .row .cell > span {\n  justify-content: flex-start;\n}\n\nself .row.selected {\n  background-color: #d2d7f5;\n}\n\nself .row-even:not(.selected):not(:hover) {\n  background-color: #f8f6ff;\n}\n\nself .header .resizable > :not([hidden]) ~ :not([hidden]),\nself .row > :not([hidden]) ~ :not([hidden]),\nself .Grid .innerScrollContainer,\nself .Grid .innerScrollContainer > :not([hidden]) ~ :not([hidden]) {\n  border-width: 0;\n}",
+      "parentId": null,
+      "scope": "local",
+      "id": "PL652ycE3f6pTdyAeRfgp"
+    }
+  ]
+}
