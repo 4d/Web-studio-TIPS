@@ -1,4 +1,6 @@
 import { prompt } from "enquirer";
+import { existsSync } from 'fs';
+import { formatName } from "./utils";
 
 type PromptOptions = Parameters<typeof prompt>[0];
 
@@ -9,6 +11,14 @@ export const GroupPrompt = [
     type: "input",
     initial: 'Component Name',
     required: true,
+    validate(value) {
+      const formattedName = formatName(value);
+
+      if (existsSync(`groups/${formattedName}`))
+        return "Already exists. Choose another name";
+
+      return true;
+    }
   },
   {
     message: "How many components?",
