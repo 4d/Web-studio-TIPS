@@ -79,7 +79,7 @@
                         "minWidth": "70px",
                         "minHeight": "70px"
                     },
-                    "imgSrc": "https://raw.githubusercontent.com/4d/Web-studio-TIPS/develop/groups/enterprise-social-network/assets/face1.jpg"
+                    "imgSrc": "__BASE__URL__/assets/face1.jpg"
                 },
                 "displayName": "Image",
                 "custom": {},
@@ -699,7 +699,7 @@
                         "height": "58px",
                         "borderRadius": "100%"
                     },
-                    "imgSrc": "https://raw.githubusercontent.com/4d/Web-studio-TIPS/develop/groups/enterprise-social-network/assets/face2.jpg"
+                    "imgSrc": "__BASE__URL__/assets/face2.jpg"
                 },
                 "displayName": "Image",
                 "custom": {},
@@ -745,7 +745,7 @@
         "styles": [
             {
                 "name": "profileCard",
-                "content": "self {\n  background: linear-gradient(to bottom, rgba(39,170,225,.8), rgba(28,117,188,.8)), url(https://raw.githubusercontent.com/4d/Web-studio-TIPS/develop/groups/enterprise-social-network/assets/office.jpg) no-repeat;\n    background-image: linear-gradient(rgba(39, 170, 225, 0.8), rgba(28, 117, 188, 0.8)), url(https://raw.githubusercontent.com/4d/Web-studio-TIPS/develop/groups/enterprise-social-network/assets/office.jpg);\n    background-position-x: initial, initial;\n    background-position-y: initial, initial;\n    background-size: initial, initial;\n    background-repeat-x: initial, no-repeat;\n    background-repeat-y: initial, no-repeat;\n    background-attachment: initial, initial;\n    background-origin: initial, initial;\n    background-clip: initial, initial;\n    background-color: initial;\n  background-color : #3b82f6ce;\n  padding-left : 100px;\n  color : #ffffffff;\n}",
+                "content": "self {\n  background: linear-gradient(to bottom, rgba(39,170,225,.8), rgba(28,117,188,.8)), url(__BASE__URL__/assets/office.jpg) no-repeat;\n    background-image: linear-gradient(rgba(39, 170, 225, 0.8), rgba(28, 117, 188, 0.8)), url(__BASE__URL__/assets/office.jpg);\n    background-position-x: initial, initial;\n    background-position-y: initial, initial;\n    background-size: initial, initial;\n    background-repeat-x: initial, no-repeat;\n    background-repeat-y: initial, no-repeat;\n    background-attachment: initial, initial;\n    background-origin: initial, initial;\n    background-clip: initial, initial;\n    background-color: initial;\n  background-color : #3b82f6ce;\n  padding-left : 100px;\n  color : #ffffffff;\n}",
                 "children": {},
                 "parentId": null,
                 "scope": "local",
