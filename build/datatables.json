@@ -1,0 +1,223 @@
+[
+  {
+    "name": "Dark with highlighting",
+    "description": "Dark background and the hovered row highlighted",
+    "banner": "https://raw.githubusercontent.com/4d/Web-studio-TIPS/develop/groups/datatables/assets/dark.png",
+    "data": {
+      "id": "99S6bpj15XNzd9RzoCXukk",
+      "rootNodeId": "HaEje9KuP8",
+      "nodes": {
+        "HaEje9KuP8": {
+          "type": {
+            "resolvedName": "DataTable"
+          },
+          "isCanvas": false,
+          "props": {
+            "loopable": true,
+            "classNames": [
+              "dark-and-highlight"
+            ],
+            "events": [],
+            "style": {
+              "height": "650px"
+            },
+            "headerHeight": 50,
+            "rowHeight": 30,
+            "columns": [
+              {
+                "title": "Firstname",
+                "source": "firstname",
+                "format": "",
+                "width": "200px",
+                "sorting": false,
+                "id": "ebF9wmWoh3VC8oo7poLL4g"
+              },
+              {
+                "title": "Lastname",
+                "source": "lastname",
+                "format": "",
+                "width": "200px",
+                "sorting": false,
+                "id": "8F6eyLfmJjBjkoib1ifkQT"
+              },
+              {
+                "title": "Email",
+                "source": "email",
+                "format": "",
+                "width": "300px",
+                "sorting": false,
+                "id": "ppwY82bVTHJspeFk7howd6"
+              }
+            ],
+            "datasource": "members"
+          },
+          "displayName": "DataTable",
+          "custom": {},
+          "parent": "ROOT",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        }
+      },
+      "styles": [
+        {
+          "name": "dark-and-highlight",
+          "content": "self {\n\tbackground-color: rgb(61, 54, 61);\n}\n\nself .row {\n  align-items: center;\n}\n\nself .header {\n\tfont-weight: bold;\n}\n\nself .header .header-cell {\n\tbackground-color: transparent;\n\tborder-top: none;\n\tborder-bottom: none !important;\n\tcolor: #fff;\n\tfont-size: 11px;\n\ttext-transform: uppercase;\n\tletter-spacing: .2rem;\n}\n\nself .row {\n\tbackground-color: rgba(0, 0, 0, 0.1);\n\tcolor: #777;\n\ttransition: 0.3s all ease;\n}\n\nself .row:hover {\n\tbackground-color: rgba(0, 0, 0, 0.1);\n\tcolor: white;\n}\n\nself .row:hover .col-firstname {\n\tcolor: #b474e4;\n}\n\nself .row.row-even {\n\tbackground-color: unset;\n}\n\nself .header,\nself .header .resizable > :not([hidden]) ~ :not([hidden]),\nself .row > :not([hidden]) ~ :not([hidden]),\nself .Grid .innerScrollContainer,\nself .Grid .innerScrollContainer > :not([hidden]) ~ :not([hidden]) {\n  border-width: 0;\n}",
+          "parentId": null,
+          "scope": "local",
+          "id": "ZYk_iAQc167XyeBIkkXEs"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Alternate green headers",
+    "description": "Alternate colored headers and with alternate colored rows",
+    "banner": "https://raw.githubusercontent.com/4d/Web-studio-TIPS/develop/groups/datatables/assets/green.png",
+    "data": {
+      "id": "sn3g8gDg1rnodUjHdRvMyR",
+      "rootNodeId": "wQU37s8wQ-",
+      "nodes": {
+        "wQU37s8wQ-": {
+          "type": {
+            "resolvedName": "DataTable"
+          },
+          "isCanvas": false,
+          "props": {
+            "loopable": true,
+            "classNames": [
+              "alternate-green-headers"
+            ],
+            "events": [],
+            "style": {
+              "height": "450px"
+            },
+            "headerHeight": 60,
+            "rowHeight": 30,
+            "datasource": "members",
+            "columns": [
+              {
+                "title": "Firstname",
+                "source": "firstname",
+                "format": "",
+                "width": "200px",
+                "sorting": false,
+                "id": "gVgE1XDLxrhbaqsPYtyNB1"
+              },
+              {
+                "title": "Lastname",
+                "source": "lastname",
+                "format": "",
+                "width": "200px",
+                "sorting": false,
+                "id": "2HWEHDNi31akwxURh7LZPB"
+              },
+              {
+                "title": "Gender",
+                "source": "gender",
+                "format": "",
+                "width": "180px",
+                "sorting": false,
+                "id": "4CCtsTEnSEiQqExAsgi44j"
+              },
+              {
+                "title": "Email",
+                "source": "email",
+                "format": "",
+                "width": "300px",
+                "sorting": false,
+                "id": "aNXFD4aCStd1kNm3ujdfdE"
+              }
+            ]
+          },
+          "displayName": "DataTable",
+          "custom": {},
+          "parent": "ROOT",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        }
+      },
+      "styles": [
+        {
+          "name": "alternate-green-headers",
+          "content": "self .header .header-cell {\n  background-color: #324960;\n  color: #fff;\n  font-weight: bold;\n  font-size: 14px;\n  display: flex;\n  align-items: center;\n  justify-content: flex-start;\n}\n\nself .header .header-even {\n  background-color: #4fc3a1;\n}\n\nself .row {\n  align-items: center;\n}\n\nself .row .cell {\n  font-size: 14px;\n  text-align: left;\n}\n\nself .row.selected {\n  background-color: #caede2;\n}\n\nself .row-even:not(.selected):not(:hover) {\n  background-color: #f8f8f8;\n}\n\nself .header .resizable > :not([hidden]) ~ :not([hidden]),\nself .row > :not([hidden]) ~ :not([hidden]),\nself .Grid .innerScrollContainer,\nself .Grid .innerScrollContainer > :not([hidden]) ~ :not([hidden]) {\n  border-width: 0;\n}",
+          "parentId": null,
+          "scope": "local",
+          "id": "vEspG4XCGYKxPxQ5tNDh4"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Blue header",
+    "description": "Blue header with alternate colored rows",
+    "banner": "https://raw.githubusercontent.com/4d/Web-studio-TIPS/develop/groups/datatables/assets/blue.png",
+    "data": {
+      "id": "pveQPTKsR72wKhWmR4vVQd",
+      "rootNodeId": "Q-zFagSyqR",
+      "nodes": {
+        "Q-zFagSyqR": {
+          "type": {
+            "resolvedName": "DataTable"
+          },
+          "isCanvas": false,
+          "props": {
+            "loopable": true,
+            "classNames": [
+              "blue-header-alternate-rows"
+            ],
+            "events": [],
+            "style": {
+              "height": "650px"
+            },
+            "headerHeight": 50,
+            "rowHeight": 30,
+            "datasource": "members",
+            "columns": [
+              {
+                "title": "Firstname",
+                "source": "firstname",
+                "format": "",
+                "width": "200px",
+                "sorting": false,
+                "id": "mgtYWtdnBhhnvVSMY2ZUmL"
+              },
+              {
+                "title": "Lastname",
+                "source": "lastname",
+                "format": "",
+                "width": "200px",
+                "sorting": false,
+                "id": "ec7TEA85EJqLKQptVanaNV"
+              },
+              {
+                "title": "Email",
+                "source": "email",
+                "format": "",
+                "width": "350px",
+                "sorting": false,
+                "id": "9JZGscxDgFaxNhx8wiDmo5"
+              }
+            ]
+          },
+          "displayName": "DataTable",
+          "custom": {},
+          "parent": "ROOT",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        }
+      },
+      "styles": [
+        {
+          "name": "blue-header-alternate-rows",
+          "content": "self {\n  border-radius: 10px;\n  box-shadow: 0 0 40px 0 rgb(0 0 0 / 15%);\n}\n\nself .header .header-cell {\n  background-color: #6c7ae0;\n  color: #fff;\n  font-weight: bold;\n  padding: 1.25rem 2rem;\n}\n\nself .row {\n  align-items: center;\n}\n\nself .row .cell {\n  padding: 0.5rem 2rem;\n}\n\nself .row .cell > span {\n  justify-content: flex-start;\n}\n\nself .row.selected {\n  background-color: #d2d7f5;\n}\n\nself .row-even:not(.selected):not(:hover) {\n  background-color: #f8f6ff;\n}\n\nself .header .resizable > :not([hidden]) ~ :not([hidden]),\nself .row > :not([hidden]) ~ :not([hidden]),\nself .Grid .innerScrollContainer,\nself .Grid .innerScrollContainer > :not([hidden]) ~ :not([hidden]) {\n  border-width: 0;\n}",
+          "parentId": null,
+          "scope": "local",
+          "id": "PL652ycE3f6pTdyAeRfgp"
+        }
+      ]
+    }
+  }
+]
