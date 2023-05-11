@@ -9,7 +9,7 @@ export const GroupPrompt = [
     message: "Name your group",
     name: "name",
     type: "input",
-    initial: 'Component Name',
+    initial: 'Group Name',
     required: true,
     validate(value) {
       const formattedName = formatName(value);
