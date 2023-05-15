@@ -3,7 +3,7 @@
 import { config } from "dotenv";
 import { parse } from "json5";
 import { readFileSync, writeFileSync } from "fs";
-import { resolve, dirname, relative } from "path";
+import { resolve, dirname, relative, join } from "path";
 import { ITemplatesItem, IGroup } from "./interfaces";
 import { formatName } from "./utils";
 
@@ -27,14 +27,14 @@ const result = templates.map(({ path, ...item }) => {
 
   const components = group.components.map(({ data, banner, ...component }) => {
     const content = readFileSync(resolve(groupPath, data), "utf-8");
-
+    const gPath = relative(
+      ROOT_FOLDER,
+      groupPath
+    );
     return {
       ...component,
-      banner: `${CI_BASE_URL}/${relative(
-        ROOT_FOLDER,
-        resolve(groupPath, banner)
-      )}`,
-      data: parse(content.replace(/__BASE__URL__/g, CI_BASE_URL)),
+      banner: `${CI_BASE_URL}/${join(gPath, banner)}`,
+      data: parse(content.replace(/__BASE__URL__/g, join(CI_BASE_URL, gPath))),
     };
   });
 
