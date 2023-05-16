@@ -4,7 +4,7 @@
     {
       dialog: {
         title: 'Welcome to Qodly Studio',
-        content: 'Qodly Studio allows you to quickly build Web applications for your Qodly Platform. \
+        content: 'Qodly Studio allows you to quickly build Web applications for your Qodly Platform.<br> \
         In this quick tour we will be showing some of Qodly Studio’s capabilities',
       },
     },
@@ -17,7 +17,7 @@
         anchor: 'fileExplorer',
         position: 'right',
         content: 'The model editor allows to define the Data Model.<br><br>\
-        To open the model editor, click on <img src="/welcometour/model-editor-icon.png" width="90px" style="display:inline;"> icon',
+        To open the model editor, click on <img src="welcometour/model-editor-icon.png" width="90px" style="display:inline;"> icon',
       },
       events: {
         validate: [
@@ -44,7 +44,7 @@
         position: 'right',
         title: 'Creating a Dataclass',
         content: 'In this example. we will create the DataClass **Item**.<br><br>\
-         Click on <img src="/welcometour/add-dataclass-icon.png" style="display:inline;height:24px;width:auto;"> icon,<br><br>\
+         Click on <img src="welcometour/add-dataclass-icon.png" style="display:inline;height:24px;width:auto;"> icon,<br><br>\
          Type **Item** as dataclass name, and press Enter.',
       },
       events: {
@@ -80,7 +80,7 @@
         anchor: 'model-dataclass-Item',
         position: 'right',
         title: 'Creating DataClass attributes',
-        content: 'DataClass has a default ID attribute. Click on <img src="/welcometour/add-dataclass-icon.png" style="display:inline;height:24px;width:auto;"> to create an attribute. <br><br> \
+        content: 'DataClass has a default ID attribute. Click on <img src="welcometour/add-dataclass-icon.png" style="display:inline;height:24px;width:auto;"> to create an attribute. <br><br> \
         Type **firstname** for attribute name, and press Enter <br><br> \
         Select type **string** for attribute type. press Enter to confirm. <br><br> \
         Repeat previous step to create the attribute **age** with type **number**.',
@@ -96,12 +96,15 @@
                 attributes: [
                   {
                     name: 'ID',
+                    type: 'long',
                   },
                   {
                     name: 'firstname',
+                    type: 'string',
                   },
                   {
                     name: 'age',
+                    type: 'number',
                   },
                 ],
               },
@@ -122,7 +125,7 @@
       dialog: {
         title: 'Creating a Method',
         content: 'Hover on the Methods folder.<br><br> \
-        To create a Method, Click on <img src="/welcometour/add-dataclass-icon.png" style="display:inline;height:24px;width:auto;">. <br><br> \
+        To create a Method, Click on <img src="welcometour/add-dataclass-icon.png" style="display:inline;height:24px;width:auto;">. <br><br> \
         Type **generate** and press Enter.',
         position: 'left',
         anchor: 'fileExplorer',
@@ -145,13 +148,23 @@
     },
     // Inject script for generation
     {
-      highlight: ['main-code', 'fileExplorer', 'header-save-all'],
+      highlight: ['main-code-generate', 'fileExplorer', 'header-save-all'],
       dialog: {
         title: 'Generating Data',
-        content: 'We have added a script to generate random data for the DataClass **Item**.<br><br>\
-        Click on Save All button. <br><br> \
-        Hover on method in the Explorer. <br><br> \
-        Click on <img src="/welcometour/run-method.png" style="display:inline;height:24px;width:auto;"> to run the Method.',
+        content: 'We need to generate random data for the DataClass **Item**. copy the code bellow to the code editor\n\n\
+```4qs\n\
+var counter: Integer\n\
+var entity: cs.ItemEntity\n\n\
+For(counter,1,100,1)\n\
+  entity = ds.Item.new()\n\
+  entity.firstname="Item " + String(counter)\n\
+  entity.age = (Random%(100))+1\n\
+  entity.save()\n\
+End for\n\
+```\n\
+Click on Save All button.<br/><br/>\
+Hover on method in the Explorer.<br/><br/>\
+Click on <img src="welcometour/run-method.png" style="display:inline;height:24px;width:auto;"> to run the Method.',
         position: 'right',
         anchor: 'fileExplorer',
       },
@@ -162,25 +175,9 @@
             editor: 'webform',
             meta: {
               message: {
-                content: 'click on savel-all button',
+                content: 'click on save-all button',
                 type: 'error',
               },
-            },
-          },
-        ],
-        pre: [
-          {
-            name: 'add file-content',
-            editor: 'code',
-            meta: {
-              name: 'generate',
-              type: 'Methods',
-              content: 'For($counter;1;100;1)\n\
-  $entity := ds.Item.new()\n\
-  $entity.firstname:="Item " + String($counter)\n\
-  $entity.age := (Random%(100))+1\n\
-  $entity.save()\n\
-End for',
             },
           },
         ],
@@ -192,7 +189,7 @@ End for',
       dialog: {
         title: 'Creating a WebForm',
         content: 'To create a new webform, hover on the webform folder. <br><br>\
-        Click on <img src="/welcometour/add-dataclass-icon.png" style="display:inline;height:24px;width:auto;"> icon.<br>\
+        Click on <img src="welcometour/add-dataclass-icon.png" style="display:inline;height:24px;width:auto;"> icon.<br>\
         Type the name ***Welcome*** as the name to the webform. <br><br>\
         The webform will be opened automatically.',
         position: 'left',
@@ -216,10 +213,10 @@ End for',
     },
     // Components list Intro
     {
-      highlight: ['Main', 'ComponentList'],
+      highlight: ['Welcome-main', 'Welcome-components'],
       dialog: {
         title: 'How to add Components',
-        anchor: 'ComponentList',
+        anchor: 'Welcome-components',
         content: 'This is the list of available components.<br>\
         We will be using a DataTable to display the data.<br><br>\
         Drag & Drop a DataTable from the list onto the canvas.',
@@ -257,13 +254,13 @@ End for',
     },
     // Create & Link Datasource.
     {
-      highlight: ['Main', 'webform-datasources'],
+      highlight: ['Welcome-main', 'Welcome-datasources'],
       dialog: {
         title: 'Datasources',
-        anchor: 'webform-datasources',
+        anchor: 'Welcome-datasources',
         content: 'For the DataTable to work, it needs an Entity Selection DataSource.<br><br>\
         Hover on "This Webform", & Click "+" button<br>\
-        <img src="/welcometour/add-datasource.png" style="text-align:center;display:block;height:24px;width:auto;"><br>\
+        <img src="welcometour/add-datasource.png" style="text-align:center;display:block;height:24px;width:auto;"><br>\
         Create a Datasource with name **items** , type **Entity Selection** & dataclass **Item**.<br><br>\
         Drag & Drop the datasource **items** along with **firstname** & **age** attributes on the DataTable.',
         position: 'right',
@@ -303,7 +300,7 @@ End for',
               skip: [],
               strict: false,
               message: {
-                content: 'Drag and Drop the DataTable Component.',
+                content: 'Please make sure you drag & drop datasources.',
                 type: 'error',
               },
             },
@@ -311,12 +308,14 @@ End for',
         ],
       },
     },
+    // preview button.
     {
-      highlight: ['Main', 'webform-preview-btn'],
+      highlight: ['main-Welcome', 'webform-preview-btn'],
       dialog: {
-        title: 'Datasources',
+        title: 'Webform Preview',
         anchor: 'webform-preview-btn',
-        content: 'Click preview button to view the result.',
+        content: 'The preview mode allows users to view the result of the page before it is fully rendered or published.<br><br>\
+        Click on the button the view the results.',
         position: 'bottom',
       },
       events: {
