@@ -1,5 +1,5 @@
 {
-    "id": "1DzhSrNNYzLaNhWA4LdqtB",
+    "id": "mjAkmKXWD9cHJPMB9sYoPB",
     "rootNodeId": "54GDBRHIbS",
     "nodes": {
         "54GDBRHIbS": {
@@ -140,7 +140,7 @@
                     "display": "block"
                 },
                 "classNames": [
-                    "rotatedText"
+                    "timesheet-rotatedText"
                 ]
             },
             "displayName": "Text",
@@ -325,7 +325,7 @@
                     "textAlign": "justify"
                 },
                 "classNames": [
-                    "rotatedText"
+                    "timesheet-rotatedText"
                 ]
             },
             "displayName": "Text",
@@ -400,7 +400,7 @@
             "isCanvas": false,
             "props": {
                 "classNames": [
-                    "monthSelector"
+                    "timesheet-monthSelector"
                 ],
                 "events": [
                     {
@@ -497,7 +497,7 @@
             "isCanvas": false,
             "props": {
                 "classNames": [
-                    "monthSelector"
+                    "timesheet-monthSelector"
                 ],
                 "events": [
                     {
@@ -680,7 +680,7 @@
                 "events": [],
                 "style": {},
                 "classNames": [
-                    "calendarHeader"
+                    "timesheet-calendarHeader"
                 ]
             },
             "displayName": "Stylebox",
@@ -731,7 +731,7 @@
                 "events": [],
                 "style": {},
                 "classNames": [
-                    "calendarHeader"
+                    "timesheet-calendarHeader"
                 ]
             },
             "displayName": "Stylebox",
@@ -782,7 +782,7 @@
                 "events": [],
                 "style": {},
                 "classNames": [
-                    "calendarHeader"
+                    "timesheet-calendarHeader"
                 ]
             },
             "displayName": "Stylebox",
@@ -833,7 +833,7 @@
                 "events": [],
                 "style": {},
                 "classNames": [
-                    "calendarHeader"
+                    "timesheet-calendarHeader"
                 ]
             },
             "displayName": "Stylebox",
@@ -884,7 +884,7 @@
                 "events": [],
                 "style": {},
                 "classNames": [
-                    "calendarHeader"
+                    "timesheet-calendarHeader"
                 ]
             },
             "displayName": "Stylebox",
@@ -935,7 +935,7 @@
                 "events": [],
                 "style": {},
                 "classNames": [
-                    "calendarHeader"
+                    "timesheet-calendarHeader"
                 ]
             },
             "displayName": "Stylebox",
@@ -986,7 +986,7 @@
                 "events": [],
                 "style": {},
                 "classNames": [
-                    "calendarHeader"
+                    "timesheet-calendarHeader"
                 ]
             },
             "displayName": "Stylebox",
@@ -1090,7 +1090,7 @@
                     "paddingLeft": "1px"
                 },
                 "classNames": [
-                    "calendarCell"
+                    "timesheet-calendarCell"
                 ]
             },
             "displayName": "Stylebox",
@@ -1255,7 +1255,7 @@
             "props": {
                 "loopable": true,
                 "classNames": [
-                    "datatable"
+                    "timesheet-datatable"
                 ],
                 "events": [
                     {
@@ -1387,22 +1387,6 @@
                         "width": "200px",
                         "sorting": false,
                         "id": "inMvseuHS2AqAX5jCC9LMt"
-                    },
-                    {
-                        "title": "Feature",
-                        "source": "feature.title",
-                        "format": "",
-                        "width": "20%",
-                        "sorting": true,
-                        "id": "3Rrta4o2x8ENuQfoKL1xqi"
-                    },
-                    {
-                        "title": " ",
-                        "source": "feature.origin",
-                        "format": "",
-                        "width": "100px",
-                        "sorting": false,
-                        "id": "mabLj4UmGit7jRJZSpxVk4"
                     },
                     {
                         "title": "Comment",
@@ -1576,7 +1560,7 @@
     },
     "styles": [
         {
-            "name": "calendarCell",
+            "name": "timesheet-calendarCell",
             "content": "self {\n  display : flex;\n  align-items : end;\n  border-width : 0px;\n  flex-direction : column;\n}",
             "children": {},
             "parentId": null,
@@ -1585,7 +1569,7 @@
             "id": "GFKc6c-RGVBLDK660xSfp"
         },
         {
-            "name": "calendarHeader",
+            "name": "timesheet-calendarHeader",
             "content": "self {\n  width : 50px;\n\tpadding : 2px;\n\tcolor: #b6b9f9;\n\tfont-weight: 500;\n}",
             "children": {},
             "parentId": null,
@@ -1594,7 +1578,7 @@
             "id": "Y3YBeOmYfIXqGwOy_78GX"
         },
         {
-            "name": "monthSelector",
+            "name": "timesheet-monthSelector",
             "content": "self {\n  display : flex;\n  justify-content : space-between;\n}\n\nself .py-2.px-3 {\n\tpadding: 1px;\n}",
             "children": {},
             "parentId": null,
@@ -1603,7 +1587,7 @@
             "id": "ZR22Q-xhxgpKI8DlPc6EH"
         },
         {
-            "name": "datatable",
+            "name": "timesheet-datatable",
             "content": "self .row {\n  align-items: center;\n}\n\nself .col-id > span {\n  justify-content: flex-start;\n}\n\nself .header {\n\tfont-weight: bold;\n}\n\nself .header .header-cell {\n\tbackground-color: transparent;\n\tborder-top: none;\n\tborder-bottom: none !important;\n\tcolor: #fff;\n\tfont-size: 11px;\n\ttext-transform: uppercase;\n\tletter-spacing: .2rem;\n}\n\nself .row {\n\tbackground-color: rgba(0, 0, 0, 0.1);\n\tcolor: #777;\n\ttransition: .3s all ease;\n}\n\nself .row:hover {\n\tcolor: white;\n}\n\nself .row:hover .col-time-spent {\n\tcolor: #fdd114;\n}\n\nself .row.row-even {\n\tbackground-color: unset;\n}\n\nself .header,\nself .header .resizable > :not([hidden]) ~ :not([hidden]),\nself .row > :not([hidden]) ~ :not([hidden]),\nself .Grid .innerScrollContainer,\nself .Grid .innerScrollContainer > :not([hidden]) ~ :not([hidden]) {\n  border-width: 0;\n}",
             "children": {},
             "parentId": null,
@@ -1612,7 +1596,7 @@
             "id": "JH71vUfwrYAx43Fu7Jl3E"
         },
         {
-            "name": "rotatedText",
+            "name": "timesheet-rotatedText",
             "content": "self {\n  writing-mode: vertical-lr;\n\trotate: 180deg;\n  font-size: 20px;\n\tfont-weight: 300;\n\tcolor: #777;\n\tmargin-bottom: 10px;\n}",
             "children": {},
             "parentId": null,
