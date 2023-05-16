@@ -34,7 +34,7 @@ const result = templates.map(({ path, ...item }) => {
     return {
       ...component,
       banner: `${CI_BASE_URL}/${join(gPath, banner)}`,
-      data: parse(content.replace(/__BASE__URL__/g, join(CI_BASE_URL, gPath))),
+      data: parse(content.replace(/__BASE__URL__/g, `${CI_BASE_URL}/${gPath}`)),
     };
   });
 
