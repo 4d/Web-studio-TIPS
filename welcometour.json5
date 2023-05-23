@@ -38,9 +38,9 @@
 
     // Create Dataclass
     {
-      highlight: ['model-sidebar'],
+      highlight: ['model:sidebar:dataclass'],
       dialog: {
-        anchor: 'model-sidebar',
+        anchor: 'model:sidebar:dataclass',
         position: 'right',
         title: 'Creating a Dataclass',
         content: 'In this example. we will create the DataClass **Item**.<br><br>\
@@ -86,6 +86,15 @@
         Repeat previous step to create the attribute **age** with type **number**.',
       },
       events: {
+        pre: [
+          {
+            name: 'flags',
+            editor: 'webform',
+            meta: {
+              "model.dataclass.delete": false
+            }
+          }
+        ],
         validate: [
           {
             name: 'compare editor',
@@ -223,6 +232,16 @@ Click on <img src="welcometour/run-method.png" style="display:inline;height:24px
         position: 'bottom',
       },
       events: {
+        pre: [
+          {
+            name: 'flags',
+            editor: 'webform',
+            meta: {
+              "webform.sidebar.section.resizable": false,
+              "model.dataclass.delete": false
+            }
+          }
+        ],
         validate: [
           {
             name: 'compare editor',
