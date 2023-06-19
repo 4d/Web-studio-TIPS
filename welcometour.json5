@@ -91,9 +91,16 @@
             name: 'flags',
             editor: 'webform',
             meta: {
-              "model.dataclass.delete": false
-            }
-          }
+              'model.dataclass.delete': false,
+            },
+          },
+          {
+            name: 'flags',
+            editor: 'model',
+            meta: {
+              'model.node.draggable': false,
+            },
+          },
         ],
         validate: [
           {
@@ -237,10 +244,10 @@ Click on <img src="welcometour/run-method.png" style="display:inline;height:24px
             name: 'flags',
             editor: 'webform',
             meta: {
-              "webform.sidebar.section.resizable": false,
-              "model.dataclass.delete": false
-            }
-          }
+              'webform.sidebar.section.resizable': false,
+              'model.dataclass.delete': false,
+            },
+          },
         ],
         validate: [
           {
