@@ -89,16 +89,16 @@
         pre: [
           {
             name: 'flags',
-            editor: 'webform',
+            editor: 'model',
             meta: {
-              'model.dataclass.delete': false,
+              'dataclass.delete': false,
             },
           },
           {
             name: 'flags',
             editor: 'model',
             meta: {
-              'model.node.draggable': false,
+              'dataclass.draggable': false,
             },
           },
         ],
@@ -244,8 +244,7 @@ Click on <img src="welcometour/run-method.png" style="display:inline;height:24px
             name: 'flags',
             editor: 'webform',
             meta: {
-              'webform.sidebar.section.resizable': false,
-              'model.dataclass.delete': false,
+              'sidebar.section.resizable': false,
             },
           },
         ],
