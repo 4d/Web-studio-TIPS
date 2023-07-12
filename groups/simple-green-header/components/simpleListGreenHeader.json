@@ -1,0 +1,65 @@
+{
+    "id": "nzkWhCFfVSb5PCkftcL3a6",
+    "rootNodeId": "Gm-BvJEQm_",
+    "nodes":
+    {
+        "Gm-BvJEQm_":
+        {
+            "type":
+            {
+                "resolvedName": "DataTable"
+            },
+            "isCanvas": false,
+            "props":
+            {
+                "iterable": true,
+                "classNames":
+                [
+                    "greenHeader"
+                ],
+                "events":
+                [],
+                "loopable": true,
+                "style":
+                {
+                    "width": "100%",
+                    "height": "480px"
+                },
+                "headerHeight": 50,
+                "rowHeight": 40,
+                "datasource": "#datasource#",
+                "currentElement": "",
+                "columns":
+                [
+                    {
+                        "title": "Agencies",
+                        "source": "name",
+                        "format": "",
+                        "width": "100%",
+                        "sorting": false,
+                        "id": "hZfbkYXqq5eLnbhcRb1PXn"
+                    }
+                ]
+            },
+            "displayName": "DataTable",
+            "custom":
+            {},
+            "parent": "ROOT",
+            "hidden": false,
+            "nodes":
+            [],
+            "linkedNodes":
+            {}
+        }
+    },
+    "styles":
+    [
+        {
+            "name": "greenHeader",
+            "content": "self {\n\n}\n\nself .header .header-cell {\n  background-color: #eff9f4;\n  color: #6fc295;\n  font-weight: 600;\n  padding: 1.25rem 2rem;\n\t  text-align: center;\n}\n\nself .row .cell {\n  padding: 1.5rem 2rem;\n}\n\nself .row.selected {\n  background-color: #f5f6fe;\n}\n\nself .header .resizable > :not([hidden]) ~ :not([hidden]),\nself .row > :not([hidden]) ~ :not([hidden]),\nself .Grid .innerScrollContainer,\nself .Grid .innerScrollContainer > :not([hidden]) ~ :not([hidden]) {\n  border-width: 0;\n}",
+            "parentId": null,
+            "scope": "local",
+            "id": "_LCOlkY2R4iQIo9SIqPSm"
+        }
+    ]
+}
