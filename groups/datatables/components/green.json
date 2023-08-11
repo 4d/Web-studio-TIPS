@@ -59,7 +59,7 @@
   "styles": [
     {
       "name": "alternate-green-headers",
-      "content": "self .header .header-cell {\n  background-color: #324960;\n  color: #fff;\n  font-weight: bold;\n  font-size: 14px;\n  display: flex;\n  align-items: center;\n  justify-content: flex-start;\n}\n\nself .header .header-even {\n  background-color: #4fc3a1;\n}\n\nself .row {\n  align-items: center;\n}\n\nself .row .cell {\n  font-size: 14px;\n  text-align: left;\n}\n\nself .row.selected {\n  background-color: #caede2;\n}\n\nself .row-even:not(.selected):not(:hover) {\n  background-color: #f8f8f8;\n}\n\nself .header .resizable > :not([hidden]) ~ :not([hidden]),\nself .row > :not([hidden]) ~ :not([hidden]),\nself .Grid .innerScrollContainer,\nself .Grid .innerScrollContainer > :not([hidden]) ~ :not([hidden]) {\n  border-width: 0;\n}",
+      "content": "self .header .header-cell {\n  background-color: #324960;\n  color: #fff;\n  font-weight: bold;\n  font-size: 14px;\n  display: flex;\n  align-items: center;\n  justify-content: flex-start;\n}\n\nself .header .header-even.header-cell {\n  background-color: #4fc3a1;\n}\n\nself .row {\n  align-items: center;\n}\n\nself .row .cell {\n  font-size: 14px;\n  text-align: left;\n}\n\nself .row.selected {\n  background-color: #caede2;\n}\n\nself .row-even:not(.selected):not(:hover) {\n  background-color: #f8f8f8;\n}\n\nself .header .resizable > :not([hidden]) ~ :not([hidden]),\nself .row > :not([hidden]) ~ :not([hidden]),\nself .Grid .innerScrollContainer,\nself .Grid .innerScrollContainer > :not([hidden]) ~ :not([hidden]) {\n  border-width: 0;\n}",
       "parentId": null,
       "scope": "local",
       "id": "vEspG4XCGYKxPxQ5tNDh4"
