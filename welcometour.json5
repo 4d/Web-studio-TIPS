@@ -7,6 +7,17 @@
         content: 'Qodly Studio allows you to quickly build Web applications for your Qodly Platform.<br> \
         In this quick tour we will be showing some of Qodly Studio’s capabilities',
       },
+      events: {
+        pre: [
+          {
+            name: 'log',
+            editor: 'studio',
+            meta: {
+              AID: 'UA-1-3',
+            },
+          },
+        ],
+      },
     },
 
     // Model Editor Opening
