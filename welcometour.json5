@@ -3,17 +3,17 @@
     // welcome step
     {
       dialog: {
-        title: 'Welcome to Qodly Studio',
-        content: 'Qodly Studio allows you to quickly build Web applications for your Qodly Platform.<br> \
-        In this quick tour we will be showing some of Qodly Studio’s capabilities',
+        title: "Welcome to Qodly Studio",
+        content: "Qodly Studio allows you to quickly build Web applications for your Qodly Platform.<br> \
+        In this quick tour we will be showing some of Qodly Studio’s capabilities",
       },
       events: {
         pre: [
           {
-            name: 'log',
-            editor: 'studio',
+            name: "log",
+            editor: "studio",
             meta: {
-              AID: 'UA-1-3',
+              AID: "UA-1-3",
             },
           },
         ],
@@ -22,24 +22,24 @@
 
     // Model Editor Opening
     {
-      highlight: ['fileExplorer'],
+      highlight: ["fileExplorer"],
       dialog: {
-        title: 'Model Editor',
-        anchor: 'fileExplorer',
-        position: 'right',
+        title: "Model Editor",
+        anchor: "fileExplorer",
+        position: "right",
         content: 'The model editor allows to define the Data Model.<br><br>\
         To open the model editor, click on <img src="welcometour/model-editor-icon.png" width="90px" style="display:inline;"> icon',
       },
       events: {
         validate: [
           {
-            name: 'open model-editor',
-            editor: 'model',
+            name: "open model-editor",
+            editor: "model",
             meta: {
-              name: 'model',
+              name: "model",
               message: {
-                content: 'Click on model icon.',
-                type: 'error',
+                content: "Click on model icon.",
+                type: "error",
               },
             },
           },
@@ -49,35 +49,35 @@
 
     // Create Dataclass
     {
-      highlight: ['model:sidebar:dataclass'],
+      highlight: ["model:sidebar:dataclass"],
       dialog: {
-        anchor: 'model:sidebar:dataclass',
-        position: 'right',
-        title: 'Creating a Dataclass',
-        content: 'In this example. we will create the DataClass **Item**.<br><br>\
+        anchor: "model:sidebar:dataclass",
+        position: "right",
+        title: "Creating a Dataclass",
+        content: 'In this example. we will create the DataClass **WTItem**.<br><br>\
          Click on <img src="welcometour/add-dataclass-icon.png" style="display:inline;height:24px;width:auto;"> icon,<br><br>\
-         Type **Item** as dataclass name, and press Enter.',
+         Type **WTItem** as dataclass name, and press Enter.',
       },
       events: {
         validate: [
           {
-            name: 'add model-dataclass',
-            editor: 'model',
+            name: "add model-dataclass",
+            editor: "model",
             meta: {
-              name: 'Item',
+              name: "WTItem",
               message: {
-                content: 'you need to add a Dataclass.',
-                type: 'error',
+                content: "you need to add a Dataclass.",
+                type: "error",
               },
             },
           },
         ],
         post: [
           {
-            name: 'fit-view dataclass',
-            editor: 'model',
+            name: "fit-view dataclass",
+            editor: "model",
             meta: {
-              name: 'Item',
+              name: "WTItem",
             },
           },
         ],
@@ -86,11 +86,11 @@
 
     // add attributes on dataclass.
     {
-      highlight: ['model-dataclass-Item'],
+      highlight: ["model-dataclass-WTItem"],
       dialog: {
-        anchor: 'model-dataclass-Item',
-        position: 'right',
-        title: 'Creating DataClass attributes',
+        anchor: "model-dataclass-WTItem",
+        position: "right",
+        title: "Creating DataClass attributes",
         content: 'DataClass has a default ID attribute. Click on <img src="welcometour/add-dataclass-icon.png" style="display:inline;height:24px;width:auto;"> to create an attribute. <br><br> \
         Type **firstname** for attribute name, and press Enter <br><br> \
         Select type **string** for attribute type. press Enter to confirm. <br><br> \
@@ -99,47 +99,47 @@
       events: {
         pre: [
           {
-            name: 'flags',
-            editor: 'model',
+            name: "flags",
+            editor: "model",
             meta: {
-              'dataclass.delete': false,
+              "dataclass.delete": false,
             },
           },
           {
-            name: 'flags',
-            editor: 'model',
+            name: "flags",
+            editor: "model",
             meta: {
-              'dataclass.draggable': false,
+              "dataclass.draggable": false,
             },
           },
         ],
         validate: [
           {
-            name: 'compare editor',
-            editor: 'model',
+            name: "compare editor",
+            editor: "model",
             meta: {
               expected: {
-                name: 'Item',
+                name: "WTItem",
                 attributes: [
                   {
-                    name: 'ID',
-                    type: 'long',
+                    name: "ID",
+                    type: "long",
                   },
                   {
-                    name: 'firstname',
-                    type: 'string',
+                    name: "firstname",
+                    type: "string",
                   },
                   {
-                    name: 'age',
-                    type: 'number',
+                    name: "age",
+                    type: "number",
                   },
                 ],
               },
               skip: [],
               strict: false,
               message: {
-                content: 'add attributes!!',
-                type: 'error',
+                content: "add attributes!!",
+                type: "error",
               },
             },
           },
@@ -148,25 +148,25 @@
     },
     // Create a method
     {
-      highlight: ['fileExplorer'],
+      highlight: ["fileExplorer"],
       dialog: {
-        title: 'Creating a Method',
+        title: "Creating a Method",
         content: 'Hover on the Methods folder.<br><br> \
         To create a Method, Click on <img src="welcometour/add-dataclass-icon.png" style="display:inline;height:24px;width:auto;">. <br><br> \
         Type **generate** and press Enter.',
-        position: 'left',
-        anchor: 'fileExplorer',
+        position: "left",
+        anchor: "fileExplorer",
       },
       events: {
         validate: [
           {
-            name: 'create method',
-            editor: 'code',
+            name: "create method",
+            editor: "code",
             meta: {
-              name: 'generate',
+              name: "generate",
               message: {
-                content: 'Make sure to create the Method.',
-                type: 'error',
+                content: "Make sure to create the Method.",
+                type: "error",
               },
             },
           },
@@ -175,35 +175,35 @@
     },
     // Inject script for generation
     {
-      highlight: ['main-code-generate', 'fileExplorer', 'header-save-all'],
+      highlight: ["main-code-generate", "fileExplorer", "header-save-all"],
       dialog: {
-        title: 'Generating Data',
-        content: 'We need to generate random data for the DataClass **Item**. copy the code bellow to the code editor\n\n\
+        title: "Generating Data",
+        content: 'We need to generate random data for the DataClass **WTItem**. copy the code bellow to the code editor\n\n\
 ```4qs\n\
 var counter: Integer\n\
 var entity: cs.ItemEntity\n\n\
-For(counter,1,100,1)\n\
-  entity = ds.Item.new()\n\
-  entity.firstname="Item " + String(counter)\n\
+for(counter,1,100,1)\n\
+  entity = ds.WTItem.new()\n\
+  entity.firstname="WTItem " + String(counter)\n\
   entity.age = (Random%(100))+1\n\
   entity.save()\n\
-End for\n\
+end\n\
 ```\n\
-Click on Save All button.<br/><br/>\
+Click on `Save All` button.<br/><br/>\
 Hover on method in the Explorer.<br/><br/>\
 Click on <img src="welcometour/run-method.png" style="display:inline;height:24px;width:auto;"> to run the Method.',
-        position: 'right',
-        anchor: 'fileExplorer',
+        position: "right",
+        anchor: "fileExplorer",
       },
       events: {
         validate: [
           {
-            name: 'save all',
-            editor: 'webform',
+            name: "save all",
+            editor: "webform",
             meta: {
               message: {
-                content: 'click on save-all button',
-                type: 'error',
+                content: "click on save-all button",
+                type: "error",
               },
             },
           },
@@ -212,26 +212,26 @@ Click on <img src="welcometour/run-method.png" style="display:inline;height:24px
     },
     // Create a Webform
     {
-      highlight: ['fileExplorer'],
+      highlight: ["fileExplorer"],
       dialog: {
-        title: 'Creating a WebForm',
+        title: "Creating a WebForm",
         content: 'To create a new webform, hover on the webform folder. <br><br>\
         Click on <img src="welcometour/add-dataclass-icon.png" style="display:inline;height:24px;width:auto;"> icon.<br>\
         Type the name ***Welcome*** as the name to the webform. <br><br>\
         The webform will be opened automatically.',
-        position: 'left',
-        anchor: 'fileExplorer',
+        position: "left",
+        anchor: "fileExplorer",
       },
       events: {
         validate: [
           {
-            name: 'create webform',
-            editor: 'webform',
+            name: "create webform",
+            editor: "webform",
             meta: {
-              name: 'Welcome',
+              name: "Welcome",
               message: {
                 content: 'Please make sure that you have created the webform "Welcome"',
-                type: 'error',
+                type: "error",
               },
             },
           },
@@ -240,39 +240,39 @@ Click on <img src="welcometour/run-method.png" style="display:inline;height:24px
     },
     // Components list Intro
     {
-      highlight: ['Welcome-main', 'Welcome-components'],
+      highlight: ["Welcome-main", "Welcome-components"],
       dialog: {
-        title: 'How to add Components',
-        anchor: 'Welcome-components',
-        content: 'This is the list of available components.<br>\
+        title: "How to add Components",
+        anchor: "Welcome-components",
+        content: "This is the list of available components.<br>\
         We will be using a DataTable to display the data.<br><br>\
-        Drag & Drop a DataTable from the list onto the canvas.',
-        position: 'bottom',
+        Drag & Drop a DataTable from the list onto the canvas.",
+        position: "bottom",
       },
       events: {
         pre: [
           {
-            name: 'flags',
-            editor: 'webform',
+            name: "flags",
+            editor: "webform",
             meta: {
-              'sidebar.section.resizable': false,
+              "sidebar.section.resizable": false,
             },
           },
         ],
         validate: [
           {
-            name: 'compare editor',
-            editor: 'webform',
+            name: "compare editor",
+            editor: "webform",
             meta: {
-              name: 'Welcome',
+              name: "Welcome",
               expected: {
                 type: {
-                  resolvedName: 'Container',
+                  resolvedName: "Container",
                 },
                 children: [
                   {
                     type: {
-                      resolvedName: 'DataTable',
+                      resolvedName: "DataTable",
                     },
                   },
                 ],
@@ -280,8 +280,8 @@ Click on <img src="welcometour/run-method.png" style="display:inline;height:24px
               skip: [],
               strict: false,
               message: {
-                content: 'Drag & Drop the DataTable Component.',
-                type: 'error',
+                content: "Drag & Drop the DataTable Component.",
+                type: "error",
               },
             },
           },
@@ -290,43 +290,43 @@ Click on <img src="welcometour/run-method.png" style="display:inline;height:24px
     },
     // Create & Link Datasource.
     {
-      highlight: ['Welcome-main', 'Welcome-datasources'],
+      highlight: ["Welcome-main", "Welcome-datasources"],
       dialog: {
-        title: 'Datasources',
-        anchor: 'Welcome-datasources',
+        title: "Datasources",
+        anchor: "Welcome-datasources",
         content: 'For the DataTable to work, it needs an Entity Selection DataSource.<br><br>\
         Hover on "This Webform", & Click "+" button<br>\
         <img src="welcometour/add-datasource.png" style="text-align:center;display:block;height:24px;width:auto;"><br>\
-        Create a Datasource with name **items** , type **Entity Selection** & dataclass **Item**.<br><br>\
+        Create a Datasource with name **items** , type **Entity Selection** & dataclass **WTItem**.<br><br>\
         Drag & Drop the datasource **items** along with **firstname** & **age** attributes on the DataTable.',
-        position: 'right',
+        position: "right",
       },
       events: {
         validate: [
           {
-            name: 'compare editor',
-            editor: 'webform',
+            name: "compare editor",
+            editor: "webform",
             meta: {
-              name: 'Welcome',
+              name: "Welcome",
               expected: {
                 type: {
-                  resolvedName: 'Container',
+                  resolvedName: "Container",
                 },
                 children: [
                   {
                     type: {
-                      resolvedName: 'DataTable',
+                      resolvedName: "DataTable",
                     },
                     props: {
-                      datasource: 'items',
+                      datasource: "items",
                       columns: [
                         {
-                          title: 'Firstname',
-                          source: 'firstname',
+                          title: "Firstname",
+                          source: "firstname",
                         },
                         {
-                          title: 'Age',
-                          source: 'age',
+                          title: "Age",
+                          source: "age",
                         },
                       ],
                     },
@@ -336,8 +336,8 @@ Click on <img src="welcometour/run-method.png" style="display:inline;height:24px
               skip: [],
               strict: false,
               message: {
-                content: 'Please make sure you drag & drop datasources.',
-                type: 'error',
+                content: "Please make sure you drag & drop datasources.",
+                type: "error",
               },
             },
           },
@@ -346,23 +346,23 @@ Click on <img src="welcometour/run-method.png" style="display:inline;height:24px
     },
     // preview button.
     {
-      highlight: ['main-Welcome', 'webform-preview-btn'],
+      highlight: ["main-Welcome", "webform-preview-btn"],
       dialog: {
-        title: 'Webform Preview',
-        anchor: 'webform-preview-btn',
-        content: 'The preview mode allows users to view the result of the page before it is fully rendered or published.<br><br>\
-        Click on the button the view the results.',
-        position: 'bottom',
+        title: "Webform Preview",
+        anchor: "webform-preview-btn",
+        content: "The preview mode allows users to view the result of the page before it is fully rendered or published.<br><br>\
+        Click on the button the view the results.",
+        position: "bottom",
       },
       events: {
         validate: [
           {
-            name: 'preview webform',
-            editor: 'webform',
+            name: "preview webform",
+            editor: "webform",
             meta: {
-              name: 'Welcome',
+              name: "Welcome",
               message: {
-                content: 'click on preview button',
+                content: "click on preview button",
               },
             },
           },
@@ -371,18 +371,18 @@ Click on <img src="welcometour/run-method.png" style="display:inline;height:24px
     },
     {
       dialog: {
-        title: 'Welcome tour completed',
+        title: "Welcome tour completed",
         content: "Congratulations! You have completed the welcome tour. <br><br> \
         You are now ready to explore all the features and start getting the most of Qodly.<br><br>\
         If you have any questions or feedback, don't hesitate to reach out to our support team. Happy exploring!",
-        position: 'left',
+        position: "left",
       },
     },
   ],
   labels: {
-    previous: 'Previous',
-    next: 'Next',
-    skip: 'Skip',
-    complete: 'Complete',
+    previous: "Previous",
+    next: "Next",
+    skip: "Skip",
+    complete: "Complete",
   },
 }
