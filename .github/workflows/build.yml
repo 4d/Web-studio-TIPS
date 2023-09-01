@@ -29,6 +29,7 @@ jobs:
       run: |
         git config --global user.name "${{ env.CI_COMMIT_AUTHOR }}"
         git config --global user.email "username@users.noreply.github.com"
+        git checkout -b gh-build
         git add .
         git commit -m "${{ env.CI_COMMIT_MESSAGE }}"
-        git push -f origin ${{ github.head_ref }}:gh-build
+        git push -f origin gh-build
