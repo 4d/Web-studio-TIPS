@@ -1,67 +1,65 @@
-[
+{
+    "id": "sna1KdusgTGQwnQbaTCFwm",
+    "rootNodeId": "bK7FANKwa_",
+    "nodes":
     {
-        "id": "pTJYo1tMTG7c3ZX5QomJ5p",
-        "rootNodeId": "bK7FANKwa_",
-        "nodes":
+        "bK7FANKwa_":
         {
-            "bK7FANKwa_":
+            "type":
             {
-                "type":
-                {
-                    "resolvedName": "DataTable"
-                },
-                "isCanvas": false,
-                "props":
-                {
-                    "iterable": true,
-                    "classNames":
-                    [
-                        "greenHeader"
-                    ],
-                    "events":
-                    [],
-                    "loopable": true,
-                    "style":
-                    {
-                        "width": "100%",
-                        "height": "480px"
-                    },
-                    "headerHeight": 50,
-                    "rowHeight": 40,
-                    "datasource": "#datasource#",
-                    "currentElement": "",
-                    "columns":
-                    [
-                        {
-                            "title": "Agencies",
-                            "source": "name",
-                            "format": "",
-                            "width": "100%",
-                            "sorting": false,
-                            "id": "hZfbkYXqq5eLnbhcRb1PXn"
-                        }
-                    ]
-                },
-                "displayName": "DataTable",
-                "custom":
-                {},
-                "parent": "ROOT",
-                "hidden": false,
-                "nodes":
+                "resolvedName": "DataTable"
+            },
+            "isCanvas": false,
+            "props":
+            {
+                "iterable": true,
+                "classNames":
+                [
+                    "greenHeader"
+                ],
+                "events":
                 [],
-                "linkedNodes":
-                {}
-            }
-        },
-        "styles":
-        [
-            {
-                "name": "greenHeader",
-                "content": "self {\n\n}\n\nself .header .header-cell {\n  background-color: #71c195;\n  color: #1f4730;\n  font-weight: 600;\n  padding: 1.25rem 2rem;\n\t  text-align: center;\n}\n\nself .row .cell {\n  padding: 1.5rem 2rem;\n}\n\nself .row.selected {\nbackground-color: rgba(113,193,149,0.4);\n}\n\nself .header .resizable > :not([hidden]) ~ :not([hidden]),\nself .row > :not([hidden]) ~ :not([hidden]),\nself .Grid .innerScrollContainer,\nself .Grid .innerScrollContainer > :not([hidden]) ~ :not([hidden]) {\n  border-width: 0;\n}",
-                "parentId": null,
-                "id": "_LCOlkY2R4iQIo9SIqPSm",
-                "scope": "local"
-            }
-        ]
-    }
-]
+                "loopable": true,
+                "style":
+                {
+                    "width": "100%",
+                    "height": "480px"
+                },
+                "headerHeight": 50,
+                "rowHeight": 40,
+                "datasource": "#datasource#",
+                "currentElement": "",
+                "columns":
+                [
+                    {
+                        "title": "Agencies",
+                        "source": "name",
+                        "format": "",
+                        "width": "100%",
+                        "sorting": false,
+                        "id": "hZfbkYXqq5eLnbhcRb1PXn"
+                    }
+                ]
+            },
+            "displayName": "DataTable",
+            "custom":
+            {},
+            "parent": "ROOT",
+            "hidden": false,
+            "nodes":
+            [],
+            "linkedNodes":
+            {}
+        }
+    },
+    "styles":
+    [
+        {
+            "name": "greenHeader",
+            "content": "self {\n\n}\n\nself .header .header-cell {\n  background-color: #71c195;\n  color: #1f4730;\n  font-weight: 600;\n  padding: 1.25rem 2rem;\n\t  text-align: center;\n}\n\nself .row .cell {\n  padding: 1.5rem 2rem;\n}\n\nself .row.selected {\nbackground-color: rgba(113,193,149,0.4);\n}\n\nself .header .resizable > :not([hidden]) ~ :not([hidden]),\nself .row > :not([hidden]) ~ :not([hidden]),\nself .Grid .innerScrollContainer,\nself .Grid .innerScrollContainer > :not([hidden]) ~ :not([hidden]) {\n  border-width: 0;\n}",
+            "parentId": null,
+            "id": "_LCOlkY2R4iQIo9SIqPSm",
+            "scope": "local"
+        }
+    ]
+}
