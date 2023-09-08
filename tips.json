@@ -209,7 +209,7 @@
   {
     "key": "editors:webform:datatablesetup",
     "type": "text",
-    "body": "**Datatable - Iterate on data**\n\nThe datatable is a component that iterates on an [ORDA entity selection](https://developer.4d.com/docs/API/EntitySelectionClass.html) or a [collection](https://developer.4d.com/docs/API/CollectionClass) and displays it as a row/column list.",
+    "body": "**Datatable - Iterate on data**\n\nThe datatable is a component that iterates on an [ORDA entity selection](https://developer.qodly.com/docs/orda/data-model/#entity-selection) or an array and displays it as a row/column list.",
     "video": {
       "provider": "",
       "link": ""
@@ -281,7 +281,7 @@
   {
     "key": "editors:webform:toolbox:datasources:remote",
     "type": "text",
-    "body": "**Remote datasources - Handle data on the server**\n\nRemote datasources are\n\n[entities](https://developer.4d.com/docs/en/ORDA/dsmapping.html#entity)\n\nand\n\n[entity selections](https://developer.4d.com/docs/en/ORDA/dsmapping.html#entity-selection)\n\nYou can create them from the Catalog above or from an existing datasource.\n\nThey are handled on the server and can be assigned to components.\n\nThey offer functions defined on the ORDA classes that they instantiate:\n\n[Entity class](https://developer.4d.com/docs/en/ORDA/ordaClasses.html#entity-class)\n\n[Entity Selection class](https://developer.4d.com/docs/en/ORDA/ordaClasses.html#entityselection-class)\n\nTo learn more about datasources, visit the [documentation](https://developer.4d.com/4d-web-studio/docs/datasources/)\nand watch the tips.",
+    "body": "**Remote datasources - Handle data on the server**\n\nRemote datasources are\n\n[entities](https://developer.qodly.com/docs/orda/data-model#entity)\n\nand\n\n[entity selections](https://developer.qodly.com/docs/orda/data-model#entity-selection)\n\nYou can create them from the Catalog above or from an existing datasource.\n\nThey are handled on the server and can be assigned to components.\n\nThey offer functions defined on the ORDA classes that they instantiate:\n\n[Entity class](https://developer.qodly.com/docs/orda/data-model#entity-class)\n\n[Entity Selection class](https://developer.qodly.com/docs/orda/data-model#entity-selection)\n\nTo learn more about datasources, visit the [documentation](https://developer.qodly.com/docs/studio/design-webforms/datasources)\nand watch the tips.",
     "video": {
       "provider": "",
       "link": ""
