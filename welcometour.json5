@@ -405,6 +405,17 @@ Click on <img src="https://raw.githubusercontent.com/4d/Web-studio-TIPS/main/ass
         If you have any questions or feedback, don't hesitate to reach out to our support team. Happy exploring!",
         position: 'left',
       },
+      events: {
+        pre: [
+          {
+            name: 'log',
+            editor: 'studio',
+            meta: {
+              AID: 'UA-1-4',
+            },
+          },
+        ],
+      },
     },
   ],
   labels: {
