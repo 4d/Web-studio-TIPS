@@ -424,4 +424,15 @@ Click on <img src="https://raw.githubusercontent.com/4d/Web-studio-TIPS/main/ass
     skip: 'Skip',
     complete: 'Complete',
   },
+  events: {
+    skip: [
+      {
+        name: 'log',
+        editor: 'studio',
+        meta: {
+          AID: 'UA-1-5',
+        },
+      },
+    ],
+  }
 }
