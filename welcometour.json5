@@ -186,7 +186,7 @@
         content: 'We need to generate random data for the DataClass **WTItem**. copy the code bellow to the code editor\n\n\
 ```4qs\n\
 var counter: Integer\n\
-var entity: cs.ItemEntity\n\n\
+var entity: cs.WTItemEntity\n\n\
 for(counter,1,100,1)\n\
   entity = ds.WTItem.new()\n\
   entity.name="WTItem " + String(counter)\n\
