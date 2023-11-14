@@ -2,7 +2,7 @@
 
 import { config } from "dotenv";
 import { parse } from "json5";
-import { readFileSync, writeFileSync } from "fs";
+import { readFileSync, writeFileSync, mkdirSync, copyFileSync } from "fs";
 import { resolve, dirname, relative, join } from "path";
 import { ITemplatesItem, IGroup } from "./interfaces";
 import { formatName } from "./utils";
@@ -10,8 +10,11 @@ import { formatName } from "./utils";
 config();
 
 const ROOT_FOLDER = resolve(__dirname, "..");
-const BUILD_FOLDER = resolve(ROOT_FOLDER, "build");
+const BUILD_FOLDER = resolve(ROOT_FOLDER, "build/build");
 const templatesFile = resolve(ROOT_FOLDER, "templates.json");
+
+mkdirSync(BUILD_FOLDER, { recursive: true });
+copyFileSync(resolve(ROOT_FOLDER, 'tips.json'), resolve(ROOT_FOLDER, 'build/tips.json'));
 
 const {
   CI_BASE_URL = "https://raw.githubusercontent.com/4d/Web-studio-TIPS/develop",
