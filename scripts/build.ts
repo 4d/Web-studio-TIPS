@@ -11,7 +11,7 @@ config();
 
 const ROOT_FOLDER = resolve(__dirname, "..");
 const BUILD_ROOT_FOLDER = resolve(ROOT_FOLDER, "build");
-const BUILD_FOLDER = resolve(BUILD_ROOT_FOLDER, "build/build");
+const BUILD_FOLDER = resolve(BUILD_ROOT_FOLDER, "build");
 const templatesFile = resolve(ROOT_FOLDER, "templates.json");
 
 mkdirSync(BUILD_FOLDER, { recursive: true });
