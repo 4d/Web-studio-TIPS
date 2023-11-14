@@ -15,6 +15,7 @@ const templatesFile = resolve(ROOT_FOLDER, "templates.json");
 
 mkdirSync(BUILD_FOLDER, { recursive: true });
 copyFileSync(resolve(ROOT_FOLDER, 'tips.json'), resolve(ROOT_FOLDER, 'build/tips.json'));
+copyFileSync(resolve(ROOT_FOLDER, 'welcometour.json5'), resolve(ROOT_FOLDER, 'build/welcometour.json5'));
 
 const {
   CI_BASE_URL = "https://raw.githubusercontent.com/4d/Web-studio-TIPS/develop",
