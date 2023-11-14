@@ -2,7 +2,7 @@
 
 import { config } from "dotenv";
 import { parse } from "json5";
-import { readFileSync, writeFileSync, mkdirSync, copyFileSync } from "fs";
+import { readFileSync, writeFileSync, mkdirSync, copyFileSync, cpSync } from "fs";
 import { resolve, dirname, relative, join } from "path";
 import { ITemplatesItem, IGroup } from "./interfaces";
 import { formatName } from "./utils";
@@ -10,12 +10,14 @@ import { formatName } from "./utils";
 config();
 
 const ROOT_FOLDER = resolve(__dirname, "..");
-const BUILD_FOLDER = resolve(ROOT_FOLDER, "build/build");
+const BUILD_ROOT_FOLDER = resolve(ROOT_FOLDER, "build");
+const BUILD_FOLDER = resolve(BUILD_ROOT_FOLDER, "build/build");
 const templatesFile = resolve(ROOT_FOLDER, "templates.json");
 
 mkdirSync(BUILD_FOLDER, { recursive: true });
-copyFileSync(resolve(ROOT_FOLDER, 'tips.json'), resolve(ROOT_FOLDER, 'build/tips.json'));
-copyFileSync(resolve(ROOT_FOLDER, 'welcometour.json5'), resolve(ROOT_FOLDER, 'build/welcometour.json5'));
+cpSync(resolve(ROOT_FOLDER, 'groups'), resolve(BUILD_ROOT_FOLDER, 'groups'), { recursive: true });
+copyFileSync(resolve(ROOT_FOLDER, 'tips.json'), resolve(BUILD_ROOT_FOLDER, 'tips.json'));
+copyFileSync(resolve(ROOT_FOLDER, 'welcometour.json5'), resolve(BUILD_ROOT_FOLDER, 'welcometour.json5'));
 
 const {
   CI_BASE_URL = "https://raw.githubusercontent.com/4d/Web-studio-TIPS/develop",
@@ -51,7 +53,7 @@ const result = templates.map(({ path, ...item }) => {
 
   return {
     ...item,
-    link: `${CI_BASE_URL}/${relative(ROOT_FOLDER, 'build')}/${gName}.json`,
+    link: `${CI_BASE_URL}/${BUILD_ROOT_FOLDER}/${gName}.json`,
   };
 });
 
