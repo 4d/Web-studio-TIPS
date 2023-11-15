@@ -1,9 +1,37 @@
 [
   {
-    "id": "kqn6PkZDHJLXfby5QefF9m",
-    "rootNodeId": "g1rX32P5zg",
+    "id": "2WsFucy2Ny5sin5ho41JKi",
+    "rootNodeId": "jq8Qs4uk0q",
     "nodes": {
-      "g1rX32P5zg": {
+      "jq8Qs4uk0q": {
+        "type": { "resolvedName": "StyleBox" },
+        "isCanvas": true,
+        "props": {
+          "events": [],
+          "style": {
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "marginBottom": "0px",
+            "marginTop": "0px",
+            "width": "13%",
+            "display": "flex",
+            "paddingLeft": "0px",
+            "paddingRight": "0px",
+            "paddingBottom": "0px",
+            "paddingTop": "0px",
+            "height": "100%",
+            "backgroundColor": "#F0F1FC"
+          },
+          "classNames": []
+        },
+        "displayName": "Stylebox",
+        "custom": {},
+        "parent": "ROOT",
+        "hidden": false,
+        "nodes": ["mCzvSJJfWW"],
+        "linkedNodes": {}
+      },
+      "mCzvSJJfWW": {
         "type": { "resolvedName": "StyleBox" },
         "isCanvas": true,
         "props": {
@@ -29,18 +57,18 @@
         },
         "displayName": "Stylebox",
         "custom": {},
-        "parent": "P9sPRI98WJ",
+        "parent": "jq8Qs4uk0q",
         "hidden": false,
         "nodes": [
-          "eRWYBUlCuF",
-          "4uTBXmEYd2",
-          "gUrirMooO2",
-          "9yDTimqZvJ",
-          "hEW19qY76Q"
+          "_rnwUprwfD",
+          "MGCLbuE_zI",
+          "SlRiGaGDXl",
+          "FE0S4Z0Uyc",
+          "Spo98wSYM7"
         ],
         "linkedNodes": {}
       },
-      "eRWYBUlCuF": {
+      "_rnwUprwfD": {
         "type": { "resolvedName": "Image" },
         "isCanvas": false,
         "props": {
@@ -54,16 +82,16 @@
             "marginTop": "12px",
             "width": "auto"
           },
-          "imgSrc": "/$shared/assets/images/EventManagerLogo.png"
+          "imgSrc": "/$shared/assets/images/looogo.png"
         },
         "displayName": "Image",
         "custom": {},
-        "parent": "g1rX32P5zg",
+        "parent": "mCzvSJJfWW",
         "hidden": false,
         "nodes": [],
         "linkedNodes": {}
       },
-      "4uTBXmEYd2": {
+      "MGCLbuE_zI": {
         "type": { "resolvedName": "StyleBox" },
         "isCanvas": true,
         "props": {
@@ -82,12 +110,12 @@
         },
         "displayName": "Stylebox",
         "custom": {},
-        "parent": "g1rX32P5zg",
+        "parent": "mCzvSJJfWW",
         "hidden": false,
-        "nodes": ["ZrT-tYEZqo"],
+        "nodes": ["vim2NJPRMU"],
         "linkedNodes": {}
       },
-      "ZrT-tYEZqo": {
+      "vim2NJPRMU": {
         "type": { "resolvedName": "Image" },
         "isCanvas": false,
         "props": {
@@ -105,12 +133,12 @@
         },
         "displayName": "Image",
         "custom": {},
-        "parent": "4uTBXmEYd2",
+        "parent": "MGCLbuE_zI",
         "hidden": false,
         "nodes": [],
         "linkedNodes": {}
       },
-      "gUrirMooO2": {
+      "SlRiGaGDXl": {
         "type": { "resolvedName": "StyleBox" },
         "isCanvas": true,
         "props": {
@@ -121,22 +149,22 @@
             "alignItems": "center",
             "justifyContent": "center"
           },
-          "classNames": []
+          "classNames": ["navBar_nav1"]
         },
         "displayName": "Stylebox",
         "custom": {},
-        "parent": "g1rX32P5zg",
+        "parent": "mCzvSJJfWW",
         "hidden": false,
         "nodes": [
-          "OGstyQ6q7A",
-          "lRs5yRS5XH",
-          "xPzX9G5Lei",
-          "VxtpFKe805",
-          "U3s-yqqOSK"
+          "NBY2gqRDSV",
+          "sIA7_S__oK",
+          "Fe4MsNjAF2",
+          "f15iAab1MW",
+          "bJvXznl-ow"
         ],
         "linkedNodes": {}
       },
-      "OGstyQ6q7A": {
+      "NBY2gqRDSV": {
         "type": { "resolvedName": "Button" },
         "isCanvas": false,
         "props": {
@@ -161,12 +189,12 @@
         },
         "displayName": "Button",
         "custom": {},
-        "parent": "gUrirMooO2",
+        "parent": "SlRiGaGDXl",
         "hidden": false,
         "nodes": [],
-        "linkedNodes": { "icon": "hfMfmXTLJ-" }
+        "linkedNodes": { "icon": "1BU3FECRQM" }
       },
-      "hfMfmXTLJ-": {
+      "1BU3FECRQM": {
         "type": { "resolvedName": "Icon" },
         "isCanvas": false,
         "props": {
@@ -177,12 +205,12 @@
         },
         "displayName": "Icon",
         "custom": {},
-        "parent": "OGstyQ6q7A",
+        "parent": "NBY2gqRDSV",
         "hidden": false,
         "nodes": [],
         "linkedNodes": {}
       },
-      "lRs5yRS5XH": {
+      "sIA7_S__oK": {
         "type": { "resolvedName": "Button" },
         "isCanvas": false,
         "props": {
@@ -206,12 +234,12 @@
         },
         "displayName": "Button",
         "custom": {},
-        "parent": "gUrirMooO2",
+        "parent": "SlRiGaGDXl",
         "hidden": false,
         "nodes": [],
-        "linkedNodes": { "icon": "XaitTFmylV" }
+        "linkedNodes": { "icon": "7nbQcQ-BOg" }
       },
-      "XaitTFmylV": {
+      "7nbQcQ-BOg": {
         "type": { "resolvedName": "Icon" },
         "isCanvas": false,
         "props": {
@@ -222,12 +250,12 @@
         },
         "displayName": "Icon",
         "custom": {},
-        "parent": "lRs5yRS5XH",
+        "parent": "sIA7_S__oK",
         "hidden": false,
         "nodes": [],
         "linkedNodes": {}
       },
-      "xPzX9G5Lei": {
+      "Fe4MsNjAF2": {
         "type": { "resolvedName": "Button" },
         "isCanvas": false,
         "props": {
@@ -251,12 +279,12 @@
         },
         "displayName": "Button",
         "custom": {},
-        "parent": "gUrirMooO2",
+        "parent": "SlRiGaGDXl",
         "hidden": false,
         "nodes": [],
-        "linkedNodes": { "icon": "-YkYhevHNk" }
+        "linkedNodes": { "icon": "bbbyXAfJ1a" }
       },
-      "-YkYhevHNk": {
+      "bbbyXAfJ1a": {
         "type": { "resolvedName": "Icon" },
         "isCanvas": false,
         "props": {
@@ -267,12 +295,12 @@
         },
         "displayName": "Icon",
         "custom": {},
-        "parent": "xPzX9G5Lei",
+        "parent": "Fe4MsNjAF2",
         "hidden": false,
         "nodes": [],
         "linkedNodes": {}
       },
-      "VxtpFKe805": {
+      "f15iAab1MW": {
         "type": { "resolvedName": "Button" },
         "isCanvas": false,
         "props": {
@@ -296,12 +324,12 @@
         },
         "displayName": "Button",
         "custom": {},
-        "parent": "gUrirMooO2",
+        "parent": "SlRiGaGDXl",
         "hidden": false,
         "nodes": [],
-        "linkedNodes": { "icon": "FkoZRE3uBJ" }
+        "linkedNodes": { "icon": "zF0m1Nb3ix" }
       },
-      "FkoZRE3uBJ": {
+      "zF0m1Nb3ix": {
         "type": { "resolvedName": "Icon" },
         "isCanvas": false,
         "props": {
@@ -312,12 +340,12 @@
         },
         "displayName": "Icon",
         "custom": {},
-        "parent": "VxtpFKe805",
+        "parent": "f15iAab1MW",
         "hidden": false,
         "nodes": [],
         "linkedNodes": {}
       },
-      "U3s-yqqOSK": {
+      "bJvXznl-ow": {
         "type": { "resolvedName": "Button" },
         "isCanvas": false,
         "props": {
@@ -341,12 +369,12 @@
         },
         "displayName": "Button",
         "custom": {},
-        "parent": "gUrirMooO2",
+        "parent": "SlRiGaGDXl",
         "hidden": false,
         "nodes": [],
-        "linkedNodes": { "icon": "dmulFsGLQD" }
+        "linkedNodes": { "icon": "JSOSDbJ0Ti" }
       },
-      "dmulFsGLQD": {
+      "JSOSDbJ0Ti": {
         "type": { "resolvedName": "Icon" },
         "isCanvas": false,
         "props": {
@@ -357,12 +385,12 @@
         },
         "displayName": "Icon",
         "custom": {},
-        "parent": "U3s-yqqOSK",
+        "parent": "bJvXznl-ow",
         "hidden": false,
         "nodes": [],
         "linkedNodes": {}
       },
-      "9yDTimqZvJ": {
+      "FE0S4Z0Uyc": {
         "type": { "resolvedName": "StyleBox" },
         "isCanvas": true,
         "props": {
@@ -382,19 +410,19 @@
         },
         "displayName": "Stylebox",
         "custom": {},
-        "parent": "g1rX32P5zg",
+        "parent": "mCzvSJJfWW",
         "hidden": false,
         "nodes": [
-          "LHScErLUBl",
-          "tumq1WKtEm",
-          "-ZGIlK97um",
-          "sjUd39A6uC",
-          "JVWHYUH3zB",
-          "qKpDVA5WYe"
+          "N9EjWg2DVa",
+          "m4wDWvjCpW",
+          "H4HOWaklcl",
+          "sLpIkL-eYV",
+          "W3WliWmF6Q",
+          "k0j22hUjVG"
         ],
         "linkedNodes": {}
       },
-      "LHScErLUBl": {
+      "N9EjWg2DVa": {
         "type": { "resolvedName": "Button" },
         "isCanvas": false,
         "props": {
@@ -418,12 +446,12 @@
         },
         "displayName": "Button",
         "custom": {},
-        "parent": "9yDTimqZvJ",
+        "parent": "FE0S4Z0Uyc",
         "hidden": false,
         "nodes": [],
-        "linkedNodes": { "icon": "iPcX3ziWTG" }
+        "linkedNodes": { "icon": "4pE1GttuxQ" }
       },
-      "iPcX3ziWTG": {
+      "4pE1GttuxQ": {
         "type": { "resolvedName": "Icon" },
         "isCanvas": false,
         "props": {
@@ -434,12 +462,12 @@
         },
         "displayName": "Icon",
         "custom": {},
-        "parent": "LHScErLUBl",
+        "parent": "N9EjWg2DVa",
         "hidden": false,
         "nodes": [],
         "linkedNodes": {}
       },
-      "tumq1WKtEm": {
+      "m4wDWvjCpW": {
         "type": { "resolvedName": "Button" },
         "isCanvas": false,
         "props": {
@@ -463,12 +491,12 @@
         },
         "displayName": "Button",
         "custom": {},
-        "parent": "9yDTimqZvJ",
+        "parent": "FE0S4Z0Uyc",
         "hidden": false,
         "nodes": [],
-        "linkedNodes": { "icon": "W7MjVr38ZT" }
+        "linkedNodes": { "icon": "l20Lc22a1E" }
       },
-      "W7MjVr38ZT": {
+      "l20Lc22a1E": {
         "type": { "resolvedName": "Icon" },
         "isCanvas": false,
         "props": {
@@ -479,12 +507,12 @@
         },
         "displayName": "Icon",
         "custom": {},
-        "parent": "tumq1WKtEm",
+        "parent": "m4wDWvjCpW",
         "hidden": false,
         "nodes": [],
         "linkedNodes": {}
       },
-      "-ZGIlK97um": {
+      "H4HOWaklcl": {
         "type": { "resolvedName": "Button" },
         "isCanvas": false,
         "props": {
@@ -508,12 +536,12 @@
         },
         "displayName": "Button",
         "custom": {},
-        "parent": "9yDTimqZvJ",
+        "parent": "FE0S4Z0Uyc",
         "hidden": false,
         "nodes": [],
-        "linkedNodes": { "icon": "CfeQD74eB4" }
+        "linkedNodes": { "icon": "zrztq0bvhQ" }
       },
-      "CfeQD74eB4": {
+      "zrztq0bvhQ": {
         "type": { "resolvedName": "Icon" },
         "isCanvas": false,
         "props": {
@@ -524,12 +552,12 @@
         },
         "displayName": "Icon",
         "custom": {},
-        "parent": "-ZGIlK97um",
+        "parent": "H4HOWaklcl",
         "hidden": false,
         "nodes": [],
         "linkedNodes": {}
       },
-      "sjUd39A6uC": {
+      "sLpIkL-eYV": {
         "type": { "resolvedName": "Button" },
         "isCanvas": false,
         "props": {
@@ -553,12 +581,12 @@
         },
         "displayName": "Button",
         "custom": {},
-        "parent": "9yDTimqZvJ",
+        "parent": "FE0S4Z0Uyc",
         "hidden": false,
         "nodes": [],
-        "linkedNodes": { "icon": "JLmD4r7EgY" }
+        "linkedNodes": { "icon": "odm1bjCdYD" }
       },
-      "JLmD4r7EgY": {
+      "odm1bjCdYD": {
         "type": { "resolvedName": "Icon" },
         "isCanvas": false,
         "props": {
@@ -569,12 +597,12 @@
         },
         "displayName": "Icon",
         "custom": {},
-        "parent": "sjUd39A6uC",
+        "parent": "sLpIkL-eYV",
         "hidden": false,
         "nodes": [],
         "linkedNodes": {}
       },
-      "JVWHYUH3zB": {
+      "W3WliWmF6Q": {
         "type": { "resolvedName": "Button" },
         "isCanvas": false,
         "props": {
@@ -598,12 +626,12 @@
         },
         "displayName": "Button",
         "custom": {},
-        "parent": "9yDTimqZvJ",
+        "parent": "FE0S4Z0Uyc",
         "hidden": false,
         "nodes": [],
-        "linkedNodes": { "icon": "ksNA_BNgVD" }
+        "linkedNodes": { "icon": "vflmtfEoKW" }
       },
-      "ksNA_BNgVD": {
+      "vflmtfEoKW": {
         "type": { "resolvedName": "Icon" },
         "isCanvas": false,
         "props": {
@@ -614,12 +642,12 @@
         },
         "displayName": "Icon",
         "custom": {},
-        "parent": "JVWHYUH3zB",
+        "parent": "W3WliWmF6Q",
         "hidden": false,
         "nodes": [],
         "linkedNodes": {}
       },
-      "qKpDVA5WYe": {
+      "k0j22hUjVG": {
         "type": { "resolvedName": "Button" },
         "isCanvas": false,
         "props": {
@@ -643,12 +671,12 @@
         },
         "displayName": "Button",
         "custom": {},
-        "parent": "9yDTimqZvJ",
+        "parent": "FE0S4Z0Uyc",
         "hidden": false,
         "nodes": [],
-        "linkedNodes": { "icon": "Zk19pazvgw" }
+        "linkedNodes": { "icon": "DlRfNIE5ov" }
       },
-      "Zk19pazvgw": {
+      "DlRfNIE5ov": {
         "type": { "resolvedName": "Icon" },
         "isCanvas": false,
         "props": {
@@ -659,12 +687,12 @@
         },
         "displayName": "Icon",
         "custom": {},
-        "parent": "qKpDVA5WYe",
+        "parent": "k0j22hUjVG",
         "hidden": false,
         "nodes": [],
         "linkedNodes": {}
       },
-      "hEW19qY76Q": {
+      "Spo98wSYM7": {
         "type": { "resolvedName": "StyleBox" },
         "isCanvas": true,
         "props": {
@@ -680,12 +708,12 @@
         },
         "displayName": "Stylebox",
         "custom": {},
-        "parent": "g1rX32P5zg",
+        "parent": "mCzvSJJfWW",
         "hidden": false,
-        "nodes": ["86B78esONW", "rAkoDhE5mt"],
+        "nodes": ["m8BfCP24be", "e6-YBeq9PC"],
         "linkedNodes": {}
       },
-      "86B78esONW": {
+      "m8BfCP24be": {
         "type": { "resolvedName": "Image" },
         "isCanvas": false,
         "props": {
@@ -701,12 +729,12 @@
         },
         "displayName": "Image",
         "custom": {},
-        "parent": "hEW19qY76Q",
+        "parent": "Spo98wSYM7",
         "hidden": false,
         "nodes": [],
         "linkedNodes": {}
       },
-      "rAkoDhE5mt": {
+      "e6-YBeq9PC": {
         "type": { "resolvedName": "StyleBox" },
         "isCanvas": true,
         "props": {
@@ -724,12 +752,12 @@
         },
         "displayName": "Stylebox",
         "custom": {},
-        "parent": "hEW19qY76Q",
+        "parent": "Spo98wSYM7",
         "hidden": false,
-        "nodes": ["1VZCjjGiJV"],
+        "nodes": ["PTT1KUQhxM"],
         "linkedNodes": {}
       },
-      "1VZCjjGiJV": {
+      "PTT1KUQhxM": {
         "type": { "resolvedName": "Icon" },
         "isCanvas": false,
         "props": {
@@ -740,7 +768,7 @@
         },
         "displayName": "Icon",
         "custom": {},
-        "parent": "rAkoDhE5mt",
+        "parent": "e6-YBeq9PC",
         "hidden": false,
         "nodes": [],
         "linkedNodes": {}
@@ -749,59 +777,66 @@
     "styles": [
       {
         "name": "navBar_styleCss",
-        "content": "@media screen and (max-width:1111px) {\n\nself .visibility{\n\tdisplay: flex !important;\n}\n\nself .nav1{\n\tdisplay: none !important;\n}\n\n}",
+        "content": "@media screen and (max-width:1111px) {\n\nself .navBar_visibility{\n\tdisplay: flex !important;\n}\n\nself .nanBar_nav1{\n\tdisplay: none !important;\n}\n\n}",
         "parentId": null,
-        "scope": "local",
-        "id": "VWkxmzUTBlJLUlyT6fKhn"
+        "id": "VWkxmzUTBlJLUlyT6fKhn",
+        "scope": "local"
       },
       {
         "name": "navBar_flexGrow",
         "content": "self {\n flex-grow: 1;\n}",
         "parentId": null,
-        "scope": "local",
-        "id": "x9twIgqknUKhltxEBWdmq"
+        "id": "x9twIgqknUKhltxEBWdmq",
+        "scope": "local"
       },
       {
         "name": "navBar_flexOne",
         "content": "self {\nflex: 1;\n}",
         "parentId": null,
-        "scope": "local",
-        "id": "t_02ovDS8IEEfdRg4axYR"
+        "id": "t_02ovDS8IEEfdRg4axYR",
+        "scope": "local"
       },
       {
         "name": "navBar_navButtons",
         "content": "self:hover,\nself:focus {\n  color:#5863F6 !important;\n background:  #E2E4FF !important;\n}",
         "parentId": null,
-        "scope": "local",
-        "id": "zPy3gRMcCzC3S9zzaIaep"
+        "id": "zPy3gRMcCzC3S9zzaIaep",
+        "scope": "local"
       },
       {
         "name": "navBar_byDefaultUser",
         "content": "self > img[src=''] {\n  content:url(/$Shared/assets/images/user.jpg);\n}",
         "parentId": null,
-        "scope": "local",
-        "id": "zmS280Ym8USVsv06NJqRz"
+        "id": "zmS280Ym8USVsv06NJqRz",
+        "scope": "local"
       },
       {
         "name": "navBar_hover",
         "content": "self:hover,\nself:focus {\n\tcolor: #5863F6 !important;\n  background-color: transparent !important;\n  /* box-shadow: inset 0 0 3px #fff; */\n}",
         "parentId": null,
-        "scope": "local",
-        "id": "mN9txPmFO4fhXmzPpr-lU"
+        "id": "mN9txPmFO4fhXmzPpr-lU",
+        "scope": "local"
       },
       {
         "name": "navBar_visibility",
         "content": "self {\n\tdisplay: none !important;\n}",
         "parentId": null,
-        "scope": "local",
-        "id": "aEOkkL4ZjnbMCB57xITRV"
+        "id": "aEOkkL4ZjnbMCB57xITRV",
+        "scope": "local"
       },
       {
         "name": "navBar_flexFlip",
         "content": "@media only screen and (max-width: 1111px){\n\tself{\n\t\tdisplay: flex !important;\n\t\tflex-direction: column-reverse !important;\t\n\t\talign-items: center !important;\n\t\talign-self: center !important;\n\t}\n}",
         "parentId": null,
+        "id": "r0eP8AZ0ABeBzlKHLPv_X",
+        "scope": "local"
+      },
+      {
+        "name": "navBar_nav1",
+        "content": "self {\n\n}",
+        "parentId": null,
         "scope": "local",
-        "id": "r0eP8AZ0ABeBzlKHLPv_X"
+        "id": "c1MNzS5KPeZVWw1cy_p2T"
       }
     ]
   }
