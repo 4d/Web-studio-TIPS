@@ -1,0 +1,90 @@
+[
+  {
+    "id": "n7r8L9r4EuZ65THX7hjnYK",
+    "rootNodeId": "pYzlmoqBCU",
+    "nodes": {
+      "pYzlmoqBCU": {
+        "type": { "resolvedName": "DataTable" },
+        "isCanvas": false,
+        "props": {
+          "iterable": true,
+          "classNames": ["dataTable_flexGrow", "dataTable_styleCss"],
+          "events": [],
+          "style": {
+            "width": "100%",
+            "backgroundColor": "#ffffffff",
+            "borderRadius": "10px",
+            "display": "flex",
+            "marginRight": "0px",
+            "marginBottom": "0px",
+            "marginTop": "0px",
+            "marginLeft": "0px"
+          },
+          "headerHeight": 55,
+          "rowHeight": 60,
+          "datasource": "#stands#",
+          "columns": [
+            {
+              "title": "Size",
+              "source": "size",
+              "format": "",
+              "width": "20%",
+              "sorting": true,
+              "dataType": "string",
+              "id": "8Ne7m2inLELcYU6EfTL1qM"
+            },
+            {
+              "title": "Price",
+              "source": "price",
+              "format": "#,##0.00 $",
+              "width": "25%",
+              "sorting": true,
+              "dataType": "number",
+              "id": "kqfkikCi6moGc4HMMg9anH"
+            },
+            {
+              "title": "Exposant",
+              "source": "company.name",
+              "format": "",
+              "width": "25%",
+              "sorting": true,
+              "id": "fASptrsQUW3nF1ozu7VjBR"
+            },
+            {
+              "title": "Event",
+              "source": "event.name",
+              "format": "",
+              "width": "30%",
+              "sorting": true,
+              "id": "rcZEHJ5XzgQKXvVn93gBVb"
+            }
+          ],
+          "currentElement": "",
+          "serverSideRef": ""
+        },
+        "displayName": "DataTable",
+        "custom": {},
+        "parent": "3ieEq9jaao",
+        "hidden": false,
+        "nodes": [],
+        "linkedNodes": {}
+      }
+    },
+    "styles": [
+      {
+        "name": "dataTable_flexGrow",
+        "content": "self {\n flex-grow: 1;\n}",
+        "parentId": null,
+        "id": "PLRC3NTdQ7e0E7DN2b71l",
+        "scope": "local"
+      },
+      {
+        "name": "dataTable_styleCss",
+        "content": "sself {\n  border-radius: 10px;\n  box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.12);\n}\n\nself .header .header-cell {\n\tbackground-color: #F2F3FF;\n\tcolor: #A5A5A5;\n\tfont-size: 18px;\n\tfont-weight: 500;\n\tpadding: 1.25rem 2rem;\n}\n\nself .row {\n  \talign-items: center;\n  \tcolor: #353D66;\n\tfont-size: 16px;\n\tfont-weight: 500;\n}\n\nself .row .col .w-full{\n    overflow: hidden;\n\ttext-overflow: ellipsis;\n\twhite-space: nowrap;\n}\n\nself .row .selected {\n  \tbackground-color: transparent;\n}\n\nself .col-even {\n\tfont-weight: 400 !important;\n}\n\nself .col-even~.col {\n\tfont-weight: 400 !important;\n}\nself .row .cell {\n  padding: 0.5rem 2rem;\n}\n\nself .innerScrollContainer .row {\n    border-width: 1px !important;\n}\n\n/* @media screen and (max-width:1111px) {\n\nself {\n\twidth: 50% !important;\n} \n\n\n}*/",
+        "parentId": null,
+        "id": "gA3osMf7V0t3668_NRQG0",
+        "scope": "local"
+      }
+    ]
+  }
+]
