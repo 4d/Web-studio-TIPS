@@ -12,7 +12,7 @@ You can use [this editor](https://developer.4d.com/tips-editor/) to update the t
 
 In order to change the templates, you need to follow these steps:
 
-1. [Fork this repository](https://github.com/4d/tips-editor/fork)
+1. [Fork this repository](https://github.com/4d/Web-studio-TIPS/fork)
 2. [Enable Github actions](https://docs.github.com/en/actions/using-workflows/disabling-and-enabling-a-workflow)
 3. Clone forked project locally, make your changes and push them
 4. Open qodly studio in your browser and change the LocalStorage key `4DWS_PREFS.studio.tipsBaseUrl` to your repo url. Example: `https://raw.githubusercontent.com/midrissi/Web-studio-TIPS/gh-build`
