@@ -2,7 +2,7 @@
   {
     "name": "Dark with highlighting",
     "description": "Dark background and the hovered row highlighted",
-    "banner": "https://raw.githubusercontent.com/4d/Web-studio-TIPS/develop/groups/datatables/assets/dark.png",
+    "banner": "https://raw.githubusercontent.com/4d/Web-studio-TIPS/gh-build/groups/datatables/assets/dark.png",
     "data": {
       "id": "99S6bpj15XNzd9RzoCXukk",
       "rootNodeId": "HaEje9KuP8",
@@ -73,7 +73,7 @@
   {
     "name": "Alternate green headers",
     "description": "Alternate colored headers and with alternate colored rows",
-    "banner": "https://raw.githubusercontent.com/4d/Web-studio-TIPS/develop/groups/datatables/assets/green.png",
+    "banner": "https://raw.githubusercontent.com/4d/Web-studio-TIPS/gh-build/groups/datatables/assets/green.png",
     "data": {
       "id": "sn3g8gDg1rnodUjHdRvMyR",
       "rootNodeId": "wQU37s8wQ-",
@@ -141,7 +141,7 @@
       "styles": [
         {
           "name": "alternate-green-headers",
-          "content": "self .header .header-cell {\n  background-color: #324960;\n  color: #fff;\n  font-weight: bold;\n  font-size: 14px;\n  display: flex;\n  align-items: center;\n  justify-content: flex-start;\n}\n\nself .header .header-even {\n  background-color: #4fc3a1;\n}\n\nself .row {\n  align-items: center;\n}\n\nself .row .cell {\n  font-size: 14px;\n  text-align: left;\n}\n\nself .row.selected {\n  background-color: #caede2;\n}\n\nself .row-even:not(.selected):not(:hover) {\n  background-color: #f8f8f8;\n}\n\nself .header .resizable > :not([hidden]) ~ :not([hidden]),\nself .row > :not([hidden]) ~ :not([hidden]),\nself .Grid .innerScrollContainer,\nself .Grid .innerScrollContainer > :not([hidden]) ~ :not([hidden]) {\n  border-width: 0;\n}",
+          "content": "self .header .header-cell {\n  background-color: #324960;\n  color: #fff;\n  font-weight: bold;\n  font-size: 14px;\n  display: flex;\n  align-items: center;\n  justify-content: flex-start;\n}\n\nself .header .header-even.header-cell {\n  background-color: #4fc3a1;\n}\n\nself .row {\n  align-items: center;\n}\n\nself .row .cell {\n  font-size: 14px;\n  text-align: left;\n}\n\nself .row.selected {\n  background-color: #caede2;\n}\n\nself .row-even:not(.selected):not(:hover) {\n  background-color: #f8f8f8;\n}\n\nself .header .resizable > :not([hidden]) ~ :not([hidden]),\nself .row > :not([hidden]) ~ :not([hidden]),\nself .Grid .innerScrollContainer,\nself .Grid .innerScrollContainer > :not([hidden]) ~ :not([hidden]) {\n  border-width: 0;\n}",
           "parentId": null,
           "scope": "local",
           "id": "vEspG4XCGYKxPxQ5tNDh4"
@@ -152,7 +152,7 @@
   {
     "name": "Blue header",
     "description": "Blue header with alternate colored rows",
-    "banner": "https://raw.githubusercontent.com/4d/Web-studio-TIPS/develop/groups/datatables/assets/blue.png",
+    "banner": "https://raw.githubusercontent.com/4d/Web-studio-TIPS/gh-build/groups/datatables/assets/blue.png",
     "data": {
       "id": "pveQPTKsR72wKhWmR4vVQd",
       "rootNodeId": "Q-zFagSyqR",
@@ -216,6 +216,64 @@
           "parentId": null,
           "scope": "local",
           "id": "PL652ycE3f6pTdyAeRfgp"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Simple Green Header",
+    "description": "Datatable with a single column and a green header",
+    "banner": "https://raw.githubusercontent.com/4d/Web-studio-TIPS/gh-build/groups/datatables/assets/simpleGreenHeader.png",
+    "data": {
+      "id": "sna1KdusgTGQwnQbaTCFwm",
+      "rootNodeId": "bK7FANKwa_",
+      "nodes": {
+        "bK7FANKwa_": {
+          "type": {
+            "resolvedName": "DataTable"
+          },
+          "isCanvas": false,
+          "props": {
+            "iterable": true,
+            "classNames": [
+              "greenHeader"
+            ],
+            "events": [],
+            "loopable": true,
+            "style": {
+              "width": "100%",
+              "height": "480px"
+            },
+            "headerHeight": 50,
+            "rowHeight": 40,
+            "datasource": "#datasource#",
+            "currentElement": "",
+            "columns": [
+              {
+                "title": "Agencies",
+                "source": "name",
+                "format": "",
+                "width": "100%",
+                "sorting": false,
+                "id": "hZfbkYXqq5eLnbhcRb1PXn"
+              }
+            ]
+          },
+          "displayName": "DataTable",
+          "custom": {},
+          "parent": "ROOT",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        }
+      },
+      "styles": [
+        {
+          "name": "greenHeader",
+          "content": "self {\n\n}\n\nself .header .header-cell {\n  background-color: #71c195;\n  color: #1f4730;\n  font-weight: 600;\n  padding: 1.25rem 2rem;\n\t  text-align: center;\n}\n\nself .row .cell {\n  padding: 1.5rem 2rem;\n}\n\nself .row.selected {\nbackground-color: rgba(113,193,149,0.4);\n}\n\nself .header .resizable > :not([hidden]) ~ :not([hidden]),\nself .row > :not([hidden]) ~ :not([hidden]),\nself .Grid .innerScrollContainer,\nself .Grid .innerScrollContainer > :not([hidden]) ~ :not([hidden]) {\n  border-width: 0;\n}",
+          "parentId": null,
+          "id": "_LCOlkY2R4iQIo9SIqPSm",
+          "scope": "local"
         }
       ]
     }

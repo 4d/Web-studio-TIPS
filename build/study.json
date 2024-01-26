@@ -1,0 +1,4151 @@
+[
+  {
+    "name": "Menu",
+    "description": "A simple menu",
+    "banner": "https://raw.githubusercontent.com/4d/Web-studio-TIPS/gh-build/groups/study/assets/menu.png",
+    "data": {
+      "id": "wTnc38zmE7JwpYaCnQ6iJr",
+      "rootNodeId": "Q-QhMUPoD6",
+      "nodes": {
+        "Q-QhMUPoD6": {
+          "type": {
+            "resolvedName": "StyleBox"
+          },
+          "isCanvas": true,
+          "props": {
+            "events": [],
+            "style": {
+              "backgroundColor": "#ffffffff",
+              "width": "fit-content",
+              "height": "fit-content",
+              "borderRadius": "20px",
+              "paddingLeft": "16px",
+              "paddingRight": "16px",
+              "paddingBottom": "16px",
+              "paddingTop": "16px",
+              "display": "flex",
+              "flexDirection": "column",
+              "gap": "6px"
+            }
+          },
+          "displayName": "Stylebox",
+          "custom": {},
+          "parent": "d4SDGgNQv3",
+          "hidden": false,
+          "nodes": [
+            "rvsKRmIvsm",
+            "UnyoFD1Ahp",
+            "k69fVN3OCz",
+            "E36jU9B7fH",
+            "738pVPFlsM",
+            "jXh_Bz11Ht",
+            "Qq_OFKxhL_",
+            "_eQ34ngrRJ",
+            "Qvn5LDKOCc",
+            "LuG_dlfrPA",
+            "Sy3wtGO_Q3",
+            "_d2TEyZqmH",
+            "ruMg88cknw"
+          ],
+          "linkedNodes": {}
+        },
+        "rvsKRmIvsm": {
+          "type": {
+            "resolvedName": "StyleBox"
+          },
+          "isCanvas": true,
+          "props": {
+            "events": [],
+            "style": {
+              "display": "flex",
+              "justifyContent": "center"
+            }
+          },
+          "displayName": "Stylebox",
+          "custom": {},
+          "parent": "Q-QhMUPoD6",
+          "hidden": false,
+          "nodes": [
+            "CCIAEESvT5"
+          ],
+          "linkedNodes": {}
+        },
+        "CCIAEESvT5": {
+          "type": {
+            "resolvedName": "Image"
+          },
+          "isCanvas": false,
+          "props": {
+            "classNames": [],
+            "events": [],
+            "style": {
+              "height": "auto",
+              "width": "60px"
+            },
+            "imgSrc": "https://raw.githubusercontent.com/4d/Web-studio-TIPS/gh-build/groups/study/assets/Q.svg"
+          },
+          "displayName": "Image",
+          "custom": {},
+          "parent": "rvsKRmIvsm",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        },
+        "UnyoFD1Ahp": {
+          "type": {
+            "resolvedName": "Text"
+          },
+          "isCanvas": false,
+          "props": {
+            "events": [],
+            "doc": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Qodly",
+                    "bold": true,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false
+                  }
+                ]
+              }
+            ],
+            "datasource": "",
+            "style": {
+              "width": "100%",
+              "textAlign": "center",
+              "fontSize": "30px"
+            }
+          },
+          "displayName": "Text",
+          "custom": {},
+          "parent": "Q-QhMUPoD6",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        },
+        "k69fVN3OCz": {
+          "type": {
+            "resolvedName": "Text"
+          },
+          "isCanvas": false,
+          "props": {
+            "events": [],
+            "doc": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Learn from home  ",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false
+                  }
+                ]
+              }
+            ],
+            "datasource": "",
+            "style": {
+              "textAlign": "center",
+              "width": "100%",
+              "color": "#949494ff",
+              "fontSize": "10px",
+              "marginBottom": "25px"
+            }
+          },
+          "displayName": "Text",
+          "custom": {},
+          "parent": "Q-QhMUPoD6",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        },
+        "E36jU9B7fH": {
+          "type": {
+            "resolvedName": "StyleBox"
+          },
+          "isCanvas": true,
+          "props": {
+            "events": [
+              {
+                "type": "navigation",
+                "id": "4iVJADunspaKXNdnHq4nZr",
+                "events": [
+                  "onclick"
+                ],
+                "externalLink": false,
+                "loader": "",
+                "parent": "",
+                "target": "9_STUDY"
+              }
+            ],
+            "style": {
+              "display": "flex",
+              "flexDirection": "row",
+              "alignItems": "center",
+              "gap": "12px",
+              "borderRadius": "10px"
+            },
+            "classNames": [
+              "studyMouseHoverMenu"
+            ]
+          },
+          "displayName": "Stylebox",
+          "custom": {},
+          "parent": "Q-QhMUPoD6",
+          "hidden": false,
+          "nodes": [
+            "xHR2X7ny44",
+            "Xc2KnorGFo"
+          ],
+          "linkedNodes": {}
+        },
+        "xHR2X7ny44": {
+          "type": {
+            "resolvedName": "Icon"
+          },
+          "isCanvas": false,
+          "props": {
+            "classNames": [],
+            "events": [],
+            "icon": "fa-dashboard",
+            "style": {}
+          },
+          "displayName": "Icon",
+          "custom": {},
+          "parent": "E36jU9B7fH",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        },
+        "Xc2KnorGFo": {
+          "type": {
+            "resolvedName": "Text"
+          },
+          "isCanvas": false,
+          "props": {
+            "events": [],
+            "doc": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Dashboard",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false
+                  }
+                ]
+              }
+            ],
+            "datasource": "",
+            "style": {}
+          },
+          "displayName": "Text",
+          "custom": {},
+          "parent": "E36jU9B7fH",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        },
+        "738pVPFlsM": {
+          "type": {
+            "resolvedName": "StyleBox"
+          },
+          "isCanvas": true,
+          "props": {
+            "events": [
+              {
+                "type": "navigation",
+                "id": "nzWUZcdksayX9W2KxmqN4j",
+                "events": [
+                  "onclick"
+                ],
+                "externalLink": false,
+                "loader": "",
+                "parent": "",
+                "target": "9_STUDY_COURSE"
+              }
+            ],
+            "style": {
+              "display": "flex",
+              "flexDirection": "row",
+              "alignItems": "center",
+              "gap": "12px",
+              "borderRadius": "10px"
+            },
+            "classNames": [
+              "studyMouseHoverMenu"
+            ]
+          },
+          "displayName": "Stylebox",
+          "custom": {},
+          "parent": "Q-QhMUPoD6",
+          "hidden": false,
+          "nodes": [
+            "GLcEcLpHi2",
+            "TnOMBmCKmq"
+          ],
+          "linkedNodes": {}
+        },
+        "GLcEcLpHi2": {
+          "type": {
+            "resolvedName": "Icon"
+          },
+          "isCanvas": false,
+          "props": {
+            "classNames": [],
+            "events": [],
+            "icon": "fa-file-text-o",
+            "style": {}
+          },
+          "displayName": "Icon",
+          "custom": {},
+          "parent": "738pVPFlsM",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        },
+        "TnOMBmCKmq": {
+          "type": {
+            "resolvedName": "Text"
+          },
+          "isCanvas": false,
+          "props": {
+            "events": [],
+            "doc": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Course",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false
+                  }
+                ]
+              }
+            ],
+            "datasource": "",
+            "style": {}
+          },
+          "displayName": "Text",
+          "custom": {},
+          "parent": "738pVPFlsM",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        },
+        "jXh_Bz11Ht": {
+          "type": {
+            "resolvedName": "StyleBox"
+          },
+          "isCanvas": true,
+          "props": {
+            "events": [],
+            "style": {
+              "display": "flex",
+              "flexDirection": "row",
+              "alignItems": "center",
+              "gap": "12px",
+              "borderRadius": "10px"
+            },
+            "classNames": [
+              "studyMouseHoverMenu"
+            ]
+          },
+          "displayName": "Stylebox",
+          "custom": {},
+          "parent": "Q-QhMUPoD6",
+          "hidden": false,
+          "nodes": [
+            "6OwR5zU4oE",
+            "Dfwf1Q3ZTZ"
+          ],
+          "linkedNodes": {}
+        },
+        "6OwR5zU4oE": {
+          "type": {
+            "resolvedName": "Icon"
+          },
+          "isCanvas": false,
+          "props": {
+            "classNames": [],
+            "events": [],
+            "icon": "fa-clone",
+            "style": {}
+          },
+          "displayName": "Icon",
+          "custom": {},
+          "parent": "jXh_Bz11Ht",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        },
+        "Dfwf1Q3ZTZ": {
+          "type": {
+            "resolvedName": "Text"
+          },
+          "isCanvas": false,
+          "props": {
+            "events": [],
+            "doc": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Resources",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false
+                  }
+                ]
+              }
+            ],
+            "datasource": "",
+            "style": {}
+          },
+          "displayName": "Text",
+          "custom": {},
+          "parent": "jXh_Bz11Ht",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        },
+        "Qq_OFKxhL_": {
+          "type": {
+            "resolvedName": "StyleBox"
+          },
+          "isCanvas": true,
+          "props": {
+            "events": [],
+            "style": {
+              "display": "flex",
+              "flexDirection": "row",
+              "alignItems": "center",
+              "gap": "12px",
+              "borderRadius": "10px"
+            },
+            "classNames": [
+              "studyMouseHoverMenu"
+            ]
+          },
+          "displayName": "Stylebox",
+          "custom": {},
+          "parent": "Q-QhMUPoD6",
+          "hidden": false,
+          "nodes": [
+            "xekRWOaieK",
+            "a6V9wMN2NA"
+          ],
+          "linkedNodes": {}
+        },
+        "xekRWOaieK": {
+          "type": {
+            "resolvedName": "Icon"
+          },
+          "isCanvas": false,
+          "props": {
+            "classNames": [],
+            "events": [],
+            "icon": "fa-comment-o",
+            "style": {}
+          },
+          "displayName": "Icon",
+          "custom": {},
+          "parent": "Qq_OFKxhL_",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        },
+        "a6V9wMN2NA": {
+          "type": {
+            "resolvedName": "Text"
+          },
+          "isCanvas": false,
+          "props": {
+            "events": [],
+            "doc": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Chat",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false
+                  }
+                ]
+              }
+            ],
+            "datasource": "",
+            "style": {}
+          },
+          "displayName": "Text",
+          "custom": {},
+          "parent": "Qq_OFKxhL_",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        },
+        "_eQ34ngrRJ": {
+          "type": {
+            "resolvedName": "StyleBox"
+          },
+          "isCanvas": true,
+          "props": {
+            "events": [],
+            "style": {
+              "display": "flex",
+              "flexDirection": "row",
+              "alignItems": "center",
+              "gap": "12px",
+              "borderRadius": "10px"
+            },
+            "classNames": [
+              "studyMouseHoverMenu"
+            ]
+          },
+          "displayName": "Stylebox",
+          "custom": {},
+          "parent": "Q-QhMUPoD6",
+          "hidden": false,
+          "nodes": [
+            "UNdw_cLAqK",
+            "7eEOBp5XEa"
+          ],
+          "linkedNodes": {}
+        },
+        "UNdw_cLAqK": {
+          "type": {
+            "resolvedName": "Icon"
+          },
+          "isCanvas": false,
+          "props": {
+            "classNames": [],
+            "events": [],
+            "icon": "fa-calendar",
+            "style": {}
+          },
+          "displayName": "Icon",
+          "custom": {},
+          "parent": "_eQ34ngrRJ",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        },
+        "7eEOBp5XEa": {
+          "type": {
+            "resolvedName": "Text"
+          },
+          "isCanvas": false,
+          "props": {
+            "events": [],
+            "doc": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Schedule",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false
+                  }
+                ]
+              }
+            ],
+            "datasource": "",
+            "style": {}
+          },
+          "displayName": "Text",
+          "custom": {},
+          "parent": "_eQ34ngrRJ",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        },
+        "Qvn5LDKOCc": {
+          "type": {
+            "resolvedName": "StyleBox"
+          },
+          "isCanvas": true,
+          "props": {
+            "events": [],
+            "style": {
+              "display": "flex",
+              "flexDirection": "row",
+              "alignItems": "center",
+              "gap": "12px"
+            },
+            "classNames": []
+          },
+          "displayName": "Stylebox",
+          "custom": {},
+          "parent": "Q-QhMUPoD6",
+          "hidden": false,
+          "nodes": [
+            "Iyip8f_eT-",
+            "7OayU58thI"
+          ],
+          "linkedNodes": {}
+        },
+        "Iyip8f_eT-": {
+          "type": {
+            "resolvedName": "Icon"
+          },
+          "isCanvas": false,
+          "props": {
+            "classNames": [],
+            "events": [],
+            "icon": "fa-user-o",
+            "style": {
+              "color": "#71c395"
+            }
+          },
+          "displayName": "Icon",
+          "custom": {},
+          "parent": "Qvn5LDKOCc",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        },
+        "7OayU58thI": {
+          "type": {
+            "resolvedName": "Text"
+          },
+          "isCanvas": false,
+          "props": {
+            "events": [],
+            "doc": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Profile",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false
+                  }
+                ]
+              }
+            ],
+            "datasource": "",
+            "style": {
+              "color": "#71c395"
+            }
+          },
+          "displayName": "Text",
+          "custom": {},
+          "parent": "Qvn5LDKOCc",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        },
+        "LuG_dlfrPA": {
+          "type": {
+            "resolvedName": "StyleBox"
+          },
+          "isCanvas": true,
+          "props": {
+            "events": [],
+            "style": {
+              "display": "flex",
+              "flexDirection": "row",
+              "alignItems": "center",
+              "gap": "12px",
+              "borderRadius": "10px"
+            },
+            "classNames": [
+              "studyMouseHoverMenu"
+            ]
+          },
+          "displayName": "Stylebox",
+          "custom": {},
+          "parent": "Q-QhMUPoD6",
+          "hidden": false,
+          "nodes": [
+            "WytcNCz76C",
+            "TG1JxRNoWE"
+          ],
+          "linkedNodes": {}
+        },
+        "WytcNCz76C": {
+          "type": {
+            "resolvedName": "Icon"
+          },
+          "isCanvas": false,
+          "props": {
+            "classNames": [],
+            "events": [],
+            "icon": "fa-toggle-off",
+            "style": {}
+          },
+          "displayName": "Icon",
+          "custom": {},
+          "parent": "LuG_dlfrPA",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        },
+        "TG1JxRNoWE": {
+          "type": {
+            "resolvedName": "Text"
+          },
+          "isCanvas": false,
+          "props": {
+            "events": [],
+            "doc": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Setting",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false
+                  }
+                ]
+              }
+            ],
+            "datasource": "",
+            "style": {}
+          },
+          "displayName": "Text",
+          "custom": {},
+          "parent": "LuG_dlfrPA",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        },
+        "Sy3wtGO_Q3": {
+          "type": {
+            "resolvedName": "StyleBox"
+          },
+          "isCanvas": true,
+          "props": {
+            "events": [],
+            "style": {
+              "width": "200px",
+              "display": "flex",
+              "flexDirection": "column",
+              "gap": "8px"
+            }
+          },
+          "displayName": "Stylebox",
+          "custom": {},
+          "parent": "Q-QhMUPoD6",
+          "hidden": false,
+          "nodes": [
+            "3bIvN-r-Og",
+            "Fr61DFyF0Q"
+          ],
+          "linkedNodes": {}
+        },
+        "3bIvN-r-Og": {
+          "type": {
+            "resolvedName": "StyleBox"
+          },
+          "isCanvas": true,
+          "props": {
+            "events": [],
+            "style": {
+              "backgroundColor": "#71c195",
+              "paddingTop": "0px",
+              "paddingRight": "0px",
+              "paddingBottom": "0px",
+              "paddingLeft": "0px",
+              "borderRadius": "12px"
+            }
+          },
+          "displayName": "Stylebox",
+          "custom": {},
+          "parent": "Sy3wtGO_Q3",
+          "hidden": false,
+          "nodes": [
+            "53c-vYkSjF"
+          ],
+          "linkedNodes": {}
+        },
+        "53c-vYkSjF": {
+          "type": {
+            "resolvedName": "Image"
+          },
+          "isCanvas": false,
+          "props": {
+            "classNames": [
+              "opacity"
+            ],
+            "events": [],
+            "style": {
+              "height": "200px",
+              "width": "100%",
+              "borderRadius": "12px",
+              "backgroundColor": "#3b82f6ff"
+            },
+            "imgSrc": "https://raw.githubusercontent.com/4d/Web-studio-TIPS/gh-build/groups/study/assets/update-to-pro.jpg"
+          },
+          "displayName": "Image",
+          "custom": {},
+          "parent": "3bIvN-r-Og",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        },
+        "Fr61DFyF0Q": {
+          "type": {
+            "resolvedName": "Text"
+          },
+          "isCanvas": false,
+          "props": {
+            "events": [],
+            "doc": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Uprage to ",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false
+                  },
+                  {
+                    "bold": true,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false,
+                    "text": "PRO"
+                  },
+                  {
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false,
+                    "text": " for more resoucess"
+                  }
+                ]
+              }
+            ],
+            "datasource": "",
+            "style": {
+              "fontSize": "14px",
+              "color": "#909090ff",
+              "display": "block",
+              "textAlign": "center"
+            }
+          },
+          "displayName": "Text",
+          "custom": {},
+          "parent": "Sy3wtGO_Q3",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        },
+        "_d2TEyZqmH": {
+          "type": {
+            "resolvedName": "StyleBox"
+          },
+          "isCanvas": true,
+          "props": {
+            "events": [],
+            "style": {
+              "width": "0px",
+              "height": "auto",
+              "minWidth": "100%",
+              "paddingLeft": "0px",
+              "paddingRight": "0px",
+              "paddingBottom": "0px",
+              "paddingTop": "0px"
+            }
+          },
+          "displayName": "Stylebox",
+          "custom": {},
+          "parent": "Q-QhMUPoD6",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        },
+        "ruMg88cknw": {
+          "type": {
+            "resolvedName": "StyleBox"
+          },
+          "isCanvas": true,
+          "props": {
+            "events": [],
+            "style": {
+              "backgroundColor": "#71c195",
+              "width": "100%",
+              "borderRadius": "8px",
+              "marginTop": "12px",
+              "paddingTop": "8px",
+              "paddingBottom": "8px"
+            }
+          },
+          "displayName": "Stylebox",
+          "custom": {},
+          "parent": "Q-QhMUPoD6",
+          "hidden": false,
+          "nodes": [
+            "ykzU6hGC-q"
+          ],
+          "linkedNodes": {}
+        },
+        "ykzU6hGC-q": {
+          "type": {
+            "resolvedName": "Text"
+          },
+          "isCanvas": false,
+          "props": {
+            "events": [],
+            "doc": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Upgrade Now ",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false
+                  }
+                ]
+              }
+            ],
+            "datasource": "",
+            "style": {
+              "color": "#ffffffff",
+              "textAlign": "center"
+            }
+          },
+          "displayName": "Text",
+          "custom": {},
+          "parent": "ruMg88cknw",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        }
+      },
+      "styles": [
+        {
+          "name": "opacity",
+          "content": "self {\n    opacity: .7;\n\n}",
+          "parentId": null,
+          "scope": "local",
+          "id": "3AqUINpqKCKwwQq7z0qgR"
+        },
+        {
+          "name": "studyMouseHoverMenu",
+          "content": "self {\n  background-color: #ffffff;\n  border: none;\n  color: #a5a8b3;\n  text-align: center;\n  font-size: 16px;\n  transition: 0.2s;\n\n}\n\nself:hover {\n\tbackground-color: #6fc295;\n  color: white;\n}",
+          "parentId": null,
+          "scope": "local",
+          "id": "saZaHG-4kq0zsC3fyiXyg"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Body",
+    "description": "A nice website body",
+    "banner": "https://raw.githubusercontent.com/4d/Web-studio-TIPS/gh-build/groups/study/assets/body.png",
+    "data": {
+      "id": "i3EAPPsbbJUetFbdj8E9Ra",
+      "rootNodeId": "drZB6WHinm",
+      "nodes": {
+        "drZB6WHinm": {
+          "type": {
+            "resolvedName": "StyleBox"
+          },
+          "isCanvas": true,
+          "props": {
+            "events": [],
+            "style": {
+              "width": "100%",
+              "height": "fit-content",
+              "minHeight": "fit-content",
+              "minWidth": "320px",
+              "display": "flex",
+              "flexDirection": "column"
+            }
+          },
+          "displayName": "Stylebox",
+          "custom": {},
+          "parent": "d4SDGgNQv3",
+          "hidden": false,
+          "nodes": [
+            "c1NAaO-4Id"
+          ],
+          "linkedNodes": {}
+        },
+        "c1NAaO-4Id": {
+          "type": {
+            "resolvedName": "StyleBox"
+          },
+          "isCanvas": true,
+          "props": {
+            "events": [],
+            "style": {
+              "width": "100%",
+              "minWidth": "fit-content",
+              "height": "fit-content",
+              "minHeight": "fit-content",
+              "display": "flex",
+              "flexDirection": "column",
+              "paddingLeft": "0px",
+              "paddingRight": "0px",
+              "paddingBottom": "0px",
+              "paddingTop": "0px",
+              "justifyContent": "flex-start",
+              "alignItems": "center"
+            }
+          },
+          "displayName": "Stylebox",
+          "custom": {},
+          "parent": "drZB6WHinm",
+          "hidden": false,
+          "nodes": [
+            "rHuCzKkVcp",
+            "XgagdvuNwM"
+          ],
+          "linkedNodes": {}
+        },
+        "rHuCzKkVcp": {
+          "type": {
+            "resolvedName": "StyleBox"
+          },
+          "isCanvas": true,
+          "props": {
+            "events": [],
+            "style": {
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingTop": "0px",
+              "paddingRight": "12px",
+              "paddingBottom": "0px",
+              "paddingLeft": "12px",
+              "marginBottom": "40px",
+              "flexWrap": "nowrap",
+              "width": "100%",
+              "minWidth": "fit-content",
+              "height": "fit-content",
+              "minHeight": "fit-content",
+              "gap": "0px"
+            }
+          },
+          "displayName": "Stylebox",
+          "custom": {},
+          "parent": "c1NAaO-4Id",
+          "hidden": false,
+          "nodes": [
+            "zhLbwdi8XB",
+            "k6OyU0QrnT"
+          ],
+          "linkedNodes": {}
+        },
+        "zhLbwdi8XB": {
+          "type": {
+            "resolvedName": "StyleBox"
+          },
+          "isCanvas": true,
+          "props": {
+            "events": [],
+            "style": {
+              "display": "flex",
+              "alignItems": "center",
+              "gap": "40px",
+              "paddingTop": "0px",
+              "paddingRight": "0px",
+              "paddingBottom": "0px",
+              "width": "fit-content",
+              "minWidth": "fit-content"
+            }
+          },
+          "displayName": "Stylebox",
+          "custom": {},
+          "parent": "rHuCzKkVcp",
+          "hidden": false,
+          "nodes": [
+            "N6S4sHFXlx",
+            "CDCZsfrwMA"
+          ],
+          "linkedNodes": {}
+        },
+        "N6S4sHFXlx": {
+          "type": {
+            "resolvedName": "Text"
+          },
+          "isCanvas": false,
+          "props": {
+            "events": [],
+            "doc": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Profile",
+                    "bold": true,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false
+                  }
+                ]
+              }
+            ],
+            "datasource": "",
+            "style": {
+              "fontSize": "20px",
+              "width": "fit-content"
+            }
+          },
+          "displayName": "Text",
+          "custom": {},
+          "parent": "zhLbwdi8XB",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        },
+        "CDCZsfrwMA": {
+          "type": {
+            "resolvedName": "StyleBox"
+          },
+          "isCanvas": true,
+          "props": {
+            "events": [],
+            "style": {
+              "width": "50px",
+              "height": "50px",
+              "borderRadius": "25px",
+              "paddingTop": "12px",
+              "paddingRight": "12px",
+              "paddingBottom": "12px",
+              "paddingLeft": "12px",
+              "backgroundColor": "#ffffffff",
+              "display": "flex",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "fontSize": "24px"
+            }
+          },
+          "displayName": "Stylebox",
+          "custom": {},
+          "parent": "zhLbwdi8XB",
+          "hidden": false,
+          "nodes": [
+            "PbEDtbcb3r"
+          ],
+          "linkedNodes": {}
+        },
+        "PbEDtbcb3r": {
+          "type": {
+            "resolvedName": "Icon"
+          },
+          "isCanvas": false,
+          "props": {
+            "classNames": [],
+            "events": [],
+            "icon": "fa-search",
+            "style": {
+              "color": "#6fc295"
+            }
+          },
+          "displayName": "Icon",
+          "custom": {},
+          "parent": "CDCZsfrwMA",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        },
+        "k6OyU0QrnT": {
+          "type": {
+            "resolvedName": "StyleBox"
+          },
+          "isCanvas": true,
+          "props": {
+            "events": [],
+            "style": {
+              "display": "flex",
+              "flexDirection": "row",
+              "width": "fit-content",
+              "minHeight": "fit-content",
+              "alignItems": "center",
+              "gap": "20px",
+              "justifyContent": "flex-end",
+              "paddingTop": "0px",
+              "paddingBottom": "0px",
+              "minWidth": "fit-content"
+            }
+          },
+          "displayName": "Stylebox",
+          "custom": {},
+          "parent": "rHuCzKkVcp",
+          "hidden": false,
+          "nodes": [
+            "FzoDjx7cle",
+            "eSsXW3bnqF",
+            "9O-g3YiSLT",
+            "wtPhItHOzY"
+          ],
+          "linkedNodes": {}
+        },
+        "FzoDjx7cle": {
+          "type": {
+            "resolvedName": "Icon"
+          },
+          "isCanvas": false,
+          "props": {
+            "classNames": [],
+            "events": [],
+            "icon": ""
+          },
+          "displayName": "Icon",
+          "custom": {},
+          "parent": "k6OyU0QrnT",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        },
+        "eSsXW3bnqF": {
+          "type": {
+            "resolvedName": "Image"
+          },
+          "isCanvas": false,
+          "props": {
+            "classNames": [],
+            "events": [],
+            "style": {
+              "height": "50px",
+              "width": "50px",
+              "borderRadius": "50%"
+            },
+            "imgSrc": "https://raw.githubusercontent.com/4d/Web-studio-TIPS/gh-build/groups/study/profile-pic.jpg"
+          },
+          "displayName": "Image",
+          "custom": {},
+          "parent": "k6OyU0QrnT",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        },
+        "9O-g3YiSLT": {
+          "type": {
+            "resolvedName": "Text"
+          },
+          "isCanvas": false,
+          "props": {
+            "events": [],
+            "doc": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Martin Niel",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false
+                  }
+                ]
+              }
+            ],
+            "datasource": ""
+          },
+          "displayName": "Text",
+          "custom": {},
+          "parent": "k6OyU0QrnT",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        },
+        "wtPhItHOzY": {
+          "type": {
+            "resolvedName": "Icon"
+          },
+          "isCanvas": false,
+          "props": {
+            "classNames": [],
+            "events": [],
+            "icon": "fa-caret-down"
+          },
+          "displayName": "Icon",
+          "custom": {},
+          "parent": "k6OyU0QrnT",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        },
+        "XgagdvuNwM": {
+          "type": {
+            "resolvedName": "StyleBox"
+          },
+          "isCanvas": true,
+          "props": {
+            "events": [],
+            "style": {
+              "display": "flex",
+              "justifyContent": "center",
+              "flexDirection": "row",
+              "width": "fit-content",
+              "minWidth": "fit-content",
+              "gap": "10px",
+              "paddingTop": "0px",
+              "paddingRight": "0px",
+              "paddingBottom": "0px",
+              "paddingLeft": "0px",
+              "flexWrap": "wrap",
+              "alignItems": "start"
+            }
+          },
+          "displayName": "Stylebox",
+          "custom": {},
+          "parent": "c1NAaO-4Id",
+          "hidden": false,
+          "nodes": [
+            "U_RyirZAWd",
+            "DLBfq-dkdh"
+          ],
+          "linkedNodes": {}
+        },
+        "U_RyirZAWd": {
+          "type": {
+            "resolvedName": "StyleBox"
+          },
+          "isCanvas": true,
+          "props": {
+            "events": [],
+            "style": {
+              "width": "500px",
+              "backgroundColor": "#ffffffff",
+              "borderRadius": "20px",
+              "display": "flex",
+              "flexDirection": "column",
+              "gap": "12px",
+              "minWidth": "400px",
+              "maxWidth": "50%",
+              "height": "fit-content",
+              "minHeight": "fit-content",
+              "paddingTop": "20px",
+              "paddingRight": "20px",
+              "paddingBottom": "20px",
+              "paddingLeft": "20px"
+            }
+          },
+          "displayName": "Stylebox",
+          "custom": {},
+          "parent": "XgagdvuNwM",
+          "hidden": false,
+          "nodes": [
+            "T1dab64uEH",
+            "pmEd3mtDNp",
+            "f6xsJ5iLtC",
+            "T4oMI1fxYB",
+            "twrr8EPepY",
+            "aZJosL6LHL"
+          ],
+          "linkedNodes": {}
+        },
+        "T1dab64uEH": {
+          "type": {
+            "resolvedName": "StyleBox"
+          },
+          "isCanvas": true,
+          "props": {
+            "events": [],
+            "style": {
+              "display": "flex",
+              "justifyContent": "center",
+              "flexDirection": "column",
+              "alignItems": "center",
+              "width": "100%",
+              "minWidth": "100%"
+            }
+          },
+          "displayName": "Stylebox",
+          "custom": {},
+          "parent": "U_RyirZAWd",
+          "hidden": false,
+          "nodes": [
+            "dptIRTMrvQ",
+            "Azb0KDhxXx",
+            "hvuko4cNPd"
+          ],
+          "linkedNodes": {}
+        },
+        "dptIRTMrvQ": {
+          "type": {
+            "resolvedName": "Image"
+          },
+          "isCanvas": false,
+          "props": {
+            "classNames": [],
+            "events": [],
+            "style": {
+              "height": "80px",
+              "width": "80px",
+              "borderRadius": "50%"
+            },
+            "imgSrc": "https://raw.githubusercontent.com/4d/Web-studio-TIPS/gh-build/groups/study/assets/profile-pic.jpg"
+          },
+          "displayName": "Image",
+          "custom": {},
+          "parent": "T1dab64uEH",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        },
+        "Azb0KDhxXx": {
+          "type": {
+            "resolvedName": "Text"
+          },
+          "isCanvas": false,
+          "props": {
+            "events": [],
+            "doc": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Martin Niel",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false
+                  }
+                ]
+              }
+            ],
+            "datasource": ""
+          },
+          "displayName": "Text",
+          "custom": {},
+          "parent": "T1dab64uEH",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        },
+        "hvuko4cNPd": {
+          "type": {
+            "resolvedName": "StyleBox"
+          },
+          "isCanvas": true,
+          "props": {
+            "events": [],
+            "style": {
+              "backgroundColor": "#ed7e54",
+              "borderRadius": "10px",
+              "paddingTop": "2px",
+              "paddingBottom": "2px",
+              "display": "flex",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "width": "fit-content"
+            }
+          },
+          "displayName": "Stylebox",
+          "custom": {},
+          "parent": "T1dab64uEH",
+          "hidden": false,
+          "nodes": [
+            "JoDNFfY3wc"
+          ],
+          "linkedNodes": {}
+        },
+        "JoDNFfY3wc": {
+          "type": {
+            "resolvedName": "Text"
+          },
+          "isCanvas": false,
+          "props": {
+            "events": [],
+            "doc": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "VIP",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false
+                  }
+                ]
+              }
+            ],
+            "datasource": "",
+            "style": {
+              "color": "#ffffffff",
+              "fontSize": "12px",
+              "textAlign": "center"
+            }
+          },
+          "displayName": "Text",
+          "custom": {},
+          "parent": "hvuko4cNPd",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        },
+        "pmEd3mtDNp": {
+          "type": {
+            "resolvedName": "StyleBox"
+          },
+          "isCanvas": true,
+          "props": {
+            "events": [],
+            "style": {
+              "display": "flex",
+              "flexDirection": "row",
+              "gap": "20px",
+              "marginBottom": "20px",
+              "paddingTop": "0px",
+              "paddingRight": "0px",
+              "paddingBottom": "0px",
+              "paddingLeft": "0px"
+            }
+          },
+          "displayName": "Stylebox",
+          "custom": {},
+          "parent": "U_RyirZAWd",
+          "hidden": false,
+          "nodes": [
+            "68jQpU_kO9",
+            "Z7j49p9a7o"
+          ],
+          "linkedNodes": {}
+        },
+        "68jQpU_kO9": {
+          "type": {
+            "resolvedName": "StyleBox"
+          },
+          "isCanvas": true,
+          "props": {
+            "events": [],
+            "style": {
+              "display": "flex",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "flexDirection": "column",
+              "paddingTop": "0px",
+              "paddingRight": "0px",
+              "paddingBottom": "0px",
+              "paddingLeft": "0px",
+              "gap": "10px"
+            }
+          },
+          "displayName": "Stylebox",
+          "custom": {},
+          "parent": "pmEd3mtDNp",
+          "hidden": false,
+          "nodes": [
+            "ByG3jySErh",
+            "Z2LNXEIsqb"
+          ],
+          "linkedNodes": {}
+        },
+        "ByG3jySErh": {
+          "type": {
+            "resolvedName": "Text"
+          },
+          "isCanvas": false,
+          "props": {
+            "events": [],
+            "doc": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "08",
+                    "bold": true,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false
+                  }
+                ]
+              }
+            ],
+            "datasource": "",
+            "style": {
+              "textAlign": "center",
+              "backgroundColor": "#f5f6fe",
+              "color": "#a9affa",
+              "width": "60px",
+              "height": "60px",
+              "display": "flex",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "fontSize": "26px",
+              "borderRadius": "50%"
+            }
+          },
+          "displayName": "Text",
+          "custom": {},
+          "parent": "68jQpU_kO9",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        },
+        "Z2LNXEIsqb": {
+          "type": {
+            "resolvedName": "Text"
+          },
+          "isCanvas": false,
+          "props": {
+            "events": [],
+            "doc": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Course in progress  ",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false
+                  }
+                ]
+              }
+            ],
+            "datasource": "",
+            "style": {
+              "textAlign": "center",
+              "fontSize": "14px"
+            }
+          },
+          "displayName": "Text",
+          "custom": {},
+          "parent": "68jQpU_kO9",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        },
+        "Z7j49p9a7o": {
+          "type": {
+            "resolvedName": "StyleBox"
+          },
+          "isCanvas": true,
+          "props": {
+            "events": [],
+            "style": {
+              "display": "flex",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "flexDirection": "column",
+              "paddingTop": "0px",
+              "paddingRight": "0px",
+              "paddingBottom": "0px",
+              "paddingLeft": "0px",
+              "gap": "10px"
+            }
+          },
+          "displayName": "Stylebox",
+          "custom": {},
+          "parent": "pmEd3mtDNp",
+          "hidden": false,
+          "nodes": [
+            "sAO53rseOv",
+            "tzA5F0paZ7"
+          ],
+          "linkedNodes": {}
+        },
+        "sAO53rseOv": {
+          "type": {
+            "resolvedName": "Text"
+          },
+          "isCanvas": false,
+          "props": {
+            "events": [],
+            "doc": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "23",
+                    "bold": true,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false
+                  }
+                ]
+              }
+            ],
+            "datasource": "",
+            "style": {
+              "textAlign": "center",
+              "backgroundColor": "#eff9f4",
+              "color": "#6fc295",
+              "width": "60px",
+              "height": "60px",
+              "display": "flex",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "fontSize": "26px",
+              "borderRadius": "50%"
+            }
+          },
+          "displayName": "Text",
+          "custom": {},
+          "parent": "Z7j49p9a7o",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        },
+        "tzA5F0paZ7": {
+          "type": {
+            "resolvedName": "Text"
+          },
+          "isCanvas": false,
+          "props": {
+            "events": [],
+            "doc": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Course Complete   ",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false
+                  }
+                ]
+              }
+            ],
+            "datasource": "",
+            "style": {
+              "textAlign": "center",
+              "fontSize": "14px"
+            }
+          },
+          "displayName": "Text",
+          "custom": {},
+          "parent": "Z7j49p9a7o",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        },
+        "f6xsJ5iLtC": {
+          "type": {
+            "resolvedName": "Text"
+          },
+          "isCanvas": false,
+          "props": {
+            "events": [],
+            "doc": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Last Achievement ",
+                    "bold": true,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false
+                  }
+                ]
+              }
+            ],
+            "datasource": "",
+            "style": {
+              "fontSize": "20px"
+            }
+          },
+          "displayName": "Text",
+          "custom": {},
+          "parent": "U_RyirZAWd",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        },
+        "T4oMI1fxYB": {
+          "type": {
+            "resolvedName": "StyleBox"
+          },
+          "isCanvas": true,
+          "props": {
+            "events": [],
+            "style": {
+              "paddingLeft": "0px",
+              "paddingRight": "0px",
+              "paddingBottom": "0px",
+              "paddingTop": "0px",
+              "width": "auto",
+              "minWidth": "320px",
+              "height": "fit-content",
+              "minHeight": "fit-content"
+            }
+          },
+          "displayName": "Stylebox",
+          "custom": {},
+          "parent": "U_RyirZAWd",
+          "hidden": false,
+          "nodes": [
+            "YxwKqqndqk"
+          ],
+          "linkedNodes": {}
+        },
+        "YxwKqqndqk": {
+          "type": {
+            "resolvedName": "Matrix"
+          },
+          "isCanvas": false,
+          "props": {
+            "orientation": "horizontal",
+            "iterable": true,
+            "classNames": [],
+            "events": [],
+            "style": {
+              "height": "104px",
+              "marginBottom": "20px",
+              "overflow": "hidden",
+              "width": "auto",
+              "minWidth": "320px",
+              "marginLeft": "0px"
+            },
+            "datasource": "drivers",
+            "gridProps": {
+              "styleboxWidth": 104,
+              "styleboxHeight": 103,
+              "enableMosaic": false,
+              "enableFlex": false,
+              "flexProps": {
+                "nbOfRows": 1,
+                "nbOfColumns": 4
+              }
+            }
+          },
+          "displayName": "Matrix",
+          "custom": {},
+          "parent": "T4oMI1fxYB",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {
+            "container": "Z3pE-wKzn-"
+          }
+        },
+        "Z3pE-wKzn-": {
+          "type": {
+            "resolvedName": "StyleBox"
+          },
+          "isCanvas": true,
+          "props": {
+            "events": [],
+            "style": {
+              "minHeight": "40px",
+              "display": "flex",
+              "alignItems": "center",
+              "width": "104px"
+            },
+            "classNames": [
+              "matrix_hover"
+            ]
+          },
+          "displayName": "Stylebox",
+          "custom": {
+            "contentHeight": 103
+          },
+          "parent": "YxwKqqndqk",
+          "hidden": false,
+          "nodes": [
+            "BpLs_5P2tT"
+          ],
+          "linkedNodes": {}
+        },
+        "BpLs_5P2tT": {
+          "type": {
+            "resolvedName": "StyleBox"
+          },
+          "isCanvas": true,
+          "props": {
+            "events": [],
+            "style": {
+              "width": "80px",
+              "height": "80px",
+              "backgroundColor": "#fdf2ef",
+              "borderRadius": "50%",
+              "display": "flex",
+              "justifyContent": "center",
+              "alignItems": "center"
+            }
+          },
+          "displayName": "Stylebox",
+          "custom": {},
+          "parent": "Z3pE-wKzn-",
+          "hidden": false,
+          "nodes": [
+            "y6_RSnfOxe"
+          ],
+          "linkedNodes": {}
+        },
+        "y6_RSnfOxe": {
+          "type": {
+            "resolvedName": "Image"
+          },
+          "isCanvas": false,
+          "props": {
+            "classNames": [],
+            "events": [],
+            "style": {
+              "height": "40px",
+              "width": "40px"
+            },
+            "imgSrc": "https://raw.githubusercontent.com/4d/Web-studio-TIPS/gh-build/groups/study/assets/trophy.png"
+          },
+          "displayName": "Image",
+          "custom": {},
+          "parent": "BpLs_5P2tT",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        },
+        "twrr8EPepY": {
+          "type": {
+            "resolvedName": "Text"
+          },
+          "isCanvas": false,
+          "props": {
+            "events": [],
+            "doc": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Support",
+                    "bold": true,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false
+                  }
+                ]
+              }
+            ],
+            "datasource": "",
+            "style": {
+              "fontSize": "20px"
+            }
+          },
+          "displayName": "Text",
+          "custom": {},
+          "parent": "U_RyirZAWd",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        },
+        "aZJosL6LHL": {
+          "type": {
+            "resolvedName": "StyleBox"
+          },
+          "isCanvas": true,
+          "props": {
+            "events": [],
+            "style": {
+              "display": "flex",
+              "flexDirection": "column",
+              "gap": "18px",
+              "marginBottom": "20px"
+            }
+          },
+          "displayName": "Stylebox",
+          "custom": {},
+          "parent": "U_RyirZAWd",
+          "hidden": false,
+          "nodes": [
+            "4-lduoby5S",
+            "SMysc_M04Z",
+            "qE3YO_uFOW",
+            "vkx5yJvYhe"
+          ],
+          "linkedNodes": {}
+        },
+        "4-lduoby5S": {
+          "type": {
+            "resolvedName": "StyleBox"
+          },
+          "isCanvas": true,
+          "props": {
+            "events": [],
+            "style": {
+              "display": "flex",
+              "flexDirection": "row",
+              "gap": "10px",
+              "alignItems": "center",
+              "paddingLeft": "0px",
+              "paddingRight": "0px",
+              "paddingBottom": "0px",
+              "paddingTop": "0px"
+            }
+          },
+          "displayName": "Stylebox",
+          "custom": {},
+          "parent": "aZJosL6LHL",
+          "hidden": false,
+          "nodes": [
+            "JqyC28yxGE",
+            "uR1HdW6j58"
+          ],
+          "linkedNodes": {}
+        },
+        "JqyC28yxGE": {
+          "type": {
+            "resolvedName": "Icon"
+          },
+          "isCanvas": false,
+          "props": {
+            "classNames": [],
+            "events": [],
+            "icon": "fa-user",
+            "style": {
+              "width": "30px",
+              "height": "30px",
+              "display": "flex",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "textAlign": "center",
+              "backgroundColor": "#f1fafe",
+              "color": "#79c7f4",
+              "borderRadius": "50%"
+            }
+          },
+          "displayName": "Icon",
+          "custom": {},
+          "parent": "4-lduoby5S",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        },
+        "uR1HdW6j58": {
+          "type": {
+            "resolvedName": "Text"
+          },
+          "isCanvas": false,
+          "props": {
+            "events": [],
+            "doc": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Become a mentor  ",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false
+                  }
+                ]
+              }
+            ],
+            "datasource": ""
+          },
+          "displayName": "Text",
+          "custom": {},
+          "parent": "4-lduoby5S",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        },
+        "SMysc_M04Z": {
+          "type": {
+            "resolvedName": "StyleBox"
+          },
+          "isCanvas": true,
+          "props": {
+            "events": [],
+            "style": {
+              "display": "flex",
+              "flexDirection": "row",
+              "gap": "10px",
+              "alignItems": "center",
+              "paddingLeft": "0px",
+              "paddingRight": "0px",
+              "paddingBottom": "0px",
+              "paddingTop": "0px"
+            }
+          },
+          "displayName": "Stylebox",
+          "custom": {},
+          "parent": "aZJosL6LHL",
+          "hidden": false,
+          "nodes": [
+            "YdQzj6C_sY",
+            "jhSWtBZht3"
+          ],
+          "linkedNodes": {}
+        },
+        "YdQzj6C_sY": {
+          "type": {
+            "resolvedName": "Icon"
+          },
+          "isCanvas": false,
+          "props": {
+            "classNames": [],
+            "events": [],
+            "icon": "fa-support",
+            "style": {
+              "width": "30px",
+              "height": "30px",
+              "display": "flex",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "textAlign": "center",
+              "backgroundColor": "#f0fcf9",
+              "color": "#89e4cb",
+              "borderRadius": "50%"
+            }
+          },
+          "displayName": "Icon",
+          "custom": {},
+          "parent": "SMysc_M04Z",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        },
+        "jhSWtBZht3": {
+          "type": {
+            "resolvedName": "Text"
+          },
+          "isCanvas": false,
+          "props": {
+            "events": [],
+            "doc": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Support  ",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false
+                  }
+                ]
+              }
+            ],
+            "datasource": ""
+          },
+          "displayName": "Text",
+          "custom": {},
+          "parent": "SMysc_M04Z",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        },
+        "qE3YO_uFOW": {
+          "type": {
+            "resolvedName": "StyleBox"
+          },
+          "isCanvas": true,
+          "props": {
+            "events": [],
+            "style": {
+              "display": "flex",
+              "flexDirection": "row",
+              "gap": "10px",
+              "alignItems": "center",
+              "paddingLeft": "0px",
+              "paddingRight": "0px",
+              "paddingBottom": "0px",
+              "paddingTop": "0px"
+            }
+          },
+          "displayName": "Stylebox",
+          "custom": {},
+          "parent": "aZJosL6LHL",
+          "hidden": false,
+          "nodes": [
+            "18-wPm7XAz",
+            "_aG5TMwpvc"
+          ],
+          "linkedNodes": {}
+        },
+        "18-wPm7XAz": {
+          "type": {
+            "resolvedName": "Icon"
+          },
+          "isCanvas": false,
+          "props": {
+            "classNames": [],
+            "events": [],
+            "icon": "fa-users",
+            "style": {
+              "width": "30px",
+              "height": "30px",
+              "display": "flex",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "textAlign": "center",
+              "backgroundColor": "#f5f7ff",
+              "color": "#a5aaf9",
+              "borderRadius": "50%"
+            }
+          },
+          "displayName": "Icon",
+          "custom": {},
+          "parent": "qE3YO_uFOW",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        },
+        "_aG5TMwpvc": {
+          "type": {
+            "resolvedName": "Text"
+          },
+          "isCanvas": false,
+          "props": {
+            "events": [],
+            "doc": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Invite a friend   ",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false
+                  }
+                ]
+              }
+            ],
+            "datasource": ""
+          },
+          "displayName": "Text",
+          "custom": {},
+          "parent": "qE3YO_uFOW",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        },
+        "vkx5yJvYhe": {
+          "type": {
+            "resolvedName": "StyleBox"
+          },
+          "isCanvas": true,
+          "props": {
+            "events": [],
+            "style": {
+              "display": "flex",
+              "flexDirection": "row",
+              "gap": "10px",
+              "alignItems": "center",
+              "paddingLeft": "0px",
+              "paddingRight": "0px",
+              "paddingBottom": "0px",
+              "paddingTop": "0px"
+            }
+          },
+          "displayName": "Stylebox",
+          "custom": {},
+          "parent": "aZJosL6LHL",
+          "hidden": false,
+          "nodes": [
+            "OTP00Mfz48",
+            "oKuCsc9Qm3"
+          ],
+          "linkedNodes": {}
+        },
+        "OTP00Mfz48": {
+          "type": {
+            "resolvedName": "Icon"
+          },
+          "isCanvas": false,
+          "props": {
+            "classNames": [],
+            "events": [],
+            "icon": "fa-user-o",
+            "style": {
+              "width": "30px",
+              "height": "30px",
+              "display": "flex",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "textAlign": "center",
+              "backgroundColor": "#fbf1f3",
+              "color": "#ef8e9b",
+              "borderRadius": "50%"
+            }
+          },
+          "displayName": "Icon",
+          "custom": {},
+          "parent": "vkx5yJvYhe",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        },
+        "oKuCsc9Qm3": {
+          "type": {
+            "resolvedName": "Text"
+          },
+          "isCanvas": false,
+          "props": {
+            "events": [],
+            "doc": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Delete account   ",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false
+                  }
+                ]
+              }
+            ],
+            "datasource": ""
+          },
+          "displayName": "Text",
+          "custom": {},
+          "parent": "vkx5yJvYhe",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        },
+        "DLBfq-dkdh": {
+          "type": {
+            "resolvedName": "StyleBox"
+          },
+          "isCanvas": true,
+          "props": {
+            "events": [],
+            "style": {
+              "width": "500px",
+              "borderRadius": "20px",
+              "backgroundColor": "#ffffffff",
+              "height": "fit-content",
+              "minWidth": "400px",
+              "minHeight": "fit-content",
+              "maxWidth": "50%",
+              "paddingBottom": "20px",
+              "paddingRight": "20px",
+              "paddingTop": "20px",
+              "paddingLeft": "20px"
+            }
+          },
+          "displayName": "Stylebox",
+          "custom": {},
+          "parent": "XgagdvuNwM",
+          "hidden": false,
+          "nodes": [
+            "LVh3XiYDiX",
+            "QtJ6TOLkDG"
+          ],
+          "linkedNodes": {}
+        },
+        "LVh3XiYDiX": {
+          "type": {
+            "resolvedName": "Text"
+          },
+          "isCanvas": false,
+          "props": {
+            "events": [],
+            "doc": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Profile Setting",
+                    "bold": true,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false
+                  }
+                ]
+              }
+            ],
+            "datasource": "",
+            "style": {
+              "fontSize": "20px"
+            }
+          },
+          "displayName": "Text",
+          "custom": {},
+          "parent": "DLBfq-dkdh",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        },
+        "QtJ6TOLkDG": {
+          "type": {
+            "resolvedName": "Tabs"
+          },
+          "isCanvas": false,
+          "props": {
+            "classNames": [],
+            "events": [],
+            "tabs": [
+              {
+                "title": "Personal Detail",
+                "tabID": "tab_1",
+                "id": "h1HtsjnaU6ZQLsMg5dGzQH"
+              },
+              {
+                "title": "Notification",
+                "tabID": "tab_2",
+                "id": "1pEegV2cbQxDiyj33cM4jw"
+              },
+              {
+                "title": "Privacy",
+                "tabID": "tab_3",
+                "id": "r2JrZ7oHx21vRPcm4twQRD"
+              },
+              {
+                "title": "Payment",
+                "tabID": "tab_4",
+                "id": "3XEa1v2MbaZ7UtBYLoGFGt"
+              }
+            ],
+            "variant": "line",
+            "style": {}
+          },
+          "displayName": "Tabs",
+          "custom": {},
+          "parent": "DLBfq-dkdh",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {
+            "h1HtsjnaU6ZQLsMg5dGzQH": "4vzxIbriwm",
+            "1pEegV2cbQxDiyj33cM4jw": "3WSbnpjhlM",
+            "r2JrZ7oHx21vRPcm4twQRD": "YMgvJqYvI8",
+            "3XEa1v2MbaZ7UtBYLoGFGt": "K8fKlZx_8S"
+          }
+        },
+        "4vzxIbriwm": {
+          "type": {
+            "resolvedName": "StyleBox"
+          },
+          "isCanvas": true,
+          "props": {
+            "events": [],
+            "className": "h-full"
+          },
+          "displayName": "Stylebox",
+          "custom": {},
+          "parent": "QtJ6TOLkDG",
+          "hidden": false,
+          "nodes": [
+            "H0C0ZvBn-D"
+          ],
+          "linkedNodes": {}
+        },
+        "H0C0ZvBn-D": {
+          "type": {
+            "resolvedName": "StyleBox"
+          },
+          "isCanvas": true,
+          "props": {
+            "events": [],
+            "style": {
+              "paddingTop": "0px",
+              "paddingRight": "0px",
+              "paddingBottom": "0px",
+              "paddingLeft": "0px"
+            }
+          },
+          "displayName": "Stylebox",
+          "custom": {},
+          "parent": "4vzxIbriwm",
+          "hidden": false,
+          "nodes": [
+            "Kot2vUOStH",
+            "gpSdoBmEoY",
+            "FQ6QUqbQId",
+            "r2_LX7EUcc",
+            "rVP4l0Mrpt"
+          ],
+          "linkedNodes": {}
+        },
+        "Kot2vUOStH": {
+          "type": {
+            "resolvedName": "StyleBox"
+          },
+          "isCanvas": true,
+          "props": {
+            "events": [],
+            "style": {
+              "display": "flex",
+              "flexDirection": "row",
+              "gap": "16px"
+            }
+          },
+          "displayName": "Stylebox",
+          "custom": {},
+          "parent": "H0C0ZvBn-D",
+          "hidden": false,
+          "nodes": [
+            "FGY50jRe9L",
+            "A7D8KUWw0t"
+          ],
+          "linkedNodes": {}
+        },
+        "FGY50jRe9L": {
+          "type": {
+            "resolvedName": "StyleBox"
+          },
+          "isCanvas": true,
+          "props": {
+            "events": [],
+            "style": {
+              "paddingTop": "0px",
+              "paddingRight": "0px",
+              "paddingBottom": "0px",
+              "paddingLeft": "0px"
+            }
+          },
+          "displayName": "Stylebox",
+          "custom": {},
+          "parent": "Kot2vUOStH",
+          "hidden": false,
+          "nodes": [
+            "JFCMiAUzv-",
+            "7TrKrCW4Xc"
+          ],
+          "linkedNodes": {}
+        },
+        "JFCMiAUzv-": {
+          "type": {
+            "resolvedName": "Text"
+          },
+          "isCanvas": false,
+          "props": {
+            "events": [],
+            "doc": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "FullName ",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false
+                  }
+                ]
+              }
+            ],
+            "datasource": "",
+            "style": {
+              "fontSize": "14px"
+            }
+          },
+          "displayName": "Text",
+          "custom": {},
+          "parent": "FGY50jRe9L",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        },
+        "7TrKrCW4Xc": {
+          "type": {
+            "resolvedName": "TextInput"
+          },
+          "isCanvas": false,
+          "props": {
+            "events": [],
+            "placeholder": "placeholder",
+            "label": "label",
+            "labelPosition": "hidden"
+          },
+          "displayName": "Text Input",
+          "custom": {},
+          "parent": "FGY50jRe9L",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {
+            "label": "8iZ-osp-Jb",
+            "input": "Ys8rnpTZym"
+          }
+        },
+        "8iZ-osp-Jb": {
+          "type": {
+            "resolvedName": "Label"
+          },
+          "isCanvas": false,
+          "props": {
+            "events": [],
+            "moveable": false,
+            "deletable": true,
+            "text": "Label"
+          },
+          "displayName": "Label",
+          "custom": {},
+          "parent": "7TrKrCW4Xc",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        },
+        "Ys8rnpTZym": {
+          "type": {
+            "resolvedName": "Input"
+          },
+          "isCanvas": false,
+          "props": {
+            "events": [],
+            "deletable": false,
+            "className": "fd-input w-full bg-transparent",
+            "type": "text",
+            "placeholder": "Full Name",
+            "moveable": false,
+            "readonly": false
+          },
+          "displayName": "Input",
+          "custom": {},
+          "parent": "7TrKrCW4Xc",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        },
+        "A7D8KUWw0t": {
+          "type": {
+            "resolvedName": "StyleBox"
+          },
+          "isCanvas": true,
+          "props": {
+            "events": [],
+            "style": {
+              "paddingTop": "0px",
+              "paddingRight": "0px",
+              "paddingBottom": "0px",
+              "paddingLeft": "0px"
+            }
+          },
+          "displayName": "Stylebox",
+          "custom": {},
+          "parent": "Kot2vUOStH",
+          "hidden": false,
+          "nodes": [
+            "Y_JzhPHBQg",
+            "rssvxbCPx0"
+          ],
+          "linkedNodes": {}
+        },
+        "Y_JzhPHBQg": {
+          "type": {
+            "resolvedName": "Text"
+          },
+          "isCanvas": false,
+          "props": {
+            "events": [],
+            "doc": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Email Address",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false
+                  }
+                ]
+              }
+            ],
+            "datasource": "",
+            "style": {
+              "fontSize": "14px"
+            }
+          },
+          "displayName": "Text",
+          "custom": {},
+          "parent": "A7D8KUWw0t",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        },
+        "rssvxbCPx0": {
+          "type": {
+            "resolvedName": "TextInput"
+          },
+          "isCanvas": false,
+          "props": {
+            "events": [],
+            "placeholder": "placeholder",
+            "label": "label",
+            "labelPosition": "hidden"
+          },
+          "displayName": "Text Input",
+          "custom": {},
+          "parent": "A7D8KUWw0t",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {
+            "label": "fhGCLkof6f",
+            "input": "-ks5hCOox-"
+          }
+        },
+        "fhGCLkof6f": {
+          "type": {
+            "resolvedName": "Label"
+          },
+          "isCanvas": false,
+          "props": {
+            "events": [],
+            "moveable": false,
+            "deletable": true,
+            "text": "Label"
+          },
+          "displayName": "Label",
+          "custom": {},
+          "parent": "rssvxbCPx0",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        },
+        "-ks5hCOox-": {
+          "type": {
+            "resolvedName": "Input"
+          },
+          "isCanvas": false,
+          "props": {
+            "events": [],
+            "deletable": false,
+            "className": "fd-input w-full bg-transparent",
+            "type": "text",
+            "placeholder": "Email Address",
+            "moveable": false,
+            "readonly": false
+          },
+          "displayName": "Input",
+          "custom": {},
+          "parent": "rssvxbCPx0",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        },
+        "gpSdoBmEoY": {
+          "type": {
+            "resolvedName": "StyleBox"
+          },
+          "isCanvas": true,
+          "props": {
+            "events": [],
+            "style": {
+              "display": "flex",
+              "flexDirection": "row",
+              "gap": "16px"
+            }
+          },
+          "displayName": "Stylebox",
+          "custom": {},
+          "parent": "H0C0ZvBn-D",
+          "hidden": false,
+          "nodes": [
+            "MT_TQTdxu-"
+          ],
+          "linkedNodes": {}
+        },
+        "MT_TQTdxu-": {
+          "type": {
+            "resolvedName": "StyleBox"
+          },
+          "isCanvas": true,
+          "props": {
+            "events": [],
+            "style": {
+              "paddingTop": "0px",
+              "paddingRight": "0px",
+              "paddingBottom": "0px",
+              "paddingLeft": "0px"
+            }
+          },
+          "displayName": "Stylebox",
+          "custom": {},
+          "parent": "gpSdoBmEoY",
+          "hidden": false,
+          "nodes": [
+            "R9_pvNwEP9",
+            "bYs4qE3ATL"
+          ],
+          "linkedNodes": {}
+        },
+        "R9_pvNwEP9": {
+          "type": {
+            "resolvedName": "Text"
+          },
+          "isCanvas": false,
+          "props": {
+            "events": [],
+            "doc": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Address",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false
+                  }
+                ]
+              }
+            ],
+            "datasource": "",
+            "style": {
+              "fontSize": "14px"
+            }
+          },
+          "displayName": "Text",
+          "custom": {},
+          "parent": "MT_TQTdxu-",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        },
+        "bYs4qE3ATL": {
+          "type": {
+            "resolvedName": "TextInput"
+          },
+          "isCanvas": false,
+          "props": {
+            "events": [],
+            "placeholder": "placeholder",
+            "label": "label",
+            "labelPosition": "hidden"
+          },
+          "displayName": "Text Input",
+          "custom": {},
+          "parent": "MT_TQTdxu-",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {
+            "label": "A9WOY-Xz_F",
+            "input": "94w1CvfiJK"
+          }
+        },
+        "A9WOY-Xz_F": {
+          "type": {
+            "resolvedName": "Label"
+          },
+          "isCanvas": false,
+          "props": {
+            "events": [],
+            "moveable": false,
+            "deletable": true,
+            "text": "Label"
+          },
+          "displayName": "Label",
+          "custom": {},
+          "parent": "bYs4qE3ATL",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        },
+        "94w1CvfiJK": {
+          "type": {
+            "resolvedName": "Input"
+          },
+          "isCanvas": false,
+          "props": {
+            "events": [],
+            "deletable": false,
+            "className": "fd-input w-full bg-transparent",
+            "type": "text",
+            "placeholder": "Address",
+            "moveable": false,
+            "readonly": false
+          },
+          "displayName": "Input",
+          "custom": {},
+          "parent": "bYs4qE3ATL",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        },
+        "FQ6QUqbQId": {
+          "type": {
+            "resolvedName": "StyleBox"
+          },
+          "isCanvas": true,
+          "props": {
+            "events": [],
+            "style": {
+              "display": "flex",
+              "flexDirection": "row",
+              "gap": "16px"
+            }
+          },
+          "displayName": "Stylebox",
+          "custom": {},
+          "parent": "H0C0ZvBn-D",
+          "hidden": false,
+          "nodes": [
+            "sqSvEQPSWJ",
+            "ZQx4k5U3M2"
+          ],
+          "linkedNodes": {}
+        },
+        "sqSvEQPSWJ": {
+          "type": {
+            "resolvedName": "StyleBox"
+          },
+          "isCanvas": true,
+          "props": {
+            "events": [],
+            "style": {
+              "paddingTop": "0px",
+              "paddingRight": "0px",
+              "paddingBottom": "0px",
+              "paddingLeft": "0px"
+            }
+          },
+          "displayName": "Stylebox",
+          "custom": {},
+          "parent": "FQ6QUqbQId",
+          "hidden": false,
+          "nodes": [
+            "lqGXG2xHvO",
+            "1WhWXRlclq"
+          ],
+          "linkedNodes": {}
+        },
+        "lqGXG2xHvO": {
+          "type": {
+            "resolvedName": "Text"
+          },
+          "isCanvas": false,
+          "props": {
+            "events": [],
+            "doc": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "City ",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false
+                  }
+                ]
+              }
+            ],
+            "datasource": "",
+            "style": {
+              "fontSize": "14px"
+            }
+          },
+          "displayName": "Text",
+          "custom": {},
+          "parent": "sqSvEQPSWJ",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        },
+        "1WhWXRlclq": {
+          "type": {
+            "resolvedName": "TextInput"
+          },
+          "isCanvas": false,
+          "props": {
+            "events": [],
+            "placeholder": "placeholder",
+            "label": "label",
+            "labelPosition": "hidden"
+          },
+          "displayName": "Text Input",
+          "custom": {},
+          "parent": "sqSvEQPSWJ",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {
+            "label": "0gLxg8Zl3i",
+            "input": "k0f2IzGiT_"
+          }
+        },
+        "0gLxg8Zl3i": {
+          "type": {
+            "resolvedName": "Label"
+          },
+          "isCanvas": false,
+          "props": {
+            "events": [],
+            "moveable": false,
+            "deletable": true,
+            "text": "Label"
+          },
+          "displayName": "Label",
+          "custom": {},
+          "parent": "1WhWXRlclq",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        },
+        "k0f2IzGiT_": {
+          "type": {
+            "resolvedName": "Input"
+          },
+          "isCanvas": false,
+          "props": {
+            "events": [],
+            "deletable": false,
+            "className": "fd-input w-full bg-transparent",
+            "type": "text",
+            "placeholder": "City",
+            "moveable": false,
+            "readonly": false
+          },
+          "displayName": "Input",
+          "custom": {},
+          "parent": "1WhWXRlclq",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        },
+        "ZQx4k5U3M2": {
+          "type": {
+            "resolvedName": "StyleBox"
+          },
+          "isCanvas": true,
+          "props": {
+            "events": [],
+            "style": {
+              "paddingTop": "0px",
+              "paddingRight": "0px",
+              "paddingBottom": "0px",
+              "paddingLeft": "0px"
+            }
+          },
+          "displayName": "Stylebox",
+          "custom": {},
+          "parent": "FQ6QUqbQId",
+          "hidden": false,
+          "nodes": [
+            "fdZKWYVKQw",
+            "65CuxMXnAA"
+          ],
+          "linkedNodes": {}
+        },
+        "fdZKWYVKQw": {
+          "type": {
+            "resolvedName": "Text"
+          },
+          "isCanvas": false,
+          "props": {
+            "events": [],
+            "doc": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "State/Province",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false
+                  }
+                ]
+              }
+            ],
+            "datasource": "",
+            "style": {
+              "fontSize": "14px"
+            }
+          },
+          "displayName": "Text",
+          "custom": {},
+          "parent": "ZQx4k5U3M2",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        },
+        "65CuxMXnAA": {
+          "type": {
+            "resolvedName": "TextInput"
+          },
+          "isCanvas": false,
+          "props": {
+            "events": [],
+            "placeholder": "placeholder",
+            "label": "label",
+            "labelPosition": "hidden"
+          },
+          "displayName": "Text Input",
+          "custom": {},
+          "parent": "ZQx4k5U3M2",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {
+            "label": "YtDI4X2Wnx",
+            "input": "LpEM2FKdxd"
+          }
+        },
+        "YtDI4X2Wnx": {
+          "type": {
+            "resolvedName": "Label"
+          },
+          "isCanvas": false,
+          "props": {
+            "events": [],
+            "moveable": false,
+            "deletable": true,
+            "text": "Label"
+          },
+          "displayName": "Label",
+          "custom": {},
+          "parent": "65CuxMXnAA",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        },
+        "LpEM2FKdxd": {
+          "type": {
+            "resolvedName": "Input"
+          },
+          "isCanvas": false,
+          "props": {
+            "events": [],
+            "deletable": false,
+            "className": "fd-input w-full bg-transparent",
+            "type": "text",
+            "placeholder": "State/Province",
+            "moveable": false,
+            "readonly": false
+          },
+          "displayName": "Input",
+          "custom": {},
+          "parent": "65CuxMXnAA",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        },
+        "r2_LX7EUcc": {
+          "type": {
+            "resolvedName": "StyleBox"
+          },
+          "isCanvas": true,
+          "props": {
+            "events": [],
+            "style": {
+              "display": "flex",
+              "flexDirection": "row",
+              "gap": "16px"
+            }
+          },
+          "displayName": "Stylebox",
+          "custom": {},
+          "parent": "H0C0ZvBn-D",
+          "hidden": false,
+          "nodes": [
+            "1Rl8QvRr1m",
+            "hc9sg8hVo6"
+          ],
+          "linkedNodes": {}
+        },
+        "1Rl8QvRr1m": {
+          "type": {
+            "resolvedName": "StyleBox"
+          },
+          "isCanvas": true,
+          "props": {
+            "events": [],
+            "style": {
+              "paddingTop": "0px",
+              "paddingRight": "0px",
+              "paddingBottom": "0px",
+              "paddingLeft": "0px"
+            }
+          },
+          "displayName": "Stylebox",
+          "custom": {},
+          "parent": "r2_LX7EUcc",
+          "hidden": false,
+          "nodes": [
+            "YH0YmqBUfP",
+            "qcALaB5vwC"
+          ],
+          "linkedNodes": {}
+        },
+        "YH0YmqBUfP": {
+          "type": {
+            "resolvedName": "Text"
+          },
+          "isCanvas": false,
+          "props": {
+            "events": [],
+            "doc": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Zip Code  ",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false
+                  }
+                ]
+              }
+            ],
+            "datasource": "",
+            "style": {
+              "fontSize": "14px"
+            }
+          },
+          "displayName": "Text",
+          "custom": {},
+          "parent": "1Rl8QvRr1m",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        },
+        "qcALaB5vwC": {
+          "type": {
+            "resolvedName": "TextInput"
+          },
+          "isCanvas": false,
+          "props": {
+            "events": [],
+            "placeholder": "placeholder",
+            "label": "label",
+            "labelPosition": "hidden"
+          },
+          "displayName": "Text Input",
+          "custom": {},
+          "parent": "1Rl8QvRr1m",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {
+            "label": "N-GB_yD_x7",
+            "input": "kZvYzfZm1x"
+          }
+        },
+        "N-GB_yD_x7": {
+          "type": {
+            "resolvedName": "Label"
+          },
+          "isCanvas": false,
+          "props": {
+            "events": [],
+            "moveable": false,
+            "deletable": true,
+            "text": "Label"
+          },
+          "displayName": "Label",
+          "custom": {},
+          "parent": "qcALaB5vwC",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        },
+        "kZvYzfZm1x": {
+          "type": {
+            "resolvedName": "Input"
+          },
+          "isCanvas": false,
+          "props": {
+            "events": [],
+            "deletable": false,
+            "className": "fd-input w-full bg-transparent",
+            "type": "text",
+            "placeholder": "Zip Code",
+            "moveable": false,
+            "readonly": false
+          },
+          "displayName": "Input",
+          "custom": {},
+          "parent": "qcALaB5vwC",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        },
+        "hc9sg8hVo6": {
+          "type": {
+            "resolvedName": "StyleBox"
+          },
+          "isCanvas": true,
+          "props": {
+            "events": [],
+            "style": {
+              "paddingTop": "0px",
+              "paddingRight": "0px",
+              "paddingBottom": "0px",
+              "paddingLeft": "0px"
+            }
+          },
+          "displayName": "Stylebox",
+          "custom": {},
+          "parent": "r2_LX7EUcc",
+          "hidden": false,
+          "nodes": [
+            "0eJgOVNyi9",
+            "HL0W3gPKPx"
+          ],
+          "linkedNodes": {}
+        },
+        "0eJgOVNyi9": {
+          "type": {
+            "resolvedName": "Text"
+          },
+          "isCanvas": false,
+          "props": {
+            "events": [],
+            "doc": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Country",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false
+                  }
+                ]
+              }
+            ],
+            "datasource": "",
+            "style": {
+              "fontSize": "14px"
+            }
+          },
+          "displayName": "Text",
+          "custom": {},
+          "parent": "hc9sg8hVo6",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        },
+        "HL0W3gPKPx": {
+          "type": {
+            "resolvedName": "TextInput"
+          },
+          "isCanvas": false,
+          "props": {
+            "events": [],
+            "placeholder": "placeholder",
+            "label": "label",
+            "labelPosition": "hidden"
+          },
+          "displayName": "Text Input",
+          "custom": {},
+          "parent": "hc9sg8hVo6",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {
+            "label": "JagnbBQWNs",
+            "input": "ilpaPtw203"
+          }
+        },
+        "JagnbBQWNs": {
+          "type": {
+            "resolvedName": "Label"
+          },
+          "isCanvas": false,
+          "props": {
+            "events": [],
+            "moveable": false,
+            "deletable": true,
+            "text": "Label"
+          },
+          "displayName": "Label",
+          "custom": {},
+          "parent": "HL0W3gPKPx",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        },
+        "ilpaPtw203": {
+          "type": {
+            "resolvedName": "Input"
+          },
+          "isCanvas": false,
+          "props": {
+            "events": [],
+            "deletable": false,
+            "className": "fd-input w-full bg-transparent",
+            "type": "text",
+            "placeholder": "Country",
+            "moveable": false,
+            "readonly": false
+          },
+          "displayName": "Input",
+          "custom": {},
+          "parent": "HL0W3gPKPx",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        },
+        "rVP4l0Mrpt": {
+          "type": {
+            "resolvedName": "StyleBox"
+          },
+          "isCanvas": true,
+          "props": {
+            "events": [],
+            "style": {
+              "display": "flex",
+              "gap": "20px"
+            }
+          },
+          "displayName": "Stylebox",
+          "custom": {},
+          "parent": "H0C0ZvBn-D",
+          "hidden": false,
+          "nodes": [
+            "JXqKW1d9fG",
+            "xelf3Jaa7P"
+          ],
+          "linkedNodes": {}
+        },
+        "JXqKW1d9fG": {
+          "type": {
+            "resolvedName": "Button"
+          },
+          "isCanvas": false,
+          "props": {
+            "text": "Save Profile",
+            "classNames": [],
+            "events": [],
+            "iconPosition": "hidden",
+            "style": {
+              "display": "inline",
+              "backgroundColor": "#6fc295",
+              "width": "120px",
+              "height": "36px",
+              "boxShadow": "0px 6px 19px -3px transparent"
+            }
+          },
+          "displayName": "Button",
+          "custom": {},
+          "parent": "rVP4l0Mrpt",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {
+            "icon": "oJi0BeeTUD"
+          }
+        },
+        "oJi0BeeTUD": {
+          "type": {
+            "resolvedName": "Icon"
+          },
+          "isCanvas": false,
+          "props": {
+            "classNames": [],
+            "events": [],
+            "icon": "fa-star"
+          },
+          "displayName": "Icon",
+          "custom": {},
+          "parent": "JXqKW1d9fG",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        },
+        "xelf3Jaa7P": {
+          "type": {
+            "resolvedName": "Button"
+          },
+          "isCanvas": false,
+          "props": {
+            "text": "Cancel",
+            "classNames": [],
+            "events": [],
+            "iconPosition": "hidden",
+            "style": {
+              "display": "inline",
+              "backgroundColor": "transparent",
+              "borderColor": "#6fc295",
+              "borderWidth": "2px",
+              "color": "#6fc295",
+              "width": "120px",
+              "height": "36px"
+            }
+          },
+          "displayName": "Button",
+          "custom": {},
+          "parent": "rVP4l0Mrpt",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {
+            "icon": "y5YHwXpiE0"
+          }
+        },
+        "y5YHwXpiE0": {
+          "type": {
+            "resolvedName": "Icon"
+          },
+          "isCanvas": false,
+          "props": {
+            "classNames": [],
+            "events": [],
+            "icon": "fa-star"
+          },
+          "displayName": "Icon",
+          "custom": {},
+          "parent": "xelf3Jaa7P",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        },
+        "3WSbnpjhlM": {
+          "type": {
+            "resolvedName": "StyleBox"
+          },
+          "isCanvas": true,
+          "props": {
+            "events": [],
+            "className": "h-full"
+          },
+          "displayName": "Stylebox",
+          "custom": {},
+          "parent": "QtJ6TOLkDG",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        },
+        "YMgvJqYvI8": {
+          "type": {
+            "resolvedName": "StyleBox"
+          },
+          "isCanvas": true,
+          "props": {
+            "events": [],
+            "className": "h-full"
+          },
+          "displayName": "Stylebox",
+          "custom": {},
+          "parent": "QtJ6TOLkDG",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        },
+        "K8fKlZx_8S": {
+          "type": {
+            "resolvedName": "StyleBox"
+          },
+          "isCanvas": true,
+          "props": {
+            "events": [],
+            "className": "h-full"
+          },
+          "displayName": "Stylebox",
+          "custom": {},
+          "parent": "QtJ6TOLkDG",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        }
+      },
+      "styles": []
+    }
+  },
+  {
+    "name": "Matrix",
+    "description": "A simple matrix",
+    "banner": "https://raw.githubusercontent.com/4d/Web-studio-TIPS/gh-build/groups/study/assets/matrix.png",
+    "data": {
+      "id": "fW2iQfL9NQmyBry2zA66kf",
+      "rootNodeId": "8fdFpkUTq7",
+      "nodes": {
+        "8fdFpkUTq7": {
+          "type": {
+            "resolvedName": "Matrix"
+          },
+          "isCanvas": false,
+          "props": {
+            "orientation": "vertical",
+            "iterable": true,
+            "classNames": [],
+            "events": [],
+            "style": {
+              "height": "100%",
+              "width": "auto",
+              "borderRadius": ""
+            },
+            "datasource": "#datasource#",
+            "gridProps": {
+              "styleboxWidth": 270,
+              "styleboxHeight": 244,
+              "enableMosaic": true,
+              "enableFlex": false,
+              "flexProps": {
+                "nbOfRows": 3,
+                "nbOfColumns": 3
+              }
+            }
+          },
+          "displayName": "Matrix",
+          "custom": {},
+          "parent": "drZB6WHinm",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {
+            "container": "3qqS8Sf9tf"
+          }
+        },
+        "3qqS8Sf9tf": {
+          "type": {
+            "resolvedName": "StyleBox"
+          },
+          "isCanvas": true,
+          "props": {
+            "events": [],
+            "style": {
+              "minHeight": "40px",
+              "display": "flex",
+              "alignItems": "center",
+              "height": "fit-content",
+              "width": "fit-content",
+              "marginTop": "10px",
+              "marginRight": "10px",
+              "marginBottom": "10px",
+              "marginLeft": "10px",
+              "borderRadius": "0px",
+              "paddingTop": "0px",
+              "paddingRight": "0px",
+              "paddingBottom": "0px",
+              "paddingLeft": "0px"
+            },
+            "classNames": []
+          },
+          "displayName": "Stylebox",
+          "custom": {
+            "contentHeight": 244
+          },
+          "parent": "8fdFpkUTq7",
+          "hidden": false,
+          "nodes": [
+            "gnDAwj3oTc"
+          ],
+          "linkedNodes": {}
+        },
+        "gnDAwj3oTc": {
+          "type": {
+            "resolvedName": "StyleBox"
+          },
+          "isCanvas": true,
+          "props": {
+            "events": [],
+            "style": {
+              "display": "flex",
+              "flexDirection": "column",
+              "backgroundColor": "#ffffffff",
+              "borderRadius": "16px",
+              "width": "250px",
+              "gap": "5px",
+              "paddingTop": "12px",
+              "paddingRight": "12px",
+              "paddingBottom": "12px",
+              "paddingLeft": "12px",
+              "marginTop": "10px",
+              "marginRight": "10px",
+              "marginBottom": "10px",
+              "marginLeft": "10px"
+            }
+          },
+          "displayName": "Stylebox",
+          "custom": {},
+          "parent": "3qqS8Sf9tf",
+          "hidden": false,
+          "nodes": [
+            "LtPLwAGl5f",
+            "ETDjpapI4c",
+            "FFThrCmWOb",
+            "IzAQi1r1R7",
+            "NxdknJYacZ"
+          ],
+          "linkedNodes": {}
+        },
+        "LtPLwAGl5f": {
+          "type": {
+            "resolvedName": "StyleBox"
+          },
+          "isCanvas": true,
+          "props": {
+            "events": [],
+            "style": {
+              "width": "60px",
+              "height": "60px",
+              "borderRadius": "50%",
+              "display": "flex",
+              "justifyContent": "center",
+              "alignItems": "center"
+            },
+            "classNames": [
+              "graphic_design_bg"
+            ]
+          },
+          "displayName": "Stylebox",
+          "custom": {},
+          "parent": "gnDAwj3oTc",
+          "hidden": false,
+          "nodes": [
+            "QKd3mU8v40"
+          ],
+          "linkedNodes": {}
+        },
+        "QKd3mU8v40": {
+          "type": {
+            "resolvedName": "Icon"
+          },
+          "isCanvas": false,
+          "props": {
+            "classNames": [],
+            "events": [],
+            "icon": "fa-graduation-cap",
+            "style": {
+              "color": "#ffffffd3",
+              "fontSize": "26px"
+            }
+          },
+          "displayName": "Icon",
+          "custom": {},
+          "parent": "LtPLwAGl5f",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        },
+        "ETDjpapI4c": {
+          "type": {
+            "resolvedName": "Text"
+          },
+          "isCanvas": false,
+          "props": {
+            "events": [],
+            "doc": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Graphic Design ",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false
+                  }
+                ]
+              }
+            ],
+            "datasource": "",
+            "style": {
+              "width": "100%",
+              "minWidth": "100%"
+            }
+          },
+          "displayName": "Text",
+          "custom": {},
+          "parent": "gnDAwj3oTc",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        },
+        "FFThrCmWOb": {
+          "type": {
+            "resolvedName": "StyleBox"
+          },
+          "isCanvas": true,
+          "props": {
+            "events": [],
+            "style": {
+              "display": "flex",
+              "flexDirection": "row",
+              "gap": "10px",
+              "alignItems": "center",
+              "paddingTop": "0px",
+              "paddingBottom": "0px",
+              "paddingLeft": "0px",
+              "paddingRight": "0px",
+              "minWidth": "00%",
+              "width": "100%"
+            }
+          },
+          "displayName": "Stylebox",
+          "custom": {},
+          "parent": "gnDAwj3oTc",
+          "hidden": false,
+          "nodes": [
+            "tuvpSlBcjD",
+            "0rhZgZWMNH"
+          ],
+          "linkedNodes": {}
+        },
+        "tuvpSlBcjD": {
+          "type": {
+            "resolvedName": "Image"
+          },
+          "isCanvas": false,
+          "props": {
+            "classNames": [],
+            "events": [],
+            "style": {
+              "height": "25px",
+              "width": "25px",
+              "borderRadius": "50%"
+            },
+            "imgSrc": "/$shared/assets/images/profilPict.jpg"
+          },
+          "displayName": "Image",
+          "custom": {},
+          "parent": "FFThrCmWOb",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        },
+        "0rhZgZWMNH": {
+          "type": {
+            "resolvedName": "Text"
+          },
+          "isCanvas": false,
+          "props": {
+            "events": [],
+            "doc": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "William Joe",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false
+                  }
+                ]
+              }
+            ],
+            "datasource": "",
+            "style": {
+              "color": "#8e8e8eff",
+              "fontSize": "12px",
+              "borderColor": "transparent"
+            }
+          },
+          "displayName": "Text",
+          "custom": {},
+          "parent": "FFThrCmWOb",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        },
+        "IzAQi1r1R7": {
+          "type": {
+            "resolvedName": "StyleBox"
+          },
+          "isCanvas": true,
+          "props": {
+            "events": [],
+            "style": {
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "flex-start",
+              "gap": "10px",
+              "paddingTop": "0px",
+              "paddingBottom": "0px",
+              "paddingLeft": "0px",
+              "paddingRight": "0px",
+              "width": "100%",
+              "minWidth": "100%"
+            }
+          },
+          "displayName": "Stylebox",
+          "custom": {},
+          "parent": "gnDAwj3oTc",
+          "hidden": false,
+          "nodes": [
+            "dvXEkZeVQu",
+            "cGOwgJFq5M"
+          ],
+          "linkedNodes": {}
+        },
+        "dvXEkZeVQu": {
+          "type": {
+            "resolvedName": "StyleBox"
+          },
+          "isCanvas": true,
+          "props": {
+            "events": [],
+            "style": {
+              "display": "flex",
+              "flexDirection": "row",
+              "gap": "6px",
+              "width": "fit-content",
+              "paddingLeft": "6px"
+            }
+          },
+          "displayName": "Stylebox",
+          "custom": {},
+          "parent": "IzAQi1r1R7",
+          "hidden": false,
+          "nodes": [
+            "kcH5iS4mR4",
+            "vBEKRYi34h"
+          ],
+          "linkedNodes": {}
+        },
+        "kcH5iS4mR4": {
+          "type": {
+            "resolvedName": "Icon"
+          },
+          "isCanvas": false,
+          "props": {
+            "classNames": [],
+            "events": [],
+            "icon": "fa-clone",
+            "style": {
+              "display": "flex",
+              "alignItems": "center",
+              "fontSize": "14px",
+              "color": "#8e8e8eff"
+            }
+          },
+          "displayName": "Icon",
+          "custom": {},
+          "parent": "dvXEkZeVQu",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        },
+        "vBEKRYi34h": {
+          "type": {
+            "resolvedName": "Text"
+          },
+          "isCanvas": false,
+          "props": {
+            "events": [],
+            "doc": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "15 Lessons",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false
+                  }
+                ]
+              }
+            ],
+            "datasource": "",
+            "style": {
+              "fontSize": "12px",
+              "color": "#8e8e8eff"
+            }
+          },
+          "displayName": "Text",
+          "custom": {},
+          "parent": "dvXEkZeVQu",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        },
+        "cGOwgJFq5M": {
+          "type": {
+            "resolvedName": "StyleBox"
+          },
+          "isCanvas": true,
+          "props": {
+            "events": [],
+            "style": {
+              "display": "flex",
+              "flexDirection": "row",
+              "gap": "6px",
+              "width": "fit-content"
+            }
+          },
+          "displayName": "Stylebox",
+          "custom": {},
+          "parent": "IzAQi1r1R7",
+          "hidden": false,
+          "nodes": [
+            "yP5hAcBQNy",
+            "P8LubEViBE"
+          ],
+          "linkedNodes": {}
+        },
+        "yP5hAcBQNy": {
+          "type": {
+            "resolvedName": "Icon"
+          },
+          "isCanvas": false,
+          "props": {
+            "classNames": [],
+            "events": [],
+            "icon": "fa-clock-o",
+            "style": {
+              "display": "flex",
+              "alignItems": "center",
+              "fontSize": "14px",
+              "color": "#8e8e8eff"
+            }
+          },
+          "displayName": "Icon",
+          "custom": {},
+          "parent": "cGOwgJFq5M",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        },
+        "P8LubEViBE": {
+          "type": {
+            "resolvedName": "Text"
+          },
+          "isCanvas": false,
+          "props": {
+            "events": [],
+            "doc": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "40Hours",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false
+                  }
+                ]
+              }
+            ],
+            "datasource": "",
+            "style": {
+              "fontSize": "12px",
+              "color": "#8e8e8eff"
+            }
+          },
+          "displayName": "Text",
+          "custom": {},
+          "parent": "cGOwgJFq5M",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        },
+        "NxdknJYacZ": {
+          "type": {
+            "resolvedName": "StyleBox"
+          },
+          "isCanvas": true,
+          "props": {
+            "events": [],
+            "style": {
+              "display": "flex",
+              "flexDirection": "row",
+              "gap": "10px",
+              "width": "100%",
+              "alignItems": "center",
+              "paddingTop": "6px",
+              "paddingRight": "6px",
+              "paddingBottom": "6px",
+              "paddingLeft": "6px",
+              "minWidth": "100%",
+              "justifyContent": "space-between"
+            }
+          },
+          "displayName": "Stylebox",
+          "custom": {},
+          "parent": "gnDAwj3oTc",
+          "hidden": false,
+          "nodes": [
+            "IxFgV3iJ9R",
+            "id3RxAzXr6"
+          ],
+          "linkedNodes": {}
+        },
+        "IxFgV3iJ9R": {
+          "type": {
+            "resolvedName": "StyleBox"
+          },
+          "isCanvas": true,
+          "props": {
+            "events": [],
+            "style": {
+              "backgroundColor": "#e7f5ee",
+              "paddingTop": "0px",
+              "paddingBottom": "0px",
+              "paddingRight": "0px",
+              "paddingLeft": "0px",
+              "borderRadius": "3px",
+              "height": "6px",
+              "width": "75%",
+              "minWidth": "75%"
+            }
+          },
+          "displayName": "Stylebox",
+          "custom": {},
+          "parent": "NxdknJYacZ",
+          "hidden": false,
+          "nodes": [
+            "qCsCVDlarL"
+          ],
+          "linkedNodes": {}
+        },
+        "qCsCVDlarL": {
+          "type": {
+            "resolvedName": "StyleBox"
+          },
+          "isCanvas": true,
+          "props": {
+            "events": [],
+            "style": {
+              "backgroundColor": "#6ec194",
+              "width": "25%",
+              "paddingTop": "0px",
+              "paddingRight": "0px",
+              "paddingBottom": "0px",
+              "paddingLeft": "0px",
+              "height": "6px",
+              "borderRadius": "3px"
+            }
+          },
+          "displayName": "Stylebox",
+          "custom": {},
+          "parent": "IxFgV3iJ9R",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        },
+        "id3RxAzXr6": {
+          "type": {
+            "resolvedName": "Text"
+          },
+          "isCanvas": false,
+          "props": {
+            "events": [],
+            "doc": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "25%",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false
+                  }
+                ]
+              }
+            ],
+            "datasource": "",
+            "style": {
+              "width": "15%",
+              "fontSize": "12px",
+              "minWidth": "15%"
+            }
+          },
+          "displayName": "Text",
+          "custom": {},
+          "parent": "NxdknJYacZ",
+          "hidden": false,
+          "nodes": [],
+          "linkedNodes": {}
+        }
+      },
+      "styles": [
+        {
+          "name": "graphic_design_bg",
+          "content": "self {\nbackground: rgb(181,184,249);\nbackground: linear-gradient(180deg, rgba(181,184,249,1) 0%, rgba(70,78,241,1) 100%);\n}",
+          "parentId": null,
+          "scope": "local",
+          "id": "J4wmSeKa_GrMIAcanOw7x"
+        }
+      ]
+    }
+  }
+]
