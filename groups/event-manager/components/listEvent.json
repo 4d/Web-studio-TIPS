@@ -129,7 +129,7 @@
           "marginBottom": "0px",
           "cursor": "pointer"
         },
-        "classNames": ["listEvent_respList"]
+        "classNames": []
       },
       "displayName": "Stylebox",
       "custom": {},
@@ -159,7 +159,7 @@
           "alignItems": "center",
           "width": "33%"
         },
-        "classNames": ["listEvent_respList"]
+        "classNames": []
       },
       "displayName": "Stylebox",
       "custom": {},
@@ -215,7 +215,7 @@
           "marginBottom": "0px",
           "marginLeft": "0px"
         },
-        "classNames": ["listEvent_today"]
+        "classNames": []
       },
       "displayName": "Text",
       "custom": {},
@@ -377,7 +377,7 @@
       "props": {
         "classNames": [],
         "events": [],
-        "icon": "fa-clock-o",
+        "icon": "fa-clock-o fa-solid fa-stopwatch",
         "style": {
           "marginRight": "0px",
           "marginBottom": "0px",
@@ -486,7 +486,7 @@
           "marginBottom": "0px",
           "marginLeft": "0px"
         },
-        "classNames": ["listEvent_maxContent"]
+        "classNames": []
       },
       "displayName": "Text",
       "custom": {},
@@ -528,7 +528,7 @@
       "props": {
         "classNames": [],
         "events": [],
-        "icon": "fa-address-card-o",
+        "icon": "fa-address-card-o fa-solid fa-unlock",
         "style": {
           "marginRight": "0px",
           "marginBottom": "0px",
@@ -732,7 +732,7 @@
           "width": "45px",
           "flexDirection": "row"
         },
-        "classNames": ["listEvent_dropDownParent"]
+        "classNames": []
       },
       "displayName": "Stylebox",
       "custom": {},
@@ -745,7 +745,7 @@
       "type": { "resolvedName": "Image" },
       "isCanvas": false,
       "props": {
-        "classNames": ["listEvent_byDefaultUser"],
+        "classNames": [],
         "events": [],
         "style": {
           "height": "40px",
@@ -774,7 +774,7 @@
       "isCanvas": true,
       "props": {
         "events": [],
-        "classNames": ["listEvent_dropDownChild"],
+        "classNames": [],
         "style": {
           "borderWidth": "1px",
           "borderColor": "#5863F6",
@@ -860,7 +860,7 @@
           "textDecorationLine": "underline",
           "fontSize": "0.75vw"
         },
-        "classNames": ["listEvent_maxContent"]
+        "classNames": []
       },
       "displayName": "Text",
       "custom": {},
@@ -870,5 +870,13 @@
       "linkedNodes": {}
     }
   },
-  "styles": []
+  "styles": [
+    {
+      "name": "listEvent_styleCss",
+      "content": "self .FdVirtualGrid > div .selected { \n\tbackground-color: transparent;\n}\nself .FdVirtualGrid > div :hover{\n\tbackground: transparent;\n}\nself .FdVirtualGrid{\n\twidth:fit-content !important;\n\t/* width:calc(100%-4*299px) !important; */\n}",
+      "parentId": null,
+      "scope": "local",
+      "id": "zPacmMufR3Kp3e79dwz2S"
+    }
+  ]
 }
