@@ -2,7 +2,7 @@
   {
     "key": "editors:webform:explorer",
     "type": "text",
-    "body": "**Explorer, what is it?**\n\nIn the Explorer, you can handle all your project items.\n\nUse the Explorer to create, update, delete your webforms, but also your project methods and [ORDA data model classes](https://developer.4d.com/docs/en/ORDA/ordaClasses.html)",
+    "body": "**Explorer - Manage Your Project Assets**\n\nExplore, manage, and access your project's webforms, methods, classes, shared elements, debugger sessions, roles & privileges, data models, and settings.",
     "video": {
       "provider": "",
       "link": ""
@@ -11,7 +11,7 @@
   {
     "key": "editors:webform:explorer:webforms",
     "type": "text",
-    "body": "**Design your UI with webforms**\n\nWebforms are core components of the web studio, you use them to design your UI. You can create, update, and delete them here.",
+    "body": "**Webforms - Tailoring Your User Interface**\n\nWebforms serve as your key tools for designing and managing UI components.",
     "video": {
       "provider": "",
       "link": ""
@@ -20,7 +20,7 @@
   {
     "key": "editors:webform:canvas:toolbar:rendering:button",
     "type": "text",
-    "body": "**Rendering - Run your webforms**\n\nBefore rendering a webform, be sure:\n\n - the [web server](https://developer.4d.com/docs/en/WebServer/webServer.html) of your database is started on an available [HTTP / HTTPS port](https://developer.4d.com/docs/en/WebServer/webServerConfig.html#enable-http)\n\n - your database is exposed as a [REST Server](https://developer.4d.com/docs/en/REST/configuration.html) \n \nFor more information, check the [documentation](https://developer.4d.com/4d-web-studio/docs/rendering) \n\nSee also the [license usage section](https://developer.4d.com/4d-web-studio/docs/configuration/license-usage)",
+    "body": "**Rendering - Transforming Blueprint into Interactive Interface**\n\nBefore initiating webform rendering, ensure the following conditions are met::\n\n- Your database's [web server](https://developer.4d.com/docs/WebServer/overview) is running on an available [HTTP/HTTPS port](https://developer.4d.com/docs/WebServer/webServerConfig#http-port).\n\n- Your database is configured as a [REST Server](https://developer.4d.com/docs/WebServer/gettingStarted#rest-request).\n\nFor detailed instructions, consult the [documentation](https://developer.qodly.com/docs/studio/rendering), and don't forget to explore the [license usage section](https://developer.4d.com/4d-web-studio/docs/configuration/license-usage) for further guidance.",
     "video": {
       "provider": "",
       "link": ""
@@ -29,7 +29,7 @@
   {
     "key": "editors:webform:toolbox:components",
     "type": "text",
-    "body": "**Build a smart UI with powerful components**\n\nHere, you'll find components to drag to the canvas.\n\nSome of them are *containers*, meaning that you can drop other components or containers inside them. They are very useful to visually design and organize your webforms.",
+    "body": "**Components - Building Powerful UI Elements**\n\n[Components](https://developer.qodly.com/docs/studio/design-webforms/components/componentsBasics) are the core building blocks of your application's UI, ready to be drag-and-dropped into your webform.\n\nAmong these components, some function as containers, allowing you to nest other components or containers within them.",
     "video": {
       "provider": "",
       "link": ""
@@ -38,7 +38,7 @@
   {
     "key": "editors:webform:toolbox:components:stylebox",
     "type": "text",
-    "body": "**Stylebox - A key component for keeping content well-aligned**\n\nThe Stylebox is a container that keeps the content neatly organized thanks to specific position rules, especially [flexbox layout](https://css-tricks.com/snippets/css/a-guide-to-flexbox/).",
+    "body": "**Stylebox - Precise Content Alignment**\n\nThe [Stylebox](https://developer.qodly.com/docs/studio/design-webforms/components/stylebox) is a container that uses [flexbox layout](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) and precise positioning to neatly organize content within webforms.",
     "video": {
       "provider": "",
       "link": ""
@@ -63,27 +63,9 @@
     }
   },
   {
-    "key": "editors:webform:toolbox:components:grid",
-    "type": "text",
-    "body": "**Grid - A row / column system to organize you UI** \n\nThe Grid is a container that organizes components using a row / column system.",
-    "video": {
-      "provider": "",
-      "link": ""
-    }
-  },
-  {
-    "key": "editors:webform:toolbox:components:columns",
-    "type": "text",
-    "body": "**Columns**\n\nThe Columns component is a container that organizes components inside columns, making it easier to align them.",
-    "video": {
-      "provider": "",
-      "link": ""
-    }
-  },
-  {
     "key": "editors:webform:toolbox:components:tabs",
     "type": "text",
-    "body": "**Tabs - Organize you UI with clickable tabs**\n\nThe Tabs component is a container that organizes components using a tabs system.\n\nUse it to present data accross several clickable tabs pages.",
+    "body": "**Tabs - Streamline UI Navigation with Clickable Tabs**\n\nThe [Tabs](https://developer.qodly.com/docs/studio/design-webforms/components/tabs) component organizes components within a tabs system for intuitive navigation through webform sections.",
     "video": {
       "provider": "",
       "link": ""
@@ -92,7 +74,7 @@
   {
     "key": "editors:webform:toolbox:components:textinput",
     "type": "text",
-    "body": "**Text input - The most common way for users to enter data**\n\nText inputs allow users to enter alphanumeric data.",
+    "body": "**Text input - Alphanumeric data entry**\n\n[Text Inputs](https://developer.qodly.com/docs/studio/design-webforms/components/textinput) allow users to enter alphanumeric data.",
     "video": {
       "provider": "",
       "link": ""
@@ -128,7 +110,7 @@
   {
     "key": "editors:webform:toolbox:components:button",
     "type": "text",
-    "body": "**Button - The most common way to trigger user actions** \n\nButtons are useful for triggering user actions.",
+    "body": "**Button - Primary User Action Trigger** \n\n[Buttons](https://developer.qodly.com/docs/studio/design-webforms/components/Button) serve as the primary means for user-initiated actions.",
     "video": {
       "provider": "",
       "link": ""
@@ -137,7 +119,7 @@
   {
     "key": "editors:webform:toolbox:components:radio",
     "type": "text",
-    "body": "**Radio button - Select values in a list**\n\nRadio buttons allow users to select one or several values in a given list.",
+    "body": "**Radio Button - Single or Multiple Option Selection**\n\n[Radio buttons](https://developer.qodly.com/docs/studio/design-webforms/components/radio) enable users to select one or multiple options from a predefined list.",
     "video": {
       "provider": "",
       "link": ""
@@ -155,7 +137,7 @@
   {
     "key": "editors:webform:toolbox:components:rangeinput",
     "type": "text",
-    "body": "**Range input - Select a numeric value**\n\nThe range input allows selecting a numeric value using a slider.",
+    "body": "**Range Input - Numeric Value Selection**\n\nThe [Range Input](https://developer.qodly.com/docs/studio/design-webforms/components/rangeinput) component enables numeric value selection via a slider.",
     "video": {
       "provider": "",
       "link": ""
@@ -164,7 +146,7 @@
   {
     "key": "editors:webform:toolbox:components:selectbox",
     "type": "text",
-    "body": "**Select box - Select a numeric value**\n\nThe select box allows selecting a single value in a list with a dropdown design.",
+    "body": "**Select box - Single-Item Dropdown Selection**\n\nThe [Select Box](https://developer.qodly.com/docs/studio/design-webforms/components/selectbox) display intricate choices in a dropdown-style list with integrated components, facilitating the selection of a single value.",
     "video": {
       "provider": "",
       "link": ""
@@ -173,7 +155,7 @@
   {
     "key": "editors:webform:toolbox:components:image",
     "type": "text",
-    "body": "**Image - Enhance your design with images**",
+    "body": "**Image - Elevate your design with visuals**\n\n The [Image](https://developer.qodly.com/docs/studio/design-webforms/components/image) component displays images, whether static or sourced from a datasource.",
     "video": {
       "provider": "",
       "link": ""
@@ -182,7 +164,7 @@
   {
     "key": "editors:webform:toolbox:components:icon",
     "type": "text",
-    "body": "**Icon - Insert fontawesome icons in your design**\n\nThe Icon component allows inserting predefined fontawesome icons.",
+    "body": "**Icon - Insert FontAwesome Icons**\n\nThe [Icon](https://developer.qodly.com/docs/studio/design-webforms/components/icon) component enables the use of predefined FontAwesome icons.",
     "video": {
       "provider": "",
       "link": ""
@@ -191,7 +173,7 @@
   {
     "key": "editors:webform:toolbox:components:checkbox",
     "type": "text",
-    "body": "**Checkbox - Set boolean data**\n\nThe Checkbox sets boolean data (True/False).",
+    "body": "**Checkbox - Toggle Boolean Values**\n\nThe [Checkbox](https://developer.qodly.com/docs/studio/design-webforms/components/checkbox) component toggles boolean values (True/False).",
     "video": {
       "provider": "",
       "link": ""
@@ -200,7 +182,7 @@
   {
     "key": "editors:webform:toolbox:components:text",
     "type": "text",
-    "body": "**Text - Static text** \n\nThis component displays static text that can also come from your data.",
+    "body": "**Text - Static or Dynamic Text** \n\nThe [Text](https://developer.qodly.com/docs/studio/design-webforms/components/text) component displays either static text or text sourced from a datasource.",
     "video": {
       "provider": "",
       "link": ""
@@ -209,7 +191,7 @@
   {
     "key": "editors:webform:toolbox:components:datatable",
     "type": "text",
-    "body": "**Datatable - Iterate on data**\n\nThe datatable is a component that iterates on an [ORDA entity selection](https://developer.4d.com/docs/en/ORDA/dsmapping.html#entity-selection) and displays it as a row/column list.",
+    "body": "**Datatable - Iterating Through Data**\n\nThe [Datatable](https://developer.qodly.com/docs/studio/design-webforms/components/datatable) component displays datasources as organized rows and columns",
     "video": {
       "provider": "",
       "link": ""
@@ -218,7 +200,7 @@
   {
     "key": "editors:webform:toolbox:components:datatable",
     "type": "video",
-    "body": "**Datatable - Iterate on data**\n\nWatch this video to learn more",
+    "body": "**Datatable - Iterating Through Data**\n\nWatch this video to learn more",
     "video": {
       "provider": "youtube",
       "link": "https://www.youtube.com/embed/BZ2gYggw6uY"
@@ -227,7 +209,7 @@
   {
     "key": "editors:webform:datatablesetup",
     "type": "text",
-    "body": "**Datatable - Iterate on data**\n\nThe datatable is a component that iterates on an [ORDA entity selection](https://developer.4d.com/docs/en/ORDA/dsmapping.html#entity-selection) and displays it as a row/column list.",
+    "body": "**Datatable - Iterating Through Data**\n\nThe datatable is a component that iterates on an [ORDA entity selection](https://developer.qodly.com/docs/orda/data-model/#entity-selection) or an array and displays it as a row/column list.",
     "video": {
       "provider": "",
       "link": ""
@@ -245,7 +227,7 @@
   {
     "key": "editors:webform:toolbox:components:matrix",
     "type": "text",
-    "body": "**Matrix - Iterate on data to create smart designs**\n\nThe matrix is a component that allows iterating on an [ORDA entity selection](https://developer.4d.com/docs/fr/API/EntitySelectionClass.html) to create smart and fully customized designs.\n\nThe [matrix](https://developer.4d.com/4d-web-studio/docs/design-webforms/components#component-list) comes on the canvas with a [stylebox](https://developer.4d.com/4d-web-studio/docs/design-webforms/components#component-list) which will be repeated for each entity.\n\nBe aware the height of the stylebox must be fixed and given in pixels.",
+    "body": "**Matrix - Iterate on Data for Dynamic Designs**\n\nThe [Matrix](https://developer.qodly.com/docs/studio/design-webforms/components/matrix) component enables iteration over a datasource to display dynamic [Stylebox](https://developer.qodly.com/docs/studio/design-webforms/components/stylebox) components with fixed pixel heights for each element.",
     "video": {
       "provider": "",
       "link": ""
@@ -263,7 +245,7 @@
   {
     "key": "editors:webform:toolbox:components:webformloader",
     "type": "text",
-    "body": "**Webform loader - Nest your webforms**\n\nUse this component to display and handle another webform in your current webform.\n\nNote that the webform loaded name can be driven by a datasource of type String.",
+    "body": "**Webform loader - Embed Additional Webforms**\n\nUse the [Webform Loader](https://developer.qodly.com/docs/studio/design-webforms/components/webformloader) component to embed and manage an additional webform within your current webform. The loaded webform's name can be dynamically determined from a String-based datasource.",
     "video": {
       "provider": "",
       "link": ""
@@ -281,7 +263,7 @@
   {
     "key": "editors:webform:toolbox:outline",
     "type": "text",
-    "body": "**Outline - Navigate among your webform components**\n\nThe Outline lets you navigate in the components hierarchy of the current webform.\n\nYou can move components from a container to another, and hide some components to ease you design phase.",
+    "body": "**Outline - Navigating Your Webform Components**\n\nThe [Outline](https://developer.qodly.com/docs/studio/design-webforms/create-webform#outline) provides a visual hierarchy of webform components, enabling easy navigation, relocation, and element visibility control during design.",
     "video": {
       "provider": "",
       "link": ""
@@ -290,7 +272,7 @@
   {
     "key": "editors:webform:toolbox:datasources",
     "type": "text",
-    "body": "**Datasources - Discover here how to handle data on your webforms**\n\n - Read the tips about the Catalog, remote datasources, and local\n   datasources\n - Visit https://developer.4d.com/4d-web-studio/docs/datasources",
+    "body": "**Datasources - Managing Data on Your Webforms**\n\n - Explore tips regarding the Catalog and scalar datasources, each in their respective sections\n\n - For detailed information, visit https://developer.qodly.com/docs/studio/design-webforms/datasources",
     "video": {
       "provider": "",
       "link": ""
@@ -299,7 +281,7 @@
   {
     "key": "editors:webform:toolbox:datasources:remote",
     "type": "text",
-    "body": "**Remote datasources - Handle data on the server**\n\nRemote datasources are\n\n[entities](https://developer.4d.com/docs/en/ORDA/dsmapping.html#entity)\n\nand\n\n[entity selections](https://developer.4d.com/docs/en/ORDA/dsmapping.html#entity-selection)\n\nYou can create them from the Catalog above or from an existing datasource.\n\nThey are handled on the server and can be assigned to components.\n\nThey offer functions defined on the ORDA classes that they instantiate:\n\n[Entity class](https://developer.4d.com/docs/en/ORDA/ordaClasses.html#entity-class)\n\n[Entity Selection class](https://developer.4d.com/docs/en/ORDA/ordaClasses.html#entityselection-class)\n\nTo learn more about datasources, visit the [documentation](https://developer.4d.com/4d-web-studio/docs/datasources/)\nand watch the tips.",
+    "body": "**Remote datasources - Handle data on the server**\n\nRemote datasources are\n\n[entities](https://developer.qodly.com/docs/orda/data-model#entity)\n\nand\n\n[entity selections](https://developer.qodly.com/docs/orda/data-model#entity-selection)\n\nYou can create them from the Catalog above or from an existing datasource.\n\nThey are handled on the server and can be assigned to components.\n\nThey offer functions defined on the ORDA classes that they instantiate:\n\n[Entity class](https://developer.qodly.com/docs/orda/data-model#entity-class)\n\n[Entity Selection class](https://developer.qodly.com/docs/orda/data-model#entity-selection)\n\nTo learn more about datasources, visit the [documentation](https://developer.qodly.com/docs/studio/design-webforms/datasources)\nand watch the tips.",
     "video": {
       "provider": "",
       "link": ""
@@ -326,7 +308,7 @@
   {
     "key": "editors:webform:toolbox:datasources:catalog",
     "type": "text",
-    "body": "**Catalog - A representation of the [datastore](https://developer.4d.com/docs/en/ORDA/dsmapping.html#datastore) in the web studio IDE**\n\nThe datastore object is your whole datatabase provided as a single object.\n\nThis is also where you'll find the datastore object and its [dataclasses](https://developer.4d.com/docs/en/ORDA/dsmapping.html#dataclass) with their attributes and functions defined in [ORDA Data Model Classes](https://developer.4d.com/docs/en/ORDA/ordaClasses.html).\n\nUse the catalog to create your remote datasources (entity selections / entity) from a dataclass.",
+    "body": "**Catalog - A Window to Your Datastore**\n\nThe [Catalog](https://developer.qodly.com/docs/studio/design-webforms/datasources#catalog-datasources-and-scalar-datasources) serves as a representation of your entire database in the form of the [datastore](https://developer.qodly.com/docs/orda/data-model#datastore) object.\n\nIt is your access point to the complete datastore object, its [dataclasses](https://developer.qodly.com/docs/orda/data-model#dataclass), and their associated attributes and functions as defined in [ORDA Data Model Classes](https://developer.qodly.com/docs/language/basics/lang-classes#data-model-classes).\n\nYou can use the catalog to establish Catalog datasources such as entity selections and entities, directly sourced from dataclasses. ",
     "video": {
       "provider": "",
       "link": ""
@@ -344,7 +326,7 @@
   {
     "key": "editors:webform:toolbox:styleslib",
     "type": "text",
-    "body": "**Style library - Customize your UI design** \n\nUse the style library to handle your own CSS classes and apply them to components.\n\nTo apply them, drag and drop them on components or use the properties panel.",
+    "body": "**Style Library - Tailoring Your UI Design** \n\nIn the [Style Library](https://developer.qodly.com/docs/studio/design-webforms/styling#styles-library), manage and apply CSS classes to components by drag-and-drop or using the properties panel.",
     "video": {
       "provider": "",
       "link": ""
@@ -371,7 +353,7 @@
   {
     "key": "editors:webform:canvas",
     "type": "text",
-    "body": "**Canvas - Configure your UI with drag and drop functionalities** \n\nDesign your webform by dragging and dropping components on the canvas.\n\nEach component has a tooltip bar that allows moving or removing it, going to its parent in the hierarchy, and many other actions. \n\nLearn more with the [documentation](https://developer.4d.com/4d-web-studio/docs/webforms/using-web-form-editor)\n\nNote that webforms are components too!",
+    "body": "**Canvas - Customize Your UI Using Intuitive Drag-and-Drop Tools**\n\nThe Canvas is your workspace for crafting webforms through drag-and-drop interactions with components.\n\nEach component on the canvas features a tooltip bar for convenient tasks such as repositioning, removal, hierarchical navigation, and more.\n\nFor in-depth guidance, refer to the [documentation](https://developer.qodly.com/docs/studio/design-webforms/components/componentsBasics#tooltip).",
     "video": {
       "provider": "",
       "link": ""
@@ -389,7 +371,7 @@
   {
     "key": "editors:webform:breadcrumbs",
     "type": "text",
-    "body": "**Breadcrumbs - Keep an eye on where the selected component is located in the component hierarchy** \n\nBreadcrumbs always show the location of the selected component in the webform's component hierarchy.\n\nYou can use it to navigate to the selected component's parent or ancestors .\n\nNote that navigation is also available in the Canvas and in the Outline.",
+    "body": "**Breadcrumbs - Visualize the Location in the Component Hierarchy**\n\n[Breadcrumbs](https://developer.qodly.com/docs/studio/design-webforms/create-webform#breadcrumbs) display the selected component's location in the webform hierarchy, facilitating easy navigation to its parent or ancestors.",
     "video": {
       "provider": "",
       "link": ""
@@ -407,16 +389,25 @@
   {
     "key": "editors:webform:properties:style:color",
     "type": "text",
-    "body": "**Properties panel - Color property**\n\nChoose a text color.",
+    "body": "**Styling with color **\n\nCustomize your selection with color.",
     "video": {
       "provider": "",
       "link": ""
-    }
+   }
+  },
+  {
+    "key": "editors:webform:properties:style:background",
+    "type": "text",
+    "body": "**Styling with background **\n\nCustomize your selection with a background.",
+    "video": {
+      "provider": "",
+      "link": ""
+   }
   },
   {
     "key": "editors:webform:properties:style:boxshadow",
     "type": "text",
-    "body": "**Box shadow - Configure shadow effects in a few clicks** \n\nUse these settings to add shadows to your components.\nTry the settings. They are immediately applied on the canvas.\n\nOr use these useful links to get CSS code directly and put it in a CSS class using the Styles library.\n\n - [beautiful CSS box-shadow examples](https://getcssscan.com/css-box-shadow-examples)  \n - [box shadow css generator](https://cssgenerator.org/box-shadow-css-generator.html)",
+    "body": "**Box Shadow - Customize Shadow Effects**\n\nApply shadow effects to your components using these settings, with changes immediately visible on the canvas.\n\nAlternatively, access CSS code and examples for efficient customization.\n\n- [beautiful CSS box-shadow examples](https://getcssscan.com/css-box-shadow-examples)  \n\n- [box shadow css generator](https://cssgenerator.org/box-shadow-css-generator.html)",
     "video": {
       "provider": "",
       "link": ""
@@ -425,7 +416,7 @@
   {
     "key": "editors:webform:properties:style:css",
     "type": "text",
-    "body": "**CSS - Apply your custom CSS classes to a component** \n\nEnter here one or more CSS class names to apply them to a component.\n[Cascade and inheritance CSS rules](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance) are applied.",
+    "body": "**CSS - Customize Component Styling**\n\nCustomize the styling of a component by entering one or more CSS class names here.\n\nThese classes will be applied to the component, and CSS rules pertaining to [cascading and inheritance](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance) will take effect.",
     "video": {
       "provider": "",
       "link": ""
@@ -434,7 +425,7 @@
   {
     "key": "editors:webform:properties:dataaccess",
     "type": "text",
-    "body": "**Data access - Bind a datasource to a component** \n\nEnter a datasource name to bind it with your component.",
+    "body": "**Data Access - Bind a Datasource to a Component** \n\nTo associate a datasource with your component, simply specify the datasource name.",
     "video": {
       "provider": "",
       "link": ""
@@ -443,7 +434,7 @@
   {
     "key": "editors:webform:properties:serverside",
     "type": "text",
-    "body": "**Server side - Handle your component behavior dynamically** \n\nThanks to this reference, you can run some [4D code](https://doc4d.github.io/docs/alpha/en/web-studio/web-studio.html#web-form-object) to handle your component's appearance. For example, you can:\n\n - hide it\n - display it\n - apply a CSS class to it\n - remove one of its CSS classes",
+    "body": "**Server-Side: Dynamic Component Behavior Management**\n\nLeverage [Server-Side](https://developer.qodly.com/docs/studio/design-webforms/create-webform#data-access-category:~:text=the%20same%20dataset.-,Server%20Side,-%3A%20Provides%20the%20means) capabilities to dynamically manage your component's behavior with [Qodly Script](https://docqodly.github.io/docs/category/qodlyscript) code, enabling actions like hiding, displaying, and CSS class manipulation.",
     "video": {
       "provider": "",
       "link": ""
@@ -452,7 +443,7 @@
   {
     "key": "editors:webform:contextualconfiguration",
     "type": "text",
-    "body": "**Contextual configuration panel - Configure CSS code and events**\n\nAs explained in the [style library](http://developer.4d.com/4d-web-studio/docs/design-webforms/styling) TIPs, you can edit some CSS code here.\n\nYou can also:\n\n - configure [events on components](http://developer.4d.com/4d-web-studio/docs/design-webforms/events/events#configuring-an-event)\n   \n - configure [events on datasources](http://developer.4d.com/4d-web-studio/docs/design-webforms/events/events#configuring-an-event)\n  \n - configure [navigation actions](http://developer.4d.com/4d-web-studio/docs/design-webforms/events/events#bind-a-navigation-action-to-an-event)\n\nMost user events (such as onclick, onmouseover, ...) can be triggered by a component.",
+    "body": "**Contextual Configuration Panel - Customizing CSS and Event Settings**\n\nThe [Contextual Configuration Panel](https://developer.qodly.com/docs/studio/design-webforms/create-webform#contextual-panel) allows you to fine-tune CSS code. In addition to editing CSS code, you can:\n\n- Configure events for individual components using [class functions](https://developer.qodly.com/docs/studio/design-webforms/events#bind-class-functions-to-events) or [standard actions](https://developer.qodly.com/docs/studio/design-webforms/events#bind-standard-actions-to-events).\n\n- Set up [events for datasources](https://developer.qodly.com/docs/studio/design-webforms/events#datasource-events).\n\n- Define [navigation actions](https://developer.qodly.com/docs/studio/design-webforms/events#bind-navigation-actions-to-events).\n\nMost user-triggered events, such as onclick and onmouseover, can be easily configured for components within this panel.",
     "video": {
       "provider": "",
       "link": ""
@@ -461,7 +452,7 @@
   {
     "key": "editors:webform:contextualconfiguration:event:parameter:toggle",
     "type": "text",
-    "body": "**Datasource or hardcoded value?**\n\nChoose if you want to pass a datasource or an hardcoded value to the called function.\n\nIf you pass an hardcoded value, don't forget to select its type.",
+    "body": "**Parameter Options - Datasource vs. Hardcoded Value**\n\nChoose the [Parameter type](https://developer.qodly.com/docs/studio/design-webforms/events#bind-class-functions-to-events:~:text=Pass%20Parameters%3A%20You%20can%20expand%20the%20capabilities%20of%20class%20functions%20by%20passing%20parameters%20in%20two%20ways%3A) you wish to pass —whether it's a datasource or a hardcoded value— for the function you are calling.\n\nIf you opt for a hardcoded value, be sure to specify its data type.",
     "video": {
       "provider": "",
       "link": ""
@@ -470,7 +461,7 @@
   {
     "key": "editors:webform:contextualconfiguration:event:navigation",
     "type": "text",
-    "body": "**Handle navigation between Webforms**\n\nNavigation is simple to implement.\n\nOn each component, you can associate a navigation action to an event (On click, ...).\n\nSelect the component, open the contextual panel and select the Webform you want to navigate to.\n\nSeveral navigation locations are available:\n\n- in a Webform loader\n- in a new browser tab (*)\n- in the current browser tab (*)\n- in the current location which is a Webform loader (self)\n\n(*) Those types of navigation are available only at [rendering](http://developer.4d.com/4d-web-studio/docs/rendering).\n\nWatch the TIPs to learn more and visit the [documentation](http://developer.4d.com/4d-web-studio/docs/design-webforms/events/events#bind-a-navigation-action-to-an-event).",
+    "body": "**Webform Navigation - Handled with Ease**\n\nHandle [Webform Navigation](https://developer.qodly.com/docs/studio/design-webforms/events#bind-navigation-actions-to-events) by associating navigation actions with events on components. Select a component, access the contextual panel, and choose the destination webform.\n\nOptions include:\n\n- Within a Webform Loader\n\n- In a New Browser Tab (*)\n\n- In the Current Browser Tab (*)\n\n- In the Current Location, acting as a [Webform Loader, self](https://developer.qodly.com/docs/studio/design-webforms/components/webformloader#navigating-with-webform-loader).\n\n(*) Please note that these navigation types are exclusively available during [rendering](https://developer.qodly.com/docs/studio/rendering).",
     "video": {
       "provider": "",
       "link": ""
