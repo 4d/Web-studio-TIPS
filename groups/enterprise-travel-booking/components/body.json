@@ -26,7 +26,10 @@
                     "minWidth": "100%",
                     "height": "fit-content",
                     "minHeight": "fit-content"
-                }
+                },
+                "classNames": [
+                    "airy_margin_reset"
+                ]
             },
             "displayName": "Stylebox",
             "custom":
@@ -6964,6 +6967,13 @@
             "content": "self {\n  transition: transform 0.2s ease-in-out;\n\n}\n\nself:hover {\n  -ms-transform: scale(1.5); /* IE 9 */\n  -webkit-transform: scale(1.5); /* Safari 3-8 */\n  transform: scale(1.5); \n}",
             "parentId": null,
             "id": "TjuACL2VJ4biS19VbW42b"
+        },
+        {
+          "name": "airy_margin_reset",
+          "content": "self {\n\t--fd-margin-size:0px;\n}",
+          "parentId": null,
+          "scope": "local",
+          "id": "zU15YOlVmMlzq8g23PmKr"
         }
     ]
 }
