@@ -26,7 +26,10 @@
               "display": "flex",
               "flexDirection": "column",
               "gap": "6px"
-            }
+            },
+            "classNames": [
+              "airy_margin_reset"
+            ]
           },
           "displayName": "Stylebox",
           "custom": {},
@@ -949,6 +952,13 @@
           "parentId": null,
           "scope": "local",
           "id": "saZaHG-4kq0zsC3fyiXyg"
+        },
+        {
+          "name": "airy_margin_reset",
+          "content": "self {\n\t--fd-margin-size:0px;\n}",
+          "parentId": null,
+          "scope": "local",
+          "id": "zU15YOlVmMlzq8g23PmKr"
         }
       ]
     }
