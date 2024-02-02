@@ -1,2409 +1,1750 @@
 {
-    "id": "jRTepV77YEvkJihH5fyQm4",
-    "rootNodeId": "eTJymrWvnY",
-    "nodes":
-    {
-        "eTJymrWvnY":
-        {
-            "type":
-            {
-                "resolvedName": "StyleBox"
-            },
-            "isCanvas": true,
-            "props":
-            {
-                "events":
-                [],
-                "style":
-                {
-                    "paddingTop": "0px",
-                    "paddingRight": "0px",
-                    "paddingBottom": "0px",
-                    "paddingLeft": "0px",
-                    "width": "100%",
-                    "minWidth": "100%",
-                    "height": "fit-content",
-                    "minHeight": "fit-content",
-                    "display": "flex",
-                    "flexDirection": "column"
-                }
-            },
-            "displayName": "Stylebox",
-            "custom":
-            {
-                "displayName": "Header"
-            },
-            "parent": "ROOT",
-            "hidden": false,
-            "nodes":
-            [
-                "vmDVP1of4m",
-                "05mx0Gf1QQ"
-            ],
-            "linkedNodes":
-            {}
-        },
-        "vmDVP1of4m":
-        {
-            "type":
-            {
-                "resolvedName": "StyleBox"
-            },
-            "isCanvas": true,
-            "props":
-            {
-                "events":
-                [],
-                "style":
-                {
-                    "backgroundColor": "#234677",
-                    "display": "flex",
-                    "flexDirection": "row",
-                    "width": "100%",
-                    "minWidth": "100%",
-                    "justifyContent": "space-between",
-                    "paddingTop": "4px",
-                    "paddingBottom": "4px",
-                    "flexWrap": "wrap",
-                    "maxWidth": "100%"
-                }
-            },
-            "displayName": "Stylebox",
-            "custom":
-            {},
-            "parent": "eTJymrWvnY",
-            "hidden": false,
-            "nodes":
-            [
-                "ywOe39liWn",
-                "8MlUfhBp9Y"
-            ],
-            "linkedNodes":
-            {}
-        },
-        "ywOe39liWn":
-        {
-            "type":
-            {
-                "resolvedName": "StyleBox"
-            },
-            "isCanvas": true,
-            "props":
-            {
-                "events":
-                [],
-                "style":
-                {
-                    "display": "flex",
-                    "flexDirection": "row",
-                    "gap": "12px",
-                    "width": "fit-content"
-                }
-            },
-            "displayName": "Stylebox",
-            "custom":
-            {},
-            "parent": "vmDVP1of4m",
-            "hidden": false,
-            "nodes":
-            [
-                "WMPKcOSOfJ",
-                "Y87puvoc3f"
-            ],
-            "linkedNodes":
-            {}
-        },
-        "WMPKcOSOfJ":
-        {
-            "type":
-            {
-                "resolvedName": "StyleBox"
-            },
-            "isCanvas": true,
-            "props":
-            {
-                "events":
-                [],
-                "style":
-                {
-                    "display": "flex",
-                    "alignItems": "center",
-                    "gap": "6px",
-                    "width": "fit-content",
-                    "minWidth": "fit-content",
-                    "maxWidth": "fit-content",
-                    "color": "#ffffffff",
-                    "paddingTop": "0px",
-                    "paddingRight": "0px",
-                    "paddingBottom": "0px",
-                    "paddingLeft": "0px"
-                }
-            },
-            "displayName": "Stylebox",
-            "custom":
-            {},
-            "parent": "ywOe39liWn",
-            "hidden": false,
-            "nodes":
-            [
-                "EyO7RVMP_c",
-                "nRnFYiDzcY"
-            ],
-            "linkedNodes":
-            {}
-        },
-        "EyO7RVMP_c":
-        {
-            "type":
-            {
-                "resolvedName": "Icon"
-            },
-            "isCanvas": false,
-            "props":
-            {
-                "classNames":
-                [],
-                "events":
-                [],
-                "icon": "fa-headphones",
-                "style":
-                {
-                    "paddingTop": "8px",
-                    "paddingRight": "8px",
-                    "paddingBottom": "8px",
-                    "paddingLeft": "8px",
-                    "backgroundColor": "#ffffffff",
-                    "borderRadius": "50%",
-                    "color": "#234577",
-                    "fontSize": "12px",
-                    "width": "26px",
-                    "minWidth": "26px",
-                    "height": "26px",
-                    "minHeight": "26-",
-                    "maxHeight": "25-",
-                    "display": "flex",
-                    "justifyContent": "center",
-                    "alignItems": "center"
-                }
-            },
-            "displayName": "Icon",
-            "custom":
-            {},
-            "parent": "WMPKcOSOfJ",
-            "hidden": false,
-            "nodes":
-            [],
-            "linkedNodes":
-            {}
-        },
-        "nRnFYiDzcY":
-        {
-            "type":
-            {
-                "resolvedName": "Text"
-            },
-            "isCanvas": false,
-            "props":
-            {
-                "events":
-                [],
-                "doc":
-                [
-                    {
-                        "type": "paragraph",
-                        "children":
-                        [
-                            {
-                                "text": "Support",
-                                "bold": false,
-                                "italic": false,
-                                "underlined": false,
-                                "strikethrough": false
-                            }
-                        ]
-                    }
-                ],
-                "datasource": "",
-                "style":
-                {
-                    "fontSize": "12px",
-                    "fontFamily": "Roboto"
-                }
-            },
-            "displayName": "Text",
-            "custom":
-            {},
-            "parent": "WMPKcOSOfJ",
-            "hidden": false,
-            "nodes":
-            [],
-            "linkedNodes":
-            {}
-        },
-        "Y87puvoc3f":
-        {
-            "type":
-            {
-                "resolvedName": "StyleBox"
-            },
-            "isCanvas": true,
-            "props":
-            {
-                "events":
-                [],
-                "style":
-                {
-                    "display": "flex",
-                    "alignItems": "center",
-                    "gap": "6px",
-                    "width": "fit-content",
-                    "minWidth": "fit-content",
-                    "maxWidth": "fit-content",
-                    "color": "#ffffffff",
-                    "paddingTop": "0px",
-                    "paddingRight": "0px",
-                    "paddingBottom": "0px",
-                    "paddingLeft": "0px"
-                },
-                "classNames":
-                []
-            },
-            "displayName": "Stylebox",
-            "custom":
-            {},
-            "parent": "ywOe39liWn",
-            "hidden": false,
-            "nodes":
-            [
-                "woGD3yRpqn",
-                "szOMmQlTx5"
-            ],
-            "linkedNodes":
-            {}
-        },
-        "woGD3yRpqn":
-        {
-            "type":
-            {
-                "resolvedName": "Icon"
-            },
-            "isCanvas": false,
-            "props":
-            {
-                "classNames":
-                [],
-                "events":
-                [],
-                "icon": "fa-phone",
-                "style":
-                {
-                    "paddingTop": "8px",
-                    "paddingRight": "8px",
-                    "paddingBottom": "8px",
-                    "paddingLeft": "8px",
-                    "backgroundColor": "#ffffffff",
-                    "borderRadius": "50%",
-                    "color": "#234577",
-                    "fontSize": "12px",
-                    "width": "25px",
-                    "height": "25px",
-                    "display": "flex",
-                    "justifyContent": "center",
-                    "alignItems": "center"
-                }
-            },
-            "displayName": "Icon",
-            "custom":
-            {},
-            "parent": "Y87puvoc3f",
-            "hidden": false,
-            "nodes":
-            [],
-            "linkedNodes":
-            {}
-        },
-        "szOMmQlTx5":
-        {
-            "type":
-            {
-                "resolvedName": "Text"
-            },
-            "isCanvas": false,
-            "props":
-            {
-                "events":
-                [],
-                "doc":
-                [
-                    {
-                        "type": "paragraph",
-                        "children":
-                        [
-                            {
-                                "text": "Phone Book",
-                                "bold": false,
-                                "italic": false,
-                                "underlined": false,
-                                "strikethrough": false
-                            }
-                        ]
-                    }
-                ],
-                "datasource": "",
-                "style":
-                {
-                    "fontSize": "12px",
-                    "fontFamily": "Roboto"
-                }
-            },
-            "displayName": "Text",
-            "custom":
-            {},
-            "parent": "Y87puvoc3f",
-            "hidden": false,
-            "nodes":
-            [],
-            "linkedNodes":
-            {}
-        },
-        "8MlUfhBp9Y":
-        {
-            "type":
-            {
-                "resolvedName": "StyleBox"
-            },
-            "isCanvas": true,
-            "props":
-            {
-                "events":
-                [],
-                "style":
-                {
-                    "display": "flex",
-                    "gap": "10px",
-                    "width": "fit-content"
-                }
-            },
-            "displayName": "Stylebox",
-            "custom":
-            {},
-            "parent": "vmDVP1of4m",
-            "hidden": false,
-            "nodes":
-            [
-                "INQQArLEEs"
-            ],
-            "linkedNodes":
-            {}
-        },
-        "INQQArLEEs":
-        {
-            "type":
-            {
-                "resolvedName": "StyleBox"
-            },
-            "isCanvas": true,
-            "props":
-            {
-                "events":
-                [],
-                "style":
-                {
-                    "display": "flex",
-                    "alignItems": "center",
-                    "gap": "0px",
-                    "width": "fit-content",
-                    "minWidth": "fit-content",
-                    "maxWidth": "fit-content",
-                    "color": "#ffffffff",
-                    "paddingTop": "0px",
-                    "paddingRight": "0px",
-                    "paddingBottom": "0px",
-                    "paddingLeft": "0px"
-                }
-            },
-            "displayName": "Stylebox",
-            "custom":
-            {},
-            "parent": "8MlUfhBp9Y",
-            "hidden": false,
-            "nodes":
-            [
-                "rJOKVI4QmF",
-                "7M9vFncVRH"
-            ],
-            "linkedNodes":
-            {}
-        },
-        "rJOKVI4QmF":
-        {
-            "type":
-            {
-                "resolvedName": "Icon"
-            },
-            "isCanvas": false,
-            "props":
-            {
-                "classNames":
-                [],
-                "events":
-                [],
-                "icon": "fa-cny",
-                "style":
-                {
-                    "paddingTop": "8px",
-                    "paddingRight": "8px",
-                    "paddingBottom": "8px",
-                    "paddingLeft": "8px",
-                    "backgroundColor": "transparent",
-                    "fontSize": "16px",
-                    "width": "26px",
-                    "height": "26px",
-                    "minWidth": "26-",
-                    "minHeight": "26-",
-                    "display": "flex",
-                    "justifyContent": "center",
-                    "alignItems": "center"
-                }
-            },
-            "displayName": "Icon",
-            "custom":
-            {},
-            "parent": "INQQArLEEs",
-            "hidden": false,
-            "nodes":
-            [],
-            "linkedNodes":
-            {}
-        },
-        "7M9vFncVRH":
-        {
-            "type":
-            {
-                "resolvedName": "SelectInput"
-            },
-            "isCanvas": false,
-            "props":
-            {
-                "events":
-                [],
-                "placeholder": "placeholder",
-                "label": "label",
-                "labelPosition": "hidden",
-                "style":
-                {
-                    "width": "fit-content",
-                    "minWidth": "fit-content",
-                    "paddingRight": "8px"
-                }
-            },
-            "displayName": "Select input",
-            "custom":
-            {},
-            "parent": "INQQArLEEs",
-            "hidden": false,
-            "nodes":
-            [],
-            "linkedNodes":
-            {
-                "label": "CAChl0oZSR",
-                "select": "7sOnQDcTYF"
-            }
-        },
-        "CAChl0oZSR":
-        {
-            "type":
-            {
-                "resolvedName": "Label"
-            },
-            "isCanvas": false,
-            "props":
-            {
-                "events":
-                [],
-                "moveable": false,
-                "deletable": true,
-                "text": "Label"
-            },
-            "displayName": "Label",
-            "custom":
-            {},
-            "parent": "7M9vFncVRH",
-            "hidden": false,
-            "nodes":
-            [],
-            "linkedNodes":
-            {}
-        },
-        "7sOnQDcTYF":
-        {
-            "type":
-            {
-                "resolvedName": "Select"
-            },
-            "isCanvas": false,
-            "props":
-            {
-                "events":
-                [],
-                "deletable": false,
-                "className": "fd-select",
-                "style":
-                {
-                    "backgroundColor": "transparent",
-                    "borderStyle": "none",
-                    "borderRightWidth": "1px",
-                    "width": "fit-content",
-                    "minWidth": "fit-content",
-                    "fontFamily": "Roboto",
-                    "fontSize": "12px",
-                    "textAlign": "center"
-                },
-                "moveable": false,
-                "options":
-                [
-                    {
-                        "label": "Eng",
-                        "value": "",
-                        "id": "o7tKkpE9P1v6hMqNthMbnf"
-                    },
-                    {
-                        "label": "Fra",
-                        "value": "",
-                        "id": "pnqJEoongC8Ee1wPBX9BKE"
-                    },
-                    {
-                        "label": "Esp",
-                        "value": "",
-                        "id": "4eA43SJS6pxidULMxe5p7U"
-                    }
-                ],
-                "defaultValue": "Eng"
-            },
-            "displayName": "Select",
-            "custom":
-            {},
-            "parent": "7M9vFncVRH",
-            "hidden": false,
-            "nodes":
-            [],
-            "linkedNodes":
-            {}
-        },
-        "05mx0Gf1QQ":
-        {
-            "type":
-            {
-                "resolvedName": "StyleBox"
-            },
-            "isCanvas": true,
-            "props":
-            {
-                "events":
-                [],
-                "style":
-                {
-                    "backgroundColor": "#ffffffff",
-                    "boxShadow": "0px 0px 14px 1px #00000035",
-                    "display": "flex",
-                    "gap": "12px"
-                }
-            },
-            "displayName": "Stylebox",
-            "custom":
-            {},
-            "parent": "eTJymrWvnY",
-            "hidden": false,
-            "nodes":
-            [
-                "J7GdnBf_O2",
-                "VJUFbXDd7w"
-            ],
-            "linkedNodes":
-            {}
-        },
-        "J7GdnBf_O2":
-        {
-            "type":
-            {
-                "resolvedName": "Image"
-            },
-            "isCanvas": false,
-            "props":
-            {
-                "classNames":
-                [],
-                "events":
-                [],
-                "style":
-                {
-                    "height": "auto",
-                    "width": "50px",
-                    "minWidth": "50px"
-                },
-                "imgSrc": "https://raw.githubusercontent.com/4d/Web-studio-TIPS/gh-build/groups/healthcare/assets/Q_7FnVJ8ANkkidV21ZHi1TNt.svg"
-            },
-            "displayName": "Image",
-            "custom":
-            {},
-            "parent": "05mx0Gf1QQ",
-            "hidden": false,
-            "nodes":
-            [],
-            "linkedNodes":
-            {}
-        },
-        "VJUFbXDd7w":
-        {
-            "type":
-            {
-                "resolvedName": "StyleBox"
-            },
-            "isCanvas": true,
-            "props":
-            {
-                "events":
-                [],
-                "style":
-                {
-                    "display": "flex",
-                    "flexDirection": "row",
-                    "gap": "0px",
-                    "width": "fit-content",
-                    "flexWrap": "wrap",
-                    "paddingTop": "0px",
-                    "paddingBottom": "0px",
-                    "justifyContent": "center"
-                }
-            },
-            "displayName": "Stylebox",
-            "custom":
-            {},
-            "parent": "05mx0Gf1QQ",
-            "hidden": false,
-            "nodes":
-            [
-                "7YejD89MOK",
-                "W0Ib-zJELY"
-            ],
-            "linkedNodes":
-            {}
-        },
-        "7YejD89MOK":
-        {
-            "type":
-            {
-                "resolvedName": "StyleBox"
-            },
-            "isCanvas": true,
-            "props":
-            {
-                "events":
-                [],
-                "style":
-                {
-                    "display": "flex",
-                    "flexDirection": "row",
-                    "gap": "30px",
-                    "width": "fit-content"
-                }
-            },
-            "displayName": "Stylebox",
-            "custom":
-            {},
-            "parent": "VJUFbXDd7w",
-            "hidden": false,
-            "nodes":
-            [
-                "83a2ySkXCK",
-                "O89uH4huZ7"
-            ],
-            "linkedNodes":
-            {}
-        },
-        "83a2ySkXCK":
-        {
-            "type":
-            {
-                "resolvedName": "StyleBox"
-            },
-            "isCanvas": true,
-            "props":
-            {
-                "events":
-                [],
-                "style":
-                {
-                    "display": "flex",
-                    "alignItems": "center",
-                    "gap": "6px",
-                    "paddingTop": "0px",
-                    "paddingRight": "0px",
-                    "paddingBottom": "0px",
-                    "paddingLeft": "0px",
-                    "justifyContent": "center"
-                },
-                "classNames":
-                [
-                    "healthcareParentMenuCSS"
-                ]
-            },
-            "displayName": "Stylebox",
-            "custom":
-            {},
-            "parent": "7YejD89MOK",
-            "hidden": false,
-            "nodes":
-            [
-                "XTPTs9B5cR",
-                "wLLUA44EJa"
-            ],
-            "linkedNodes":
-            {}
-        },
-        "XTPTs9B5cR":
-        {
-            "type":
-            {
-                "resolvedName": "StyleBox"
-            },
-            "isCanvas": true,
-            "props":
-            {
-                "events":
-                [],
-                "classNames":
-                [],
-                "style":
-                {
-                    "paddingTop": "0px",
-                    "paddingRight": "0px",
-                    "paddingBottom": "0px",
-                    "paddingLeft": "0px",
-                    "width": "fit-content",
-                    "height": "100%",
-                    "minHeight": "100%"
-                }
-            },
-            "displayName": "Stylebox",
-            "custom":
-            {},
-            "parent": "83a2ySkXCK",
-            "hidden": false,
-            "nodes":
-            [
-                "ufWri3cavX",
-                "cZWJDHEGl7"
-            ],
-            "linkedNodes":
-            {}
-        },
-        "ufWri3cavX":
-        {
-            "type":
-            {
-                "resolvedName": "Text"
-            },
-            "isCanvas": false,
-            "props":
-            {
-                "events":
-                [],
-                "doc":
-                [
-                    {
-                        "type": "paragraph",
-                        "children":
-                        [
-                            {
-                                "text": "Home",
-                                "italic": false,
-                                "underlined": false,
-                                "strikethrough": false
-                            }
-                        ]
-                    }
-                ],
-                "datasource": "",
-                "style":
-                {
-                    "width": "fit-content",
-                    "fontWeight": "300",
-                    "fontSize": "14px"
-                },
-                "classNames":
-                []
-            },
-            "displayName": "Text",
-            "custom":
-            {},
-            "parent": "XTPTs9B5cR",
-            "hidden": false,
-            "nodes":
-            [],
-            "linkedNodes":
-            {}
-        },
-        "cZWJDHEGl7":
-        {
-            "type":
-            {
-                "resolvedName": "StyleBox"
-            },
-            "isCanvas": true,
-            "props":
-            {
-                "events":
-                [],
-                "style":
-                {
-                    "position": "absolute",
-                    "top": "28px",
-                    "display": "none",
-                    "minWidth": "150px",
-                    "width": "150px",
-                    "justifyContent": "center",
-                    "flexDirection": "column",
-                    "alignItems": "center",
-                    "paddingLeft": "6px",
-                    "paddingRight": "6px",
-                    "paddingBottom": "6px",
-                    "paddingTop": "6px"
-                },
-                "classNames":
-                [
-                    "healthcareChildMenuCSS"
-                ]
-            },
-            "displayName": "Stylebox",
-            "custom":
-            {},
-            "parent": "XTPTs9B5cR",
-            "hidden": false,
-            "nodes":
-            [
-                "huFtLRZegZ",
-                "zetX3jQiJg",
-                "OAgForfjNS",
-                "Mq0sB1b7NC"
-            ],
-            "linkedNodes":
-            {}
-        },
-        "huFtLRZegZ":
-        {
-            "type":
-            {
-                "resolvedName": "Text"
-            },
-            "isCanvas": false,
-            "props":
-            {
-                "events":
-                [],
-                "doc":
-                [
-                    {
-                        "type": "paragraph",
-                        "children":
-                        [
-                            {
-                                "text": "Item 1",
-                                "bold": false,
-                                "italic": false,
-                                "underlined": false,
-                                "strikethrough": false
-                            }
-                        ]
-                    }
-                ],
-                "datasource": "",
-                "style":
-                {
-                    "paddingLeft": "0px",
-                    "paddingRight": "0px",
-                    "paddingTop": "0px",
-                    "paddingBottom": "0px",
-                    "width": "100%",
-                    "minWidth": "100%"
-                },
-                "classNames":
-                [
-                    "healthcareBackgroundTransition"
-                ]
-            },
-            "displayName": "Text",
-            "custom":
-            {},
-            "parent": "cZWJDHEGl7",
-            "hidden": false,
-            "nodes":
-            [],
-            "linkedNodes":
-            {}
-        },
-        "zetX3jQiJg":
-        {
-            "type":
-            {
-                "resolvedName": "Text"
-            },
-            "isCanvas": false,
-            "props":
-            {
-                "events":
-                [],
-                "doc":
-                [
-                    {
-                        "type": "paragraph",
-                        "children":
-                        [
-                            {
-                                "text": "Item 2",
-                                "bold": false,
-                                "italic": false,
-                                "underlined": false,
-                                "strikethrough": false
-                            }
-                        ]
-                    }
-                ],
-                "datasource": "",
-                "style":
-                {
-                    "paddingLeft": "0px",
-                    "paddingRight": "0px",
-                    "paddingTop": "0px",
-                    "paddingBottom": "0px",
-                    "width": "100%",
-                    "minWidth": "100%"
-                },
-                "classNames":
-                [
-                    "healthcareBackgroundTransition"
-                ]
-            },
-            "displayName": "Text",
-            "custom":
-            {},
-            "parent": "cZWJDHEGl7",
-            "hidden": false,
-            "nodes":
-            [],
-            "linkedNodes":
-            {}
-        },
-        "OAgForfjNS":
-        {
-            "type":
-            {
-                "resolvedName": "Text"
-            },
-            "isCanvas": false,
-            "props":
-            {
-                "events":
-                [],
-                "doc":
-                [
-                    {
-                        "type": "paragraph",
-                        "children":
-                        [
-                            {
-                                "text": "Item 3",
-                                "bold": false,
-                                "italic": false,
-                                "underlined": false,
-                                "strikethrough": false
-                            }
-                        ]
-                    }
-                ],
-                "datasource": "",
-                "style":
-                {
-                    "paddingLeft": "0px",
-                    "paddingRight": "0px",
-                    "paddingTop": "0px",
-                    "paddingBottom": "0px",
-                    "width": "100%",
-                    "minWidth": "100%"
-                },
-                "classNames":
-                [
-                    "healthcareBackgroundTransition"
-                ]
-            },
-            "displayName": "Text",
-            "custom":
-            {},
-            "parent": "cZWJDHEGl7",
-            "hidden": false,
-            "nodes":
-            [],
-            "linkedNodes":
-            {}
-        },
-        "Mq0sB1b7NC":
-        {
-            "type":
-            {
-                "resolvedName": "Text"
-            },
-            "isCanvas": false,
-            "props":
-            {
-                "events":
-                [],
-                "doc":
-                [
-                    {
-                        "type": "paragraph",
-                        "children":
-                        [
-                            {
-                                "text": "Item 4",
-                                "bold": false,
-                                "italic": false,
-                                "underlined": false,
-                                "strikethrough": false
-                            }
-                        ]
-                    }
-                ],
-                "datasource": "",
-                "style":
-                {
-                    "paddingLeft": "0px",
-                    "paddingRight": "0px",
-                    "paddingTop": "0px",
-                    "paddingBottom": "0px",
-                    "width": "100%",
-                    "minWidth": "100%"
-                },
-                "classNames":
-                []
-            },
-            "displayName": "Text",
-            "custom":
-            {},
-            "parent": "cZWJDHEGl7",
-            "hidden": false,
-            "nodes":
-            [],
-            "linkedNodes":
-            {}
-        },
-        "wLLUA44EJa":
-        {
-            "type":
-            {
-                "resolvedName": "Icon"
-            },
-            "isCanvas": false,
-            "props":
-            {
-                "classNames":
-                [
-                    "chevron"
-                ],
-                "events":
-                [],
-                "icon": "fa-angle-down",
-                "style":
-                {
-                    "marginTop": "-10px"
-                }
-            },
-            "displayName": "Icon",
-            "custom":
-            {},
-            "parent": "83a2ySkXCK",
-            "hidden": false,
-            "nodes":
-            [],
-            "linkedNodes":
-            {}
-        },
-        "O89uH4huZ7":
-        {
-            "type":
-            {
-                "resolvedName": "StyleBox"
-            },
-            "isCanvas": true,
-            "props":
-            {
-                "events":
-                [],
-                "style":
-                {
-                    "display": "flex",
-                    "alignItems": "center",
-                    "gap": "6px",
-                    "paddingTop": "0px",
-                    "paddingRight": "0px",
-                    "paddingBottom": "0px",
-                    "paddingLeft": "0px",
-                    "justifyContent": "center"
-                },
-                "classNames":
-                [
-                    "healthcareParentMenuCSS"
-                ]
-            },
-            "displayName": "Stylebox",
-            "custom":
-            {},
-            "parent": "7YejD89MOK",
-            "hidden": false,
-            "nodes":
-            [
-                "PPFeEnP_o7",
-                "G4JL5ER1tP"
-            ],
-            "linkedNodes":
-            {}
-        },
-        "PPFeEnP_o7":
-        {
-            "type":
-            {
-                "resolvedName": "StyleBox"
-            },
-            "isCanvas": true,
-            "props":
-            {
-                "events":
-                [],
-                "classNames":
-                [],
-                "style":
-                {
-                    "paddingTop": "0px",
-                    "paddingRight": "0px",
-                    "paddingBottom": "0px",
-                    "paddingLeft": "0px",
-                    "width": "fit-content",
-                    "height": "100%",
-                    "minHeight": "100%"
-                }
-            },
-            "displayName": "Stylebox",
-            "custom":
-            {},
-            "parent": "O89uH4huZ7",
-            "hidden": false,
-            "nodes":
-            [
-                "_BG0g1uuPI",
-                "LHmImixqn_"
-            ],
-            "linkedNodes":
-            {}
-        },
-        "_BG0g1uuPI":
-        {
-            "type":
-            {
-                "resolvedName": "Text"
-            },
-            "isCanvas": false,
-            "props":
-            {
-                "events":
-                [],
-                "doc":
-                [
-                    {
-                        "type": "paragraph",
-                        "children":
-                        [
-                            {
-                                "text": "About",
-                                "italic": false,
-                                "underlined": false,
-                                "strikethrough": false
-                            }
-                        ]
-                    }
-                ],
-                "datasource": "",
-                "style":
-                {
-                    "width": "fit-content",
-                    "fontWeight": "300",
-                    "fontSize": "14px"
-                },
-                "classNames":
-                []
-            },
-            "displayName": "Text",
-            "custom":
-            {},
-            "parent": "PPFeEnP_o7",
-            "hidden": false,
-            "nodes":
-            [],
-            "linkedNodes":
-            {}
-        },
-        "LHmImixqn_":
-        {
-            "type":
-            {
-                "resolvedName": "StyleBox"
-            },
-            "isCanvas": true,
-            "props":
-            {
-                "events":
-                [],
-                "style":
-                {
-                    "position": "absolute",
-                    "top": "28px",
-                    "display": "none",
-                    "minWidth": "150px",
-                    "width": "150px",
-                    "justifyContent": "center",
-                    "flexDirection": "column",
-                    "alignItems": "center",
-                    "paddingLeft": "6px",
-                    "paddingRight": "6px",
-                    "paddingBottom": "6px",
-                    "paddingTop": "6px"
-                },
-                "classNames":
-                [
-                    "healthcareChildMenuCSS"
-                ]
-            },
-            "displayName": "Stylebox",
-            "custom":
-            {},
-            "parent": "PPFeEnP_o7",
-            "hidden": false,
-            "nodes":
-            [
-                "-69-mytDdz",
-                "S22lXIfc7d",
-                "y-SP0pXpDp",
-                "vsBR2Xg52i"
-            ],
-            "linkedNodes":
-            {}
-        },
-        "-69-mytDdz":
-        {
-            "type":
-            {
-                "resolvedName": "Text"
-            },
-            "isCanvas": false,
-            "props":
-            {
-                "events":
-                [],
-                "doc":
-                [
-                    {
-                        "type": "paragraph",
-                        "children":
-                        [
-                            {
-                                "text": "Item 1",
-                                "bold": false,
-                                "italic": false,
-                                "underlined": false,
-                                "strikethrough": false
-                            }
-                        ]
-                    }
-                ],
-                "datasource": "",
-                "style":
-                {
-                    "paddingLeft": "0px",
-                    "paddingRight": "0px",
-                    "paddingTop": "0px",
-                    "paddingBottom": "0px",
-                    "width": "100%",
-                    "minWidth": "100%"
-                },
-                "classNames":
-                [
-                    "healthcareBackgroundTransition"
-                ]
-            },
-            "displayName": "Text",
-            "custom":
-            {},
-            "parent": "LHmImixqn_",
-            "hidden": false,
-            "nodes":
-            [],
-            "linkedNodes":
-            {}
-        },
-        "S22lXIfc7d":
-        {
-            "type":
-            {
-                "resolvedName": "Text"
-            },
-            "isCanvas": false,
-            "props":
-            {
-                "events":
-                [],
-                "doc":
-                [
-                    {
-                        "type": "paragraph",
-                        "children":
-                        [
-                            {
-                                "text": "Item 2",
-                                "bold": false,
-                                "italic": false,
-                                "underlined": false,
-                                "strikethrough": false
-                            }
-                        ]
-                    }
-                ],
-                "datasource": "",
-                "style":
-                {
-                    "paddingLeft": "0px",
-                    "paddingRight": "0px",
-                    "paddingTop": "0px",
-                    "paddingBottom": "0px",
-                    "width": "100%",
-                    "minWidth": "100%"
-                },
-                "classNames":
-                [
-                    "healthcareBackgroundTransition"
-                ]
-            },
-            "displayName": "Text",
-            "custom":
-            {},
-            "parent": "LHmImixqn_",
-            "hidden": false,
-            "nodes":
-            [],
-            "linkedNodes":
-            {}
-        },
-        "y-SP0pXpDp":
-        {
-            "type":
-            {
-                "resolvedName": "Text"
-            },
-            "isCanvas": false,
-            "props":
-            {
-                "events":
-                [],
-                "doc":
-                [
-                    {
-                        "type": "paragraph",
-                        "children":
-                        [
-                            {
-                                "text": "Item 3",
-                                "bold": false,
-                                "italic": false,
-                                "underlined": false,
-                                "strikethrough": false
-                            }
-                        ]
-                    }
-                ],
-                "datasource": "",
-                "style":
-                {
-                    "paddingLeft": "0px",
-                    "paddingRight": "0px",
-                    "paddingTop": "0px",
-                    "paddingBottom": "0px",
-                    "width": "100%",
-                    "minWidth": "100%"
-                },
-                "classNames":
-                [
-                    "healthcareBackgroundTransition"
-                ]
-            },
-            "displayName": "Text",
-            "custom":
-            {},
-            "parent": "LHmImixqn_",
-            "hidden": false,
-            "nodes":
-            [],
-            "linkedNodes":
-            {}
-        },
-        "vsBR2Xg52i":
-        {
-            "type":
-            {
-                "resolvedName": "Text"
-            },
-            "isCanvas": false,
-            "props":
-            {
-                "events":
-                [],
-                "doc":
-                [
-                    {
-                        "type": "paragraph",
-                        "children":
-                        [
-                            {
-                                "text": "Item 4",
-                                "bold": false,
-                                "italic": false,
-                                "underlined": false,
-                                "strikethrough": false
-                            }
-                        ]
-                    }
-                ],
-                "datasource": "",
-                "style":
-                {
-                    "paddingLeft": "0px",
-                    "paddingRight": "0px",
-                    "paddingTop": "0px",
-                    "paddingBottom": "0px",
-                    "width": "100%",
-                    "minWidth": "100%"
-                },
-                "classNames":
-                []
-            },
-            "displayName": "Text",
-            "custom":
-            {},
-            "parent": "LHmImixqn_",
-            "hidden": false,
-            "nodes":
-            [],
-            "linkedNodes":
-            {}
-        },
-        "G4JL5ER1tP":
-        {
-            "type":
-            {
-                "resolvedName": "Icon"
-            },
-            "isCanvas": false,
-            "props":
-            {
-                "classNames":
-                [
-                    "chevron"
-                ],
-                "events":
-                [],
-                "icon": "fa-angle-down",
-                "style":
-                {
-                    "marginTop": "-10px"
-                }
-            },
-            "displayName": "Icon",
-            "custom":
-            {},
-            "parent": "O89uH4huZ7",
-            "hidden": false,
-            "nodes":
-            [],
-            "linkedNodes":
-            {}
-        },
-        "W0Ib-zJELY":
-        {
-            "type":
-            {
-                "resolvedName": "StyleBox"
-            },
-            "isCanvas": true,
-            "props":
-            {
-                "events":
-                [],
-                "style":
-                {
-                    "display": "flex",
-                    "flexDirection": "row",
-                    "gap": "30px",
-                    "width": "fit-content"
-                }
-            },
-            "displayName": "Stylebox",
-            "custom":
-            {},
-            "parent": "VJUFbXDd7w",
-            "hidden": false,
-            "nodes":
-            [
-                "hCbl1lGUql",
-                "NP6xM9ohT_"
-            ],
-            "linkedNodes":
-            {}
-        },
-        "hCbl1lGUql":
-        {
-            "type":
-            {
-                "resolvedName": "StyleBox"
-            },
-            "isCanvas": true,
-            "props":
-            {
-                "events":
-                [],
-                "style":
-                {
-                    "display": "flex",
-                    "alignItems": "center",
-                    "gap": "6px",
-                    "paddingTop": "0px",
-                    "paddingRight": "0px",
-                    "paddingBottom": "0px",
-                    "paddingLeft": "0px",
-                    "justifyContent": "center"
-                },
-                "classNames":
-                [
-                    "healthcareParentMenuCSS"
-                ]
-            },
-            "displayName": "Stylebox",
-            "custom":
-            {},
-            "parent": "W0Ib-zJELY",
-            "hidden": false,
-            "nodes":
-            [
-                "CgKTJWTKlf",
-                "huPrXw-WTf"
-            ],
-            "linkedNodes":
-            {}
-        },
-        "CgKTJWTKlf":
-        {
-            "type":
-            {
-                "resolvedName": "StyleBox"
-            },
-            "isCanvas": true,
-            "props":
-            {
-                "events":
-                [],
-                "classNames":
-                [],
-                "style":
-                {
-                    "paddingTop": "0px",
-                    "paddingRight": "0px",
-                    "paddingBottom": "0px",
-                    "paddingLeft": "0px",
-                    "width": "fit-content",
-                    "height": "100%",
-                    "minHeight": "100%"
-                }
-            },
-            "displayName": "Stylebox",
-            "custom":
-            {},
-            "parent": "hCbl1lGUql",
-            "hidden": false,
-            "nodes":
-            [
-                "jC7oRBggHM",
-                "Qgl3RbPhZV"
-            ],
-            "linkedNodes":
-            {}
-        },
-        "jC7oRBggHM":
-        {
-            "type":
-            {
-                "resolvedName": "Text"
-            },
-            "isCanvas": false,
-            "props":
-            {
-                "events":
-                [],
-                "doc":
-                [
-                    {
-                        "type": "paragraph",
-                        "children":
-                        [
-                            {
-                                "text": "Services",
-                                "italic": false,
-                                "underlined": false,
-                                "strikethrough": false
-                            }
-                        ]
-                    }
-                ],
-                "datasource": "",
-                "style":
-                {
-                    "width": "fit-content",
-                    "fontWeight": "300",
-                    "fontSize": "14px"
-                },
-                "classNames":
-                []
-            },
-            "displayName": "Text",
-            "custom":
-            {},
-            "parent": "CgKTJWTKlf",
-            "hidden": false,
-            "nodes":
-            [],
-            "linkedNodes":
-            {}
-        },
-        "Qgl3RbPhZV":
-        {
-            "type":
-            {
-                "resolvedName": "StyleBox"
-            },
-            "isCanvas": true,
-            "props":
-            {
-                "events":
-                [],
-                "style":
-                {
-                    "position": "absolute",
-                    "top": "28px",
-                    "display": "none",
-                    "minWidth": "150px",
-                    "width": "150px",
-                    "justifyContent": "center",
-                    "flexDirection": "column",
-                    "alignItems": "center",
-                    "paddingLeft": "6px",
-                    "paddingRight": "6px",
-                    "paddingBottom": "6px",
-                    "paddingTop": "6px"
-                },
-                "classNames":
-                [
-                    "healthcareChildMenuCSS"
-                ]
-            },
-            "displayName": "Stylebox",
-            "custom":
-            {},
-            "parent": "CgKTJWTKlf",
-            "hidden": false,
-            "nodes":
-            [
-                "B2Ie-KQLW2",
-                "92gKtp4alp",
-                "1OcFULoujR",
-                "u6QgKPsNT5"
-            ],
-            "linkedNodes":
-            {}
-        },
-        "B2Ie-KQLW2":
-        {
-            "type":
-            {
-                "resolvedName": "Text"
-            },
-            "isCanvas": false,
-            "props":
-            {
-                "events":
-                [],
-                "doc":
-                [
-                    {
-                        "type": "paragraph",
-                        "children":
-                        [
-                            {
-                                "text": "Item 1",
-                                "bold": false,
-                                "italic": false,
-                                "underlined": false,
-                                "strikethrough": false
-                            }
-                        ]
-                    }
-                ],
-                "datasource": "",
-                "style":
-                {
-                    "paddingLeft": "0px",
-                    "paddingRight": "0px",
-                    "paddingTop": "0px",
-                    "paddingBottom": "0px",
-                    "width": "100%",
-                    "minWidth": "100%"
-                },
-                "classNames":
-                [
-                    "healthcareBackgroundTransition"
-                ]
-            },
-            "displayName": "Text",
-            "custom":
-            {},
-            "parent": "Qgl3RbPhZV",
-            "hidden": false,
-            "nodes":
-            [],
-            "linkedNodes":
-            {}
-        },
-        "92gKtp4alp":
-        {
-            "type":
-            {
-                "resolvedName": "Text"
-            },
-            "isCanvas": false,
-            "props":
-            {
-                "events":
-                [],
-                "doc":
-                [
-                    {
-                        "type": "paragraph",
-                        "children":
-                        [
-                            {
-                                "text": "Item 2",
-                                "bold": false,
-                                "italic": false,
-                                "underlined": false,
-                                "strikethrough": false
-                            }
-                        ]
-                    }
-                ],
-                "datasource": "",
-                "style":
-                {
-                    "paddingLeft": "0px",
-                    "paddingRight": "0px",
-                    "paddingTop": "0px",
-                    "paddingBottom": "0px",
-                    "width": "100%",
-                    "minWidth": "100%"
-                },
-                "classNames":
-                [
-                    "healthcareBackgroundTransition"
-                ]
-            },
-            "displayName": "Text",
-            "custom":
-            {},
-            "parent": "Qgl3RbPhZV",
-            "hidden": false,
-            "nodes":
-            [],
-            "linkedNodes":
-            {}
-        },
-        "1OcFULoujR":
-        {
-            "type":
-            {
-                "resolvedName": "Text"
-            },
-            "isCanvas": false,
-            "props":
-            {
-                "events":
-                [],
-                "doc":
-                [
-                    {
-                        "type": "paragraph",
-                        "children":
-                        [
-                            {
-                                "text": "Item 3",
-                                "bold": false,
-                                "italic": false,
-                                "underlined": false,
-                                "strikethrough": false
-                            }
-                        ]
-                    }
-                ],
-                "datasource": "",
-                "style":
-                {
-                    "paddingLeft": "0px",
-                    "paddingRight": "0px",
-                    "paddingTop": "0px",
-                    "paddingBottom": "0px",
-                    "width": "100%",
-                    "minWidth": "100%"
-                },
-                "classNames":
-                [
-                    "healthcareBackgroundTransition"
-                ]
-            },
-            "displayName": "Text",
-            "custom":
-            {},
-            "parent": "Qgl3RbPhZV",
-            "hidden": false,
-            "nodes":
-            [],
-            "linkedNodes":
-            {}
-        },
-        "u6QgKPsNT5":
-        {
-            "type":
-            {
-                "resolvedName": "Text"
-            },
-            "isCanvas": false,
-            "props":
-            {
-                "events":
-                [],
-                "doc":
-                [
-                    {
-                        "type": "paragraph",
-                        "children":
-                        [
-                            {
-                                "text": "Item 4",
-                                "bold": false,
-                                "italic": false,
-                                "underlined": false,
-                                "strikethrough": false
-                            }
-                        ]
-                    }
-                ],
-                "datasource": "",
-                "style":
-                {
-                    "paddingLeft": "0px",
-                    "paddingRight": "0px",
-                    "paddingTop": "0px",
-                    "paddingBottom": "0px",
-                    "width": "100%",
-                    "minWidth": "100%"
-                },
-                "classNames":
-                []
-            },
-            "displayName": "Text",
-            "custom":
-            {},
-            "parent": "Qgl3RbPhZV",
-            "hidden": false,
-            "nodes":
-            [],
-            "linkedNodes":
-            {}
-        },
-        "huPrXw-WTf":
-        {
-            "type":
-            {
-                "resolvedName": "Icon"
-            },
-            "isCanvas": false,
-            "props":
-            {
-                "classNames":
-                [
-                    "chevron"
-                ],
-                "events":
-                [],
-                "icon": "fa-angle-down",
-                "style":
-                {
-                    "marginTop": "-10px"
-                }
-            },
-            "displayName": "Icon",
-            "custom":
-            {},
-            "parent": "hCbl1lGUql",
-            "hidden": false,
-            "nodes":
-            [],
-            "linkedNodes":
-            {}
-        },
-        "NP6xM9ohT_":
-        {
-            "type":
-            {
-                "resolvedName": "StyleBox"
-            },
-            "isCanvas": true,
-            "props":
-            {
-                "events":
-                [],
-                "style":
-                {
-                    "display": "flex",
-                    "alignItems": "center",
-                    "gap": "6px",
-                    "paddingTop": "0px",
-                    "paddingRight": "0px",
-                    "paddingBottom": "0px",
-                    "paddingLeft": "0px",
-                    "justifyContent": "center"
-                },
-                "classNames":
-                [
-                    "healthcareParentMenuCSS"
-                ]
-            },
-            "displayName": "Stylebox",
-            "custom":
-            {},
-            "parent": "W0Ib-zJELY",
-            "hidden": false,
-            "nodes":
-            [
-                "cAk7koBkQ3",
-                "eUIhED9yVN"
-            ],
-            "linkedNodes":
-            {}
-        },
-        "cAk7koBkQ3":
-        {
-            "type":
-            {
-                "resolvedName": "StyleBox"
-            },
-            "isCanvas": true,
-            "props":
-            {
-                "events":
-                [],
-                "classNames":
-                [],
-                "style":
-                {
-                    "paddingTop": "0px",
-                    "paddingRight": "0px",
-                    "paddingBottom": "0px",
-                    "paddingLeft": "0px",
-                    "width": "fit-content",
-                    "height": "100%",
-                    "minHeight": "100%"
-                }
-            },
-            "displayName": "Stylebox",
-            "custom":
-            {},
-            "parent": "NP6xM9ohT_",
-            "hidden": false,
-            "nodes":
-            [
-                "ZzjFdC7luf",
-                "HZ4evVehg2"
-            ],
-            "linkedNodes":
-            {}
-        },
-        "ZzjFdC7luf":
-        {
-            "type":
-            {
-                "resolvedName": "Text"
-            },
-            "isCanvas": false,
-            "props":
-            {
-                "events":
-                [],
-                "doc":
-                [
-                    {
-                        "type": "paragraph",
-                        "children":
-                        [
-                            {
-                                "text": "Pages",
-                                "italic": false,
-                                "underlined": false,
-                                "strikethrough": false
-                            }
-                        ]
-                    }
-                ],
-                "datasource": "",
-                "style":
-                {
-                    "width": "fit-content",
-                    "fontWeight": "300",
-                    "fontSize": "14px"
-                },
-                "classNames":
-                []
-            },
-            "displayName": "Text",
-            "custom":
-            {},
-            "parent": "cAk7koBkQ3",
-            "hidden": false,
-            "nodes":
-            [],
-            "linkedNodes":
-            {}
-        },
-        "HZ4evVehg2":
-        {
-            "type":
-            {
-                "resolvedName": "StyleBox"
-            },
-            "isCanvas": true,
-            "props":
-            {
-                "events":
-                [],
-                "style":
-                {
-                    "position": "absolute",
-                    "top": "28px",
-                    "display": "none",
-                    "minWidth": "150px",
-                    "width": "150px",
-                    "justifyContent": "center",
-                    "flexDirection": "column",
-                    "alignItems": "center",
-                    "paddingLeft": "6px",
-                    "paddingRight": "6px",
-                    "paddingBottom": "6px",
-                    "paddingTop": "6px"
-                },
-                "classNames":
-                [
-                    "healthcareChildMenuCSS"
-                ]
-            },
-            "displayName": "Stylebox",
-            "custom":
-            {},
-            "parent": "cAk7koBkQ3",
-            "hidden": false,
-            "nodes":
-            [
-                "ctsP4jMl2n",
-                "pp3rOlxo8u",
-                "kZOyOP6AlE",
-                "uwhna5qKtj"
-            ],
-            "linkedNodes":
-            {}
-        },
-        "ctsP4jMl2n":
-        {
-            "type":
-            {
-                "resolvedName": "Text"
-            },
-            "isCanvas": false,
-            "props":
-            {
-                "events":
-                [],
-                "doc":
-                [
-                    {
-                        "type": "paragraph",
-                        "children":
-                        [
-                            {
-                                "text": "Item 1",
-                                "bold": false,
-                                "italic": false,
-                                "underlined": false,
-                                "strikethrough": false
-                            }
-                        ]
-                    }
-                ],
-                "datasource": "",
-                "style":
-                {
-                    "paddingLeft": "0px",
-                    "paddingRight": "0px",
-                    "paddingTop": "0px",
-                    "paddingBottom": "0px",
-                    "width": "100%",
-                    "minWidth": "100%"
-                },
-                "classNames":
-                [
-                    "healthcareBackgroundTransition"
-                ]
-            },
-            "displayName": "Text",
-            "custom":
-            {},
-            "parent": "HZ4evVehg2",
-            "hidden": false,
-            "nodes":
-            [],
-            "linkedNodes":
-            {}
-        },
-        "pp3rOlxo8u":
-        {
-            "type":
-            {
-                "resolvedName": "Text"
-            },
-            "isCanvas": false,
-            "props":
-            {
-                "events":
-                [],
-                "doc":
-                [
-                    {
-                        "type": "paragraph",
-                        "children":
-                        [
-                            {
-                                "text": "Item 2",
-                                "bold": false,
-                                "italic": false,
-                                "underlined": false,
-                                "strikethrough": false
-                            }
-                        ]
-                    }
-                ],
-                "datasource": "",
-                "style":
-                {
-                    "paddingLeft": "0px",
-                    "paddingRight": "0px",
-                    "paddingTop": "0px",
-                    "paddingBottom": "0px",
-                    "width": "100%",
-                    "minWidth": "100%"
-                },
-                "classNames":
-                [
-                    "healthcareBackgroundTransition"
-                ]
-            },
-            "displayName": "Text",
-            "custom":
-            {},
-            "parent": "HZ4evVehg2",
-            "hidden": false,
-            "nodes":
-            [],
-            "linkedNodes":
-            {}
-        },
-        "kZOyOP6AlE":
-        {
-            "type":
-            {
-                "resolvedName": "Text"
-            },
-            "isCanvas": false,
-            "props":
-            {
-                "events":
-                [],
-                "doc":
-                [
-                    {
-                        "type": "paragraph",
-                        "children":
-                        [
-                            {
-                                "text": "Item 3",
-                                "bold": false,
-                                "italic": false,
-                                "underlined": false,
-                                "strikethrough": false
-                            }
-                        ]
-                    }
-                ],
-                "datasource": "",
-                "style":
-                {
-                    "paddingLeft": "0px",
-                    "paddingRight": "0px",
-                    "paddingTop": "0px",
-                    "paddingBottom": "0px",
-                    "width": "100%",
-                    "minWidth": "100%"
-                },
-                "classNames":
-                [
-                    "healthcareBackgroundTransition"
-                ]
-            },
-            "displayName": "Text",
-            "custom":
-            {},
-            "parent": "HZ4evVehg2",
-            "hidden": false,
-            "nodes":
-            [],
-            "linkedNodes":
-            {}
-        },
-        "uwhna5qKtj":
-        {
-            "type":
-            {
-                "resolvedName": "Text"
-            },
-            "isCanvas": false,
-            "props":
-            {
-                "events":
-                [],
-                "doc":
-                [
-                    {
-                        "type": "paragraph",
-                        "children":
-                        [
-                            {
-                                "text": "Item 4",
-                                "bold": false,
-                                "italic": false,
-                                "underlined": false,
-                                "strikethrough": false
-                            }
-                        ]
-                    }
-                ],
-                "datasource": "",
-                "style":
-                {
-                    "paddingLeft": "0px",
-                    "paddingRight": "0px",
-                    "paddingTop": "0px",
-                    "paddingBottom": "0px",
-                    "width": "100%",
-                    "minWidth": "100%"
-                },
-                "classNames":
-                []
-            },
-            "displayName": "Text",
-            "custom":
-            {},
-            "parent": "HZ4evVehg2",
-            "hidden": false,
-            "nodes":
-            [],
-            "linkedNodes":
-            {}
-        },
-        "eUIhED9yVN":
-        {
-            "type":
-            {
-                "resolvedName": "Icon"
-            },
-            "isCanvas": false,
-            "props":
-            {
-                "classNames":
-                [
-                    "chevron"
-                ],
-                "events":
-                [],
-                "icon": "fa-angle-down",
-                "style":
-                {
-                    "marginTop": "-10px"
-                }
-            },
-            "displayName": "Icon",
-            "custom":
-            {},
-            "parent": "NP6xM9ohT_",
-            "hidden": false,
-            "nodes":
-            [],
-            "linkedNodes":
-            {}
+  "id": "jRTepV77YEvkJihH5fyQm4",
+  "rootNodeId": "eTJymrWvnY",
+  "nodes": {
+    "eTJymrWvnY": {
+      "type": {
+        "resolvedName": "StyleBox"
+      },
+      "isCanvas": true,
+      "props": {
+        "events": [],
+        "style": {
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "width": "100%",
+          "minWidth": "100%",
+          "height": "fit-content",
+          "minHeight": "fit-content",
+          "display": "flex",
+          "flexDirection": "column"
         }
+      },
+      "displayName": "Stylebox",
+      "custom": {
+        "displayName": "Header"
+      },
+      "parent": "ROOT",
+      "hidden": false,
+      "nodes": ["vmDVP1of4m", "05mx0Gf1QQ"],
+      "linkedNodes": {}
     },
-    "styles":
-    [
-        {
-            "name": "healthcareBackgroundTransition",
-            "content": "self {\n  background: linear-gradient(transparent, transparent 50%, #488ee4 50%, #488ee4);\n  background-size: 100% 200%;\n  /*trasition effect for background*/\n  transition: background 0.3s;\n}\n\nself:hover {\n  background-position: 100% 100%;\n}",
-            "parentId": null,
-            "id": "7fFA6L5c8eK63FfyPZyYO"
-        },
-        {
-            "name": "healthcareChildMenuCSS",
-            "content": "self { \n\tposition: absolute; \n\tbackground-color: white;\n\toverflow: auto; \n\tbox-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); \n\tz-index: 1;\n}\n\nself p:hover {\n\tbackground-color: #488ee4;\n\tcolor: white;}",
-            "parentId": null,
-            "id": "pY7A90DabgH-39ykuuHzB"
-        },
-        {
-            "name": "healthcareParentMenuCSS",
-            "content": "self {\n position: relative;\n   display: inline-block;\n}\n\nself:hover .healthcareChildMenuCSS {\n\tdisplay: block !important;\n\tbackground-color: white}\n\nself:hover .chevron {\n\ttransform: rotate(90deg);\n}",
-            "parentId": null,
-            "id": "P4OAznsauKUI44RtBJ6qB"
-        },
-        {
-            "name": "chevron",
-            "content": "self {\n\t  transition: 0.3s;\n}",
-            "parentId": null,
-            "scope": "local",
-            "id": "lcdX7M4-_AZ9B3z1RL8Va"
+    "vmDVP1of4m": {
+      "type": {
+        "resolvedName": "StyleBox"
+      },
+      "isCanvas": true,
+      "props": {
+        "events": [],
+        "style": {
+          "backgroundColor": "#234677",
+          "display": "flex",
+          "flexDirection": "row",
+          "width": "100%",
+          "minWidth": "100%",
+          "justifyContent": "space-between",
+          "paddingTop": "4px",
+          "paddingBottom": "4px",
+          "flexWrap": "wrap",
+          "maxWidth": "100%"
         }
-    ]
+      },
+      "displayName": "Stylebox",
+      "custom": {},
+      "parent": "eTJymrWvnY",
+      "hidden": false,
+      "nodes": ["ywOe39liWn", "8MlUfhBp9Y"],
+      "linkedNodes": {}
+    },
+    "ywOe39liWn": {
+      "type": {
+        "resolvedName": "StyleBox"
+      },
+      "isCanvas": true,
+      "props": {
+        "events": [],
+        "style": {
+          "display": "flex",
+          "flexDirection": "row",
+          "gap": "12px",
+          "width": "fit-content"
+        }
+      },
+      "displayName": "Stylebox",
+      "custom": {},
+      "parent": "vmDVP1of4m",
+      "hidden": false,
+      "nodes": ["WMPKcOSOfJ", "Y87puvoc3f"],
+      "linkedNodes": {}
+    },
+    "WMPKcOSOfJ": {
+      "type": {
+        "resolvedName": "StyleBox"
+      },
+      "isCanvas": true,
+      "props": {
+        "events": [],
+        "style": {
+          "display": "flex",
+          "alignItems": "center",
+          "gap": "6px",
+          "width": "fit-content",
+          "minWidth": "fit-content",
+          "maxWidth": "fit-content",
+          "color": "#ffffffff",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px"
+        }
+      },
+      "displayName": "Stylebox",
+      "custom": {},
+      "parent": "ywOe39liWn",
+      "hidden": false,
+      "nodes": ["EyO7RVMP_c", "nRnFYiDzcY"],
+      "linkedNodes": {}
+    },
+    "EyO7RVMP_c": {
+      "type": {
+        "resolvedName": "Icon"
+      },
+      "isCanvas": false,
+      "props": {
+        "classNames": [],
+        "events": [],
+        "icon": "fa-headphones",
+        "style": {
+          "paddingTop": "8px",
+          "paddingRight": "8px",
+          "paddingBottom": "8px",
+          "paddingLeft": "8px",
+          "backgroundColor": "#ffffffff",
+          "borderRadius": "50%",
+          "color": "#234577",
+          "fontSize": "12px",
+          "width": "26px",
+          "minWidth": "26px",
+          "height": "26px",
+          "minHeight": "26-",
+          "maxHeight": "25-",
+          "display": "flex",
+          "justifyContent": "center",
+          "alignItems": "center"
+        }
+      },
+      "displayName": "Icon",
+      "custom": {},
+      "parent": "WMPKcOSOfJ",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "nRnFYiDzcY": {
+      "type": {
+        "resolvedName": "Text"
+      },
+      "isCanvas": false,
+      "props": {
+        "events": [],
+        "doc": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Support",
+                "bold": false,
+                "italic": false,
+                "underlined": false,
+                "strikethrough": false
+              }
+            ]
+          }
+        ],
+        "datasource": "",
+        "style": {
+          "fontSize": "12px",
+          "fontFamily": "Roboto"
+        }
+      },
+      "displayName": "Text",
+      "custom": {},
+      "parent": "WMPKcOSOfJ",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "Y87puvoc3f": {
+      "type": {
+        "resolvedName": "StyleBox"
+      },
+      "isCanvas": true,
+      "props": {
+        "events": [],
+        "style": {
+          "display": "flex",
+          "alignItems": "center",
+          "gap": "6px",
+          "width": "fit-content",
+          "minWidth": "fit-content",
+          "maxWidth": "fit-content",
+          "color": "#ffffffff",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px"
+        },
+        "classNames": []
+      },
+      "displayName": "Stylebox",
+      "custom": {},
+      "parent": "ywOe39liWn",
+      "hidden": false,
+      "nodes": ["woGD3yRpqn", "szOMmQlTx5"],
+      "linkedNodes": {}
+    },
+    "woGD3yRpqn": {
+      "type": {
+        "resolvedName": "Icon"
+      },
+      "isCanvas": false,
+      "props": {
+        "classNames": [],
+        "events": [],
+        "icon": "fa-phone",
+        "style": {
+          "paddingTop": "8px",
+          "paddingRight": "8px",
+          "paddingBottom": "8px",
+          "paddingLeft": "8px",
+          "backgroundColor": "#ffffffff",
+          "borderRadius": "50%",
+          "color": "#234577",
+          "fontSize": "12px",
+          "width": "25px",
+          "height": "25px",
+          "display": "flex",
+          "justifyContent": "center",
+          "alignItems": "center"
+        }
+      },
+      "displayName": "Icon",
+      "custom": {},
+      "parent": "Y87puvoc3f",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "szOMmQlTx5": {
+      "type": {
+        "resolvedName": "Text"
+      },
+      "isCanvas": false,
+      "props": {
+        "events": [],
+        "doc": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Phone Book",
+                "bold": false,
+                "italic": false,
+                "underlined": false,
+                "strikethrough": false
+              }
+            ]
+          }
+        ],
+        "datasource": "",
+        "style": {
+          "fontSize": "12px",
+          "fontFamily": "Roboto"
+        }
+      },
+      "displayName": "Text",
+      "custom": {},
+      "parent": "Y87puvoc3f",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "8MlUfhBp9Y": {
+      "type": {
+        "resolvedName": "StyleBox"
+      },
+      "isCanvas": true,
+      "props": {
+        "events": [],
+        "style": {
+          "display": "flex",
+          "gap": "10px",
+          "width": "fit-content"
+        }
+      },
+      "displayName": "Stylebox",
+      "custom": {},
+      "parent": "vmDVP1of4m",
+      "hidden": false,
+      "nodes": ["INQQArLEEs"],
+      "linkedNodes": {}
+    },
+    "INQQArLEEs": {
+      "type": {
+        "resolvedName": "StyleBox"
+      },
+      "isCanvas": true,
+      "props": {
+        "events": [],
+        "style": {
+          "display": "flex",
+          "alignItems": "center",
+          "gap": "0px",
+          "width": "fit-content",
+          "minWidth": "fit-content",
+          "maxWidth": "fit-content",
+          "color": "#ffffffff",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px"
+        }
+      },
+      "displayName": "Stylebox",
+      "custom": {},
+      "parent": "8MlUfhBp9Y",
+      "hidden": false,
+      "nodes": ["rJOKVI4QmF", "7M9vFncVRH"],
+      "linkedNodes": {}
+    },
+    "rJOKVI4QmF": {
+      "type": {
+        "resolvedName": "Icon"
+      },
+      "isCanvas": false,
+      "props": {
+        "classNames": [],
+        "events": [],
+        "icon": "fa-cny",
+        "style": {
+          "paddingTop": "8px",
+          "paddingRight": "8px",
+          "paddingBottom": "8px",
+          "paddingLeft": "8px",
+          "backgroundColor": "transparent",
+          "fontSize": "16px",
+          "width": "26px",
+          "height": "26px",
+          "minWidth": "26-",
+          "minHeight": "26-",
+          "display": "flex",
+          "justifyContent": "center",
+          "alignItems": "center"
+        }
+      },
+      "displayName": "Icon",
+      "custom": {},
+      "parent": "INQQArLEEs",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "7M9vFncVRH": {
+      "type": {
+        "resolvedName": "SelectInput"
+      },
+      "isCanvas": false,
+      "props": {
+        "events": [],
+        "placeholder": "placeholder",
+        "label": "label",
+        "labelPosition": "hidden",
+        "style": {
+          "width": "fit-content",
+          "minWidth": "fit-content",
+          "paddingRight": "8px"
+        }
+      },
+      "displayName": "Select input",
+      "custom": {},
+      "parent": "INQQArLEEs",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {
+        "label": "CAChl0oZSR",
+        "select": "7sOnQDcTYF"
+      }
+    },
+    "CAChl0oZSR": {
+      "type": {
+        "resolvedName": "Label"
+      },
+      "isCanvas": false,
+      "props": {
+        "events": [],
+        "moveable": false,
+        "deletable": true,
+        "text": "Label"
+      },
+      "displayName": "Label",
+      "custom": {},
+      "parent": "7M9vFncVRH",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "7sOnQDcTYF": {
+      "type": {
+        "resolvedName": "Select"
+      },
+      "isCanvas": false,
+      "props": {
+        "events": [],
+        "deletable": false,
+        "className": "fd-select",
+        "style": {
+          "backgroundColor": "transparent",
+          "borderStyle": "none",
+          "borderRightWidth": "1px",
+          "width": "fit-content",
+          "minWidth": "fit-content",
+          "fontFamily": "Roboto",
+          "fontSize": "12px",
+          "textAlign": "center"
+        },
+        "moveable": false,
+        "options": [
+          {
+            "label": "Eng",
+            "value": "",
+            "id": "o7tKkpE9P1v6hMqNthMbnf"
+          },
+          {
+            "label": "Fra",
+            "value": "",
+            "id": "pnqJEoongC8Ee1wPBX9BKE"
+          },
+          {
+            "label": "Esp",
+            "value": "",
+            "id": "4eA43SJS6pxidULMxe5p7U"
+          }
+        ],
+        "defaultValue": "Eng"
+      },
+      "displayName": "Select",
+      "custom": {},
+      "parent": "7M9vFncVRH",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "05mx0Gf1QQ": {
+      "type": {
+        "resolvedName": "StyleBox"
+      },
+      "isCanvas": true,
+      "props": {
+        "events": [],
+        "style": {
+          "backgroundColor": "#ffffffff",
+          "boxShadow": "0px 0px 14px 1px #00000035",
+          "display": "flex",
+          "gap": "12px"
+        }
+      },
+      "displayName": "Stylebox",
+      "custom": {},
+      "parent": "eTJymrWvnY",
+      "hidden": false,
+      "nodes": ["J7GdnBf_O2", "VJUFbXDd7w"],
+      "linkedNodes": {}
+    },
+    "J7GdnBf_O2": {
+      "type": {
+        "resolvedName": "Image"
+      },
+      "isCanvas": false,
+      "props": {
+        "classNames": [],
+        "events": [],
+        "style": {
+          "height": "auto",
+          "width": "50px",
+          "minWidth": "50px"
+        },
+        "imgSrc": "https://raw.githubusercontent.com/4d/Web-studio-TIPS/gh-build/groups/healthcare/assets/Q_7FnVJ8ANkkidV21ZHi1TNt.svg"
+      },
+      "displayName": "Image",
+      "custom": {},
+      "parent": "05mx0Gf1QQ",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "VJUFbXDd7w": {
+      "type": {
+        "resolvedName": "StyleBox"
+      },
+      "isCanvas": true,
+      "props": {
+        "events": [],
+        "style": {
+          "display": "flex",
+          "flexDirection": "row",
+          "gap": "0px",
+          "width": "fit-content",
+          "flexWrap": "wrap",
+          "paddingTop": "0px",
+          "paddingBottom": "0px",
+          "justifyContent": "center"
+        }
+      },
+      "displayName": "Stylebox",
+      "custom": {},
+      "parent": "05mx0Gf1QQ",
+      "hidden": false,
+      "nodes": ["7YejD89MOK", "W0Ib-zJELY"],
+      "linkedNodes": {}
+    },
+    "7YejD89MOK": {
+      "type": {
+        "resolvedName": "StyleBox"
+      },
+      "isCanvas": true,
+      "props": {
+        "events": [],
+        "style": {
+          "display": "flex",
+          "flexDirection": "row",
+          "gap": "30px",
+          "width": "fit-content"
+        }
+      },
+      "displayName": "Stylebox",
+      "custom": {},
+      "parent": "VJUFbXDd7w",
+      "hidden": false,
+      "nodes": ["83a2ySkXCK", "O89uH4huZ7"],
+      "linkedNodes": {}
+    },
+    "83a2ySkXCK": {
+      "type": {
+        "resolvedName": "StyleBox"
+      },
+      "isCanvas": true,
+      "props": {
+        "events": [],
+        "style": {
+          "display": "flex",
+          "alignItems": "center",
+          "gap": "6px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "justifyContent": "center"
+        },
+        "classNames": ["healthcareParentMenuCSS"]
+      },
+      "displayName": "Stylebox",
+      "custom": {},
+      "parent": "7YejD89MOK",
+      "hidden": false,
+      "nodes": ["XTPTs9B5cR", "wLLUA44EJa"],
+      "linkedNodes": {}
+    },
+    "XTPTs9B5cR": {
+      "type": {
+        "resolvedName": "StyleBox"
+      },
+      "isCanvas": true,
+      "props": {
+        "events": [],
+        "classNames": [],
+        "style": {
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "width": "fit-content",
+          "height": "100%",
+          "minHeight": "100%"
+        }
+      },
+      "displayName": "Stylebox",
+      "custom": {},
+      "parent": "83a2ySkXCK",
+      "hidden": false,
+      "nodes": ["ufWri3cavX", "cZWJDHEGl7"],
+      "linkedNodes": {}
+    },
+    "ufWri3cavX": {
+      "type": {
+        "resolvedName": "Text"
+      },
+      "isCanvas": false,
+      "props": {
+        "events": [],
+        "doc": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Home",
+                "italic": false,
+                "underlined": false,
+                "strikethrough": false
+              }
+            ]
+          }
+        ],
+        "datasource": "",
+        "style": {
+          "width": "fit-content",
+          "fontWeight": "300",
+          "fontSize": "14px"
+        },
+        "classNames": []
+      },
+      "displayName": "Text",
+      "custom": {},
+      "parent": "XTPTs9B5cR",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "cZWJDHEGl7": {
+      "type": {
+        "resolvedName": "StyleBox"
+      },
+      "isCanvas": true,
+      "props": {
+        "events": [],
+        "style": {
+          "position": "absolute",
+          "top": "28px",
+          "display": "none",
+          "minWidth": "150px",
+          "width": "150px",
+          "justifyContent": "center",
+          "flexDirection": "column",
+          "alignItems": "center",
+          "paddingLeft": "6px",
+          "paddingRight": "6px",
+          "paddingBottom": "6px",
+          "paddingTop": "6px"
+        },
+        "classNames": ["healthcareChildMenuCSS"]
+      },
+      "displayName": "Stylebox",
+      "custom": {},
+      "parent": "XTPTs9B5cR",
+      "hidden": false,
+      "nodes": ["huFtLRZegZ", "zetX3jQiJg", "OAgForfjNS", "Mq0sB1b7NC"],
+      "linkedNodes": {}
+    },
+    "huFtLRZegZ": {
+      "type": {
+        "resolvedName": "Text"
+      },
+      "isCanvas": false,
+      "props": {
+        "events": [],
+        "doc": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Item 1",
+                "bold": false,
+                "italic": false,
+                "underlined": false,
+                "strikethrough": false
+              }
+            ]
+          }
+        ],
+        "datasource": "",
+        "style": {
+          "paddingLeft": "0px",
+          "paddingRight": "0px",
+          "paddingTop": "0px",
+          "paddingBottom": "0px",
+          "width": "100%",
+          "minWidth": "100%"
+        },
+        "classNames": ["healthcareBackgroundTransition"]
+      },
+      "displayName": "Text",
+      "custom": {},
+      "parent": "cZWJDHEGl7",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "zetX3jQiJg": {
+      "type": {
+        "resolvedName": "Text"
+      },
+      "isCanvas": false,
+      "props": {
+        "events": [],
+        "doc": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Item 2",
+                "bold": false,
+                "italic": false,
+                "underlined": false,
+                "strikethrough": false
+              }
+            ]
+          }
+        ],
+        "datasource": "",
+        "style": {
+          "paddingLeft": "0px",
+          "paddingRight": "0px",
+          "paddingTop": "0px",
+          "paddingBottom": "0px",
+          "width": "100%",
+          "minWidth": "100%"
+        },
+        "classNames": ["healthcareBackgroundTransition"]
+      },
+      "displayName": "Text",
+      "custom": {},
+      "parent": "cZWJDHEGl7",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "OAgForfjNS": {
+      "type": {
+        "resolvedName": "Text"
+      },
+      "isCanvas": false,
+      "props": {
+        "events": [],
+        "doc": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Item 3",
+                "bold": false,
+                "italic": false,
+                "underlined": false,
+                "strikethrough": false
+              }
+            ]
+          }
+        ],
+        "datasource": "",
+        "style": {
+          "paddingLeft": "0px",
+          "paddingRight": "0px",
+          "paddingTop": "0px",
+          "paddingBottom": "0px",
+          "width": "100%",
+          "minWidth": "100%"
+        },
+        "classNames": ["healthcareBackgroundTransition"]
+      },
+      "displayName": "Text",
+      "custom": {},
+      "parent": "cZWJDHEGl7",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "Mq0sB1b7NC": {
+      "type": {
+        "resolvedName": "Text"
+      },
+      "isCanvas": false,
+      "props": {
+        "events": [],
+        "doc": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Item 4",
+                "bold": false,
+                "italic": false,
+                "underlined": false,
+                "strikethrough": false
+              }
+            ]
+          }
+        ],
+        "datasource": "",
+        "style": {
+          "paddingLeft": "0px",
+          "paddingRight": "0px",
+          "paddingTop": "0px",
+          "paddingBottom": "0px",
+          "width": "100%",
+          "minWidth": "100%"
+        },
+        "classNames": []
+      },
+      "displayName": "Text",
+      "custom": {},
+      "parent": "cZWJDHEGl7",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "wLLUA44EJa": {
+      "type": {
+        "resolvedName": "Icon"
+      },
+      "isCanvas": false,
+      "props": {
+        "classNames": ["chevron"],
+        "events": [],
+        "icon": "fa-angle-down",
+        "style": {
+          "marginTop": "-10px"
+        }
+      },
+      "displayName": "Icon",
+      "custom": {},
+      "parent": "83a2ySkXCK",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "O89uH4huZ7": {
+      "type": {
+        "resolvedName": "StyleBox"
+      },
+      "isCanvas": true,
+      "props": {
+        "events": [],
+        "style": {
+          "display": "flex",
+          "alignItems": "center",
+          "gap": "6px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "justifyContent": "center"
+        },
+        "classNames": ["healthcareParentMenuCSS"]
+      },
+      "displayName": "Stylebox",
+      "custom": {},
+      "parent": "7YejD89MOK",
+      "hidden": false,
+      "nodes": ["PPFeEnP_o7", "G4JL5ER1tP"],
+      "linkedNodes": {}
+    },
+    "PPFeEnP_o7": {
+      "type": {
+        "resolvedName": "StyleBox"
+      },
+      "isCanvas": true,
+      "props": {
+        "events": [],
+        "classNames": [],
+        "style": {
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "width": "fit-content",
+          "height": "100%",
+          "minHeight": "100%"
+        }
+      },
+      "displayName": "Stylebox",
+      "custom": {},
+      "parent": "O89uH4huZ7",
+      "hidden": false,
+      "nodes": ["_BG0g1uuPI", "LHmImixqn_"],
+      "linkedNodes": {}
+    },
+    "_BG0g1uuPI": {
+      "type": {
+        "resolvedName": "Text"
+      },
+      "isCanvas": false,
+      "props": {
+        "events": [],
+        "doc": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "About",
+                "italic": false,
+                "underlined": false,
+                "strikethrough": false
+              }
+            ]
+          }
+        ],
+        "datasource": "",
+        "style": {
+          "width": "fit-content",
+          "fontWeight": "300",
+          "fontSize": "14px"
+        },
+        "classNames": []
+      },
+      "displayName": "Text",
+      "custom": {},
+      "parent": "PPFeEnP_o7",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "LHmImixqn_": {
+      "type": {
+        "resolvedName": "StyleBox"
+      },
+      "isCanvas": true,
+      "props": {
+        "events": [],
+        "style": {
+          "position": "absolute",
+          "top": "28px",
+          "display": "none",
+          "minWidth": "150px",
+          "width": "150px",
+          "justifyContent": "center",
+          "flexDirection": "column",
+          "alignItems": "center",
+          "paddingLeft": "6px",
+          "paddingRight": "6px",
+          "paddingBottom": "6px",
+          "paddingTop": "6px"
+        },
+        "classNames": ["healthcareChildMenuCSS"]
+      },
+      "displayName": "Stylebox",
+      "custom": {},
+      "parent": "PPFeEnP_o7",
+      "hidden": false,
+      "nodes": ["-69-mytDdz", "S22lXIfc7d", "y-SP0pXpDp", "vsBR2Xg52i"],
+      "linkedNodes": {}
+    },
+    "-69-mytDdz": {
+      "type": {
+        "resolvedName": "Text"
+      },
+      "isCanvas": false,
+      "props": {
+        "events": [],
+        "doc": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Item 1",
+                "bold": false,
+                "italic": false,
+                "underlined": false,
+                "strikethrough": false
+              }
+            ]
+          }
+        ],
+        "datasource": "",
+        "style": {
+          "paddingLeft": "0px",
+          "paddingRight": "0px",
+          "paddingTop": "0px",
+          "paddingBottom": "0px",
+          "width": "100%",
+          "minWidth": "100%"
+        },
+        "classNames": ["healthcareBackgroundTransition"]
+      },
+      "displayName": "Text",
+      "custom": {},
+      "parent": "LHmImixqn_",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "S22lXIfc7d": {
+      "type": {
+        "resolvedName": "Text"
+      },
+      "isCanvas": false,
+      "props": {
+        "events": [],
+        "doc": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Item 2",
+                "bold": false,
+                "italic": false,
+                "underlined": false,
+                "strikethrough": false
+              }
+            ]
+          }
+        ],
+        "datasource": "",
+        "style": {
+          "paddingLeft": "0px",
+          "paddingRight": "0px",
+          "paddingTop": "0px",
+          "paddingBottom": "0px",
+          "width": "100%",
+          "minWidth": "100%"
+        },
+        "classNames": ["healthcareBackgroundTransition"]
+      },
+      "displayName": "Text",
+      "custom": {},
+      "parent": "LHmImixqn_",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "y-SP0pXpDp": {
+      "type": {
+        "resolvedName": "Text"
+      },
+      "isCanvas": false,
+      "props": {
+        "events": [],
+        "doc": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Item 3",
+                "bold": false,
+                "italic": false,
+                "underlined": false,
+                "strikethrough": false
+              }
+            ]
+          }
+        ],
+        "datasource": "",
+        "style": {
+          "paddingLeft": "0px",
+          "paddingRight": "0px",
+          "paddingTop": "0px",
+          "paddingBottom": "0px",
+          "width": "100%",
+          "minWidth": "100%"
+        },
+        "classNames": ["healthcareBackgroundTransition"]
+      },
+      "displayName": "Text",
+      "custom": {},
+      "parent": "LHmImixqn_",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "vsBR2Xg52i": {
+      "type": {
+        "resolvedName": "Text"
+      },
+      "isCanvas": false,
+      "props": {
+        "events": [],
+        "doc": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Item 4",
+                "bold": false,
+                "italic": false,
+                "underlined": false,
+                "strikethrough": false
+              }
+            ]
+          }
+        ],
+        "datasource": "",
+        "style": {
+          "paddingLeft": "0px",
+          "paddingRight": "0px",
+          "paddingTop": "0px",
+          "paddingBottom": "0px",
+          "width": "100%",
+          "minWidth": "100%"
+        },
+        "classNames": []
+      },
+      "displayName": "Text",
+      "custom": {},
+      "parent": "LHmImixqn_",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "G4JL5ER1tP": {
+      "type": {
+        "resolvedName": "Icon"
+      },
+      "isCanvas": false,
+      "props": {
+        "classNames": ["chevron"],
+        "events": [],
+        "icon": "fa-angle-down",
+        "style": {
+          "marginTop": "-10px"
+        }
+      },
+      "displayName": "Icon",
+      "custom": {},
+      "parent": "O89uH4huZ7",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "W0Ib-zJELY": {
+      "type": {
+        "resolvedName": "StyleBox"
+      },
+      "isCanvas": true,
+      "props": {
+        "events": [],
+        "style": {
+          "display": "flex",
+          "flexDirection": "row",
+          "gap": "30px",
+          "width": "fit-content"
+        }
+      },
+      "displayName": "Stylebox",
+      "custom": {},
+      "parent": "VJUFbXDd7w",
+      "hidden": false,
+      "nodes": ["hCbl1lGUql", "NP6xM9ohT_"],
+      "linkedNodes": {}
+    },
+    "hCbl1lGUql": {
+      "type": {
+        "resolvedName": "StyleBox"
+      },
+      "isCanvas": true,
+      "props": {
+        "events": [],
+        "style": {
+          "display": "flex",
+          "alignItems": "center",
+          "gap": "6px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "justifyContent": "center"
+        },
+        "classNames": ["healthcareParentMenuCSS"]
+      },
+      "displayName": "Stylebox",
+      "custom": {},
+      "parent": "W0Ib-zJELY",
+      "hidden": false,
+      "nodes": ["CgKTJWTKlf", "huPrXw-WTf"],
+      "linkedNodes": {}
+    },
+    "CgKTJWTKlf": {
+      "type": {
+        "resolvedName": "StyleBox"
+      },
+      "isCanvas": true,
+      "props": {
+        "events": [],
+        "classNames": [],
+        "style": {
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "width": "fit-content",
+          "height": "100%",
+          "minHeight": "100%"
+        }
+      },
+      "displayName": "Stylebox",
+      "custom": {},
+      "parent": "hCbl1lGUql",
+      "hidden": false,
+      "nodes": ["jC7oRBggHM", "Qgl3RbPhZV"],
+      "linkedNodes": {}
+    },
+    "jC7oRBggHM": {
+      "type": {
+        "resolvedName": "Text"
+      },
+      "isCanvas": false,
+      "props": {
+        "events": [],
+        "doc": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Services",
+                "italic": false,
+                "underlined": false,
+                "strikethrough": false
+              }
+            ]
+          }
+        ],
+        "datasource": "",
+        "style": {
+          "width": "fit-content",
+          "fontWeight": "300",
+          "fontSize": "14px"
+        },
+        "classNames": []
+      },
+      "displayName": "Text",
+      "custom": {},
+      "parent": "CgKTJWTKlf",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "Qgl3RbPhZV": {
+      "type": {
+        "resolvedName": "StyleBox"
+      },
+      "isCanvas": true,
+      "props": {
+        "events": [],
+        "style": {
+          "position": "absolute",
+          "top": "28px",
+          "display": "none",
+          "minWidth": "150px",
+          "width": "150px",
+          "justifyContent": "center",
+          "flexDirection": "column",
+          "alignItems": "center",
+          "paddingLeft": "6px",
+          "paddingRight": "6px",
+          "paddingBottom": "6px",
+          "paddingTop": "6px"
+        },
+        "classNames": ["healthcareChildMenuCSS"]
+      },
+      "displayName": "Stylebox",
+      "custom": {},
+      "parent": "CgKTJWTKlf",
+      "hidden": false,
+      "nodes": ["B2Ie-KQLW2", "92gKtp4alp", "1OcFULoujR", "u6QgKPsNT5"],
+      "linkedNodes": {}
+    },
+    "B2Ie-KQLW2": {
+      "type": {
+        "resolvedName": "Text"
+      },
+      "isCanvas": false,
+      "props": {
+        "events": [],
+        "doc": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Item 1",
+                "bold": false,
+                "italic": false,
+                "underlined": false,
+                "strikethrough": false
+              }
+            ]
+          }
+        ],
+        "datasource": "",
+        "style": {
+          "paddingLeft": "0px",
+          "paddingRight": "0px",
+          "paddingTop": "0px",
+          "paddingBottom": "0px",
+          "width": "100%",
+          "minWidth": "100%"
+        },
+        "classNames": ["healthcareBackgroundTransition"]
+      },
+      "displayName": "Text",
+      "custom": {},
+      "parent": "Qgl3RbPhZV",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "92gKtp4alp": {
+      "type": {
+        "resolvedName": "Text"
+      },
+      "isCanvas": false,
+      "props": {
+        "events": [],
+        "doc": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Item 2",
+                "bold": false,
+                "italic": false,
+                "underlined": false,
+                "strikethrough": false
+              }
+            ]
+          }
+        ],
+        "datasource": "",
+        "style": {
+          "paddingLeft": "0px",
+          "paddingRight": "0px",
+          "paddingTop": "0px",
+          "paddingBottom": "0px",
+          "width": "100%",
+          "minWidth": "100%"
+        },
+        "classNames": ["healthcareBackgroundTransition"]
+      },
+      "displayName": "Text",
+      "custom": {},
+      "parent": "Qgl3RbPhZV",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "1OcFULoujR": {
+      "type": {
+        "resolvedName": "Text"
+      },
+      "isCanvas": false,
+      "props": {
+        "events": [],
+        "doc": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Item 3",
+                "bold": false,
+                "italic": false,
+                "underlined": false,
+                "strikethrough": false
+              }
+            ]
+          }
+        ],
+        "datasource": "",
+        "style": {
+          "paddingLeft": "0px",
+          "paddingRight": "0px",
+          "paddingTop": "0px",
+          "paddingBottom": "0px",
+          "width": "100%",
+          "minWidth": "100%"
+        },
+        "classNames": ["healthcareBackgroundTransition"]
+      },
+      "displayName": "Text",
+      "custom": {},
+      "parent": "Qgl3RbPhZV",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "u6QgKPsNT5": {
+      "type": {
+        "resolvedName": "Text"
+      },
+      "isCanvas": false,
+      "props": {
+        "events": [],
+        "doc": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Item 4",
+                "bold": false,
+                "italic": false,
+                "underlined": false,
+                "strikethrough": false
+              }
+            ]
+          }
+        ],
+        "datasource": "",
+        "style": {
+          "paddingLeft": "0px",
+          "paddingRight": "0px",
+          "paddingTop": "0px",
+          "paddingBottom": "0px",
+          "width": "100%",
+          "minWidth": "100%"
+        },
+        "classNames": []
+      },
+      "displayName": "Text",
+      "custom": {},
+      "parent": "Qgl3RbPhZV",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "huPrXw-WTf": {
+      "type": {
+        "resolvedName": "Icon"
+      },
+      "isCanvas": false,
+      "props": {
+        "classNames": ["chevron"],
+        "events": [],
+        "icon": "fa-angle-down",
+        "style": {
+          "marginTop": "-10px"
+        }
+      },
+      "displayName": "Icon",
+      "custom": {},
+      "parent": "hCbl1lGUql",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "NP6xM9ohT_": {
+      "type": {
+        "resolvedName": "StyleBox"
+      },
+      "isCanvas": true,
+      "props": {
+        "events": [],
+        "style": {
+          "display": "flex",
+          "alignItems": "center",
+          "gap": "6px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "justifyContent": "center"
+        },
+        "classNames": ["healthcareParentMenuCSS"]
+      },
+      "displayName": "Stylebox",
+      "custom": {},
+      "parent": "W0Ib-zJELY",
+      "hidden": false,
+      "nodes": ["cAk7koBkQ3", "eUIhED9yVN"],
+      "linkedNodes": {}
+    },
+    "cAk7koBkQ3": {
+      "type": {
+        "resolvedName": "StyleBox"
+      },
+      "isCanvas": true,
+      "props": {
+        "events": [],
+        "classNames": [],
+        "style": {
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "width": "fit-content",
+          "height": "100%",
+          "minHeight": "100%"
+        }
+      },
+      "displayName": "Stylebox",
+      "custom": {},
+      "parent": "NP6xM9ohT_",
+      "hidden": false,
+      "nodes": ["ZzjFdC7luf", "HZ4evVehg2"],
+      "linkedNodes": {}
+    },
+    "ZzjFdC7luf": {
+      "type": {
+        "resolvedName": "Text"
+      },
+      "isCanvas": false,
+      "props": {
+        "events": [],
+        "doc": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Pages",
+                "italic": false,
+                "underlined": false,
+                "strikethrough": false
+              }
+            ]
+          }
+        ],
+        "datasource": "",
+        "style": {
+          "width": "fit-content",
+          "fontWeight": "300",
+          "fontSize": "14px"
+        },
+        "classNames": []
+      },
+      "displayName": "Text",
+      "custom": {},
+      "parent": "cAk7koBkQ3",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "HZ4evVehg2": {
+      "type": {
+        "resolvedName": "StyleBox"
+      },
+      "isCanvas": true,
+      "props": {
+        "events": [],
+        "style": {
+          "position": "absolute",
+          "top": "28px",
+          "display": "none",
+          "minWidth": "150px",
+          "width": "150px",
+          "justifyContent": "center",
+          "flexDirection": "column",
+          "alignItems": "center",
+          "paddingLeft": "6px",
+          "paddingRight": "6px",
+          "paddingBottom": "6px",
+          "paddingTop": "6px"
+        },
+        "classNames": ["healthcareChildMenuCSS"]
+      },
+      "displayName": "Stylebox",
+      "custom": {},
+      "parent": "cAk7koBkQ3",
+      "hidden": false,
+      "nodes": ["ctsP4jMl2n", "pp3rOlxo8u", "kZOyOP6AlE", "uwhna5qKtj"],
+      "linkedNodes": {}
+    },
+    "ctsP4jMl2n": {
+      "type": {
+        "resolvedName": "Text"
+      },
+      "isCanvas": false,
+      "props": {
+        "events": [],
+        "doc": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Item 1",
+                "bold": false,
+                "italic": false,
+                "underlined": false,
+                "strikethrough": false
+              }
+            ]
+          }
+        ],
+        "datasource": "",
+        "style": {
+          "paddingLeft": "0px",
+          "paddingRight": "0px",
+          "paddingTop": "0px",
+          "paddingBottom": "0px",
+          "width": "100%",
+          "minWidth": "100%"
+        },
+        "classNames": ["healthcareBackgroundTransition"]
+      },
+      "displayName": "Text",
+      "custom": {},
+      "parent": "HZ4evVehg2",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "pp3rOlxo8u": {
+      "type": {
+        "resolvedName": "Text"
+      },
+      "isCanvas": false,
+      "props": {
+        "events": [],
+        "doc": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Item 2",
+                "bold": false,
+                "italic": false,
+                "underlined": false,
+                "strikethrough": false
+              }
+            ]
+          }
+        ],
+        "datasource": "",
+        "style": {
+          "paddingLeft": "0px",
+          "paddingRight": "0px",
+          "paddingTop": "0px",
+          "paddingBottom": "0px",
+          "width": "100%",
+          "minWidth": "100%"
+        },
+        "classNames": ["healthcareBackgroundTransition"]
+      },
+      "displayName": "Text",
+      "custom": {},
+      "parent": "HZ4evVehg2",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "kZOyOP6AlE": {
+      "type": {
+        "resolvedName": "Text"
+      },
+      "isCanvas": false,
+      "props": {
+        "events": [],
+        "doc": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Item 3",
+                "bold": false,
+                "italic": false,
+                "underlined": false,
+                "strikethrough": false
+              }
+            ]
+          }
+        ],
+        "datasource": "",
+        "style": {
+          "paddingLeft": "0px",
+          "paddingRight": "0px",
+          "paddingTop": "0px",
+          "paddingBottom": "0px",
+          "width": "100%",
+          "minWidth": "100%"
+        },
+        "classNames": ["healthcareBackgroundTransition"]
+      },
+      "displayName": "Text",
+      "custom": {},
+      "parent": "HZ4evVehg2",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "uwhna5qKtj": {
+      "type": {
+        "resolvedName": "Text"
+      },
+      "isCanvas": false,
+      "props": {
+        "events": [],
+        "doc": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Item 4",
+                "bold": false,
+                "italic": false,
+                "underlined": false,
+                "strikethrough": false
+              }
+            ]
+          }
+        ],
+        "datasource": "",
+        "style": {
+          "paddingLeft": "0px",
+          "paddingRight": "0px",
+          "paddingTop": "0px",
+          "paddingBottom": "0px",
+          "width": "100%",
+          "minWidth": "100%"
+        },
+        "classNames": []
+      },
+      "displayName": "Text",
+      "custom": {},
+      "parent": "HZ4evVehg2",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "eUIhED9yVN": {
+      "type": {
+        "resolvedName": "Icon"
+      },
+      "isCanvas": false,
+      "props": {
+        "classNames": ["chevron"],
+        "events": [],
+        "icon": "fa-angle-down",
+        "style": {
+          "marginTop": "-10px"
+        }
+      },
+      "displayName": "Icon",
+      "custom": {},
+      "parent": "NP6xM9ohT_",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    }
+  },
+  "styles": [
+    {
+      "name": "healthcareBackgroundTransition",
+      "content": "self {\n  background: linear-gradient(transparent, transparent 50%, #488ee4 50%, #488ee4);\n  background-size: 100% 200%;\n  /*trasition effect for background*/\n  transition: background 0.3s;\n}\n\nself:hover {\n  background-position: 100% 100%;\n}",
+      "parentId": null,
+      "id": "7fFA6L5c8eK63FfyPZyYO"
+    },
+    {
+      "name": "healthcareChildMenuCSS",
+      "content": "self { \n\tposition: absolute; \n\tbackground-color: white;\n\toverflow: auto; \n\tbox-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); \n\tz-index: 1;\n}\n\nself p:hover {\n\tbackground-color: #488ee4;\n\tcolor: white;}",
+      "parentId": null,
+      "id": "pY7A90DabgH-39ykuuHzB"
+    },
+    {
+      "name": "healthcareParentMenuCSS",
+      "content": "self {\n position: relative;\n   display: inline-block;\n}\n\nself:hover .healthcareChildMenuCSS {\n\tdisplay: block !important;\n\tbackground-color: white}\n\nself:hover .chevron {\n\ttransform: rotate(90deg);\n}",
+      "parentId": null,
+      "id": "P4OAznsauKUI44RtBJ6qB"
+    },
+    {
+      "name": "chevron",
+      "content": "self {\n\t  transition: 0.3s;\n}",
+      "parentId": null,
+      "scope": "local",
+      "id": "lcdX7M4-_AZ9B3z1RL8Va"
+    }
+  ]
 }

@@ -1,70 +1,70 @@
 {
-    "components":[
-        {
-            "name":"Data display",
-            "banner":"assets/dataDisplay.png",
-            "description":"The component embed the matrix display of a selection, the selected element's edition card in the right card, and a search input at the top of the page",
-            "data":"components/dataDisplay.json"
-         },
-         {
-            "name":"Matrix cards",
-            "banner":"assets/matrixCards.png",
-            "description":"This matrix displayes the list of employees in card mode, with some computed properties and a clickable text to view some details dialog",
-            "data":"components/matrixCards.json"
-         },
-         {
-            "name":"Statistics header",
-            "banner":"assets/statsHeader.png",
-            "description":"Simple statistics' cards display with two range date inputs to manages the stats and a search field",
-            "data":"components/statsHeader.json"
-         },
-         {
-            "name":"New meeting dialog",
-            "banner":"assets/meetingDialog.png",
-            "description":"This is a modal for adding a new entity, ( meeting in this case), with some time/date inputs, a selectbox and a panel to display what has been selected",
-            "data":"components/meetingDialog.json"
-         },
-         {
-            "name":"New status dialog",
-            "banner":"assets/statusDialog.png",
-            "description":"This is a modal for adding a new entity, ( status in this case), with 4 choices and dates inputs",
-            "data":"components/statusDialog.json"
-         },
-         {
-            "name":"Meetings matrix",
-            "banner":"assets/meetingsMatrix.png",
-            "description":"A nested matrix that displays a selection of meetings, with some data, and its participants, with a details card at the right, for each selected element",
-            "data":"components/meetingsMatrix.json"
-         },
-         {
-            "name":"Navigation bar",
-            "banner":"assets/navBar.png",
-            "description":"A vertical navigation bar with the logo at top, and some navigation buttons ",
-            "data":"components/navBar.json"
-         },
-         {
-            "name":"Notifications bar",
-            "banner":"assets/notificationsBar.png",
-            "description":"A matrix that dispalys the user's notifications, as well as a search bar to filter the selection by type, and the user's name and role and picture",
-            "data":"components/notifBar.json"
-         },
-         {
-            "name":"Status calendar",
-            "banner":"assets/statusCalendar1.png",
-            "description":"A coded calendar that displays the user's status by date and status color, with the possibility to view and edit a selected status",
-            "data":"components/statusCalendar.json"
-         },
-         {
-            "name":"Switch matrices",
-            "banner":"assets/switchMatrices.png",
-            "description":"Three matrices with one in the middle that displays the selection chosen from the select box, and buttons to switch the positions of the elements from the middle matrix",
-            "data":"components/switchMatrices.json"
-         },
-         {
-            "name":"Triple matrices layout",
-            "banner":"assets/tripleLayout.png",
-            "description":"A triple layout view that displays three main matrices, the first one with the buildings selected, the second one will display the selected building's floors, and the third panel will display the selected floor's rooms, with the addition of three buttons to add new entities to each corresponding matrix",
-            "data":"components/tripleLayout.json"
-         }
-    ]
+  "components": [
+    {
+      "name": "Data display",
+      "banner": "assets/dataDisplay.png",
+      "description": "The component embed the matrix display of a selection, the selected element's edition card in the right card, and a search input at the top of the page",
+      "data": "components/dataDisplay.json"
+    },
+    {
+      "name": "Matrix cards",
+      "banner": "assets/matrixCards.png",
+      "description": "This matrix displayes the list of employees in card mode, with some computed properties and a clickable text to view some details dialog",
+      "data": "components/matrixCards.json"
+    },
+    {
+      "name": "Statistics header",
+      "banner": "assets/statsHeader.png",
+      "description": "Simple statistics' cards display with two range date inputs to manages the stats and a search field",
+      "data": "components/statsHeader.json"
+    },
+    {
+      "name": "New meeting dialog",
+      "banner": "assets/meetingDialog.png",
+      "description": "This is a modal for adding a new entity, ( meeting in this case), with some time/date inputs, a selectbox and a panel to display what has been selected",
+      "data": "components/meetingDialog.json"
+    },
+    {
+      "name": "New status dialog",
+      "banner": "assets/statusDialog.png",
+      "description": "This is a modal for adding a new entity, ( status in this case), with 4 choices and dates inputs",
+      "data": "components/statusDialog.json"
+    },
+    {
+      "name": "Meetings matrix",
+      "banner": "assets/meetingsMatrix.png",
+      "description": "A nested matrix that displays a selection of meetings, with some data, and its participants, with a details card at the right, for each selected element",
+      "data": "components/meetingsMatrix.json"
+    },
+    {
+      "name": "Navigation bar",
+      "banner": "assets/navBar.png",
+      "description": "A vertical navigation bar with the logo at top, and some navigation buttons ",
+      "data": "components/navBar.json"
+    },
+    {
+      "name": "Notifications bar",
+      "banner": "assets/notificationsBar.png",
+      "description": "A matrix that dispalys the user's notifications, as well as a search bar to filter the selection by type, and the user's name and role and picture",
+      "data": "components/notifBar.json"
+    },
+    {
+      "name": "Status calendar",
+      "banner": "assets/statusCalendar1.png",
+      "description": "A coded calendar that displays the user's status by date and status color, with the possibility to view and edit a selected status",
+      "data": "components/statusCalendar.json"
+    },
+    {
+      "name": "Switch matrices",
+      "banner": "assets/switchMatrices.png",
+      "description": "Three matrices with one in the middle that displays the selection chosen from the select box, and buttons to switch the positions of the elements from the middle matrix",
+      "data": "components/switchMatrices.json"
+    },
+    {
+      "name": "Triple matrices layout",
+      "banner": "assets/tripleLayout.png",
+      "description": "A triple layout view that displays three main matrices, the first one with the buildings selected, the second one will display the selected building's floors, and the third panel will display the selected floor's rooms, with the addition of three buttons to add new entities to each corresponding matrix",
+      "data": "components/tripleLayout.json"
+    }
+  ]
 }

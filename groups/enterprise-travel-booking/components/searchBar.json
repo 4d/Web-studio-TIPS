@@ -1,363 +1,269 @@
 {
-    "id": "rAiuxBU2nzBcN9EoNRXvsb",
-    "rootNodeId": "l3pfIrpFCw",
-    "nodes":
-    {
-        "l3pfIrpFCw":
-        {
-            "type":
-            {
-                "resolvedName": "StyleBox"
-            },
-            "isCanvas": true,
-            "props":
-            {
-                "events":
-                [],
-                "style":
-                {
-                    "backgroundColor": "#253f99",
-                    "display": "flex",
-                    "flexDirection": "column",
-                    "justifyContent": "center",
-                    "alignItems": "center",
-                    "height": "350px",
-                    "gap": "20px",
-                    "width": "100%",
-                    "minWidth": "100%",
-                    "backgroundImage": "url(/$shared/assets/images/banner.png)",
-                    "backgroundRepeat": "no-repeat"
-                }
-            },
-            "displayName": "Stylebox",
-            "custom":
-            {
-                "displayName": "SearchBar"
-            },
-            "parent": "ROOT",
-            "hidden": false,
-            "nodes":
-            [
-                "SEPF7_xG_-",
-                "t2TVG4iFru"
-            ],
-            "linkedNodes":
-            {}
-        },
-        "SEPF7_xG_-":
-        {
-            "type":
-            {
-                "resolvedName": "Text"
-            },
-            "isCanvas": false,
-            "props":
-            {
-                "events":
-                [],
-                "doc":
-                [
-                    {
-                        "type": "paragraph",
-                        "children":
-                        [
-                            {
-                                "text": "Find your ",
-                                "bold": false,
-                                "italic": false,
-                                "underlined": false,
-                                "strikethrough": false
-                            },
-                            {
-                                "bold": true,
-                                "italic": false,
-                                "underlined": false,
-                                "strikethrough": false,
-                                "text": "Perfect Place."
-                            }
-                        ]
-                    }
-                ],
-                "datasource": "",
-                "style":
-                {
-                    "color": "#ffffffff",
-                    "textAlign": "center",
-                    "fontSize": "35px",
-                    "fontWeight": "300",
-                    "width": "100%"
-                }
-            },
-            "displayName": "Text",
-            "custom":
-            {},
-            "parent": "l3pfIrpFCw",
-            "hidden": false,
-            "nodes":
-            [],
-            "linkedNodes":
-            {}
-        },
-        "t2TVG4iFru":
-        {
-            "type":
-            {
-                "resolvedName": "StyleBox"
-            },
-            "isCanvas": true,
-            "props":
-            {
-                "events":
-                [],
-                "style":
-                {
-                    "backgroundColor": "#ffffffff",
-                    "borderRadius": "4px",
-                    "display": "flex",
-                    "gap": "10px",
-                    "height": "fit-content",
-                    "alignItems": "center",
-                    "paddingTop": "6px",
-                    "paddingBottom": "6px",
-                    "width": "fit-content",
-                    "flexWrap": "wrap",
-                    "justifyContent": "center",
-                    "minHeight": "fit-content",
-                    "flexDirection": "row"
-                }
-            },
-            "displayName": "Stylebox",
-            "custom":
-            {},
-            "parent": "l3pfIrpFCw",
-            "hidden": false,
-            "nodes":
-            [
-                "uugFr2GWha"
-            ],
-            "linkedNodes":
-            {}
-        },
-        "uugFr2GWha":
-        {
-            "type":
-            {
-                "resolvedName": "StyleBox"
-            },
-            "isCanvas": true,
-            "props":
-            {
-                "events":
-                [],
-                "style":
-                {
-                    "height": "auto",
-                    "minHeight": "auto",
-                    "display": "flex",
-                    "alignItems": "center",
-                    "width": "fit-content",
-                    "gap": "20px",
-                    "maxHeight": "auto"
-                }
-            },
-            "displayName": "Stylebox",
-            "custom":
-            {},
-            "parent": "t2TVG4iFru",
-            "hidden": false,
-            "nodes":
-            [
-                "SvFaf4LUjP",
-                "Oe7-nZnKwo",
-                "CyCwp45j4M"
-            ],
-            "linkedNodes":
-            {}
-        },
-        "SvFaf4LUjP":
-        {
-            "type":
-            {
-                "resolvedName": "Image"
-            },
-            "isCanvas": false,
-            "props":
-            {
-                "classNames":
-                [],
-                "events":
-                [],
-                "style":
-                {
-                    "height": "auto",
-                    "width": "25px",
-                    "minWidth": "25px"
-                },
-                "imgSrc": "/$shared/assets/images/pin_1kvUKmVqEr65Qt6csnUqQ4.svg"
-            },
-            "displayName": "Image",
-            "custom":
-            {},
-            "parent": "uugFr2GWha",
-            "hidden": false,
-            "nodes":
-            [],
-            "linkedNodes":
-            {}
-        },
-        "Oe7-nZnKwo":
-        {
-            "type":
-            {
-                "resolvedName": "TextInput"
-            },
-            "isCanvas": false,
-            "props":
-            {
-                "events":
-                [],
-                "placeholder": "placeholder",
-                "label": "label",
-                "labelPosition": "hidden",
-                "style":
-                {
-                    "width": "200px"
-                }
-            },
-            "displayName": "Text Input",
-            "custom":
-            {},
-            "parent": "uugFr2GWha",
-            "hidden": false,
-            "nodes":
-            [],
-            "linkedNodes":
-            {
-                "label": "pB8IjjyoxH",
-                "input": "IySlnsTDa0"
-            }
-        },
-        "pB8IjjyoxH":
-        {
-            "type":
-            {
-                "resolvedName": "Label"
-            },
-            "isCanvas": false,
-            "props":
-            {
-                "events":
-                [],
-                "moveable": false,
-                "deletable": true,
-                "text": "Label"
-            },
-            "displayName": "Label",
-            "custom":
-            {},
-            "parent": "Oe7-nZnKwo",
-            "hidden": false,
-            "nodes":
-            [],
-            "linkedNodes":
-            {}
-        },
-        "IySlnsTDa0":
-        {
-            "type":
-            {
-                "resolvedName": "Input"
-            },
-            "isCanvas": false,
-            "props":
-            {
-                "events":
-                [],
-                "deletable": false,
-                "className": "fd-input w-full bg-transparent",
-                "type": "text",
-                "placeholder": "Search for a property",
-                "style":
-                {
-                    "borderWidth": "0px"
-                },
-                "moveable": false,
-                "readonly": false
-            },
-            "displayName": "Input",
-            "custom":
-            {},
-            "parent": "Oe7-nZnKwo",
-            "hidden": false,
-            "nodes":
-            [],
-            "linkedNodes":
-            {}
-        },
-        "CyCwp45j4M":
-        {
-            "type":
-            {
-                "resolvedName": "Button"
-            },
-            "isCanvas": false,
-            "props":
-            {
-                "text": "Search",
-                "classNames":
-                [],
-                "events":
-                [],
-                "iconPosition": "hidden",
-                "style":
-                {
-                    "display": "inline",
-                    "backgroundColor": "#0c1848",
-                    "borderRadius": "4px",
-                    "paddingTop": "12px",
-                    "paddingBottom": "12px",
-                    "paddingRight": "20px",
-                    "paddingLeft": "20px"
-                }
-            },
-            "displayName": "Button",
-            "custom":
-            {},
-            "parent": "uugFr2GWha",
-            "hidden": false,
-            "nodes":
-            [],
-            "linkedNodes":
-            {
-                "icon": "jNp4PqHQRc"
-            }
-        },
-        "jNp4PqHQRc":
-        {
-            "type":
-            {
-                "resolvedName": "Icon"
-            },
-            "isCanvas": false,
-            "props":
-            {
-                "classNames":
-                [],
-                "events":
-                [],
-                "icon": "fa-star"
-            },
-            "displayName": "Icon",
-            "custom":
-            {},
-            "parent": "CyCwp45j4M",
-            "hidden": false,
-            "nodes":
-            [],
-            "linkedNodes":
-            {}
+  "id": "rAiuxBU2nzBcN9EoNRXvsb",
+  "rootNodeId": "l3pfIrpFCw",
+  "nodes": {
+    "l3pfIrpFCw": {
+      "type": {
+        "resolvedName": "StyleBox"
+      },
+      "isCanvas": true,
+      "props": {
+        "events": [],
+        "style": {
+          "backgroundColor": "#253f99",
+          "display": "flex",
+          "flexDirection": "column",
+          "justifyContent": "center",
+          "alignItems": "center",
+          "height": "350px",
+          "gap": "20px",
+          "width": "100%",
+          "minWidth": "100%",
+          "backgroundImage": "url(/$shared/assets/images/banner.png)",
+          "backgroundRepeat": "no-repeat"
         }
+      },
+      "displayName": "Stylebox",
+      "custom": {
+        "displayName": "SearchBar"
+      },
+      "parent": "ROOT",
+      "hidden": false,
+      "nodes": ["SEPF7_xG_-", "t2TVG4iFru"],
+      "linkedNodes": {}
     },
-    "styles":
-    []
+    "SEPF7_xG_-": {
+      "type": {
+        "resolvedName": "Text"
+      },
+      "isCanvas": false,
+      "props": {
+        "events": [],
+        "doc": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Find your ",
+                "bold": false,
+                "italic": false,
+                "underlined": false,
+                "strikethrough": false
+              },
+              {
+                "bold": true,
+                "italic": false,
+                "underlined": false,
+                "strikethrough": false,
+                "text": "Perfect Place."
+              }
+            ]
+          }
+        ],
+        "datasource": "",
+        "style": {
+          "color": "#ffffffff",
+          "textAlign": "center",
+          "fontSize": "35px",
+          "fontWeight": "300",
+          "width": "100%"
+        }
+      },
+      "displayName": "Text",
+      "custom": {},
+      "parent": "l3pfIrpFCw",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "t2TVG4iFru": {
+      "type": {
+        "resolvedName": "StyleBox"
+      },
+      "isCanvas": true,
+      "props": {
+        "events": [],
+        "style": {
+          "backgroundColor": "#ffffffff",
+          "borderRadius": "4px",
+          "display": "flex",
+          "gap": "10px",
+          "height": "fit-content",
+          "alignItems": "center",
+          "paddingTop": "6px",
+          "paddingBottom": "6px",
+          "width": "fit-content",
+          "flexWrap": "wrap",
+          "justifyContent": "center",
+          "minHeight": "fit-content",
+          "flexDirection": "row"
+        }
+      },
+      "displayName": "Stylebox",
+      "custom": {},
+      "parent": "l3pfIrpFCw",
+      "hidden": false,
+      "nodes": ["uugFr2GWha"],
+      "linkedNodes": {}
+    },
+    "uugFr2GWha": {
+      "type": {
+        "resolvedName": "StyleBox"
+      },
+      "isCanvas": true,
+      "props": {
+        "events": [],
+        "style": {
+          "height": "auto",
+          "minHeight": "auto",
+          "display": "flex",
+          "alignItems": "center",
+          "width": "fit-content",
+          "gap": "20px",
+          "maxHeight": "auto"
+        }
+      },
+      "displayName": "Stylebox",
+      "custom": {},
+      "parent": "t2TVG4iFru",
+      "hidden": false,
+      "nodes": ["SvFaf4LUjP", "Oe7-nZnKwo", "CyCwp45j4M"],
+      "linkedNodes": {}
+    },
+    "SvFaf4LUjP": {
+      "type": {
+        "resolvedName": "Image"
+      },
+      "isCanvas": false,
+      "props": {
+        "classNames": [],
+        "events": [],
+        "style": {
+          "height": "auto",
+          "width": "25px",
+          "minWidth": "25px"
+        },
+        "imgSrc": "/$shared/assets/images/pin_1kvUKmVqEr65Qt6csnUqQ4.svg"
+      },
+      "displayName": "Image",
+      "custom": {},
+      "parent": "uugFr2GWha",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "Oe7-nZnKwo": {
+      "type": {
+        "resolvedName": "TextInput"
+      },
+      "isCanvas": false,
+      "props": {
+        "events": [],
+        "placeholder": "placeholder",
+        "label": "label",
+        "labelPosition": "hidden",
+        "style": {
+          "width": "200px"
+        }
+      },
+      "displayName": "Text Input",
+      "custom": {},
+      "parent": "uugFr2GWha",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {
+        "label": "pB8IjjyoxH",
+        "input": "IySlnsTDa0"
+      }
+    },
+    "pB8IjjyoxH": {
+      "type": {
+        "resolvedName": "Label"
+      },
+      "isCanvas": false,
+      "props": {
+        "events": [],
+        "moveable": false,
+        "deletable": true,
+        "text": "Label"
+      },
+      "displayName": "Label",
+      "custom": {},
+      "parent": "Oe7-nZnKwo",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "IySlnsTDa0": {
+      "type": {
+        "resolvedName": "Input"
+      },
+      "isCanvas": false,
+      "props": {
+        "events": [],
+        "deletable": false,
+        "className": "fd-input w-full bg-transparent",
+        "type": "text",
+        "placeholder": "Search for a property",
+        "style": {
+          "borderWidth": "0px"
+        },
+        "moveable": false,
+        "readonly": false
+      },
+      "displayName": "Input",
+      "custom": {},
+      "parent": "Oe7-nZnKwo",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "CyCwp45j4M": {
+      "type": {
+        "resolvedName": "Button"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "Search",
+        "classNames": [],
+        "events": [],
+        "iconPosition": "hidden",
+        "style": {
+          "display": "inline",
+          "backgroundColor": "#0c1848",
+          "borderRadius": "4px",
+          "paddingTop": "12px",
+          "paddingBottom": "12px",
+          "paddingRight": "20px",
+          "paddingLeft": "20px"
+        }
+      },
+      "displayName": "Button",
+      "custom": {},
+      "parent": "uugFr2GWha",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {
+        "icon": "jNp4PqHQRc"
+      }
+    },
+    "jNp4PqHQRc": {
+      "type": {
+        "resolvedName": "Icon"
+      },
+      "isCanvas": false,
+      "props": {
+        "classNames": [],
+        "events": [],
+        "icon": "fa-star"
+      },
+      "displayName": "Icon",
+      "custom": {},
+      "parent": "CyCwp45j4M",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    }
+  },
+  "styles": []
 }
