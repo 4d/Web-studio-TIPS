@@ -4,6 +4,7 @@
   "version": "0.1.0",
   "description": "Qodly Studio - TIPs available in the IDE",
   "scripts": {
+    "format": "prettier --write *.json scripts groups",
     "build": "ts-node scripts/build.ts",
     "generate": "ts-node scripts/generate.ts"
   },
@@ -11,11 +12,18 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "ajv": "^8.12.0",
     "json5": "^2.2.3"
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,ts,tsx,json,json,css,scss,md}": [
+      "prettier --write"
+    ]
   },
   "devDependencies": {
     "dotenv": "^16.0.3",
     "enquirer": "^2.3.6",
+    "prettier": "^3.2.4",
     "ts-node": "^10.9.1",
     "typescript": "^5.0.4"
   }

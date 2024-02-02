@@ -1,0 +1,37 @@
+{
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "nodes": {
+      "type": "object",
+      "patternProperties": {
+        ".*": {
+          "$ref": "#/definitions/component"
+        }
+      }
+    }
+  },
+  "definitions": {
+    "component": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "object",
+          "properties": {
+            "resolvedName": {
+              "type": "string"
+            }
+          }
+        },
+        "props": {
+          "type": "object"
+        },
+        "displayName": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

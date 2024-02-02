@@ -1,0 +1,29 @@
+{
+  "type": "array",
+  "items": {
+    "$ref": "#/definitions/group"
+  },
+  "definitions": {
+    "group": {
+      "type": "object",
+      "properties": {
+        "group": {
+          "type": "string"
+        },
+        "icon": {
+          "type": "string"
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "path": {
+          "type": "string"
+        }
+      },
+      "required": ["group", "icon", "tags", "path"]
+    }
+  }
+}

@@ -1,74 +1,71 @@
 {
-    "id": "ff2vcaUg3P2NaKy546MqsW",
-    "rootNodeId": "tKYERcEjT-",
-    "nodes": {
-        "tKYERcEjT-": {
-            "type": {
-                "resolvedName": "StyleBox"
-            },
-            "isCanvas": true,
-            "props": {
-                "events": [],
-                "style": {
-                    "display": "flex",
-                    "flexDirection": "row",
-                    "paddingTop": "2px",
-                    "paddingRight": "2px",
-                    "paddingBottom": "2px",
-                    "paddingLeft": "2px",
-                    "height": "100%"
-                }
-            },
-            "displayName": "Stylebox",
-            "custom": {},
-            "parent": "ROOT",
-            "hidden": false,
-            "nodes": [
-                "fhwKddkkg-",
-                "T9StRRAbW9"
-            ],
-            "linkedNodes": {}
-        },
-        "fhwKddkkg-": {
-            "type": {
-                "resolvedName": "StyleBox"
-            },
-            "isCanvas": true,
-            "props": {
-                "events": [],
-                "style": {
-                    "width": "20%",
-                    "borderColor": "",
-                    "borderWidth": ""
-                }
-            },
-            "displayName": "Stylebox",
-            "custom": {},
-            "parent": "tKYERcEjT-",
-            "hidden": false,
-            "nodes": [],
-            "linkedNodes": {}
-        },
-        "T9StRRAbW9": {
-            "type": {
-                "resolvedName": "StyleBox"
-            },
-            "isCanvas": true,
-            "props": {
-                "events": [],
-                "style": {
-                    "width": "80%",
-                    "borderColor": "",
-                    "borderWidth": ""
-                }
-            },
-            "displayName": "Stylebox",
-            "custom": {},
-            "parent": "tKYERcEjT-",
-            "hidden": false,
-            "nodes": [],
-            "linkedNodes": {}
+  "id": "ff2vcaUg3P2NaKy546MqsW",
+  "rootNodeId": "tKYERcEjT-",
+  "nodes": {
+    "tKYERcEjT-": {
+      "type": {
+        "resolvedName": "StyleBox"
+      },
+      "isCanvas": true,
+      "props": {
+        "events": [],
+        "style": {
+          "display": "flex",
+          "flexDirection": "row",
+          "paddingTop": "2px",
+          "paddingRight": "2px",
+          "paddingBottom": "2px",
+          "paddingLeft": "2px",
+          "height": "100%"
         }
+      },
+      "displayName": "Stylebox",
+      "custom": {},
+      "parent": "ROOT",
+      "hidden": false,
+      "nodes": ["fhwKddkkg-", "T9StRRAbW9"],
+      "linkedNodes": {}
     },
-    "styles": []
+    "fhwKddkkg-": {
+      "type": {
+        "resolvedName": "StyleBox"
+      },
+      "isCanvas": true,
+      "props": {
+        "events": [],
+        "style": {
+          "width": "20%",
+          "borderColor": "",
+          "borderWidth": ""
+        }
+      },
+      "displayName": "Stylebox",
+      "custom": {},
+      "parent": "tKYERcEjT-",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "T9StRRAbW9": {
+      "type": {
+        "resolvedName": "StyleBox"
+      },
+      "isCanvas": true,
+      "props": {
+        "events": [],
+        "style": {
+          "width": "80%",
+          "borderColor": "",
+          "borderWidth": ""
+        }
+      },
+      "displayName": "Stylebox",
+      "custom": {},
+      "parent": "tKYERcEjT-",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    }
+  },
+  "styles": []
 }
