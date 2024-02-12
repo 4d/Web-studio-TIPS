@@ -159,7 +159,7 @@
         content: 'Hover on the Methods folder.<br><br> \
         To create a Method, Click on <img src="https://raw.githubusercontent.com/4d/Web-studio-TIPS/main/assets/welcometour/add-dataclass-icon.png" style="display:inline;height:24px;width:auto;">. <br><br> \
         Type **generate** and press Enter.',
-        position: 'left',
+        position: 'right',
         anchor: 'fileExplorer',
       },
       events: {
@@ -173,6 +173,15 @@
                 content: 'Make sure to create the Method.',
                 type: 'error',
               },
+            },
+          },
+        ],
+        rollback: [
+          {
+            name: 'fit-view dataclass',
+            editor: 'model',
+            meta: {
+              name: 'WTItem',
             },
           },
         ],
@@ -443,5 +452,5 @@ Click on <img src="https://raw.githubusercontent.com/4d/Web-studio-TIPS/main/ass
         },
       },
     ],
-  }
+  },
 }
