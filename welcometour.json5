@@ -178,6 +178,14 @@
         ],
         rollback: [
           {
+            name: 'close webform',
+            editor: 'webform',
+            meta: {
+              name: 'generate',
+              kind: 'method',
+            },
+          },
+          {
             name: 'fit-view dataclass',
             editor: 'model',
             meta: {
@@ -452,5 +460,5 @@ Click on <img src="https://raw.githubusercontent.com/4d/Web-studio-TIPS/main/ass
         },
       },
     ],
-  }
+  },
 }
