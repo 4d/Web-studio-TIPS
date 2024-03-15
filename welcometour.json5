@@ -117,6 +117,13 @@
               'dataclass.draggable': false,
             },
           },
+          {
+            name: 'open tab',
+            editor: 'model',
+            meta: {
+              afterValidation: true,
+            },
+          },
         ],
         validate: [
           {
@@ -208,6 +215,17 @@ end\n\
         anchor: 'fileExplorer',
       },
       events: {
+        pre: [
+          {
+            name: 'open tab',
+            editor: 'webform',
+            meta: {
+              name: 'generate',
+              kind: 'method',
+              afterValidation: true,
+            },
+          },
+        ],
         validate: [
           {
             name: 'save all',
@@ -231,7 +249,19 @@ Click on <img src="https://raw.githubusercontent.com/4d/Web-studio-TIPS/main/ass
         position: 'right',
         anchor: 'fileExplorer',
       },
-      events: {},
+      events: {
+        pre: [
+          {
+            name: 'open tab',
+            editor: 'webform',
+            meta: {
+              name: 'generate',
+              kind: 'method',
+              afterValidation: true,
+            },
+          },
+        ],
+      },
     },
     // Create a Webform
     {
@@ -452,5 +482,5 @@ Click on <img src="https://raw.githubusercontent.com/4d/Web-studio-TIPS/main/ass
         },
       },
     ],
-  }
+  },
 }
