@@ -267,6 +267,9 @@ Click on <img src="https://raw.githubusercontent.com/4d/Web-studio-TIPS/main/ass
       dialog: {
         title: 'How to add Components',
         anchor: 'Welcome-components',
+        style: {
+          maxHeight: '200px',
+        },
         content: 'This is the list of available components.<br><br>\
         We will be using a DataTable <img src="https://raw.githubusercontent.com/4d/Web-studio-TIPS/main/assets/welcometour/wt-datatable.png" style="display:inline;height:32px;width:auto;"> to display the data.<br><br>\
         Drag & Drop a DataTable from the list onto the canvas.',
@@ -452,5 +455,5 @@ Click on <img src="https://raw.githubusercontent.com/4d/Web-studio-TIPS/main/ass
         },
       },
     ],
-  }
+  },
 }
