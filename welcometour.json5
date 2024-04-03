@@ -95,10 +95,10 @@
         Follow the example above to create two attributes:<br><br>\
         **1.** Configure the **name** attribute:<br>\
         <span style="display:inline-block; width:16px;"></span>- type `name` and press `Enter`.<br>\
-        <span style="display:inline-block; width:16px;"></span>- select `String` as its type, then press `Enter` to confirm.<br><br>\
+        <span style="display:inline-block; width:16px;height:20px"></span>- select `String` as its type, then press `Enter` to confirm.<br><br>\
         **2.** Set up the **price** attribute:<br>\
         <span style="display:inline-block; width:16px;"></span>- Enter `price` and press `Enter`.<br>\
-        <span style="display:inline-block; width:16px;"></span>- Choose `Number` for the type, and press `Enter` to finalize.<br><br>\
+        <span style="display:inline-block; width:16px;height:20px"></span>- Choose `Number` for the type, and press `Enter` to finalize.<br><br>\
         **Note**: Every DataClass is created with a default ID attribute.',
       },
       events: {
@@ -269,6 +269,7 @@ Click on <img src="https://raw.githubusercontent.com/4d/Web-studio-TIPS/main/ass
         anchor: 'Welcome-components',
         style: {
           maxHeight: '200px',
+          overflowY: 'auto',
         },
         content: 'This is the list of available components.<br><br>\
         We will be using a DataTable <img src="https://raw.githubusercontent.com/4d/Web-studio-TIPS/main/assets/welcometour/wt-datatable.png" style="display:inline;height:32px;width:auto;"> to display the data.<br><br>\
