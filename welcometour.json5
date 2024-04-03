@@ -4,7 +4,7 @@
     {
       dialog: {
         title: 'Welcome to Qodly Studio',
-        content: 'Qodly Studio allows you to quickly build Web applications for your Qodly Platform.<br> \
+        content: 'Qodly Studio allows you to quickly build Web applications for your Qodly Platform. \
         In this quick tour we will be showing some of Qodly Studio’s capabilities',
       },
       events: {
@@ -27,8 +27,8 @@
         title: 'Model Editor',
         anchor: 'fileExplorer',
         position: 'right',
-        content: 'The model editor allows to define the Data Model.<br><br>\
-        To open the model editor, click on <img src="https://raw.githubusercontent.com/4d/Web-studio-TIPS/main/assets/welcometour/model-editor-icon.png" width="90px" style="display:inline;"> icon',
+        content: 'The model editor allows to define the Data Model.\
+        \nTo open the model editor, click on <img src="https://raw.githubusercontent.com/4d/Web-studio-TIPS/main/assets/welcometour/model-editor-icon.png" width="90px" style="display:inline;"> icon',
       },
       events: {
         validate: [
@@ -54,9 +54,9 @@
         anchor: 'model:sidebar:dataclass',
         position: 'right',
         title: 'Creating a Dataclass',
-        content: 'In this example. we will create the DataClass `WTItem`.<br><br>\
-         1. Click on <img src="https://raw.githubusercontent.com/4d/Web-studio-TIPS/main/assets/welcometour/add-dataclass-icon.png" style="display:inline;height:24px;width:auto;"> icon,<br>\
-         2. Type **WTItem** **(case-sensitive)** as dataclass name, and press Enter.',
+        content: 'In this example. we will create the DataClass `WTItem`.\
+         \n\n1. Click on <img src="https://raw.githubusercontent.com/4d/Web-studio-TIPS/main/assets/welcometour/add-dataclass-icon.png" style="display:inline;height:24px;width:auto;"> icon,\
+         \n2. Type **WTItem** **(case-sensitive)** as dataclass name, and press Enter.',
       },
       events: {
         validate: [
@@ -91,15 +91,15 @@
         anchor: 'model-dataclass-WTItem',
         position: 'right',
         title: 'Creating DataClass attributes',
-        content: '<img src="https://raw.githubusercontent.com/4d/Web-studio-TIPS/main/assets/welcometour/add-attribute.gif" style="display:inline-block;text-align:center;height:144px;width:auto; margin:0px auto;"><br><br>\
-        Follow the example above to create two attributes:<br><br>\
-        **1.** Configure the **name** attribute:<br>\
-        <span style="display:inline-block; width:16px;"></span>- type `name` and press `Enter`.<br>\
-        <span style="display:inline-block; width:16px;height:20px"></span>- select `String` as its type, then press `Enter` to confirm.<br><br>\
-        **2.** Set up the **price** attribute:<br>\
-        <span style="display:inline-block; width:16px;"></span>- Enter `price` and press `Enter`.<br>\
-        <span style="display:inline-block; width:16px;height:20px"></span>- Choose `Number` for the type, and press `Enter` to finalize.<br><br>\
-        **Note**: Every DataClass is created with a default ID attribute.',
+        content: '<img src="https://raw.githubusercontent.com/4d/Web-studio-TIPS/main/assets/welcometour/add-attribute.gif" style="display:inline-block;text-align:center;height:144px;width:auto; margin:0px auto;">\
+        \n\nFollow the example above to create two attributes:\
+        \n\n**1.** Configure the **name** attribute:\
+        \n- type `name` and press `Enter`.\
+        \n- select `String` as its type, then press `Enter` to confirm.\
+        \n\n**2.** Set up the **price** attribute:\
+        \n- Enter `price` and press `Enter`.\
+        \n- Choose `Number` for the type, and press `Enter` to finalize.\
+        \n\n**Note**: Every DataClass is created with a default ID attribute.',
       },
       events: {
         pre: [
@@ -156,8 +156,8 @@
       highlight: ['fileExplorer'],
       dialog: {
         title: 'Creating a Method',
-        content: 'Hover on the Methods folder.<br><br> \
-        To create a Method, Click on <img src="https://raw.githubusercontent.com/4d/Web-studio-TIPS/main/assets/welcometour/add-dataclass-icon.png" style="display:inline;height:24px;width:auto;">. <br><br> \
+        content: 'Hover on the Methods folder. \
+        To create a Method, Click on <img src="https://raw.githubusercontent.com/4d/Web-studio-TIPS/main/assets/welcometour/add-dataclass-icon.png" style="display:inline;height:24px;width:auto;">.  \
         Type **generate** and press Enter.',
         position: 'right',
         anchor: 'fileExplorer',
@@ -202,8 +202,7 @@ for(counter,1,100,1)\n\
   entity.price = (Random%(100))+1\n\
   entity.save()\n\
 end\n\
-```\n\n\
-          Click on `Save All` button.<br/><br/>',
+```\n\nClick on `Save All` button.',
         position: 'right',
         anchor: 'fileExplorer',
       },
@@ -226,7 +225,7 @@ end\n\
       highlight: ['main-code-generate', 'fileExplorer'],
       dialog: {
         title: 'Generating Data',
-        content: 'Hover on method in the Explorer.<br/><br/>\
+        content: 'Hover on method in the Explorer.\
 Click on <img src="https://raw.githubusercontent.com/4d/Web-studio-TIPS/main/assets/welcometour/run-method.png" style="display:inline;height:24px;width:auto;"> to run the Method.',
         position: 'right',
         anchor: 'fileExplorer',
@@ -238,10 +237,11 @@ Click on <img src="https://raw.githubusercontent.com/4d/Web-studio-TIPS/main/ass
       highlight: ['fileExplorer'],
       dialog: {
         title: 'Creating a WebForm',
-        content: 'To create a new webform, hover on the webform folder. <br><br>\
-        Click on <img src="https://raw.githubusercontent.com/4d/Web-studio-TIPS/main/assets/welcometour/add-dataclass-icon.png" style="display:inline;height:24px;width:auto;"> icon.<br><br>\
-        Type the name ***Welcome*** as the name to the webform. <br><br>\
-        The webform will be opened automatically.',
+        content: 'To create a new webform:\
+        \n- hover on the webform folder. \
+        \n- Click on <img src="https://raw.githubusercontent.com/4d/Web-studio-TIPS/main/assets/welcometour/add-dataclass-icon.png" style="display:inline;height:24px;width:auto;"> icon.\
+        \n- Type the name ***Welcome*** as the name to the webform. \
+        \n- The webform will be opened automatically.',
         position: 'left',
         anchor: 'fileExplorer',
       },
@@ -271,9 +271,9 @@ Click on <img src="https://raw.githubusercontent.com/4d/Web-studio-TIPS/main/ass
           maxHeight: '200px',
           overflowY: 'auto',
         },
-        content: 'This is the list of available components.<br><br>\
-        We will be using a DataTable <img src="https://raw.githubusercontent.com/4d/Web-studio-TIPS/main/assets/welcometour/wt-datatable.png" style="display:inline;height:32px;width:auto;"> to display the data.<br><br>\
-        Drag & Drop a DataTable from the list onto the canvas.',
+        content: 'This is the list of available components.\
+        \nWe will be using a DataTable <img src="https://raw.githubusercontent.com/4d/Web-studio-TIPS/main/assets/welcometour/wt-datatable.png" style="display:inline;height:32px;width:auto;"> to display the data.\
+        \nDrag & Drop a DataTable from the list onto the canvas.',
         position: 'bottom',
       },
       events: {
@@ -321,9 +321,9 @@ Click on <img src="https://raw.githubusercontent.com/4d/Web-studio-TIPS/main/ass
       dialog: {
         title: 'Datasources',
         anchor: 'Welcome-datasources',
-        content: 'For the _**DataTable**_ to work, it needs an _**Entity Selection DataSource**_.<br>\
-        The following example shows how to create a datasource:<br>\
-        <img src="https://raw.githubusercontent.com/4d/Web-studio-TIPS/main/assets/welcometour/create-datasource.gif" style="text-align:center;display:block;height:144px;width:auto;"><br>\
+        content: 'For the _**DataTable**_ to work, it needs an _**Entity Selection DataSource**_.\
+        The following example shows how to create a datasource:\
+        <img src="https://raw.githubusercontent.com/4d/Web-studio-TIPS/main/assets/welcometour/create-datasource.gif" style="text-align:center;display:block;height:144px;width:auto;">\
         Create a Datasource with name `items` , type `Entity Selection` & dataclass `WTItem`.',
         position: 'right',
       },
@@ -335,10 +335,10 @@ Click on <img src="https://raw.githubusercontent.com/4d/Web-studio-TIPS/main/ass
       dialog: {
         title: 'Datasources',
         anchor: 'Welcome-datasources',
-        content: '<img src="https://raw.githubusercontent.com/4d/Web-studio-TIPS/main/assets/welcometour/dnd-datasource.gif" style="text-align:center;display:block;height:144px;width:auto;"><br>\
-        In the example provided, you can see the method for linking a datasource to a component<br>\
-        using the drag & drop feature. Now, please follow these steps:<br><br>\
-        1. Drag the datasource named `items` to the _**DataTable**_.<br>\
+        content: '<img src="https://raw.githubusercontent.com/4d/Web-studio-TIPS/main/assets/welcometour/dnd-datasource.gif" style="text-align:center;display:block;height:144px;width:auto;">\
+        In the example provided, you can see the method for linking a datasource to a component\
+        using the drag & drop feature. Now, please follow these steps:\
+        1. Drag the datasource named `items` to the _**DataTable**_.\
         2. Additionally, drag the attributes `name` and `price` onto the _**DataTable**_.',
         position: 'right',
       },
@@ -391,7 +391,7 @@ Click on <img src="https://raw.githubusercontent.com/4d/Web-studio-TIPS/main/ass
       dialog: {
         title: 'Webform Preview',
         anchor: 'webform-preview-btn',
-        content: 'The preview mode allows users to view the result of the page before it is fully rendered or published.<br><br>\
+        content: 'The preview mode allows users to view the result of the page before it is fully rendered or published.\
         Click on the button the view the results.',
         position: 'bottom',
       },
@@ -422,8 +422,8 @@ Click on <img src="https://raw.githubusercontent.com/4d/Web-studio-TIPS/main/ass
     {
       dialog: {
         title: 'Welcome tour completed',
-        content: "Congratulations! You have completed the welcome tour. <br><br> \
-        You are now ready to explore all the features and start getting the most of Qodly.<br><br>\
+        content: "Congratulations! You have completed the welcome tour.  \
+        You are now ready to explore all the features and start getting the most of Qodly.\
         If you have any questions or feedback, don't hesitate to reach out to our support team. Happy exploring!",
         position: 'left',
       },
