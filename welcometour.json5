@@ -356,6 +356,10 @@ Click on <img src="https://raw.githubusercontent.com/4d/Web-studio-TIPS/main/ass
         <img src="https://raw.githubusercontent.com/4d/Web-studio-TIPS/main/assets/welcometour/create-datasource.gif" style="text-align:center;display:block;height:144px;width:auto;">\
         Create a Datasource with name `items` , type `Entity Selection` & dataclass `WTItem`.',
         position: 'right',
+        style: {
+          maxHeight: '200px',
+          overflowY: 'auto',
+        },
       },
       events: {},
     },
