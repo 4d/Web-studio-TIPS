@@ -1,19 +1,23 @@
 {
-  "id": "uhr9YCJ5KZnTMx5iNwTvUp",
-  "rootNodeId": "2YOeP60kDY",
+  "id": "77hLkZgYDAS11a8dN8Enrz",
+  "rootNodeId": "Yx0LiunbzM",
   "nodes": {
-    "2YOeP60kDY": {
+    "Yx0LiunbzM": {
       "type": { "resolvedName": "StyleBox" },
       "isCanvas": true,
-      "props": { "events": [], "style": { "width": "100%", "height": "100%" } },
+      "props": {
+        "events": [],
+        "style": { "width": "100%", "height": "100%" },
+        "iterableChild": true
+      },
       "displayName": "Stylebox",
       "custom": {},
       "parent": "ROOT",
       "hidden": false,
-      "nodes": ["08yGPzmx2Z"],
+      "nodes": ["Z46c69sqOM"],
       "linkedNodes": {}
     },
-    "08yGPzmx2Z": {
+    "Z46c69sqOM": {
       "type": { "resolvedName": "Matrix" },
       "isCanvas": false,
       "props": {
@@ -24,22 +28,22 @@
         "style": { "height": "200px", "borderStyle": "none" },
         "datasource": "#sponsors#",
         "gridProps": {
-          "styleboxWidth": 556,
+          "styleboxWidth": 1,
           "styleboxHeight": 50,
-          "enableMosaic": false,
-          "styleboxPercentWidth": ""
+          "styleboxPercentWidth": "100%",
+          "enableMosaic": false
         },
         "currentElement": "",
         "serverSideRef": ""
       },
       "displayName": "Matrix",
       "custom": {},
-      "parent": "2YOeP60kDY",
+      "parent": "Yx0LiunbzM",
       "hidden": false,
       "nodes": [],
-      "linkedNodes": { "container": "MR947QRI-r" }
+      "linkedNodes": { "container": "UVlWI6ZEOF" }
     },
-    "MR947QRI-r": {
+    "UVlWI6ZEOF": {
       "type": { "resolvedName": "StyleBox" },
       "isCanvas": true,
       "props": {
@@ -53,16 +57,17 @@
           "flexDirection": "row",
           "cursor": "pointer",
           "borderRadius": "6px"
-        }
+        },
+        "iterableChild": true
       },
       "displayName": "Stylebox",
       "custom": { "contentWidth": 554, "contentHeight": 50 },
-      "parent": "08yGPzmx2Z",
+      "parent": "Z46c69sqOM",
       "hidden": false,
-      "nodes": ["RujXJHePHy", "GSfgCHqrbN", "2ryIt5JVp4", "Dar9fnHcCy"],
+      "nodes": ["OzSFf4qdlt", "2o5ITQN1O3", "mKa3SjysH-", "rRQiMAaQyP"],
       "linkedNodes": {}
     },
-    "RujXJHePHy": {
+    "OzSFf4qdlt": {
       "type": { "resolvedName": "StyleBox" },
       "isCanvas": true,
       "props": {
@@ -85,16 +90,17 @@
           "borderBottomRightRadius": "0px",
           "width": "30%",
           "height": "45px"
-        }
+        },
+        "iterableChild": true
       },
       "displayName": "Stylebox",
       "custom": {},
-      "parent": "MR947QRI-r",
+      "parent": "UVlWI6ZEOF",
       "hidden": false,
-      "nodes": ["WiUrQjn4g-"],
+      "nodes": ["oBoeFeimRK"],
       "linkedNodes": {}
     },
-    "WiUrQjn4g-": {
+    "oBoeFeimRK": {
       "type": { "resolvedName": "Text" },
       "isCanvas": false,
       "props": {
@@ -125,16 +131,17 @@
           "fontSize": "14px",
           "width": "fit-content"
         },
-        "classNames": []
+        "classNames": [],
+        "iterableChild": true
       },
       "displayName": "Text",
       "custom": {},
-      "parent": "RujXJHePHy",
+      "parent": "OzSFf4qdlt",
       "hidden": false,
       "nodes": [],
       "linkedNodes": {}
     },
-    "GSfgCHqrbN": {
+    "2o5ITQN1O3": {
       "type": { "resolvedName": "StyleBox" },
       "isCanvas": true,
       "props": {
@@ -157,16 +164,17 @@
           "borderBottomLeftRadius": "0px",
           "width": "30%",
           "height": "45px"
-        }
+        },
+        "iterableChild": true
       },
       "displayName": "Stylebox",
       "custom": {},
-      "parent": "MR947QRI-r",
+      "parent": "UVlWI6ZEOF",
       "hidden": false,
-      "nodes": ["YkqEVRFd5V"],
+      "nodes": ["5W-V-ZHjJz"],
       "linkedNodes": {}
     },
-    "YkqEVRFd5V": {
+    "5W-V-ZHjJz": {
       "type": { "resolvedName": "Text" },
       "isCanvas": false,
       "props": {
@@ -200,16 +208,17 @@
           "width": "140px",
           "alignItems": "center"
         },
-        "classNames": ["matrix_ellipsisKind"]
+        "classNames": ["matrix_ellipsisKind"],
+        "iterableChild": true
       },
       "displayName": "Text",
       "custom": {},
-      "parent": "GSfgCHqrbN",
+      "parent": "2o5ITQN1O3",
       "hidden": false,
       "nodes": [],
       "linkedNodes": {}
     },
-    "2ryIt5JVp4": {
+    "mKa3SjysH-": {
       "type": { "resolvedName": "StyleBox" },
       "isCanvas": true,
       "props": {
@@ -232,16 +241,17 @@
           "borderBottomLeftRadius": "0px",
           "width": "30%",
           "height": "45px"
-        }
+        },
+        "iterableChild": true
       },
       "displayName": "Stylebox",
       "custom": {},
-      "parent": "MR947QRI-r",
+      "parent": "UVlWI6ZEOF",
       "hidden": false,
-      "nodes": ["deQA457sH8"],
+      "nodes": ["b3Rz4JOcdO"],
       "linkedNodes": {}
     },
-    "deQA457sH8": {
+    "b3Rz4JOcdO": {
       "type": { "resolvedName": "Text" },
       "isCanvas": false,
       "props": {
@@ -274,16 +284,17 @@
           "justifyContent": "flex-start",
           "width": "fit-content"
         },
-        "classNames": []
+        "classNames": [],
+        "iterableChild": true
       },
       "displayName": "Text",
       "custom": {},
-      "parent": "2ryIt5JVp4",
+      "parent": "mKa3SjysH-",
       "hidden": false,
       "nodes": [],
       "linkedNodes": {}
     },
-    "Dar9fnHcCy": {
+    "rRQiMAaQyP": {
       "type": { "resolvedName": "Button" },
       "isCanvas": false,
       "props": {
@@ -310,12 +321,12 @@
       },
       "displayName": "Button",
       "custom": {},
-      "parent": "MR947QRI-r",
+      "parent": "UVlWI6ZEOF",
       "hidden": false,
       "nodes": [],
-      "linkedNodes": { "icon": "mxshYgv1ue" }
+      "linkedNodes": { "icon": "yxUy9QYtYG" }
     },
-    "mxshYgv1ue": {
+    "yxUy9QYtYG": {
       "type": { "resolvedName": "Icon" },
       "isCanvas": false,
       "props": {
@@ -326,7 +337,7 @@
       },
       "displayName": "Icon",
       "custom": {},
-      "parent": "Dar9fnHcCy",
+      "parent": "rRQiMAaQyP",
       "hidden": false,
       "nodes": [],
       "linkedNodes": {}
