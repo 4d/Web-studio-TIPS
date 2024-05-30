@@ -375,6 +375,10 @@ Click on <img src="https://raw.githubusercontent.com/4d/Web-studio-TIPS/main/ass
         \n1. Drag the datasource named `items` to the _**DataTable**_.\
         \n2. Additionally, drag the attributes `name` and `price` onto the _**DataTable**_.',
         position: 'right',
+        style: {
+          maxHeight: '200px',
+          overflowY: 'auto',
+        },
       },
       events: {
         validate: [
