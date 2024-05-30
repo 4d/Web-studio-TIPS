@@ -458,14 +458,10 @@
         },
         "datasource": "#datasource#",
         "gridProps": {
-          "styleboxWidth": 324,
-          "styleboxHeight": 485,
-          "enableMosaic": true,
-          "enableFlex": false,
-          "flexProps": {
-            "nbOfRows": 1,
-            "nbOfColumns": 4
-          }
+          "enableMosaic": false,
+          "styleboxHeight": 520,
+          "styleboxPercentWidth": "",
+          "styleboxWidth": 324
         }
       },
       "displayName": "Matrix",
@@ -1105,11 +1101,7 @@
           "styleboxWidth": 324,
           "styleboxHeight": 523,
           "enableMosaic": false,
-          "enableFlex": false,
-          "flexProps": {
-            "nbOfRows": 0,
-            "nbOfColumns": 16
-          }
+          "styleboxPercentWidth": ""
         }
       },
       "displayName": "Matrix",
@@ -1918,14 +1910,10 @@
         },
         "datasource": "#datasource#",
         "gridProps": {
-          "styleboxWidth": 324,
-          "styleboxHeight": 340,
-          "enableMosaic": false,
-          "enableFlex": false,
-          "flexProps": {
-            "nbOfRows": 1,
-            "nbOfColumns": 4
-          }
+          "enableMosaic": true,
+          "styleboxHeight": 322,
+          "styleboxPercentWidth": "",
+          "styleboxWidth": 324
         }
       },
       "displayName": "Matrix",
