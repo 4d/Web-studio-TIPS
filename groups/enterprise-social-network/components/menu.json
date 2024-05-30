@@ -1,1121 +1,723 @@
 {
-    "id": "s3V5pRq4vzdEwH3E13a7eg",
-    "rootNodeId": "qszR1lRtQQ",
-    "nodes":
-    {
-        "qszR1lRtQQ":
-        {
-            "type":
-            {
-                "resolvedName": "StyleBox"
-            },
-            "isCanvas": true,
-            "props":
-            {
-                "events":
-                [],
-                "style":
-                {
-                    "paddingTop": "0px",
-                    "paddingRight": "0px",
-                    "paddingBottom": "0px",
-                    "paddingLeft": "0px",
-                    "maxWidth": "320px",
-                    "display": "flex",
-                    "flexDirection": "column",
-                    "justifyContent": "flex-start",
-                    "alignItems": "center",
-                    "width": "320px",
-                    "minWidth": "320px"
-                }
-            },
-            "displayName": "Stylebox",
-            "custom":
-            {},
-            "parent": "ROOT",
-            "hidden": false,
-            "nodes":
-            [
-                "72J2OKFDQG",
-                "ImQTnZC_vF",
-                "2KPaSOPvLZ"
-            ],
-            "linkedNodes":
-            {}
+  "id": "ibD3HGi8QBk1fuByG49icp",
+  "rootNodeId": "5cfZONFXPG",
+  "nodes": {
+    "5cfZONFXPG": {
+      "type": { "resolvedName": "StyleBox" },
+      "isCanvas": true,
+      "props": {
+        "events": [],
+        "style": {
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "maxWidth": "320px",
+          "display": "flex",
+          "flexDirection": "column",
+          "justifyContent": "flex-start",
+          "alignItems": "center",
+          "width": "320px",
+          "minWidth": "320px"
         },
-        "72J2OKFDQG":
-        {
-            "type":
-            {
-                "resolvedName": "StyleBox"
-            },
-            "isCanvas": true,
-            "props":
-            {
-                "events":
-                [],
-                "style":
-                {
-                    "display": "flex",
-                    "flexDirection": "column",
-                    "alignItems": "end",
-                    "justifyContent": "flex-end",
-                    "paddingTop": "2px",
-                    "paddingRight": "2px",
-                    "paddingBottom": "2px",
-                    "paddingLeft": "2px",
-                    "marginTop": "0px",
-                    "marginRight": "0px",
-                    "marginBottom": "0px",
-                    "marginLeft": "0px"
-                }
-            },
-            "displayName": "Stylebox",
-            "custom":
-            {},
-            "parent": "qszR1lRtQQ",
-            "hidden": false,
-            "nodes":
-            [
-                "YKotqukwSH",
-                "arZnJ1u3jz"
-            ],
-            "linkedNodes":
-            {}
-        },
-        "YKotqukwSH":
-        {
-            "type":
-            {
-                "resolvedName": "Image"
-            },
-            "isCanvas": false,
-            "props":
-            {
-                "classNames":
-                [],
-                "events":
-                [],
-                "style":
-                {
-                    "borderRadius": "100%",
-                    "borderWidth": "6px",
-                    "borderColor": "#ffffffff",
-                    "width": "70px",
-                    "height": "70px",
-                    "bottom": "70px",
-                    "zIndex": "1",
-                    "left": "20px",
-                    "position": "absolute",
-                    "minWidth": "70px",
-                    "minHeight": "70px"
-                },
-                "imgSrc": "https://raw.githubusercontent.com/4d/Web-studio-TIPS/gh-build/groups/enterprise-social-network/assets/face1.jpg"
-            },
-            "displayName": "Image",
-            "custom":
-            {},
-            "parent": "72J2OKFDQG",
-            "hidden": false,
-            "nodes":
-            [],
-            "linkedNodes":
-            {}
-        },
-        "arZnJ1u3jz":
-        {
-            "type":
-            {
-                "resolvedName": "StyleBox"
-            },
-            "isCanvas": true,
-            "props":
-            {
-                "events":
-                [],
-                "style":
-                {
-                    "height": "120px",
-                    "borderRadius": "5px",
-                    "backgroundImage": "url()",
-                    "paddingRight": "0px",
-                    "paddingBottom": "0px",
-                    "paddingTop": "0px"
-                },
-                "classNames":
-                [
-                    "profileCard"
-                ]
-            },
-            "displayName": "Stylebox",
-            "custom":
-            {},
-            "parent": "72J2OKFDQG",
-            "hidden": false,
-            "nodes":
-            [
-                "p5m4KtNs7K",
-                "m1PxFOkQFt",
-                "17WQA2C26c"
-            ],
-            "linkedNodes":
-            {}
-        },
-        "p5m4KtNs7K":
-        {
-            "type":
-            {
-                "resolvedName": "Text"
-            },
-            "isCanvas": false,
-            "props":
-            {
-                "events":
-                [],
-                "doc":
-                [
-                    {
-                        "type": "paragraph",
-                        "children":
-                        [
-                            {
-                                "text": "Sarah Cruiz",
-                                "bold": false,
-                                "italic": false,
-                                "underlined": false,
-                                "strikethrough": false
-                            }
-                        ]
-                    }
-                ],
-                "datasource": "",
-                "style":
-                {
-                    "fontSize": "15px"
-                }
-            },
-            "displayName": "Text",
-            "custom":
-            {},
-            "parent": "arZnJ1u3jz",
-            "hidden": false,
-            "nodes":
-            [],
-            "linkedNodes":
-            {}
-        },
-        "m1PxFOkQFt":
-        {
-            "type":
-            {
-                "resolvedName": "Text"
-            },
-            "isCanvas": false,
-            "props":
-            {
-                "events":
-                [],
-                "doc":
-                [
-                    {
-                        "type": "paragraph",
-                        "children":
-                        [
-                            {
-                                "text": "Marketing designer",
-                                "bold": false,
-                                "italic": false,
-                                "underlined": false,
-                                "strikethrough": false
-                            }
-                        ]
-                    }
-                ],
-                "datasource": "",
-                "style":
-                {
-                    "fontSize": "12px"
-                }
-            },
-            "displayName": "Text",
-            "custom":
-            {},
-            "parent": "arZnJ1u3jz",
-            "hidden": false,
-            "nodes":
-            [],
-            "linkedNodes":
-            {}
-        },
-        "17WQA2C26c":
-        {
-            "type":
-            {
-                "resolvedName": "Text"
-            },
-            "isCanvas": false,
-            "props":
-            {
-                "events":
-                [],
-                "doc":
-                [
-                    {
-                        "type": "paragraph",
-                        "children":
-                        [
-                            {
-                                "text": "1129 followers",
-                                "bold": false,
-                                "italic": false,
-                                "underlined": false,
-                                "strikethrough": false
-                            }
-                        ]
-                    }
-                ],
-                "datasource": "",
-                "style":
-                {
-                    "fontSize": "12px"
-                }
-            },
-            "displayName": "Text",
-            "custom":
-            {},
-            "parent": "arZnJ1u3jz",
-            "hidden": false,
-            "nodes":
-            [],
-            "linkedNodes":
-            {}
-        },
-        "ImQTnZC_vF":
-        {
-            "type":
-            {
-                "resolvedName": "StyleBox"
-            },
-            "isCanvas": true,
-            "props":
-            {
-                "events":
-                [],
-                "style":
-                {
-                    "color": "#6d6e71",
-                    "fontSize": "13px",
-                    "paddingTop": "0px",
-                    "paddingRight": "0px",
-                    "paddingBottom": "0px",
-                    "paddingLeft": "0px",
-                    "marginTop": "0px",
-                    "marginRight": "0px",
-                    "marginBottom": "0px",
-                    "marginLeft": "0px"
-                }
-            },
-            "displayName": "Stylebox",
-            "custom":
-            {},
-            "parent": "qszR1lRtQQ",
-            "hidden": false,
-            "nodes":
-            [
-                "J9zrJ0ex4v",
-                "cep77ojGMT",
-                "VjkfpYugLk",
-                "EkfXIgnLqp"
-            ],
-            "linkedNodes":
-            {}
-        },
-        "J9zrJ0ex4v":
-        {
-            "type":
-            {
-                "resolvedName": "StyleBox"
-            },
-            "isCanvas": true,
-            "props":
-            {
-                "events":
-                [],
-                "style":
-                {
-                    "display": "flex",
-                    "marginBottom": "0px",
-                    "marginRight": "0px",
-                    "marginTop": "0px"
-                },
-                "classNames":
-                [
-                    "menuItem"
-                ]
-            },
-            "displayName": "Stylebox",
-            "custom":
-            {},
-            "parent": "ImQTnZC_vF",
-            "hidden": false,
-            "nodes":
-            [
-                "RkoCCtGTNS",
-                "H5FeOwWi67"
-            ],
-            "linkedNodes":
-            {}
-        },
-        "RkoCCtGTNS":
-        {
-            "type":
-            {
-                "resolvedName": "Icon"
-            },
-            "isCanvas": false,
-            "props":
-            {
-                "classNames":
-                [],
-                "events":
-                [],
-                "icon": "fa-solid fa-newspaper",
-                "style":
-                {
-                    "marginLeft": "0px",
-                    "marginRight": "0px",
-                    "marginBottom": "0px",
-                    "marginTop": "0px"
-                }
-            },
-            "displayName": "Icon",
-            "custom":
-            {},
-            "parent": "J9zrJ0ex4v",
-            "hidden": false,
-            "nodes":
-            [],
-            "linkedNodes":
-            {}
-        },
-        "H5FeOwWi67":
-        {
-            "type":
-            {
-                "resolvedName": "Text"
-            },
-            "isCanvas": false,
-            "props":
-            {
-                "events":
-                [],
-                "doc":
-                [
-                    {
-                        "type": "paragraph",
-                        "children":
-                        [
-                            {
-                                "text": "My news feed",
-                                "bold": false,
-                                "italic": false,
-                                "underlined": false,
-                                "strikethrough": false
-                            }
-                        ]
-                    }
-                ],
-                "datasource": "",
-                "style":
-                {
-                    "marginTop": "0px",
-                    "marginRight": "0px",
-                    "marginBottom": "0px",
-                    "marginLeft": "0px"
-                }
-            },
-            "displayName": "Text",
-            "custom":
-            {},
-            "parent": "J9zrJ0ex4v",
-            "hidden": false,
-            "nodes":
-            [],
-            "linkedNodes":
-            {}
-        },
-        "cep77ojGMT":
-        {
-            "type":
-            {
-                "resolvedName": "StyleBox"
-            },
-            "isCanvas": true,
-            "props":
-            {
-                "events":
-                [],
-                "style":
-                {
-                    "display": "flex"
-                },
-                "classNames":
-                [
-                    "menuItem"
-                ]
-            },
-            "displayName": "Stylebox",
-            "custom":
-            {},
-            "parent": "ImQTnZC_vF",
-            "hidden": false,
-            "nodes":
-            [
-                "15G6Pc2nZp",
-                "kkwqS583nn"
-            ],
-            "linkedNodes":
-            {}
-        },
-        "15G6Pc2nZp":
-        {
-            "type":
-            {
-                "resolvedName": "Icon"
-            },
-            "isCanvas": false,
-            "props":
-            {
-                "classNames":
-                [],
-                "events":
-                [],
-                "icon": "fa-users",
-                "style":
-                {
-                    "marginLeft": "0px",
-                    "marginRight": "0px",
-                    "marginBottom": "0px",
-                    "marginTop": "0px"
-                }
-            },
-            "displayName": "Icon",
-            "custom":
-            {},
-            "parent": "cep77ojGMT",
-            "hidden": false,
-            "nodes":
-            [],
-            "linkedNodes":
-            {}
-        },
-        "kkwqS583nn":
-        {
-            "type":
-            {
-                "resolvedName": "Text"
-            },
-            "isCanvas": false,
-            "props":
-            {
-                "events":
-                [],
-                "doc":
-                [
-                    {
-                        "type": "paragraph",
-                        "children":
-                        [
-                            {
-                                "text": "Colleagues",
-                                "bold": false,
-                                "italic": false,
-                                "underlined": false,
-                                "strikethrough": false
-                            }
-                        ]
-                    }
-                ],
-                "datasource": "",
-                "style":
-                {
-                    "marginTop": "0px",
-                    "marginRight": "0px",
-                    "marginBottom": "0px",
-                    "marginLeft": "0px"
-                }
-            },
-            "displayName": "Text",
-            "custom":
-            {},
-            "parent": "cep77ojGMT",
-            "hidden": false,
-            "nodes":
-            [],
-            "linkedNodes":
-            {}
-        },
-        "VjkfpYugLk":
-        {
-            "type":
-            {
-                "resolvedName": "StyleBox"
-            },
-            "isCanvas": true,
-            "props":
-            {
-                "events":
-                [],
-                "style":
-                {
-                    "display": "flex"
-                },
-                "classNames":
-                [
-                    "menuItem"
-                ]
-            },
-            "displayName": "Stylebox",
-            "custom":
-            {},
-            "parent": "ImQTnZC_vF",
-            "hidden": false,
-            "nodes":
-            [
-                "_tOuyZs2V-",
-                "UPjLYWXWSN"
-            ],
-            "linkedNodes":
-            {}
-        },
-        "_tOuyZs2V-":
-        {
-            "type":
-            {
-                "resolvedName": "Icon"
-            },
-            "isCanvas": false,
-            "props":
-            {
-                "classNames":
-                [],
-                "events":
-                [],
-                "icon": "fa-solid fa-address-card",
-                "style":
-                {
-                    "marginLeft": "0px",
-                    "marginRight": "0px",
-                    "marginBottom": "0px",
-                    "marginTop": "0px"
-                }
-            },
-            "displayName": "Icon",
-            "custom":
-            {},
-            "parent": "VjkfpYugLk",
-            "hidden": false,
-            "nodes":
-            [],
-            "linkedNodes":
-            {}
-        },
-        "UPjLYWXWSN":
-        {
-            "type":
-            {
-                "resolvedName": "Text"
-            },
-            "isCanvas": false,
-            "props":
-            {
-                "events":
-                [],
-                "doc":
-                [
-                    {
-                        "type": "paragraph",
-                        "children":
-                        [
-                            {
-                                "text": "Teammates",
-                                "bold": false,
-                                "italic": false,
-                                "underlined": false,
-                                "strikethrough": false
-                            }
-                        ]
-                    }
-                ],
-                "datasource": "",
-                "style":
-                {
-                    "marginTop": "0px",
-                    "marginRight": "0px",
-                    "marginBottom": "0px",
-                    "marginLeft": "0px"
-                }
-            },
-            "displayName": "Text",
-            "custom":
-            {},
-            "parent": "VjkfpYugLk",
-            "hidden": false,
-            "nodes":
-            [],
-            "linkedNodes":
-            {}
-        },
-        "EkfXIgnLqp":
-        {
-            "type":
-            {
-                "resolvedName": "StyleBox"
-            },
-            "isCanvas": true,
-            "props":
-            {
-                "events":
-                [],
-                "style":
-                {
-                    "display": "flex",
-                    "borderBottomStyle": "none"
-                },
-                "classNames":
-                [
-                    "menuItem"
-                ]
-            },
-            "displayName": "Stylebox",
-            "custom":
-            {},
-            "parent": "ImQTnZC_vF",
-            "hidden": false,
-            "nodes":
-            [
-                "Idco3Qo19E",
-                "cqFawLJWn2"
-            ],
-            "linkedNodes":
-            {}
-        },
-        "Idco3Qo19E":
-        {
-            "type":
-            {
-                "resolvedName": "Icon"
-            },
-            "isCanvas": false,
-            "props":
-            {
-                "classNames":
-                [],
-                "events":
-                [],
-                "icon": "fa-solid fa-comments",
-                "style":
-                {
-                    "marginLeft": "0px",
-                    "marginRight": "0px",
-                    "marginBottom": "0px",
-                    "marginTop": "0px"
-                }
-            },
-            "displayName": "Icon",
-            "custom":
-            {},
-            "parent": "EkfXIgnLqp",
-            "hidden": false,
-            "nodes":
-            [],
-            "linkedNodes":
-            {}
-        },
-        "cqFawLJWn2":
-        {
-            "type":
-            {
-                "resolvedName": "Text"
-            },
-            "isCanvas": false,
-            "props":
-            {
-                "events":
-                [],
-                "doc":
-                [
-                    {
-                        "type": "paragraph",
-                        "children":
-                        [
-                            {
-                                "text": "Messages",
-                                "bold": false,
-                                "italic": false,
-                                "underlined": false,
-                                "strikethrough": false
-                            }
-                        ]
-                    }
-                ],
-                "datasource": "",
-                "style":
-                {
-                    "marginTop": "0px",
-                    "marginRight": "0px",
-                    "marginBottom": "0px",
-                    "marginLeft": "0px"
-                }
-            },
-            "displayName": "Text",
-            "custom":
-            {},
-            "parent": "EkfXIgnLqp",
-            "hidden": false,
-            "nodes":
-            [],
-            "linkedNodes":
-            {}
-        },
-        "2KPaSOPvLZ":
-        {
-            "type":
-            {
-                "resolvedName": "StyleBox"
-            },
-            "isCanvas": true,
-            "props":
-            {
-                "events":
-                [],
-                "style":
-                {
-                    "display": "flex",
-                    "flexDirection": "column",
-                    "paddingTop": "12px",
-                    "paddingRight": "12px",
-                    "paddingBottom": "12px",
-                    "paddingLeft": "12px",
-                    "marginLeft": "0px",
-                    "marginRight": "0px",
-                    "marginBottom": "0px",
-                    "marginTop": "0px",
-                    "alignItems": "center"
-                }
-            },
-            "displayName": "Stylebox",
-            "custom":
-            {},
-            "parent": "qszR1lRtQQ",
-            "hidden": false,
-            "nodes":
-            [
-                "5j1VxC40v8",
-                "v8raBYcM4a"
-            ],
-            "linkedNodes":
-            {}
-        },
-        "5j1VxC40v8":
-        {
-            "type":
-            {
-                "resolvedName": "Button"
-            },
-            "isCanvas": false,
-            "props":
-            {
-                "text": "Chat",
-                "classNames":
-                [],
-                "events":
-                [],
-                "iconPosition": "hidden",
-                "style":
-                {
-                    "display": "inline",
-                    "borderRadius": "12px",
-                    "backgroundColor": "#8dc43f",
-                    "fontSize": "14px",
-                    "width": "100%"
-                }
-            },
-            "displayName": "Button",
-            "custom":
-            {},
-            "parent": "2KPaSOPvLZ",
-            "hidden": false,
-            "nodes":
-            [],
-            "linkedNodes":
-            {
-                "icon": "CBTh4A-QD5"
-            }
-        },
-        "CBTh4A-QD5":
-        {
-            "type":
-            {
-                "resolvedName": "Icon"
-            },
-            "isCanvas": false,
-            "props":
-            {
-                "classNames":
-                [],
-                "events":
-                [],
-                "icon": "fa-star"
-            },
-            "displayName": "Icon",
-            "custom":
-            {},
-            "parent": "5j1VxC40v8",
-            "hidden": false,
-            "nodes":
-            [],
-            "linkedNodes":
-            {}
-        },
-        "v8raBYcM4a":
-        {
-            "type":
-            {
-                "resolvedName": "StyleBox"
-            },
-            "isCanvas": true,
-            "props":
-            {
-                "events":
-                [],
-                "style":
-                {
-                    "display": "flex",
-                    "justifyContent": "center",
-                    "paddingTop": "0px",
-                    "paddingRight": "0px",
-                    "paddingBottom": "0px",
-                    "paddingLeft": "0px",
-                    "marginTop": "0px",
-                    "marginRight": "0px",
-                    "marginBottom": "0px",
-                    "marginLeft": "0px",
-                    "alignItems": "center"
-                }
-            },
-            "displayName": "Stylebox",
-            "custom":
-            {},
-            "parent": "2KPaSOPvLZ",
-            "hidden": false,
-            "nodes":
-            [
-                "my4B-y5E7K"
-            ],
-            "linkedNodes":
-            {}
-        },
-        "my4B-y5E7K":
-        {
-            "type":
-            {
-                "resolvedName": "Matrix"
-            },
-            "isCanvas": false,
-            "props":
-            {
-                "iterable": true,
-                "classNames":
-                [],
-                "events":
-                [],
-                "style":
-                {
-                    "height": "250px",
-                    "display": "block",
-                    "justifyContent": "flex-start",
-                    "textAlign": "justify",
-                    "width": "240px",
-                    "overflow": "hidden",
-                    "marginTop": "0px",
-                    "marginRight": "0px",
-                    "marginBottom": "0px",
-                    "marginLeft": "0px"
-                },
-                "orientation": "vertical",
-                "datasource": "table1S",
-                "gridProps":
-                {
-                    "styleboxWidth": 80,
-                    "styleboxHeight": 82,
-                    "styleboxPercentWidth": "",
-                    "enableMosaic": true
-                }
-            },
-            "displayName": "Matrix",
-            "custom":
-            {},
-            "parent": "v8raBYcM4a",
-            "hidden": false,
-            "nodes":
-            [],
-            "linkedNodes":
-            {
-                "container": "R4BxWdBXmP"
-            }
-        },
-        "R4BxWdBXmP":
-        {
-            "type":
-            {
-                "resolvedName": "StyleBox"
-            },
-            "isCanvas": true,
-            "props":
-            {
-                "events":
-                [],
-                "style":
-                {
-                    "minHeight": "40px",
-                    "display": "flex",
-                    "alignItems": "start",
-                    "flexDirection": "column",
-                    "width": "80px",
-                    "paddingTop": "0px",
-                    "paddingRight": "0px",
-                    "paddingBottom": "0px",
-                    "paddingLeft": "0px",
-                    "justifyContent": "flex-start",
-                    "marginTop": "0px",
-                    "marginRight": "0px",
-                    "marginBottom": "0px",
-                    "marginLeft": "0px",
-                    "minWidth": "80px"
-                }
-            },
-            "displayName": "Stylebox",
-            "custom":
-            {
-                "contentHeight": 74
-            },
-            "parent": "my4B-y5E7K",
-            "hidden": false,
-            "nodes":
-            [
-                "pbjHkQ3ERo",
-                "MKaFlzcQRa"
-            ],
-            "linkedNodes":
-            {}
-        },
-        "pbjHkQ3ERo":
-        {
-            "type":
-            {
-                "resolvedName": "Image"
-            },
-            "isCanvas": false,
-            "props":
-            {
-                "classNames":
-                [],
-                "events":
-                [],
-                "style":
-                {
-                    "width": "58px",
-                    "height": "58px",
-                    "borderRadius": "50%"
-                },
-                "imgSrc": "https://raw.githubusercontent.com/4d/Web-studio-TIPS/gh-build/groups/enterprise-social-network/assets/face2.jpg"
-            },
-            "displayName": "Image",
-            "custom":
-            {},
-            "parent": "R4BxWdBXmP",
-            "hidden": false,
-            "nodes":
-            [],
-            "linkedNodes":
-            {}
-        },
-        "MKaFlzcQRa":
-        {
-            "type":
-            {
-                "resolvedName": "StyleBox"
-            },
-            "isCanvas": true,
-            "props":
-            {
-                "events":
-                [],
-                "style":
-                {
-                    "paddingTop": "5px",
-                    "paddingRight": "5px",
-                    "paddingBottom": "5px",
-                    "paddingLeft": "5px",
-                    "display": "flex",
-                    "justifyContent": "center",
-                    "alignItems": "center",
-                    "height": "10px",
-                    "width": "10px",
-                    "minWidth": "10px",
-                    "minHeight": "10px",
-                    "maxHeight": "10px",
-                    "maxWidth": "10px",
-                    "borderRadius": "50%"
-                },
-                "classNames":
-                [
-                    "onlineDot"
-                ]
-            },
-            "displayName": "Stylebox",
-            "custom":
-            {},
-            "parent": "R4BxWdBXmP",
-            "hidden": false,
-            "nodes":
-            [],
-            "linkedNodes":
-            {}
-        }
+        "iterableChild": true
+      },
+      "displayName": "Stylebox",
+      "custom": {},
+      "parent": "ROOT",
+      "hidden": false,
+      "nodes": ["o-FbpQDnVH", "naUDrlX7zQ", "sj6jrHLdkE"],
+      "linkedNodes": {}
     },
-    "styles":
-    [
-        {
-            "name": "profileCard",
-            "content": "self {\n  background: linear-gradient(to bottom, rgba(39,170,225,.8), rgba(28,117,188,.8)), url(https://raw.githubusercontent.com/4d/Web-studio-TIPS/gh-build/groups/enterprise-social-network/assets/office.jpg) no-repeat;\n    background-image: linear-gradient(rgba(39, 170, 225, 0.8), rgba(28, 117, 188, 0.8)), url(https://raw.githubusercontent.com/4d/Web-studio-TIPS/gh-build/groups/enterprise-social-network/assets/office.jpg);\n    background-position-x: initial, initial;\n    background-position-y: initial, initial;\n    background-size: initial, initial;\n    background-repeat-x: initial, no-repeat;\n    background-repeat-y: initial, no-repeat;\n    background-attachment: initial, initial;\n    background-origin: initial, initial;\n    background-clip: initial, initial;\n    background-color: initial;\n  background-color : #3b82f6ce;\n  padding-left : 100px;\n  color : #ffffffff;\n}",
-            "children":
-            {},
-            "parentId": null,
-            "origin": "gyN1sdiYIk",
-            "id": "eqYDWCxtfqEysavkGMUGH",
-            "scope": "local"
+    "o-FbpQDnVH": {
+      "type": { "resolvedName": "StyleBox" },
+      "isCanvas": true,
+      "props": {
+        "events": [],
+        "style": {
+          "display": "flex",
+          "flexDirection": "column",
+          "alignItems": "end",
+          "justifyContent": "flex-end",
+          "paddingTop": "2px",
+          "paddingRight": "2px",
+          "paddingBottom": "2px",
+          "paddingLeft": "2px",
+          "marginTop": "0px",
+          "marginRight": "0px",
+          "marginBottom": "0px",
+          "marginLeft": "0px"
         },
-        {
-            "name": "menuItem",
-            "content": "self {\n\tdisplay : flex;\n\talign-items : center;\n\tgap : 10px;\n\tcursor: pointer;\n\tborder-bottom-style: solid;\n\tborder-bottom-width : 1px;\n\tborder-bottom-color: #f1f2f2;\n}",
-            "children":
-            {},
-            "parentId": null,
-            "origin": "d24q09_UsH",
-            "id": "YMva_mt7ZF6jCGQmFXItE",
-            "scope": "local"
+        "iterableChild": true
+      },
+      "displayName": "Stylebox",
+      "custom": {},
+      "parent": "5cfZONFXPG",
+      "hidden": false,
+      "nodes": ["ax9-wcxCja", "gkCWMnG2XA"],
+      "linkedNodes": {}
+    },
+    "ax9-wcxCja": {
+      "type": { "resolvedName": "Image" },
+      "isCanvas": false,
+      "props": {
+        "classNames": [],
+        "events": [],
+        "style": {
+          "borderRadius": "100%",
+          "borderWidth": "6px",
+          "borderColor": "#ffffffff",
+          "width": "70px",
+          "height": "70px",
+          "bottom": "70px",
+          "zIndex": "1",
+          "left": "20px",
+          "position": "absolute",
+          "minWidth": "70px",
+          "minHeight": "70px"
         },
-        {
-            "name": "onlineDot",
-            "content": "self {\n    background: linear-gradient(to bottom, rgba(141,198,63, 1), rgba(0,148,68, 1));\n\tborder: none;\n\theight: 12px;\n\twidth: 12px;\n\tborder-radius: 50%;\n\tposition: absolute;\n\tbottom: 6px;\n\tmargin: auto;\n\tright : 10px;\n}",
-            "children":
-            {},
-            "parentId": null,
-            "origin": "v2byQEovxy",
-            "id": "PVgJNoyCXNG1cI0Kyyk8L",
-            "scope": "local"
+        "imgSrc": "https://raw.githubusercontent.com/4d/Web-studio-TIPS/gh-build/groups/enterprise-social-network/assets/face1.jpg"
+      },
+      "displayName": "Image",
+      "custom": {},
+      "parent": "o-FbpQDnVH",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "gkCWMnG2XA": {
+      "type": { "resolvedName": "StyleBox" },
+      "isCanvas": true,
+      "props": {
+        "events": [],
+        "style": {
+          "height": "120px",
+          "borderRadius": "5px",
+          "backgroundImage": "url()",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingTop": "0px"
+        },
+        "classNames": ["profileCard"],
+        "iterableChild": true
+      },
+      "displayName": "Stylebox",
+      "custom": {},
+      "parent": "o-FbpQDnVH",
+      "hidden": false,
+      "nodes": ["WU5TY6QoW1", "PmRveeWRUE", "1scWv1uTC4"],
+      "linkedNodes": {}
+    },
+    "WU5TY6QoW1": {
+      "type": { "resolvedName": "Text" },
+      "isCanvas": false,
+      "props": {
+        "events": [],
+        "doc": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Sarah Cruiz",
+                "bold": false,
+                "italic": false,
+                "underlined": false,
+                "strikethrough": false
+              }
+            ]
+          }
+        ],
+        "datasource": "",
+        "style": { "fontSize": "15px" },
+        "iterableChild": true
+      },
+      "displayName": "Text",
+      "custom": {},
+      "parent": "gkCWMnG2XA",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "PmRveeWRUE": {
+      "type": { "resolvedName": "Text" },
+      "isCanvas": false,
+      "props": {
+        "events": [],
+        "doc": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Marketing designer",
+                "bold": false,
+                "italic": false,
+                "underlined": false,
+                "strikethrough": false
+              }
+            ]
+          }
+        ],
+        "datasource": "",
+        "style": { "fontSize": "12px" },
+        "iterableChild": true
+      },
+      "displayName": "Text",
+      "custom": {},
+      "parent": "gkCWMnG2XA",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "1scWv1uTC4": {
+      "type": { "resolvedName": "Text" },
+      "isCanvas": false,
+      "props": {
+        "events": [],
+        "doc": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "1129 followers",
+                "bold": false,
+                "italic": false,
+                "underlined": false,
+                "strikethrough": false
+              }
+            ]
+          }
+        ],
+        "datasource": "",
+        "style": { "fontSize": "12px" },
+        "iterableChild": true
+      },
+      "displayName": "Text",
+      "custom": {},
+      "parent": "gkCWMnG2XA",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "naUDrlX7zQ": {
+      "type": { "resolvedName": "StyleBox" },
+      "isCanvas": true,
+      "props": {
+        "events": [],
+        "style": {
+          "color": "#6d6e71",
+          "fontSize": "13px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "marginTop": "0px",
+          "marginRight": "0px",
+          "marginBottom": "0px",
+          "marginLeft": "0px"
+        },
+        "iterableChild": true
+      },
+      "displayName": "Stylebox",
+      "custom": {},
+      "parent": "5cfZONFXPG",
+      "hidden": false,
+      "nodes": ["7l5pUnkYnr", "SFUnYH3-LU", "WwJbHstmNF", "M68Zq6qm_O"],
+      "linkedNodes": {}
+    },
+    "7l5pUnkYnr": {
+      "type": { "resolvedName": "StyleBox" },
+      "isCanvas": true,
+      "props": {
+        "events": [],
+        "style": {
+          "display": "flex",
+          "marginBottom": "0px",
+          "marginRight": "0px",
+          "marginTop": "0px"
+        },
+        "classNames": ["menuItem"],
+        "iterableChild": true
+      },
+      "displayName": "Stylebox",
+      "custom": {},
+      "parent": "naUDrlX7zQ",
+      "hidden": false,
+      "nodes": ["GbsGhmywyd", "rlFoEKVO99"],
+      "linkedNodes": {}
+    },
+    "GbsGhmywyd": {
+      "type": { "resolvedName": "Icon" },
+      "isCanvas": false,
+      "props": {
+        "classNames": [],
+        "events": [],
+        "icon": "fa-solid fa-newspaper",
+        "style": {
+          "marginLeft": "0px",
+          "marginRight": "0px",
+          "marginBottom": "0px",
+          "marginTop": "0px"
         }
-    ]
+      },
+      "displayName": "Icon",
+      "custom": {},
+      "parent": "7l5pUnkYnr",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "rlFoEKVO99": {
+      "type": { "resolvedName": "Text" },
+      "isCanvas": false,
+      "props": {
+        "events": [],
+        "doc": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "My news feed",
+                "bold": false,
+                "italic": false,
+                "underlined": false,
+                "strikethrough": false
+              }
+            ]
+          }
+        ],
+        "datasource": "",
+        "style": {
+          "marginTop": "0px",
+          "marginRight": "0px",
+          "marginBottom": "0px",
+          "marginLeft": "0px"
+        },
+        "iterableChild": true
+      },
+      "displayName": "Text",
+      "custom": {},
+      "parent": "7l5pUnkYnr",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "SFUnYH3-LU": {
+      "type": { "resolvedName": "StyleBox" },
+      "isCanvas": true,
+      "props": {
+        "events": [],
+        "style": { "display": "flex" },
+        "classNames": ["menuItem"],
+        "iterableChild": true
+      },
+      "displayName": "Stylebox",
+      "custom": {},
+      "parent": "naUDrlX7zQ",
+      "hidden": false,
+      "nodes": ["VxYXeS_6u5", "kxzOlE1svc"],
+      "linkedNodes": {}
+    },
+    "VxYXeS_6u5": {
+      "type": { "resolvedName": "Icon" },
+      "isCanvas": false,
+      "props": {
+        "classNames": [],
+        "events": [],
+        "icon": "fa-users",
+        "style": {
+          "marginLeft": "0px",
+          "marginRight": "0px",
+          "marginBottom": "0px",
+          "marginTop": "0px"
+        }
+      },
+      "displayName": "Icon",
+      "custom": {},
+      "parent": "SFUnYH3-LU",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "kxzOlE1svc": {
+      "type": { "resolvedName": "Text" },
+      "isCanvas": false,
+      "props": {
+        "events": [],
+        "doc": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Colleagues",
+                "bold": false,
+                "italic": false,
+                "underlined": false,
+                "strikethrough": false
+              }
+            ]
+          }
+        ],
+        "datasource": "",
+        "style": {
+          "marginTop": "0px",
+          "marginRight": "0px",
+          "marginBottom": "0px",
+          "marginLeft": "0px"
+        },
+        "iterableChild": true
+      },
+      "displayName": "Text",
+      "custom": {},
+      "parent": "SFUnYH3-LU",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "WwJbHstmNF": {
+      "type": { "resolvedName": "StyleBox" },
+      "isCanvas": true,
+      "props": {
+        "events": [],
+        "style": { "display": "flex" },
+        "classNames": ["menuItem"],
+        "iterableChild": true
+      },
+      "displayName": "Stylebox",
+      "custom": {},
+      "parent": "naUDrlX7zQ",
+      "hidden": false,
+      "nodes": ["JS524GYUDW", "lrAsmLH3eV"],
+      "linkedNodes": {}
+    },
+    "JS524GYUDW": {
+      "type": { "resolvedName": "Icon" },
+      "isCanvas": false,
+      "props": {
+        "classNames": [],
+        "events": [],
+        "icon": "fa-solid fa-address-card",
+        "style": {
+          "marginLeft": "0px",
+          "marginRight": "0px",
+          "marginBottom": "0px",
+          "marginTop": "0px"
+        }
+      },
+      "displayName": "Icon",
+      "custom": {},
+      "parent": "WwJbHstmNF",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "lrAsmLH3eV": {
+      "type": { "resolvedName": "Text" },
+      "isCanvas": false,
+      "props": {
+        "events": [],
+        "doc": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Teammates",
+                "bold": false,
+                "italic": false,
+                "underlined": false,
+                "strikethrough": false
+              }
+            ]
+          }
+        ],
+        "datasource": "",
+        "style": {
+          "marginTop": "0px",
+          "marginRight": "0px",
+          "marginBottom": "0px",
+          "marginLeft": "0px"
+        },
+        "iterableChild": true
+      },
+      "displayName": "Text",
+      "custom": {},
+      "parent": "WwJbHstmNF",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "M68Zq6qm_O": {
+      "type": { "resolvedName": "StyleBox" },
+      "isCanvas": true,
+      "props": {
+        "events": [],
+        "style": { "display": "flex", "borderBottomStyle": "none" },
+        "classNames": ["menuItem"],
+        "iterableChild": true
+      },
+      "displayName": "Stylebox",
+      "custom": {},
+      "parent": "naUDrlX7zQ",
+      "hidden": false,
+      "nodes": ["KoH3k7CwG4", "egy3SuyxLm"],
+      "linkedNodes": {}
+    },
+    "KoH3k7CwG4": {
+      "type": { "resolvedName": "Icon" },
+      "isCanvas": false,
+      "props": {
+        "classNames": [],
+        "events": [],
+        "icon": "fa-solid fa-comments",
+        "style": {
+          "marginLeft": "0px",
+          "marginRight": "0px",
+          "marginBottom": "0px",
+          "marginTop": "0px"
+        }
+      },
+      "displayName": "Icon",
+      "custom": {},
+      "parent": "M68Zq6qm_O",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "egy3SuyxLm": {
+      "type": { "resolvedName": "Text" },
+      "isCanvas": false,
+      "props": {
+        "events": [],
+        "doc": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Messages",
+                "bold": false,
+                "italic": false,
+                "underlined": false,
+                "strikethrough": false
+              }
+            ]
+          }
+        ],
+        "datasource": "",
+        "style": {
+          "marginTop": "0px",
+          "marginRight": "0px",
+          "marginBottom": "0px",
+          "marginLeft": "0px"
+        },
+        "iterableChild": true
+      },
+      "displayName": "Text",
+      "custom": {},
+      "parent": "M68Zq6qm_O",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "sj6jrHLdkE": {
+      "type": { "resolvedName": "StyleBox" },
+      "isCanvas": true,
+      "props": {
+        "events": [],
+        "style": {
+          "display": "flex",
+          "flexDirection": "column",
+          "paddingTop": "12px",
+          "paddingRight": "12px",
+          "paddingBottom": "12px",
+          "paddingLeft": "12px",
+          "marginLeft": "0px",
+          "marginRight": "0px",
+          "marginBottom": "0px",
+          "marginTop": "0px",
+          "alignItems": "center"
+        },
+        "iterableChild": true
+      },
+      "displayName": "Stylebox",
+      "custom": {},
+      "parent": "5cfZONFXPG",
+      "hidden": false,
+      "nodes": ["9XcKOltRAL", "A1DDU9Kufl"],
+      "linkedNodes": {}
+    },
+    "9XcKOltRAL": {
+      "type": { "resolvedName": "Button" },
+      "isCanvas": false,
+      "props": {
+        "text": "Chat",
+        "classNames": [],
+        "events": [],
+        "iconPosition": "hidden",
+        "style": {
+          "display": "inline",
+          "borderRadius": "12px",
+          "backgroundColor": "#8dc43f",
+          "fontSize": "14px",
+          "width": "100%"
+        }
+      },
+      "displayName": "Button",
+      "custom": {},
+      "parent": "sj6jrHLdkE",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": { "icon": "FJ0WCSMokr" }
+    },
+    "FJ0WCSMokr": {
+      "type": { "resolvedName": "Icon" },
+      "isCanvas": false,
+      "props": { "classNames": [], "events": [], "icon": "fa-star" },
+      "displayName": "Icon",
+      "custom": {},
+      "parent": "9XcKOltRAL",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "A1DDU9Kufl": {
+      "type": { "resolvedName": "StyleBox" },
+      "isCanvas": true,
+      "props": {
+        "events": [],
+        "style": {
+          "display": "flex",
+          "justifyContent": "center",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "marginTop": "0px",
+          "marginRight": "0px",
+          "marginBottom": "0px",
+          "marginLeft": "0px",
+          "alignItems": "center"
+        },
+        "iterableChild": true
+      },
+      "displayName": "Stylebox",
+      "custom": {},
+      "parent": "sj6jrHLdkE",
+      "hidden": false,
+      "nodes": ["eNZdO2ZS94"],
+      "linkedNodes": {}
+    },
+    "eNZdO2ZS94": {
+      "type": { "resolvedName": "Matrix" },
+      "isCanvas": false,
+      "props": {
+        "iterable": true,
+        "classNames": [],
+        "events": [],
+        "style": {
+          "height": "250px",
+          "display": "block",
+          "justifyContent": "flex-start",
+          "textAlign": "justify",
+          "width": "240px",
+          "overflow": "hidden",
+          "marginTop": "0px",
+          "marginRight": "0px",
+          "marginBottom": "0px",
+          "marginLeft": "0px"
+        },
+        "orientation": "vertical",
+        "datasource": "table1S",
+        "gridProps": {
+          "styleboxWidth": 80,
+          "styleboxHeight": 58,
+          "styleboxPercentWidth": "",
+          "enableMosaic": true
+        }
+      },
+      "displayName": "Matrix",
+      "custom": {},
+      "parent": "A1DDU9Kufl",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": { "container": "t8M5f7h8DQ" }
+    },
+    "t8M5f7h8DQ": {
+      "type": { "resolvedName": "StyleBox" },
+      "isCanvas": true,
+      "props": {
+        "events": [],
+        "style": {
+          "minHeight": "40px",
+          "display": "flex",
+          "alignItems": "start",
+          "flexDirection": "column",
+          "width": "80px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "justifyContent": "flex-start",
+          "marginTop": "0px",
+          "marginRight": "0px",
+          "marginBottom": "0px",
+          "marginLeft": "0px",
+          "minWidth": "80px"
+        },
+        "iterableChild": true
+      },
+      "displayName": "Stylebox",
+      "custom": { "contentHeight": 74 },
+      "parent": "eNZdO2ZS94",
+      "hidden": false,
+      "nodes": ["cQhmLR4BHf", "0k6pzoYZAd"],
+      "linkedNodes": {}
+    },
+    "cQhmLR4BHf": {
+      "type": { "resolvedName": "Image" },
+      "isCanvas": false,
+      "props": {
+        "classNames": [],
+        "events": [],
+        "style": { "width": "58px", "height": "58px", "borderRadius": "50%" },
+        "imgSrc": "https://raw.githubusercontent.com/4d/Web-studio-TIPS/gh-build/groups/enterprise-social-network/assets/face2.jpg"
+      },
+      "displayName": "Image",
+      "custom": {},
+      "parent": "t8M5f7h8DQ",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "0k6pzoYZAd": {
+      "type": { "resolvedName": "StyleBox" },
+      "isCanvas": true,
+      "props": {
+        "events": [],
+        "style": {
+          "paddingTop": "5px",
+          "paddingRight": "5px",
+          "paddingBottom": "5px",
+          "paddingLeft": "5px",
+          "display": "flex",
+          "justifyContent": "center",
+          "alignItems": "center",
+          "height": "10px",
+          "width": "10px",
+          "minWidth": "10px",
+          "minHeight": "10px",
+          "maxHeight": "10px",
+          "maxWidth": "10px",
+          "borderRadius": "50%"
+        },
+        "classNames": ["onlineDot"],
+        "iterableChild": true
+      },
+      "displayName": "Stylebox",
+      "custom": {},
+      "parent": "t8M5f7h8DQ",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    }
+  },
+  "styles": []
 }
