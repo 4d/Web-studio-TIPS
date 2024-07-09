@@ -2,7 +2,7 @@
   {
     "key": "editors:webform:explorer",
     "type": "text",
-    "body": "**Explorer - Manage Your Project Assets**\n\nExplore, manage, and access your project's webforms, methods, classes, shared elements, debugger sessions, roles & privileges, data models, and settings.",
+    "body": "**Explorer - Manage Your Project Assets**\n\nExplore, manage, and access your project's pages, methods, classes, shared elements, debugger sessions, roles & privileges, data models, and settings.",
     "video": {
       "provider": "",
       "link": ""
@@ -38,7 +38,7 @@
   {
     "key": "editors:webform:toolbox:components:stylebox",
     "type": "text",
-    "body": "**Stylebox - Precise Content Alignment**\n\nThe [Stylebox](https://developer.qodly.com/docs/studio/design-webforms/components/stylebox) is a container that uses [flexbox layout](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) and precise positioning to neatly organize content within webforms.",
+    "body": "**Stylebox - Precise Content Alignment**\n\nThe [Stylebox](https://developer.qodly.com/docs/studio/design-webforms/components/stylebox) is a container that uses [flexbox layout](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) and precise positioning to neatly organize content within pages.",
     "video": {
       "provider": "",
       "link": ""
@@ -155,7 +155,7 @@
   {
     "key": "editors:webform:toolbox:components:image",
     "type": "text",
-    "body": "**Image - Elevate your design with visuals**\n\n The [Image](https://developer.qodly.com/docs/studio/design-webforms/components/image) component displays images, whether static or sourced from a datasource.",
+    "body": "**Image - Elevate your design with visuals**\n\n The [Image](https://developer.qodly.com/docs/studio/design-webforms/components/image) component displays images, whether static or sourced from a qodlysource.",
     "video": {
       "provider": "",
       "link": ""
@@ -182,7 +182,7 @@
   {
     "key": "editors:webform:toolbox:components:text",
     "type": "text",
-    "body": "**Text - Static or Dynamic Text** \n\nThe [Text](https://developer.qodly.com/docs/studio/design-webforms/components/text) component displays either static text or text sourced from a datasource.",
+    "body": "**Text - Static or Dynamic Text** \n\nThe [Text](https://developer.qodly.com/docs/studio/design-webforms/components/text) component displays either static text or text sourced from a qodlysource.",
     "video": {
       "provider": "",
       "link": ""
@@ -191,7 +191,7 @@
   {
     "key": "editors:webform:toolbox:components:datatable",
     "type": "text",
-    "body": "**Datatable - Iterating Through Data**\n\nThe [Datatable](https://developer.qodly.com/docs/studio/design-webforms/components/datatable) component displays datasources as organized rows and columns",
+    "body": "**Datatable - Iterating Through Data**\n\nThe [Datatable](https://developer.qodly.com/docs/studio/design-webforms/components/datatable) component displays Qodly Sources as organized rows and columns",
     "video": {
       "provider": "",
       "link": ""
@@ -227,7 +227,7 @@
   {
     "key": "editors:webform:toolbox:components:matrix",
     "type": "text",
-    "body": "**Matrix - Iterate on Data for Dynamic Designs**\n\nThe [Matrix](https://developer.qodly.com/docs/studio/design-webforms/components/matrix) component enables iteration over a datasource to display dynamic [Stylebox](https://developer.qodly.com/docs/studio/design-webforms/components/stylebox) components with fixed pixel heights for each element.",
+    "body": "**Matrix - Iterate on Data for Dynamic Designs**\n\nThe [Matrix](https://developer.qodly.com/docs/studio/design-webforms/components/matrix) component enables iteration over a qodlysource to display dynamic [Stylebox](https://developer.qodly.com/docs/studio/design-webforms/components/stylebox) components with fixed pixel heights for each element.",
     "video": {
       "provider": "",
       "link": ""
@@ -245,7 +245,7 @@
   {
     "key": "editors:webform:toolbox:components:webformloader",
     "type": "text",
-    "body": "**Webform loader - Embed Additional Webforms**\n\nUse the [Webform Loader](https://developer.qodly.com/docs/studio/design-webforms/components/webformloader) component to embed and manage an additional webform within your current webform. The loaded webform's name can be dynamically determined from a String-based datasource.",
+    "body": "**Page loader - Embed Additional pages**\n\nUse the [Page Loader](https://developer.qodly.com/docs/studio/design-webforms/components/webformloader) component to embed and manage an additional webform within your current webform. The loaded webform's name can be dynamically determined from a String-based qodlysource.",
     "video": {
       "provider": "",
       "link": ""
@@ -263,7 +263,7 @@
   {
     "key": "editors:webform:toolbox:outline",
     "type": "text",
-    "body": "**Outline - Navigating Your Webform Components**\n\nThe [Outline](https://developer.qodly.com/docs/studio/design-webforms/create-webform#outline) provides a visual hierarchy of webform components, enabling easy navigation, relocation, and element visibility control during design.",
+    "body": "**Outline - Navigating Your Page Components**\n\nThe [Outline](https://developer.qodly.com/docs/studio/design-webforms/create-webform#outline) provides a visual hierarchy of webform components, enabling easy navigation, relocation, and element visibility control during design.",
     "video": {
       "provider": "",
       "link": ""
@@ -272,7 +272,7 @@
   {
     "key": "editors:webform:toolbox:datasources",
     "type": "text",
-    "body": "**Datasources - Managing Data on Your Webforms**\n\n - Explore tips regarding the Catalog and scalar datasources, each in their respective sections\n\n - For detailed information, visit https://developer.qodly.com/docs/studio/design-webforms/datasources",
+    "body": "**Datasources - Managing Data on Your pages**\n\n - Explore tips regarding the Catalog and scalar Qodly Sources, each in their respective sections\n\n - For detailed information, visit https://developer.qodly.com/docs/studio/design-webforms/datasources",
     "video": {
       "provider": "",
       "link": ""
@@ -281,7 +281,7 @@
   {
     "key": "editors:webform:toolbox:datasources:remote",
     "type": "text",
-    "body": "**Remote datasources - Handle data on the server**\n\nRemote datasources are\n\n[entities](https://developer.qodly.com/docs/orda/data-model#entity)\n\nand\n\n[entity selections](https://developer.qodly.com/docs/orda/data-model#entity-selection)\n\nYou can create them from the Catalog above or from an existing datasource.\n\nThey are handled on the server and can be assigned to components.\n\nThey offer functions defined on the ORDA classes that they instantiate:\n\n[Entity class](https://developer.qodly.com/docs/orda/data-model#entity-class)\n\n[Entity Selection class](https://developer.qodly.com/docs/orda/data-model#entity-selection)\n\nTo learn more about datasources, visit the [documentation](https://developer.qodly.com/docs/studio/design-webforms/datasources)\nand watch the tips.",
+    "body": "**Remote Qodly Sources - Handle data on the server**\n\nRemote Qodly Sources are\n\n[entities](https://developer.qodly.com/docs/orda/data-model#entity)\n\nand\n\n[entity selections](https://developer.qodly.com/docs/orda/data-model#entity-selection)\n\nYou can create them from the Catalog above or from an existing qodlysource.\n\nThey are handled on the server and can be assigned to components.\n\nThey offer functions defined on the ORDA classes that they instantiate:\n\n[Entity class](https://developer.qodly.com/docs/orda/data-model#entity-class)\n\n[Entity Selection class](https://developer.qodly.com/docs/orda/data-model#entity-selection)\n\nTo learn more about Qodly Sources, visit the [documentation](https://developer.qodly.com/docs/studio/design-webforms/datasources)\nand watch the tips.",
     "video": {
       "provider": "",
       "link": ""
@@ -308,7 +308,7 @@
   {
     "key": "editors:webform:toolbox:datasources:catalog",
     "type": "text",
-    "body": "**Catalog - A Window to Your Datastore**\n\nThe [Catalog](https://developer.qodly.com/docs/studio/design-webforms/datasources#catalog-datasources-and-scalar-datasources) serves as a representation of your entire database in the form of the [datastore](https://developer.qodly.com/docs/orda/data-model#datastore) object.\n\nIt is your access point to the complete datastore object, its [dataclasses](https://developer.qodly.com/docs/orda/data-model#dataclass), and their associated attributes and functions as defined in [ORDA Data Model Classes](https://developer.qodly.com/docs/language/basics/lang-classes#data-model-classes).\n\nYou can use the catalog to establish Catalog datasources such as entity selections and entities, directly sourced from dataclasses. ",
+    "body": "**Catalog - A Window to Your Datastore**\n\nThe [Catalog](https://developer.qodly.com/docs/studio/design-webforms/datasources#catalog-datasources-and-scalar-datasources) serves as a representation of your entire database in the form of the [datastore](https://developer.qodly.com/docs/orda/data-model#datastore) object.\n\nIt is your access point to the complete datastore object, its [dataclasses](https://developer.qodly.com/docs/orda/data-model#dataclass), and their associated attributes and functions as defined in [ORDA Data Model Classes](https://developer.qodly.com/docs/language/basics/lang-classes#data-model-classes).\n\nYou can use the catalog to establish Catalog Qodly Sources such as entity selections and entities, directly sourced from dataclasses. ",
     "video": {
       "provider": "",
       "link": ""
@@ -317,7 +317,7 @@
   {
     "key": "editors:webform:toolbox:datasources:local",
     "type": "text",
-    "body": "**Local datasources - Ephemeral data used in a webform** \nUse the local datasources to handle ephemeral data that will not persist in your database.\nLocal datasources are working data that is lost when you close your Webform (for example, search criteria).",
+    "body": "**Local Qodly Sources - Ephemeral data used in a webform** \nUse the local Qodly Sources to handle ephemeral data that will not persist in your database.\nLocal Qodly Sources are working data that is lost when you close your Page (for example, search criteria).",
     "video": {
       "provider": "",
       "link": ""
@@ -353,7 +353,7 @@
   {
     "key": "editors:webform:canvas",
     "type": "text",
-    "body": "**Canvas - Customize Your UI Using Intuitive Drag-and-Drop Tools**\n\nThe Canvas is your workspace for crafting webforms through drag-and-drop interactions with components.\n\nEach component on the canvas features a tooltip bar for convenient tasks such as repositioning, removal, hierarchical navigation, and more.\n\nFor in-depth guidance, refer to the [documentation](https://developer.qodly.com/docs/studio/design-webforms/components/componentsBasics#tooltip).",
+    "body": "**Canvas - Customize Your UI Using Intuitive Drag-and-Drop Tools**\n\nThe Canvas is your workspace for crafting pages through drag-and-drop interactions with components.\n\nEach component on the canvas features a tooltip bar for convenient tasks such as repositioning, removal, hierarchical navigation, and more.\n\nFor in-depth guidance, refer to the [documentation](https://developer.qodly.com/docs/studio/design-webforms/components/componentsBasics#tooltip).",
     "video": {
       "provider": "",
       "link": ""
@@ -380,7 +380,7 @@
   {
     "key": "editors:webform:properties",
     "type": "text",
-    "body": "**Properties panel - Apply properties to a component** \n\nThis panel allows you to:\n- apply specific properties depending on the component (for example, the label of a button)\n- bind a datasource\n- apply styles (color, layout, ...)\n\nNote that the webform is a component itself, so you can apply styles to it.",
+    "body": "**Properties panel - Apply properties to a component** \n\nThis panel allows you to:\n- apply specific properties depending on the component (for example, the label of a button)\n- bind a qodlysource\n- apply styles (color, layout, ...)\n\nNote that the webform is a component itself, so you can apply styles to it.",
     "video": {
       "provider": "",
       "link": ""
@@ -425,7 +425,7 @@
   {
     "key": "editors:webform:properties:dataaccess",
     "type": "text",
-    "body": "**Data Access - Bind a Datasource to a Component** \n\nTo associate a datasource with your component, simply specify the datasource name.",
+    "body": "**Data Access - Bind a Datasource to a Component** \n\nTo associate a qodlysource with your component, simply specify the qodlysource name.",
     "video": {
       "provider": "",
       "link": ""
@@ -443,7 +443,7 @@
   {
     "key": "editors:webform:contextualconfiguration",
     "type": "text",
-    "body": "**Contextual Configuration Panel - Customizing CSS and Event Settings**\n\nThe [Contextual Configuration Panel](https://developer.qodly.com/docs/studio/design-webforms/create-webform#contextual-panel) allows you to fine-tune CSS code. In addition to editing CSS code, you can:\n\n- Configure events for individual components using [class functions](https://developer.qodly.com/docs/studio/design-webforms/events#bind-class-functions-to-events) or [standard actions](https://developer.qodly.com/docs/studio/design-webforms/events#bind-standard-actions-to-events).\n\n- Set up [events for datasources](https://developer.qodly.com/docs/studio/design-webforms/events#datasource-events).\n\n- Define [navigation actions](https://developer.qodly.com/docs/studio/design-webforms/events#bind-navigation-actions-to-events).\n\nMost user-triggered events, such as onclick and onmouseover, can be easily configured for components within this panel.",
+    "body": "**Contextual Configuration Panel - Customizing CSS and Event Settings**\n\nThe [Contextual Configuration Panel](https://developer.qodly.com/docs/studio/design-webforms/create-webform#contextual-panel) allows you to fine-tune CSS code. In addition to editing CSS code, you can:\n\n- Configure events for individual components using [class functions](https://developer.qodly.com/docs/studio/design-webforms/events#bind-class-functions-to-events) or [standard actions](https://developer.qodly.com/docs/studio/design-webforms/events#bind-standard-actions-to-events).\n\n- Set up [events for Qodly Sources](https://developer.qodly.com/docs/studio/design-webforms/events#datasource-events).\n\n- Define [navigation actions](https://developer.qodly.com/docs/studio/design-webforms/events#bind-navigation-actions-to-events).\n\nMost user-triggered events, such as onclick and onmouseover, can be easily configured for components within this panel.",
     "video": {
       "provider": "",
       "link": ""
@@ -452,7 +452,7 @@
   {
     "key": "editors:webform:contextualconfiguration:event:parameter:toggle",
     "type": "text",
-    "body": "**Parameter Options - Datasource vs. Hardcoded Value**\n\nChoose the [Parameter type](https://developer.qodly.com/docs/studio/design-webforms/events#bind-class-functions-to-events:~:text=Pass%20Parameters%3A%20You%20can%20expand%20the%20capabilities%20of%20class%20functions%20by%20passing%20parameters%20in%20two%20ways%3A) you wish to pass —whether it's a datasource or a hardcoded value— for the function you are calling.\n\nIf you opt for a hardcoded value, be sure to specify its data type.",
+    "body": "**Parameter Options - Datasource vs. Hardcoded Value**\n\nChoose the [Parameter type](https://developer.qodly.com/docs/studio/design-webforms/events#bind-class-functions-to-events:~:text=Pass%20Parameters%3A%20You%20can%20expand%20the%20capabilities%20of%20class%20functions%20by%20passing%20parameters%20in%20two%20ways%3A) you wish to pass —whether it's a qodlysource or a hardcoded value— for the function you are calling.\n\nIf you opt for a hardcoded value, be sure to specify its data type.",
     "video": {
       "provider": "",
       "link": ""
@@ -461,7 +461,7 @@
   {
     "key": "editors:webform:contextualconfiguration:event:navigation",
     "type": "text",
-    "body": "**Webform Navigation - Handled with Ease**\n\nHandle [Webform Navigation](https://developer.qodly.com/docs/studio/design-webforms/events#bind-navigation-actions-to-events) by associating navigation actions with events on components. Select a component, access the contextual panel, and choose the destination webform.\n\nOptions include:\n\n- Within a Webform Loader\n\n- In a New Browser Tab (*)\n\n- In the Current Browser Tab (*)\n\n- In the Current Location, acting as a [Webform Loader, self](https://developer.qodly.com/docs/studio/design-webforms/components/webformloader#navigating-with-webform-loader).\n\n(*) Please note that these navigation types are exclusively available during [rendering](https://developer.qodly.com/docs/studio/rendering).",
+    "body": "**Page Navigation - Handled with Ease**\n\nHandle [Page Navigation](https://developer.qodly.com/docs/studio/design-webforms/events#bind-navigation-actions-to-events) by associating navigation actions with events on components. Select a component, access the contextual panel, and choose the destination webform.\n\nOptions include:\n\n- Within a Page Loader\n\n- In a New Browser Tab (*)\n\n- In the Current Browser Tab (*)\n\n- In the Current Location, acting as a [Page Loader, self](https://developer.qodly.com/docs/studio/design-webforms/components/webformloader#navigating-with-webform-loader).\n\n(*) Please note that these navigation types are exclusively available during [rendering](https://developer.qodly.com/docs/studio/rendering).",
     "video": {
       "provider": "",
       "link": ""
@@ -470,7 +470,7 @@
   {
     "key": "editors:webform:contextualconfiguration:event:navigation",
     "type": "video",
-    "body": "**Handle navigation between Webforms**",
+    "body": "**Handle navigation between pages**",
     "video": {
       "provider": "youtube",
       "link": "https://www.youtube.com/embed/dRJzDYUt0TM"
@@ -479,7 +479,7 @@
   {
     "key": "editors:webform:contextualconfiguration:event:navigation",
     "type": "video",
-    "body": "**Handle navigation between Webforms**",
+    "body": "**Handle navigation between pages**",
     "video": {
       "provider": "youtube",
       "link": "https://www.youtube.com/embed/wNQ-7agZRMs"
@@ -488,7 +488,7 @@
   {
     "key": "editors:webform:contextualconfiguration:event:navigation",
     "type": "video",
-    "body": "**Handle navigation between Webforms**",
+    "body": "**Handle navigation between pages**",
     "video": {
       "provider": "youtube",
       "link": "https://www.youtube.com/embed/mpmOufNaNdc"
