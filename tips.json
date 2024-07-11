@@ -155,7 +155,7 @@
   {
     "key": "editors:webform:toolbox:components:image",
     "type": "text",
-    "body": "**Image - Elevate your design with visuals**\n\n The [Image](https://developer.qodly.com/docs/studio/design-webforms/components/image) component displays images, whether static or sourced from a qodlysource.",
+    "body": "**Image - Elevate your design with visuals**\n\n The [Image](https://developer.qodly.com/docs/studio/design-webforms/components/image) component displays images, whether static or sourced from a Qodly Source.",
     "video": {
       "provider": "",
       "link": ""
@@ -182,7 +182,7 @@
   {
     "key": "editors:webform:toolbox:components:text",
     "type": "text",
-    "body": "**Text - Static or Dynamic Text** \n\nThe [Text](https://developer.qodly.com/docs/studio/design-webforms/components/text) component displays either static text or text sourced from a qodlysource.",
+    "body": "**Text - Static or Dynamic Text** \n\nThe [Text](https://developer.qodly.com/docs/studio/design-webforms/components/text) component displays either static text or text sourced from a Qodly Source.",
     "video": {
       "provider": "",
       "link": ""
@@ -227,7 +227,7 @@
   {
     "key": "editors:webform:toolbox:components:matrix",
     "type": "text",
-    "body": "**Matrix - Iterate on Data for Dynamic Designs**\n\nThe [Matrix](https://developer.qodly.com/docs/studio/design-webforms/components/matrix) component enables iteration over a qodlysource to display dynamic [Stylebox](https://developer.qodly.com/docs/studio/design-webforms/components/stylebox) components with fixed pixel heights for each element.",
+    "body": "**Matrix - Iterate on Data for Dynamic Designs**\n\nThe [Matrix](https://developer.qodly.com/docs/studio/design-webforms/components/matrix) component enables iteration over a Qodly Source to display dynamic [Stylebox](https://developer.qodly.com/docs/studio/design-webforms/components/stylebox) components with fixed pixel heights for each element.",
     "video": {
       "provider": "",
       "link": ""
@@ -245,7 +245,7 @@
   {
     "key": "editors:webform:toolbox:components:webformloader",
     "type": "text",
-    "body": "**Page loader - Embed Additional pages**\n\nUse the [Page Loader](https://developer.qodly.com/docs/studio/design-webforms/components/webformloader) component to embed and manage an additional webform within your current webform. The loaded webform's name can be dynamically determined from a String-based qodlysource.",
+    "body": "**Page loader - Embed Additional pages**\n\nUse the [Page Loader](https://developer.qodly.com/docs/studio/design-webforms/components/webformloader) component to embed and manage an additional webform within your current webform. The loaded webform's name can be dynamically determined from a String-based Qodly Source.",
     "video": {
       "provider": "",
       "link": ""
@@ -281,7 +281,7 @@
   {
     "key": "editors:webform:toolbox:datasources:remote",
     "type": "text",
-    "body": "**Remote Qodly Sources - Handle data on the server**\n\nRemote Qodly Sources are\n\n[entities](https://developer.qodly.com/docs/orda/data-model#entity)\n\nand\n\n[entity selections](https://developer.qodly.com/docs/orda/data-model#entity-selection)\n\nYou can create them from the Catalog above or from an existing qodlysource.\n\nThey are handled on the server and can be assigned to components.\n\nThey offer functions defined on the ORDA classes that they instantiate:\n\n[Entity class](https://developer.qodly.com/docs/orda/data-model#entity-class)\n\n[Entity Selection class](https://developer.qodly.com/docs/orda/data-model#entity-selection)\n\nTo learn more about Qodly Sources, visit the [documentation](https://developer.qodly.com/docs/studio/design-webforms/datasources)\nand watch the tips.",
+    "body": "**Remote Qodly Sources - Handle data on the server**\n\nRemote Qodly Sources are\n\n[entities](https://developer.qodly.com/docs/orda/data-model#entity)\n\nand\n\n[entity selections](https://developer.qodly.com/docs/orda/data-model#entity-selection)\n\nYou can create them from the Catalog above or from an existing Qodly Source.\n\nThey are handled on the server and can be assigned to components.\n\nThey offer functions defined on the ORDA classes that they instantiate:\n\n[Entity class](https://developer.qodly.com/docs/orda/data-model#entity-class)\n\n[Entity Selection class](https://developer.qodly.com/docs/orda/data-model#entity-selection)\n\nTo learn more about Qodly Sources, visit the [documentation](https://developer.qodly.com/docs/studio/design-webforms/datasources)\nand watch the tips.",
     "video": {
       "provider": "",
       "link": ""
@@ -380,7 +380,7 @@
   {
     "key": "editors:webform:properties",
     "type": "text",
-    "body": "**Properties panel - Apply properties to a component** \n\nThis panel allows you to:\n- apply specific properties depending on the component (for example, the label of a button)\n- bind a qodlysource\n- apply styles (color, layout, ...)\n\nNote that the webform is a component itself, so you can apply styles to it.",
+    "body": "**Properties panel - Apply properties to a component** \n\nThis panel allows you to:\n- apply specific properties depending on the component (for example, the label of a button)\n- bind a Qodly Source\n- apply styles (color, layout, ...)\n\nNote that the webform is a component itself, so you can apply styles to it.",
     "video": {
       "provider": "",
       "link": ""
@@ -425,7 +425,7 @@
   {
     "key": "editors:webform:properties:dataaccess",
     "type": "text",
-    "body": "**Data Access - Bind a Datasource to a Component** \n\nTo associate a qodlysource with your component, simply specify the qodlysource name.",
+    "body": "**Data Access - Bind a Datasource to a Component** \n\nTo associate a Qodly Source with your component, simply specify the Qodly Source name.",
     "video": {
       "provider": "",
       "link": ""
@@ -452,7 +452,7 @@
   {
     "key": "editors:webform:contextualconfiguration:event:parameter:toggle",
     "type": "text",
-    "body": "**Parameter Options - Datasource vs. Hardcoded Value**\n\nChoose the [Parameter type](https://developer.qodly.com/docs/studio/design-webforms/events#bind-class-functions-to-events:~:text=Pass%20Parameters%3A%20You%20can%20expand%20the%20capabilities%20of%20class%20functions%20by%20passing%20parameters%20in%20two%20ways%3A) you wish to pass —whether it's a qodlysource or a hardcoded value— for the function you are calling.\n\nIf you opt for a hardcoded value, be sure to specify its data type.",
+    "body": "**Parameter Options - Datasource vs. Hardcoded Value**\n\nChoose the [Parameter type](https://developer.qodly.com/docs/studio/design-webforms/events#bind-class-functions-to-events:~:text=Pass%20Parameters%3A%20You%20can%20expand%20the%20capabilities%20of%20class%20functions%20by%20passing%20parameters%20in%20two%20ways%3A) you wish to pass —whether it's a Qodly Source or a hardcoded value— for the function you are calling.\n\nIf you opt for a hardcoded value, be sure to specify its data type.",
     "video": {
       "provider": "",
       "link": ""
