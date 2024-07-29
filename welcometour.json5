@@ -266,12 +266,12 @@ Click on <img src="https://raw.githubusercontent.com/4d/Web-studio-TIPS/main/ass
     {
       highlight: ['fileExplorer'],
       dialog: {
-        title: 'Creating a WebForm',
-        content: 'To create a new webform:\
-        \n- hover on the webform folder. \
+        title: 'Creating a Page',
+        content: 'To create a new Page:\
+        \n- hover on the Page folder. \
         \n- Click on <img src="https://raw.githubusercontent.com/4d/Web-studio-TIPS/main/assets/welcometour/add-dataclass-icon.png" style="display:inline;height:24px;width:auto;"> icon.\
-        \n- Type the name ***Welcome*** as the name to the webform. \
-        \n- The webform will be opened automatically.',
+        \n- Type the name ***Welcome*** as the name to the page. \
+        \n- The page will be opened automatically.',
         position: 'left',
         anchor: 'fileExplorer',
       },
@@ -283,7 +283,7 @@ Click on <img src="https://raw.githubusercontent.com/4d/Web-studio-TIPS/main/ass
             meta: {
               name: 'Welcome',
               message: {
-                content: 'Make sure you have created the webform "Welcome"',
+                content: 'Make sure you have created the page "Welcome"',
                 type: 'error',
               },
             },
@@ -427,7 +427,7 @@ Click on <img src="https://raw.githubusercontent.com/4d/Web-studio-TIPS/main/ass
     {
       highlight: ['Welcome-main', 'webform-preview-btn'],
       dialog: {
-        title: 'Webform Preview',
+        title: 'Page Preview',
         anchor: 'webform-preview-btn',
         content: 'The preview mode allows users to view the result of the page before it is fully rendered or published.\
         Click on the button the view the results.',
