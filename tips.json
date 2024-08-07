@@ -20,7 +20,7 @@
   {
     "key": "editors:webform:canvas:toolbar:rendering:button",
     "type": "text",
-    "body": "**Rendering - Transforming Blueprint into Interactive Interface**\n\nBefore initiating webform rendering, ensure the following conditions are met::\n\n- Your database's [web server](https://developer.4d.com/docs/WebServer/overview) is running on an available [HTTP/HTTPS port](https://developer.4d.com/docs/WebServer/webServerConfig#http-port).\n\n- Your database is configured as a [REST Server](https://developer.4d.com/docs/WebServer/gettingStarted#rest-request).\n\nFor detailed instructions, consult the [documentation](https://developer.qodly.com/docs/studio/rendering), and don't forget to explore the [license usage section](https://developer.4d.com/4d-web-studio/docs/configuration/license-usage) for further guidance.",
+    "body": "**Rendering - Transforming Blueprint into Interactive Interface**\n\nBefore initiating page rendering, ensure the following conditions are met:\n\n- Your database's [web server](https://developer.4d.com/docs/WebServer/overview) is running on an available [HTTP/HTTPS port](https://developer.4d.com/docs/WebServer/webServerConfig#http-port).\n\n- Your database is configured as a [REST Server](https://developer.4d.com/docs/WebServer/gettingStarted#rest-request).\n\nFor detailed instructions, consult the [documentation](https://developer.qodly.com/docs/studio/rendering), and don't forget to explore the [license usage section](https://developer.4d.com/4d-web-studio/docs/configuration/license-usage) for further guidance.",
     "video": {
       "provider": "",
       "link": ""
@@ -29,7 +29,7 @@
   {
     "key": "editors:webform:toolbox:components",
     "type": "text",
-    "body": "**Components - Building Powerful UI Elements**\n\n[Components](https://developer.qodly.com/docs/studio/design-webforms/components/componentsBasics) are the core building blocks of your application's UI, ready to be drag-and-dropped into your webform.\n\nAmong these components, some function as containers, allowing you to nest other components or containers within them.",
+    "body": "**Components - Building Powerful UI Elements**\n\n[Components](https://developer.qodly.com/docs/studio/design-webforms/components/componentsBasics) are the core building blocks of your application's UI, ready to be drag-and-dropped into your page.\n\nAmong these components, some function as containers, allowing you to nest other components or containers within them.",
     "video": {
       "provider": "",
       "link": ""
@@ -65,7 +65,7 @@
   {
     "key": "editors:webform:toolbox:components:tabs",
     "type": "text",
-    "body": "**Tabs - Streamline UI Navigation with Clickable Tabs**\n\nThe [Tabs](https://developer.qodly.com/docs/studio/design-webforms/components/tabs) component organizes components within a tabs system for intuitive navigation through webform sections.",
+    "body": "**Tabs - Streamline UI Navigation with Clickable Tabs**\n\nThe [Tabs](https://developer.qodly.com/docs/studio/design-webforms/components/tabs) component organizes components within a tabs system for intuitive navigation through page sections.",
     "video": {
       "provider": "",
       "link": ""
@@ -245,7 +245,7 @@
   {
     "key": "editors:webform:toolbox:components:webformloader",
     "type": "text",
-    "body": "**Page loader - Embed Additional pages**\n\nUse the [Page Loader](https://developer.qodly.com/docs/studio/design-webforms/components/webformloader) component to embed and manage an additional webform within your current webform. The loaded webform's name can be dynamically determined from a String-based Qodly Source.",
+    "body": "**Page loader - Embed Additional pages**\n\nUse the [Page Loader](https://developer.qodly.com/docs/studio/design-webforms/components/webformloader) component to embed and manage an additional page within your current page. The loaded page's name can be dynamically determined from a String-based Qodly Source.",
     "video": {
       "provider": "",
       "link": ""
@@ -263,7 +263,7 @@
   {
     "key": "editors:webform:toolbox:outline",
     "type": "text",
-    "body": "**Outline - Navigating Your Page Components**\n\nThe [Outline](https://developer.qodly.com/docs/studio/design-webforms/create-webform#outline) provides a visual hierarchy of webform components, enabling easy navigation, relocation, and element visibility control during design.",
+    "body": "**Outline - Navigating Your Page Components**\n\nThe [Outline](https://developer.qodly.com/docs/studio/design-webforms/create-webform#outline) provides a visual hierarchy of page components, enabling easy navigation, relocation, and element visibility control during design.",
     "video": {
       "provider": "",
       "link": ""
@@ -317,7 +317,7 @@
   {
     "key": "editors:webform:toolbox:datasources:local",
     "type": "text",
-    "body": "**Local Qodly Sources - Ephemeral data used in a webform** \nUse the local Qodly Sources to handle ephemeral data that will not persist in your database.\nLocal Qodly Sources are working data that is lost when you close your Page (for example, search criteria).",
+    "body": "**Local Qodly Sources - Ephemeral data used in a page** \nUse the local Qodly Sources to handle ephemeral data that will not persist in your database.\nLocal Qodly Sources are working data that is lost when you close your Page (for example, search criteria).",
     "video": {
       "provider": "",
       "link": ""
@@ -371,7 +371,7 @@
   {
     "key": "editors:webform:breadcrumbs",
     "type": "text",
-    "body": "**Breadcrumbs - Visualize the Location in the Component Hierarchy**\n\n[Breadcrumbs](https://developer.qodly.com/docs/studio/design-webforms/create-webform#breadcrumbs) display the selected component's location in the webform hierarchy, facilitating easy navigation to its parent or ancestors.",
+    "body": "**Breadcrumbs - Visualize the Location in the Component Hierarchy**\n\n[Breadcrumbs](https://developer.qodly.com/docs/studio/design-webforms/create-webform#breadcrumbs) display the selected component's location in the page hierarchy, facilitating easy navigation to its parent or ancestors.",
     "video": {
       "provider": "",
       "link": ""
@@ -380,7 +380,7 @@
   {
     "key": "editors:webform:properties",
     "type": "text",
-    "body": "**Properties panel - Apply properties to a component** \n\nThis panel allows you to:\n- apply specific properties depending on the component (for example, the label of a button)\n- bind a Qodly Source\n- apply styles (color, layout, ...)\n\nNote that the webform is a component itself, so you can apply styles to it.",
+    "body": "**Properties panel - Apply properties to a component** \n\nThis panel allows you to:\n- apply specific properties depending on the component (for example, the label of a button)\n- bind a Qodly Source\n- apply styles (color, layout, ...)\n\nNote that the page is a component itself, so you can apply styles to it.",
     "video": {
       "provider": "",
       "link": ""
@@ -461,7 +461,7 @@
   {
     "key": "editors:webform:contextualconfiguration:event:navigation",
     "type": "text",
-    "body": "**Page Navigation - Handled with Ease**\n\nHandle [Page Navigation](https://developer.qodly.com/docs/studio/design-webforms/events#bind-navigation-actions-to-events) by associating navigation actions with events on components. Select a component, access the contextual panel, and choose the destination webform.\n\nOptions include:\n\n- Within a Page Loader\n\n- In a New Browser Tab (*)\n\n- In the Current Browser Tab (*)\n\n- In the Current Location, acting as a [Page Loader, self](https://developer.qodly.com/docs/studio/design-webforms/components/webformloader#navigating-with-webform-loader).\n\n(*) Please note that these navigation types are exclusively available during [rendering](https://developer.qodly.com/docs/studio/rendering).",
+    "body": "**Page Navigation - Handled with Ease**\n\nHandle [Page Navigation](https://developer.qodly.com/docs/studio/design-webforms/events#bind-navigation-actions-to-events) by associating navigation actions with events on components. Select a component, access the contextual panel, and choose the destination page.\n\nOptions include:\n\n- Within a Page Loader\n\n- In a New Browser Tab (*)\n\n- In the Current Browser Tab (*)\n\n- In the Current Location, acting as a [Page Loader, self](https://developer.qodly.com/docs/studio/design-webforms/components/webformloader#navigating-with-webform-loader).\n\n(*) Please note that these navigation types are exclusively available during [rendering](https://developer.qodly.com/docs/studio/rendering).",
     "video": {
       "provider": "",
       "link": ""
