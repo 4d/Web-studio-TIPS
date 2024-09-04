@@ -50,7 +50,7 @@ const result = templates.map(({ path, ...item }) => {
   validate(
     'group',
     group,
-    `Invalid "${relative(ROOT_FOLDER, groupManifestPath)}" file`,
+    `Invalid group file: "${relative(ROOT_FOLDER, groupManifestPath)}"`,
   );
 
   const components = group.components.map(({ data, banner, ...component }) => {
@@ -62,7 +62,7 @@ const result = templates.map(({ path, ...item }) => {
     validate(
       'component',
       d,
-      `Invalid "${relative(ROOT_FOLDER, resolve(groupPath, data))}" file`,
+      `Invalid component file: "${relative(ROOT_FOLDER, resolve(groupPath, data))}"`,
     );
 
     return {

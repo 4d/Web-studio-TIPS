@@ -6,6 +6,7 @@
   "scripts": {
     "format": "prettier --write *.json scripts groups",
     "build": "ts-node scripts/build.ts",
+    "build:debug": "node --inspect-brk --require ts-node/register scripts/build.ts",
     "generate": "ts-node scripts/generate.ts"
   },
   "keywords": [],
