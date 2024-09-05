@@ -1,9 +1,47 @@
 {
-  "id": "am7aGgD3PMGMxJDchZG1tc",
-  "rootNodeId": "jq8Qs4uk0q",
-  "nodes": {
-    "jq8Qs4uk0q": {
-      "type": { "resolvedName": "StyleBox" },
+  "metadata": {
+    "v": "1.0",
+    "datasources": [],
+    "styles": [
+      {
+        "name": "deleteDialog_hoverB",
+        "content": "self:hover,\nself:focus {\n\tcolor: #fff !important;\n  background-color:  #6971f6 !important;\n  box-shadow: inset 0 0 3px #fff;\n\t}",
+        "parentId": null,
+        "id": "lo8amcmoujv-blF6oC6wV"
+      }
+    ]
+  },
+  "components": {
+    "ROOT": {
+      "type": {
+        "resolvedName": "Container"
+      },
+      "isCanvas": true,
+      "props": {
+        "classNames": [],
+        "events": [],
+        "airyMode": true,
+        "className": "bg-white h-full w-full px-6",
+        "style": {
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingTop": "0px",
+          "paddingLeft": "0px"
+        }
+      },
+      "displayName": "Page",
+      "custom": {},
+      "parent": "",
+      "hidden": false,
+      "nodes": [
+        "MVLkvlp5Pv"
+      ],
+      "linkedNodes": {}
+    },
+    "MVLkvlp5Pv": {
+      "type": {
+        "resolvedName": "StyleBox"
+      },
       "isCanvas": true,
       "props": {
         "events": [],
@@ -12,7 +50,6 @@
           "marginRight": "0px",
           "marginBottom": "0px",
           "marginTop": "0px",
-          "width": "",
           "display": "flex",
           "paddingLeft": "0px",
           "paddingRight": "0px",
@@ -22,19 +59,25 @@
           "backgroundColor": "rgba(119, 126, 144,0.8)",
           "alignItems": "center",
           "justifyContent": "center",
-          "flexDirection": "column"
+          "flexDirection": "column",
+          "width": "100%"
         },
-        "classNames": []
+        "classNames": [],
+        "iterableChild": true
       },
       "displayName": "Stylebox",
       "custom": {},
       "parent": "ROOT",
       "hidden": false,
-      "nodes": ["gc2RdkS2_M"],
+      "nodes": [
+        "vUswwTY853"
+      ],
       "linkedNodes": {}
     },
-    "gc2RdkS2_M": {
-      "type": { "resolvedName": "StyleBox" },
+    "vUswwTY853": {
+      "type": {
+        "resolvedName": "StyleBox"
+      },
       "isCanvas": true,
       "props": {
         "events": [],
@@ -44,22 +87,36 @@
           "borderRadius": "10px",
           "height": "fit-content"
         },
-        "classNames": []
+        "classNames": [],
+        "iterableChild": true
       },
       "displayName": "Stylebox",
       "custom": {},
-      "parent": "jq8Qs4uk0q",
+      "parent": "MVLkvlp5Pv",
       "hidden": false,
-      "nodes": ["Q3YSC2A1Qu", "tR_5jWYGqN", "p9HTvDhYD5"],
+      "nodes": [
+        "fKn1L5q5dk",
+        "qIfhyOAKsW",
+        "SJ3NRejEZS"
+      ],
       "linkedNodes": {}
     },
-    "Q3YSC2A1Qu": {
-      "type": { "resolvedName": "Text" },
+    "fKn1L5q5dk": {
+      "type": {
+        "resolvedName": "Text"
+      },
       "isCanvas": false,
       "props": {
         "events": [],
         "doc": [
-          { "type": "paragraph", "children": [{ "text": "Are You Sure?" }] }
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Are You Sure?"
+              }
+            ]
+          }
         ],
         "datasource": "",
         "style": {
@@ -68,24 +125,31 @@
           "color": "#e73351ff",
           "textAlign": "center",
           "marginBottom": "12px"
-        }
+        },
+        "iterableChild": true
       },
       "displayName": "Text",
       "custom": {},
-      "parent": "gc2RdkS2_M",
+      "parent": "vUswwTY853",
       "hidden": false,
       "nodes": [],
       "linkedNodes": {}
     },
-    "tR_5jWYGqN": {
-      "type": { "resolvedName": "Text" },
+    "qIfhyOAKsW": {
+      "type": {
+        "resolvedName": "Text"
+      },
       "isCanvas": false,
       "props": {
         "events": [],
         "doc": [
           {
             "type": "paragraph",
-            "children": [{ "text": "You Are About to Delete This Item" }]
+            "children": [
+              {
+                "text": "You Are About to Delete This Item"
+              }
+            ]
           }
         ],
         "datasource": "",
@@ -98,17 +162,20 @@
           "paddingTop": "12px",
           "paddingBottom": "12px",
           "marginBottom": "12px"
-        }
+        },
+        "iterableChild": true
       },
       "displayName": "Text",
       "custom": {},
-      "parent": "gc2RdkS2_M",
+      "parent": "vUswwTY853",
       "hidden": false,
       "nodes": [],
       "linkedNodes": {}
     },
-    "p9HTvDhYD5": {
-      "type": { "resolvedName": "StyleBox" },
+    "SJ3NRejEZS": {
+      "type": {
+        "resolvedName": "StyleBox"
+      },
       "isCanvas": true,
       "props": {
         "events": [],
@@ -116,17 +183,23 @@
           "display": "flex",
           "justifyContent": "center",
           "alignItems": "center"
-        }
+        },
+        "iterableChild": true
       },
       "displayName": "Stylebox",
       "custom": {},
-      "parent": "gc2RdkS2_M",
+      "parent": "vUswwTY853",
       "hidden": false,
-      "nodes": ["Ap-iHGlT4I", "9K1KfESgn8"],
+      "nodes": [
+        "5RZ5lPA0Dk",
+        "1U94hBZK-y"
+      ],
       "linkedNodes": {}
     },
-    "Ap-iHGlT4I": {
-      "type": { "resolvedName": "Button" },
+    "5RZ5lPA0Dk": {
+      "type": {
+        "resolvedName": "Button"
+      },
       "isCanvas": false,
       "props": {
         "text": "No",
@@ -147,28 +220,40 @@
       },
       "displayName": "Button",
       "custom": {},
-      "parent": "p9HTvDhYD5",
+      "parent": "SJ3NRejEZS",
       "hidden": false,
       "nodes": [],
-      "linkedNodes": { "icon": "0JWyihIG6d" }
+      "linkedNodes": {
+        "icon": "6bmTOe1kOQ"
+      }
     },
-    "0JWyihIG6d": {
-      "type": { "resolvedName": "Icon" },
+    "6bmTOe1kOQ": {
+      "type": {
+        "resolvedName": "Icon"
+      },
       "isCanvas": false,
-      "props": { "classNames": [], "events": [], "icon": "fa-star" },
+      "props": {
+        "classNames": [],
+        "events": [],
+        "icon": "fa-star"
+      },
       "displayName": "Icon",
       "custom": {},
-      "parent": "Ap-iHGlT4I",
+      "parent": "5RZ5lPA0Dk",
       "hidden": false,
       "nodes": [],
       "linkedNodes": {}
     },
-    "9K1KfESgn8": {
-      "type": { "resolvedName": "Button" },
+    "1U94hBZK-y": {
+      "type": {
+        "resolvedName": "Button"
+      },
       "isCanvas": false,
       "props": {
         "text": "Yes",
-        "classNames": ["deleteDialog_hoverB"],
+        "classNames": [
+          "deleteDialog_hoverB"
+        ],
         "events": [],
         "iconPosition": "hidden",
         "style": {
@@ -183,30 +268,29 @@
       },
       "displayName": "Button",
       "custom": {},
-      "parent": "p9HTvDhYD5",
+      "parent": "SJ3NRejEZS",
       "hidden": false,
       "nodes": [],
-      "linkedNodes": { "icon": "bJMAqlRI60" }
+      "linkedNodes": {
+        "icon": "Un5_uuoZup"
+      }
     },
-    "bJMAqlRI60": {
-      "type": { "resolvedName": "Icon" },
+    "Un5_uuoZup": {
+      "type": {
+        "resolvedName": "Icon"
+      },
       "isCanvas": false,
-      "props": { "classNames": [], "events": [], "icon": "fa-star" },
+      "props": {
+        "classNames": [],
+        "events": [],
+        "icon": "fa-star"
+      },
       "displayName": "Icon",
       "custom": {},
-      "parent": "9K1KfESgn8",
+      "parent": "1U94hBZK-y",
       "hidden": false,
       "nodes": [],
       "linkedNodes": {}
     }
-  },
-  "styles": [
-    {
-      "name": "deleteDialog_hoverB",
-      "content": "self:hover,\nself:focus {\n\tcolor: #fff !important;\n  background-color:  #6971f6 !important;\n  box-shadow: inset 0 0 3px #fff;\n\t}",
-      "parentId": null,
-      "id": "lo8amcmoujv-blF6oC6wV",
-      "scope": "local"
-    }
-  ]
+  }
 }
