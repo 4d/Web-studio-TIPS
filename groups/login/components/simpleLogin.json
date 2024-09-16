@@ -1,5 +1,5 @@
 {
-    "id": "wJX8bfcG9My6NfjdXAmzQg",
+    "id": "f2dSUvFHoZXabEsLvrEWad",
     "rootNodeId": "v9GBO2mYvS",
     "nodes":
     {
@@ -436,7 +436,6 @@
             "nodes":
             [
                 "rS_RGNHher",
-                "kOOB8Ra9o2",
                 "KBLXVpd2fJ"
             ],
             "linkedNodes":
@@ -490,188 +489,6 @@
             "linkedNodes":
             {}
         },
-        "kOOB8Ra9o2":
-        {
-            "type":
-            {
-                "resolvedName": "StyleBox"
-            },
-            "isCanvas": true,
-            "props":
-            {
-                "events":
-                [
-                    {
-                        "type": "simple-action",
-                        "id": "4FvWqDZ324gHVpnTBa4K9t",
-                        "events":
-                        [
-                            "onclick"
-                        ],
-                        "action": "",
-                        "actionType": "state",
-                        "datasource":
-                        {
-                            "name": ""
-                        },
-                        "state":
-                        {
-                            "action": "add",
-                            "states":
-                            [
-                                "cEGLv7kFTWKsPtM7apgQtt"
-                            ]
-                        }
-                    },
-                    {
-                        "type": "simple-action",
-                        "id": "9bMAxsyhSwE5s8VtqYZymF",
-                        "events":
-                        [
-                            "onclick"
-                        ],
-                        "action": "",
-                        "actionType": "state",
-                        "datasource":
-                        {
-                            "name": ""
-                        },
-                        "state":
-                        {
-                            "action": "delete",
-                            "states":
-                            [
-                                "47jGZDYzEGafJZPswZLZey"
-                            ]
-                        }
-                    }
-                ],
-                "iterableChild": true,
-                "style":
-                {
-                    "display": "flex",
-                    "marginLeft": "0px",
-                    "paddingLeft": "0px",
-                    "paddingRight": "0px",
-                    "paddingBottom": "0px",
-                    "paddingTop": "0px",
-                    "alignItems": "center",
-                    "marginBottom": "0px",
-                    "marginRight": "0px",
-                    "marginTop": "0px",
-                    "justifyContent": "flex-end",
-                    "width": "auto",
-                    "cursor": "pointer"
-                }
-            },
-            "displayName": "Stylebox",
-            "custom":
-            {
-                "states:47jGZDYzEGafJZPswZLZey":
-                {
-                    "style":
-                    {
-                        "display": "flex"
-                    }
-                },
-                "states:cEGLv7kFTWKsPtM7apgQtt":
-                {
-                    "style":
-                    {
-                        "display": "none"
-                    }
-                }
-            },
-            "parent": "C19VQsXMfb",
-            "hidden": false,
-            "nodes":
-            [
-                "wdT5V4ZouW",
-                "N19p8pvOz2"
-            ],
-            "linkedNodes":
-            {}
-        },
-        "wdT5V4ZouW":
-        {
-            "type":
-            {
-                "resolvedName": "Icon"
-            },
-            "isCanvas": false,
-            "props":
-            {
-                "classNames":
-                [],
-                "events":
-                [],
-                "icon": "fa-solid fa-eye-slash",
-                "style":
-                {
-                    "marginTop": "0px",
-                    "marginRight": "0px",
-                    "marginBottom": "0px",
-                    "marginLeft": "0px"
-                }
-            },
-            "displayName": "Icon",
-            "custom":
-            {},
-            "parent": "kOOB8Ra9o2",
-            "hidden": false,
-            "nodes":
-            [],
-            "linkedNodes":
-            {}
-        },
-        "N19p8pvOz2":
-        {
-            "type":
-            {
-                "resolvedName": "Text"
-            },
-            "isCanvas": false,
-            "props":
-            {
-                "events":
-                [],
-                "iterableChild": true,
-                "style":
-                {
-                    "marginTop": "0px",
-                    "marginRight": "0px",
-                    "marginBottom": "0px",
-                    "marginLeft": "6px",
-                    "width": "33px"
-                },
-                "doc":
-                [
-                    {
-                        "type": "paragraph",
-                        "children":
-                        [
-                            {
-                                "text": "Hide",
-                                "bold": false,
-                                "italic": false,
-                                "underlined": false,
-                                "strikethrough": false
-                            }
-                        ]
-                    }
-                ],
-                "datasource": ""
-            },
-            "displayName": "Text",
-            "custom":
-            {},
-            "parent": "kOOB8Ra9o2",
-            "hidden": false,
-            "nodes":
-            [],
-            "linkedNodes":
-            {}
-        },
         "KBLXVpd2fJ":
         {
             "type":
@@ -682,52 +499,7 @@
             "props":
             {
                 "events":
-                [
-                    {
-                        "type": "simple-action",
-                        "id": "4FvWqDZ324gHVpnTBa4K9t",
-                        "events":
-                        [
-                            "onclick"
-                        ],
-                        "action": "",
-                        "actionType": "state",
-                        "datasource":
-                        {
-                            "name": ""
-                        },
-                        "state":
-                        {
-                            "action": "add",
-                            "states":
-                            [
-                                "47jGZDYzEGafJZPswZLZey"
-                            ]
-                        }
-                    },
-                    {
-                        "type": "simple-action",
-                        "id": "chHHvjkRPCmi5yesvj6DxX",
-                        "events":
-                        [
-                            "onclick"
-                        ],
-                        "action": "",
-                        "actionType": "state",
-                        "datasource":
-                        {
-                            "name": ""
-                        },
-                        "state":
-                        {
-                            "action": "delete",
-                            "states":
-                            [
-                                "cEGLv7kFTWKsPtM7apgQtt"
-                            ]
-                        }
-                    }
-                ],
+                [],
                 "iterableChild": true,
                 "style":
                 {
@@ -933,7 +705,7 @@
                 "type": "password",
                 "moveable": false,
                 "placeholder": "",
-                "datasource": "password",
+                "datasource": "",
                 "dataType": "string"
             },
             "displayName": "Input",
