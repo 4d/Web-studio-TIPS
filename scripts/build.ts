@@ -25,6 +25,13 @@ mkdirSync(BUILD_FOLDER, { recursive: true });
 cpSync(resolve(ROOT_FOLDER, 'groups'), resolve(BUILD_ROOT_FOLDER, 'groups'), {
   recursive: true,
 });
+cpSync(
+  resolve(ROOT_FOLDER, 'welcometour'),
+  resolve(BUILD_ROOT_FOLDER, 'welcometour'),
+  {
+    recursive: true,
+  },
+);
 copyFileSync(
   resolve(ROOT_FOLDER, 'tips.json'),
   resolve(BUILD_ROOT_FOLDER, 'tips.json'),
